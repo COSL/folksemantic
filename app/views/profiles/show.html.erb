@@ -1,0 +1,54 @@
+<div class="span-24">
+  <%= output_flash(:class => 'help-box') %>
+</div> 
+<div class="span-4 colborder column">
+  <%= icon @user, :thumb %>
+  <p><%= @user.full_name %></p>
+  
+  <p><%= link_to(t('muck.profiles.edit_profile'), edit_user_profile_path(@user)) if @user.profile.can_edit?(current_user) %></p>
+  
+  <p>
+    <%= friend_link(current_user, @user) %>
+    <%= block_user_link(current_user, @user) %>
+  </p>
+    
+  <h2><%= t('muck.friends.followers')%></h2>
+  <%= followers(@user, 12, t('muck.friends.no_followers'), 'friend_tiny_icon') %>
+   
+  <h2><%= t('muck.friends.following')%></h2>
+  <%= followings(@user, 12, t('muck.friends.not_following_anyone'), 'friend_tiny_icon') %>
+
+  <hr class="space" />
+  <div id="identity" class="box">
+    <%= services_summary(@user) %>
+    <p><%= link_to t('muck.raker.add_edit_feeds'), user_identity_feeds_path(@user) if @user.profile.can_edit?(current_user) %></p>
+  </div>
+  
+</div>
+
+<div class="span-10 colborder column">
+  <%= limited_activity_feed_for(@user) %>
+</div>
+
+<div class="span-8 column">
+  <% if @load_feeds_on_server -%>
+    <% if @show_combined -%>
+      <ul class="combined-feed-list">
+        <%= render :partial => 'topics/simple_entry', :collection => @server_combined_user_feeds %>
+      </ul>
+      <script type="text/javascript">
+        jQuery(document).ready(function() {
+          apply_show_entry_content();
+        });
+      </script>
+    <% else -%>
+      <%= render :partial => 'topics/feed', :collection => @server_loaded_user_feeds %>
+    <% end -%>
+  <% elsif @show_combined -%>
+    <%= google_combined_feeds(@user_feeds) %>
+  <% else -%>
+    <%= google_feeds(@user_feeds, false, @number_of_items, @number_of_images, @number_of_videos) %>
+  <% end -%>
+</div>
+
+<%= render :partial => 'google/feeds_scripts' %>

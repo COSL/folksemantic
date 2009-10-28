@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+	<head>
+		<%= render :partial => 'layouts/global/head', :locals => { :admin_layout => true } %>
+	</head>
+	<body>		
+	  <div id="wrapper" class="container">
+	    <div id="header" class="span-24 last">
+	    </div>
+      <div id="subheader" class="span-24 last">
+        <div id="main-navigation" class="span-18 first navigation">
+  				<ul>
+  					<li class="first"><%= link_to t('muck.admin.users'), admin_users_path %></li>
+  					<li><%= link_to t('muck.admin.permissions'), admin_roles_path %></li>
+  					<li><%= link_to t('muck.admin.themes'), edit_admin_theme_path %></li>
+  				</ul>
+  			</div>
+				<div id="account-navigation" class="span-6 last navigation">
+				  <ul>
+					  <li class="first"><a href="/"><%= t('muck.admin.home') %></a></li>
+					  <li><%= link_to t('muck.admin.my_dashboard'), user_path(current_user) %></li>
+					  <li><%= link_to t('muck.users.sign_out_title'), logout_path %></li>
+					</ul>
+				</div>
+  		</div>
+  		<div class="span-24">
+  		  <%= output_errors('', {:class => 'help-box'}) %>
+  		</div>
+  		<hr />
+      <div id="content-wrapper">
+        <% if sidebar = yield(:sidebar) -%>
+          <div id="content" class="span-18">
+  		      <%= yield :layout %>
+  		    </div>
+  		    <div id="sidebar" class="span-5">
+  		      <%= sidebar %>
+  		    </div>
+  		  <% else -%>
+  		    <div id="content">
+  		      <%= yield :layout %>
+  		    </div>
+		    <% end -%>
+		  </div>
+		</div>
+		<script type="text/javascript" language="JavaScript">
+      <%= yield :javascript %>
+    </script>
+	</body>
+</html>

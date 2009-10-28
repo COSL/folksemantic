@@ -1,0 +1,107 @@
+en:
+  contact: 
+    contact_us: 'Contact Us'
+    name: 'Your name:'
+    name_help: 'Please provide us with your name.'
+    phone: 'Your phone number:'
+    phone_help: 'Your phone number is optional but will help us contact you if necessary.'
+    email: 'Your email:'
+    email_help: 'Please provide us with your email so that we can contact you if necessary.'
+    subject: 'Subject:'
+    subject_help: 'A simple statement indicating the nature of your feedback.'
+    question: 'Your message/question:'
+    question_help: 'Please include any comments you would like us to hear.'
+    contact_response_subject: 'Thanks for your inquiry from {{application_name}}!'
+  general:
+    thank_you_contact: 'Thank you for your message.  A member of our team will respond to you shortly.'
+    send: 'Send'
+    delete_file: "Delete File"
+  muck:
+    contact_request: "Contact Request"
+    contact_thanks: "Thanks for contacting us.  We've recieved your email and will be in touch soon."
+    user_greeting: "Hi {{user}},"
+    welcome_activity: "Welcome to {{application_name}}!  Here you can <a href='/resources'>discover free educational resources from around the world</a>.  Interesting in <a href='/resources/search?q=lady+bugs'>lady bugs</a>?  <a href='/resources/3909'>How about learning resources from NASA</a>?."
+    admin:
+      home: Home
+      users: Users
+      permissions: Permissions
+      themes: Themes
+      my_dashboard: My Dashboard
+    activity_templates:
+      welcome: "Welcome"
+    raker:
+      add_extended_feed_title: "Contribute OCW/OER Repository"
+      add_extended_feed_sub_title: ""
+    users:
+      signup_header: Think you're smart?
+      signup_pitch: Folksemantic makes it easy to find, share, and use open educational resources so you can get smart.
+      dev_plans: We are actively developing it to extend <a href="http://ocwfinder.org">ocwfinder.org</a> and <a href="http://oerrecommender.org">oerrecommender.org</a>
+      signup: Sign up!
+    friends:
+      start_following: "Follow"
+      unblock: "Unblock"
+      block: "Block"
+  folksemantic:
+    title: folksemantic
+    collections: Collections
+    demo: Demo
+    tag_line: empowering open education
+    tour: Take a Tour
+    developers: Developers
+    search_button: Go
+    collections_long: Indexed Collections
+    developers_long: Information for Developers
+    powered_by: powered by
+    no_hits: No hits. Please try a different search or choose a different language.
+    previous: Previous
+    next: Next
+    results: Results
+    of: of
+    for: for
+    relevance: relevance
+    metadata: Metadata
+    related_resources: Related resources
+    rss: RSS 
+    xml: XML 
+    atom: Atom 
+    rdf: RDF 
+    related_resources_title: Related Resources
+    calculated: calculated
+    details: Details
+    gm_title: Related Resources
+    gm_more_prompt: More Related Resources
+    direct_link: '[direct link]'
+    register_link: Sign Up!
+    register_description: 'Sign up to receive personalized <span class="highlight">recommendations</span>, participate in <span class="highlight">groups</span>, and easily <span class="highlight">publish to blogs</span>'
+    widgets_link: Get Widgets!
+    widgets_description: Get widgets to help users <span class="highlight">find</span> resources and <span class="highlight">discover resources related</span> to ones on your website
+    tour: Take a Tour!
+    tour_description: Watch a <span class="highlight">video introduction</span> of Folksemantic
+    search: search
+    search_link: Find Resources!
+    search_description: Find learning resources by <span class="highlight">searching</span> and <span class="highlight">browsing</span> over <span class="highlight">110,000</span> open educational resources
+    welcome_user: "Welcome {{user}}"
+    all_resources: All
+    just_ocws: Courses
+    credits: Developed by <a href="http://www.tatemae.com">Tatemae</a> for the <a href="http://cosl.usu.edu">Center for Open and Sustainable Learning</a> with funding from the <a href="http://nsf.gov/">National Science Foundation</a> and the <a href="http://www.mellon.org/">Andrew W Mellon Foundation</a>
+    welcome: Welcome to Folksemantic.
+    welcome_message: "We're actively working to integrate OCWFinder and OERRecommender into one site to help you find the most interesting and relevant educational resources."
+    view_account: "View Your Account"
+    browse_resources: "Browse Resources"
+    contribute_repository: "Contribute OCW/OER Repository"
+    widgets_title: folksemantic widgets
+    add_edit_feeds: "add/edit feeds"
+    home:
+      why: WHY FOLKSEMANTIC?
+      collaborate: COLLABORATE WITH
+      people: PEOPLE
+      signup_reasons: Sign up to meet people with whom you can find, discuss, remix, and develop learning resources
+      signup: SIGN UP TODAY!
+      browse_and_search: BROWSE AND SEARCH OVER
+      oers: <b>OPEN</b> EDUCATION
+      resources: RESOURCES (OERS)
+      search: SEARCH
+      comments_heading: RECENT COMMENTS
+      example_comment: "That legos construction guide is awesome! I wonder if we could use it with the students in CS 102."
+      widgets_pitch: Want to get OER recommendations for your web pages?
+      get_widgets: GET OER RECOMMENDER WIDGET

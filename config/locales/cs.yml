@@ -1,0 +1,107 @@
+--- 
+cs: 
+  contact: 
+    contact_response_subject: "Díky za váš dotaz z {{application_name}}!"
+    contact_us: "Kontaktujte nás"
+    email: "Váš e-mail:"
+    email_help: "Sdělte nám prosím svůj e-mail, aby vás mohli kontaktovat v případě potřeby."
+    name: "Vaše jméno:"
+    name_help: "Pokud nám poskytnete své jméno."
+    phone: "Vaše telefonní číslo:"
+    phone_help: "Telefonního čísla je nepovinné, ale pomůže nám s vámi v případě potřeby."
+    question: "Váš vzkaz / dotaz:"
+    question_help: "Uveďte prosím jakékoliv připomínky, které byste rád, abychom slyšeli."
+    subject: "Předmět:"
+    subject_help: "Jednoduchý uvádějící povahu svůj názor."
+  folksemantic: 
+    add_edit_feeds: "přidat / upravit kanály"
+    all_resources: Vše
+    atom: Atom
+    browse_resources: "Lidé Zdroje"
+    calculated: vypočtené
+    collections: Sbírky
+    collections_long: "Indexovány Collections"
+    contribute_repository: "Přispět OCW / OER Repository"
+    credits: "Vyvinutý <a href=\"http://www.tatemae.com\">Tatemae</a> pro <a href=\"http://cosl.usu.edu\">Centrum pro otevřené a udržitelný rozvoj vzdělávání</a> s financováním z <a href=\"http://nsf.gov/\">National Science Foundation</a> a <a href=\"http://www.mellon.org/\">Andrew Mellon Foundation W</a>"
+    demo: Demo
+    details: Detaily
+    developers: Vývojáři
+    developers_long: "Informace pro vývojáře"
+    direct_link: "[přímý odkaz]"
+    for: pro
+    gm_more_prompt: "Více Související zdroje informací"
+    gm_title: "Související zdroje informací"
+    home: 
+      browse_and_search: "Projděte a hledejte"
+      collaborate: "Spolupracujeme s"
+      comments_heading: "POSLEDNÍ KOMENTÁŘE"
+      example_comment: "Legos, že stavební návod je úžasné! Zajímalo by mě, jestli bychom mohli použít společně se studenty v CS 102."
+      get_widgets: "GET OER stránky doporučil widget"
+      oers: "<b>OPEN</b> VZDĚLÁVÁNÍ"
+      people: LIDÉ
+      resources: "ZDROJE (OERS)"
+      search: VYHLEDÁVÁNÍ
+      signup: "Přihlaste se ještě dnes!"
+      signup_reasons: "Zaregistrujte se zde setkat s lidmi, s nimiž se můžete nalézt, diskutovat, remix, a rozvíjet vzdělávací zdroje"
+      why: "FOLKSEMANTIC PROČ?"
+      widgets_pitch: "Chcete se dostat OVZ doporučení pro vaše webové stránky?"
+    just_ocws: Předměty
+    metadata: Metadata
+    next: Příští
+    no_hits: "No hity. Prosím, zkuste hledat jiné nebo vyberte jiný jazyk."
+    of: z
+    powered_by: "powered by"
+    previous: Předchozí
+    rdf: RDF
+    register_description: "Zaregistrujte se k odběru osobní <span class=\"highlight\">doporučení,</span> podílet se ve <span class=\"highlight\">skupinách,</span> a snadno <span class=\"highlight\">publikovat na blogy</span>"
+    register_link: "Sign Up!"
+    related_resources: "Související zdroje"
+    related_resources_title: "Související zdroje informací"
+    relevance: relevance
+    results: Výsledky
+    rss: RSS
+    search: hledat
+    search_button: Jít
+    search_description: "Najít učení zdrojů <span class=\"highlight\">vyhledávání</span> a <span class=\"highlight\">prohlížení</span> více než <span class=\"highlight\">110.000</span> otevřených vzdělávacích zdrojů"
+    search_link: "Najít zdroje!"
+    tag_line: "zmocňuje otevřeného vzdělávání"
+    title: folksemantic
+    tour: "Take a Tour!"
+    tour_description: "Podívejte se na <span class=\"highlight\">video zavedení</span> Folksemantic"
+    view_account: "Zobrazit Váš účet"
+    welcome: "Vítejte na Folksemantic."
+    welcome_message: "Jsme aktivně pracuje na integraci OCWFinder a OERRecommender do jednoho místa, které vám pomohou najít to nejzajímavější a příslušných vzdělávacích zdrojů."
+    welcome_user: "Vítejte {{user}}"
+    widgets_description: "Získejte widgety, které pomohou uživatelům <span class=\"highlight\">najít</span> zdroje a <span class=\"highlight\">odhalit</span> ty <span class=\"highlight\">zdroje, týkající</span> se na vašich webových stránkách"
+    widgets_link: "Get Widgets!"
+    widgets_title: "folksemantic widgety"
+    xml: XML
+  general: 
+    delete_file: "Smazat soubor"
+    send: Poslat
+    thank_you_contact: "Děkujeme Vám za Vaši zprávu. Člen našeho týmu bude reagovat na vás v nejbližší době."
+  muck: 
+    activity_templates: 
+      welcome: Vítejte
+    admin: 
+      home: Domů
+      my_dashboard: "My Dashboard"
+      permissions: Oprávnění
+      themes: Témata
+      users: Uživatelé
+    contact_request: "Kontakt Poptávka"
+    contact_thanks: "Thanks for contacting us. Obdrželi jsme váš e-mail a budou v kontaktu brzy."
+    friends: 
+      block: Blok
+      start_following: Následovat
+      unblock: Odblokovat
+    raker: 
+      add_extended_feed_sub_title: ~
+      add_extended_feed_title: "Přispět OCW / OER Repository"
+    user_greeting: "Hi {{user}},"
+    users: 
+      dev_plans: "Jsme aktivně rozvíjet ji rozšířit <a href=\"http://ocwfinder.org\">ocwfinder.org</a> a <a href=\"http://oerrecommender.org\">oerrecommender.org</a>"
+      signup: "Zaregistrujte se!"
+      signup_header: "Myslíte, že jste chytří?"
+      signup_pitch: "Folksemantic usnadňuje vyhledání, sdílení a využívání otevřených vzdělávacích zdrojů, takže můžete získat inteligentní."
+    welcome_activity: "Vítejte na {{application_name}}! Zde můžete <a href='/resources'>zjistit, zdarma vzdělávacích zdrojů z celého světa.</a> Zajímavé <a href='/resources/search?q=lady+bugs'>paní chyby?</a> <a href='/resources/3909'>Jak naučit zdrojů z NASA?.</a>"
