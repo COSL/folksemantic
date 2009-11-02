@@ -33,7 +33,6 @@ Rails::Initializer.run do |config|
   config.gem "newrelic_rpm"
   config.gem "muck-feedbag", :lib => "feedbag", :source => "http://gems.github.com"
   config.gem "feedzirra"
-  
   config.gem 'babelphish', :version => '>=0.2.5'
   config.gem 'uploader', :version => '>=0.2.3'
   config.gem 'muck-engine', :lib => 'muck_engine', :version => '>=0.2.8'
