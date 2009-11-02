@@ -26,7 +26,8 @@ Rails::Initializer.run do |config|
   config.gem 'acts-as-taggable-on'
   config.gem 'thoughtbot-paperclip', :lib => 'paperclip', :source => "http://gems.github.com"
   config.gem "awesome_nested_set", :lib => 'awesome_nested_set'
-  config.gem "action_mailer_tls", :lib => 'smtp_tls' # This is only require for installations that have ruby 1.8.6.  If you are running Ruby 1.8.7 you may comment this out and remove require "smtp_tls" from smtp_gmail.rb
+  # Only needed if you are using gmail and ruby 1.8.6
+  #config.gem "action_mailer_tls", :lib => 'smtp_tls'
   config.gem "friendly_id", :version => '>=2.2.0'
   config.gem "sanitize"
   config.gem "newrelic_rpm"
