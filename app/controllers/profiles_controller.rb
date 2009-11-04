@@ -20,7 +20,7 @@ class ProfilesController < Muck::ProfilesController
     
     @user_feeds = @user.own_feeds
     if @load_feeds_on_server
-      @server_loaded_user_feeds = GoogleFeedRequest.load_feeds(@user_feeds, @number_of_items)
+      @server_loaded_user_feeds = Overlord::GoogleFeedRequest.load_feeds(@user_feeds, @number_of_items)
       if @show_combined
         @server_combined_user_feeds = Feed.combine_sort(@server_loaded_user_feeds)
       end
