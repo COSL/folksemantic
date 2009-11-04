@@ -19,7 +19,7 @@ Rails::Initializer.run do |config|
   # config.load_paths += %W( #{RAILS_ROOT}/extras )
 
   # Specify gems that this application depends on and have them installed with rake gems:install
-  config.gem 'mislav-will_paginate', :lib => 'will_paginate', :source => 'http://gems.github.com'
+  config.gem 'will_paginate'
   config.gem "authlogic", :version => ">=2.1.2"
   config.gem "searchlogic", :version => '>= 2.3.5'
   config.gem "bcrypt-ruby", :lib => "bcrypt", :version => ">=2.1.1"
@@ -29,7 +29,7 @@ Rails::Initializer.run do |config|
   config.gem "friendly_id", :version => '>=2.2.0'
   config.gem "sanitize"
   config.gem "newrelic_rpm"
-  config.gem "muck-feedbag", :lib => "feedbag", :source => "http://gems.github.com"
+  config.gem "feedbag"
   config.gem "feedzirra"
   config.gem 'babelphish', :version => '>=0.2.5'
   config.gem 'uploader', :version => '>=0.2.3'
