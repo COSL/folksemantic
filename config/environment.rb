@@ -24,7 +24,7 @@ Rails::Initializer.run do |config|
   config.gem "searchlogic", :version => '>= 2.3.5'
   config.gem "bcrypt-ruby", :lib => "bcrypt", :version => ">=2.1.1"
   config.gem 'acts-as-taggable-on'
-  config.gem 'thoughtbot-paperclip', :lib => 'paperclip', :source => "http://gems.github.com"
+  config.gem 'paperclip'
   config.gem "awesome_nested_set", :lib => 'awesome_nested_set'
   config.gem "friendly_id", :version => '>=2.2.0'
   config.gem "sanitize"
@@ -33,7 +33,7 @@ Rails::Initializer.run do |config|
   config.gem "feedzirra"
   config.gem 'babelphish', :version => '>=0.2.5'
   config.gem 'uploader', :version => '>=0.2.3'
-  config.gem 'muck-engine', :lib => 'muck_engine', :version => '>=0.2.8'
+  config.gem 'muck-engine', :lib => 'muck_engine', :version => '>=0.2.9'
   config.gem "muck-solr", :lib => 'acts_as_solr', :version => '>=0.4.5'
   config.gem "muck-raker", :lib => 'muck_raker', :version => '>=0.2.11'
   config.gem "muck-services", :lib => 'muck_services', :version => '>=0.1.0'
@@ -43,7 +43,7 @@ Rails::Initializer.run do |config|
   config.gem 'muck-profiles', :lib => 'muck_profiles', :version => '>=0.1.14'
   config.gem 'muck-friends', :lib => 'muck_friends', :version => '>=0.1.14'
   config.gem 'muck-shares', :lib => 'muck_shares', :version => '>=0.1.7'
-  config.gem 'muck-contents', :lib => 'muck_contents', :version => '>=0.1.10'
+  config.gem 'muck-contents', :lib => 'muck_contents', :version => '>=0.1.11'
   config.gem 'muck-blogs', :lib => 'muck_blogs', :version => '>=0.1.7'
   config.gem 'muck-invites', :lib => 'muck_invites', :version => '>=0.1.2'
 
