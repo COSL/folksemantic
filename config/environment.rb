@@ -28,6 +28,7 @@ Rails::Initializer.run do |config|
   config.gem "awesome_nested_set", :lib => 'awesome_nested_set'
   config.gem "friendly_id", :version => '>=2.2.0'
   config.gem "sanitize"
+  config.gem "recaptcha", :lib => "recaptcha/rails"
   config.gem "newrelic_rpm"
   config.gem "feedbag"
   config.gem "feedzirra"
