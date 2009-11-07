@@ -34,7 +34,7 @@ Rails::Initializer.run do |config|
   config.gem "feedzirra"
   config.gem 'babelphish', :version => '>=0.2.5'
   config.gem 'uploader', :version => '>=0.2.3'
-  config.gem 'muck-engine', :lib => 'muck_engine', :version => '>=0.2.10'
+  config.gem 'muck-engine', :lib => 'muck_engine', :version => '>=0.2.12'
   config.gem "muck-solr", :lib => 'acts_as_solr', :version => '>=0.4.5'
   config.gem "muck-raker", :lib => 'muck_raker', :version => '>=0.3.3'
   config.gem "muck-services", :lib => 'muck_services', :version => '>=0.1.6'
