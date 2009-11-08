@@ -39,6 +39,10 @@
   #home-footer{text-align:center;clear:both;top:460px;position:relative;}
   #home-footer a{color:#838383;}
   #get-widgets{background-color:#297FAA;vertical-align:middle;display:block;width:310px;}
+  
+  #recent-comments .commentor-icon{width:40px;float:left;margin:0 5px 0 0;overflow:hidden;}
+  #recent-comments .commentor-icon img{width:40px;height:40px;}
+  .simple-comment {margin:5px 0;border-bottom:solid 1px #eee;}
   </style>
 </head>
 <body>
@@ -73,7 +77,9 @@
 
     <div id="home-comments">
       <div class="folk-green fs1"><%= t('folksemantic.home.comments_heading') %></div>
-      <div class="folk-gray fs0" style="margin-top:6px;line-height:20px;"><%= t('folksemantic.home.example_comment') %></div>
+      <div id="recent-comments" class="folk-gray fs0" style="margin-top:6px;line-height:20px;">
+        <%= latest_simple_comments(3) %>
+      </div>
     </div>
 
     <div id="home-get-widgets">
