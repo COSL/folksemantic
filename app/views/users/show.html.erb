@@ -42,9 +42,10 @@
     <%= link_to t('folksemantic.add_edit_feeds'), user_identity_feeds_path(@user) %>
   </div>
   
-  <div id="latest-comments" class="box">
-    <h3><%= t('folksemantic.latest_comments')%><h3>
-    <%= latest_comments %>
+  <hr class="space" />
+  <div id="recent-comments" class="box">
+    <h3><%= t('folksemantic.latest_comments')%></h3>
+    <%= latest_simple_comments(5) %>
   </div>
 </div>
 
