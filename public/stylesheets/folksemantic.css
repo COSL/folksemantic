@@ -70,3 +70,5 @@ h3{font-size:14px;font-weight:bold;color:#333;}
 #recent-comments .commentor-icon{width:40px;height:40px;float:left;margin:0 5px 0 0;overflow:hidden;display:block;}
 #recent-comments .commentor-icon img{width:40px;height:40px;}
 .simple-comment {margin:6px 0;padding:5px 0;clear:both;}
+
+.user-profile-icon{float:left;}
