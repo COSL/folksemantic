@@ -14,12 +14,6 @@ namespace :muck do
     'muck-contents', 'muck-blogs', 'muck-shares', 'muck-invites', 'babelphish']
   end
   
-  desc 'Translate app into all languages supported by Google'
-  task :translate => :environment do
-    puts 'translating muck'
-    system("babelphish -o -y #{RAILS_ROOT}/config/locales/en.yml")
-  end
-  
   desc "Gets everything ready for a release. Translates muck + gems, release gems, commits gems translates muck, writes versions into muck and then commits muck.  This takes a while"
   task :prepare_release do
     Rake::Task[ "muck:sync" ].execute
