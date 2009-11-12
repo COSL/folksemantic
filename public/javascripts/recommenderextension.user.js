@@ -211,7 +211,7 @@ function demoDomain(sUrl) {
 }
 function blacklistedDomain(sUrl) {
     for (nDomain = 0; nDomain < blacklistedDomains.length; nDomain++) {
-        if (sUrl.startsWith(blacklistedDomains[nDomain])) return true;
+        if (sUrl.indexOf(blacklistedDomains[nDomain]) != -1) return true;
     }
     return false;
 }
@@ -377,7 +377,7 @@ var bNeedsRecord = false;
 var body = null;
 var bodyTags = document.getElementsByTagName('body');
 var demoDomains = ['http://ocw.mit.edu','http://www.engineeringpathway.com'];
-var blacklistedDomains = ['http://localhost','http://www.folksemantic.com','http://www.ocwfinder.org','http://www.oerrecommender.org'];
+var blacklistedDomains = ['google.com','localhost','folksemantic.com','ocwfinder.org','ocwfinder.com','oerrecommender.org'];
 if (sUrlToGetRecsFor.indexOf('http') == 0 && bodyTags && bodyTags.length > 0)
 {
     sUrlToGetRecsFor = special_website_url(sUrlToGetRecsFor);
