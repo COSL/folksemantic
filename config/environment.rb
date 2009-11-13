@@ -31,13 +31,14 @@ Rails::Initializer.run do |config|
   config.gem "recaptcha", :lib => "recaptcha/rails"
   config.gem "newrelic_rpm"
   config.gem "feedzirra"
+  config.gem 'tiny_mce'
   config.gem 'babelphish', :version => '>=0.2.5'
   config.gem 'uploader', :version => '>=0.2.3'
-  config.gem 'muck-engine', :lib => 'muck_engine', :version => '>=0.2.13'
+  config.gem 'muck-engine', :lib => 'muck_engine', :version => '>=0.2.14'
   config.gem "muck-solr", :lib => 'acts_as_solr', :version => '>=0.4.5'
   config.gem "muck-feedbag", :lib => 'feedbag', :version => '>=0.6.0'
-  config.gem "muck-raker", :lib => 'muck_raker', :version => '>=0.3.0'
-  config.gem "muck-services", :lib => 'muck_services', :version => '>=0.1.10'
+  config.gem "muck-raker", :lib => 'muck_raker', :version => '>=0.3.3'
+  config.gem "muck-services", :lib => 'muck_services', :version => '>=0.1.9'
   config.gem 'muck-users', :lib => 'muck_users', :version => '>=0.2.16'
   config.gem 'muck-activities', :lib => 'muck_activities', :version => '>=0.1.23'
   config.gem 'muck-comments', :lib => 'muck_comments', :version => '>=0.1.14'
