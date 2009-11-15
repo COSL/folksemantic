@@ -88,3 +88,7 @@ ul.google-trends{margin:0;padding:0;list-style:none;}
 .search-container .gsc-control{width:100%;}
 /* edit aggregation */
 #edit-aggregation-controls .box{margin:10px 0;}
+
+#add_oai_rss_feed{margin:50px auto 300px auto;width:340px;}
+ul#add_oai_rss_feed_menu{list-style:none;}
+ul#add_oai_rss_feed_menu li{display:inline;margin:0 5px;}
