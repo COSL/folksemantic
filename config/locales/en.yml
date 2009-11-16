@@ -94,6 +94,7 @@ en:
     widgets_title: folksemantic widgets
     add_edit_feeds: "add/edit feeds"
     latest_comments: "Latest Comments"
+    advanced_widget_options: "Advanced Widget Settings"
     home:
       why: WHY FOLKSEMANTIC?
       collaborate: COLLABORATE WITH
@@ -139,3 +140,4 @@ en:
     gm_more_prompt: More Related Resources
     direct_link: '[direct link]'
     integration_page_title: "Integrate recommendations from folksemantic into your website."
+    widgets: "Widgets"
