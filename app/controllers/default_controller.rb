@@ -37,4 +37,12 @@ class DefaultController < ApplicationController
     @page_title = t('folksemantic.widgets_title')
   end
   
+  def oerrecommender
+    @page_title = t('oerrecommender.page_title')
+  end
+  
+  def integration
+    @page_title = t('oerrecommender.integration_page_title')
+  end
+  
 end

@@ -108,3 +108,34 @@ en:
       example_comment: "That legos construction guide is awesome! I wonder if we could use it with the students in CS 102."
       widgets_pitch: Want to get OER recommendations for your web pages?
       get_widgets: GET OER RECOMMENDER WIDGET
+  oerrecommender:
+    page_title: "OERRecommender - Search and recommendation engine for Open Educational Resources"
+    title: OER Recommender
+    collections: Collections
+    demo: Demo
+    tag_line: Makes it easy for open education resource providers<br/>to provide links to related resources
+    developers: Developers
+    search: Search
+    collections_long: Indexed Collections
+    developers_long: Information for Developers
+    powered_by: powered by
+    no_hits: No hits. Please try a different search or choose a different language.
+    previous: Previous
+    next: Next
+    results: Results
+    of: of
+    for: for
+    relevance: relevance
+    metadata: Metadata
+    related_resources: Related resources
+    rss: RSS 
+    xml: XML 
+    atom: Atom 
+    rdf: RDF 
+    related_resources_title: Related Resources
+    calculated: calculated
+    details: Details
+    gm_title: Related Resources
+    gm_more_prompt: More Related Resources
+    direct_link: '[direct link]'
+    integration_page_title: "Integrate recommendations from folksemantic into your website."

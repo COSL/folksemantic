@@ -30,4 +30,6 @@ ActionController::Routing::Routes.draw do |map|
   end
   
   map.connect '/widgets', :controller => 'default', :action => 'widgets'
+  map.oerrecommender '/oerrecommender', :controller => 'default', :action => 'oerrecommender'
+  map.integration '/integration', :controller => 'default', :action => 'integration'
 end

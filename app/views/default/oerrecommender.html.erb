@@ -1,0 +1,23 @@
+<div class="center">
+  <p><img src="/images/oerrecommender.gif" /></p>
+  <h1><%= t('oerrecommender.title') %></h1>
+  <p style="color: green"><%= flash[:notice] %></p>
+  <p><%= t('oerrecommender.tag_line') %></p>
+  
+  <% form_tag({:controller => 'muck/entries', :action => 'search'}, {:method => :get}) do -%>
+    <%= text_field_tag(:q, (@term_list.nil? || !@tag_filter.nil?) ? t('folksemantic.search') : URI.unescape(@term_list), :id => 'search-box', :onclick => 'insearch(this)', :onblur => 'outsearch(this)') %>
+    <input class="input-button" type="submit" value="<%= t('folksemantic.search') %>"/>
+    <br />
+    <%= select_tag('grain_size', options_for_select([[t('muck.services.all_resources'),'all'], [t('muck.services.only_courses'),'course']], [@grain_size])) %>
+  <% end -%>
+
+  <p style="color: blue;font-weight:bold;font-size:16px;">
+    <a href="mtg/folksemantic.ppt">Check out the new stuff we are working on!</a>
+  </p>
+  
+  <p><a href="/demo"><%= t('oerrecommender.demo') %></a>
+    | <a href="/collections"><%= t('oerrecommender.collections') %></a>
+    | <%= link_to t('oerrecommender.developers'), integration_path %></a>
+  </p> 
+
+</div>

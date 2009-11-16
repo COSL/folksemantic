@@ -1,0 +1,150 @@
+<h1>OER Recommender - Including "Related Resources" Links in a Web Page</h1>
+
+<p><a href="/">Return to home page</a></p>
+
+<ul>
+	<li><a href="#1">Include Related Resources Links by Inserting an HTML Snippet in a Web Page</a></li>
+	<li><a href="#2">Request Related Resources XML</a></li>
+	<li><a href="#3">Link to a Related Resources Page</a></li>
+	<li><a href="#4">Optional Request Parameters</a></li>
+	<li><a href="#5">Including Search Results in a Web Page</a></li>
+	<li><a href="#6">Getting Resources Indexed</a></li>
+</ul>
+
+<a name="1"></a>
+<h2>Include Related Resources Links by Inserting an HTML Snippet in a Web Page</h2>
+
+<p>The easiest way to include OER recommendations in your website is to insert the following snippet into your web pages:</p>
+
+<pre>
+&lt;script type="text/javascript" src="http://www.oerrecommender.org/recommendations.pjs"&gt;&lt;/script&gt;
+</pre>
+
+<p>The javascript will write the list of recommendations using divs. Style the divs to format the list.</p>
+
+<p>OER Recommender figures out which URL to provide recommendations for by examining the referrer field in the HTTP header of the requesting page. Alternatively, you may explicitly specify the URL to request recommendations for:</p>
+
+<pre>
+&lt;script type="text/javascript" src="http://www.oerrecommender.org/recommendations.pjs?u=http://ocw.usu.edu/Biological_and_Irrigation_Engineering/Surface_Irrigation_Design"&gt;&lt;/script&gt;
+</pre>
+
+<p><a href="/help/example.html">See examples and details</a></p>
+
+<a name="2">
+<h2></a>Request Related Resources XML</h2>
+<p>To request recommendations in xml format, use a url like: </p>
+
+<code><a href="/recommendations.xml?u=http://ocw.usu.edu/Biological_and_Irrigation_Engineering/Surface_Irrigation_Design" rel="nofollow">http://www.oerrecommender.org/recommendations.xml?u=http://ocw.usu.edu/Biological_and_Irrigation_Engineering/Surface_Irrigation_Design</a></code>
+
+<p>The result will look something like:</p>  
+
+<pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;recommendations document_id="21234"&gt;
+
+  &lt;recommendation&gt;
+    &lt;id&gt;34998&lt;/id&gt;
+    &lt;title&gt;Development of instructional systems for teaching an electricity and magnetism course for engineers&lt;/title&gt;
+    &lt;link&gt;http://www.oerrecommender.org/r?id=55&lt;/link&gt;
+    &lt;uri&gt;http://dx.doi.org/10.1119/1.19127&lt;/uri&gt;
+    &lt;relevance&gt;8.5&lt;/relevance&gt;
+    &lt;clicks&gt;7&lt;/clicks&gt;
+  &lt;/recommendation&gt;
+
+  &lt;recommendation&gt;
+    &lt;id&gt;27223&lt;/id&gt;
+    &lt;title&gt;GEOLAB WWW Server&lt;/title&gt;
+    &lt;link&gt;http://www.oerrecommender.org/r?id=55&lt;/link&gt;
+    &lt;uri&gt;http://mathforum.org/library/view/6456.html&lt;/uri&gt;
+    &lt;relevance&gt;3.5&lt;/relevance&gt;
+    &lt;clicks&gt;7&lt;/clicks&gt;
+  &lt;/recommendation&gt;
+
+  &lt;recommendation&gt;
+    &lt;id&gt;214&lt;/id&gt;
+    &lt;title&gt;Sprinkle &amp;amp; Trickle Irrigation (USU)&lt;/title&gt;
+    &lt;link&gt;http://www.oerrecommender.org/r?id=55&lt;/link&gt;
+    &lt;uri&gt;http://ocw.usu.edu/Biological_and_Irrigation_Engineering/Sprinkle___Trickle_Irrigation&lt;/uri&gt;
+    &lt;relevance&gt;2.6&lt;/relevance&gt;
+    &lt;clicks&gt;4&lt;/clicks&gt;
+  &lt;/recommendation&gt;
+
+  &lt;recommendation&gt;
+    &lt;id&gt;1168&lt;/id&gt;
+    &lt;title&gt;Computer Games and Simulations for Investigation and Education 11.127, Spring 2005 (MIT)&lt;/title&gt;
+    &lt;link&gt;http://www.oerrecommender.org/r?id=55&lt;/link&gt;
+    &lt;uri&gt;http://ocw.mit.edu/OcwWeb/Urban-Studies-and-Planning/11-127Spring-2005/CourseHome/index.htm&lt;/uri&gt;
+    &lt;relevance&gt;2.1&lt;/relevance&gt;
+    &lt;clicks&gt;2&lt;/clicks&gt;
+  &lt;/recommendation&gt;
+
+  &lt;recommendation&gt;
+    &lt;id&gt;28048&lt;/id&gt;
+    &lt;title&gt;Measure and Integration&lt;/title&gt;
+    &lt;link&gt;http://www.oerrecommender.org/r?id=55&lt;/link&gt;
+    &lt;uri&gt;http://mathforum.org/library/view/7593.html&lt;/uri&gt;
+    &lt;relevance&gt;0.5&lt;/relevance&gt;
+    &lt;clicks&gt;0&lt;/clicks&gt;
+  &lt;/recommendation&gt;
+
+&lt;/recommendations&gt;
+</pre>
+
+<a name="3"></a>
+<h2>Link to a Related Resources Page</h2>
+<p>To link to a page containing recommendations for your resource, use a link like:</p>
+
+<pre>&lt;a href="http://www.oerrecommender.org/recommendations?u=http://openlearn.open.ac.uk/course/view.php?name=B821_1"&gt;Related Resources&lt;/a&gt;</pre>
+
+<p>For example: <a href="/recommendations?u=http://openlearn.open.ac.uk/course/view.php?name=B821_1" rel="nofollow">Related Resources</a></p>
+
+<a name="4"></a>
+<h2>Optional Request Parameters</h2>
+
+<p>You can specify options using the query string:</p>
+<dl>
+	<dt><b>order</b></dt>  
+
+	<dd><em>mixed</em> - popular items are listed first (ordered by the number of clicks), 
+	then highly relevant items (ordered randomly), 
+	then other relevant items (ordered randomly). This is the default. 
+	<a href="/recommendations?&details=true&u=http://openlearn.open.ac.uk/course/view.php?name=B821_1" rel="nofollow">Example</a>
+	</dd>
+
+	<dd>
+		<em>relevance</em> - items are ordered by relevance.
+		<a href="/recommendations?order=relevance&details=true&u=http://openlearn.open.ac.uk/course/view.php?name=B821_1" rel="nofollow">Example</a>
+	</dd>
+	<dd><em>clicks</em> - items are ordered by number of clicks and then by relevance.
+		<a href="/recommendations?order=clicks&details=true&u=http://openlearn.open.ac.uk/course/view.php?name=B821_1.html" rel="nofollow">Example</a>
+	</dd>
+	
+	<dt><b>limit</b></dt>  
+	<dd>
+		Number of items to retrieve. 5 is the default when requesting XML and using the HTML scriptlet. 20 is the maximum that is ever returned.
+		<a href="/recommendations?limit=3&details=true&u=http://openlearn.open.ac.uk/course/view.php?name=B821_1" rel="nofollow">Example</a>
+	</dd>
+
+<dt><b>details</b></dt>  
+<dd>
+Specify <b>true</b> to request that all available details be displayed.
+</dd>
+
+</dl>
+
+<a name="5">
+<h2></a>Including Search Results in a Web Page</h2>
+
+<p>Insert the following scriptlet into a web page to display search results:</p>
+
+<pre>
+&lt;script type="text/javascript" src="http://www.oerrecommender.org/search/results.pjs?terms=art"&gt;&lt;/script&gt;
+</pre>
+
+<p><a href="example2.html">See examples and details</a></p>
+
+<a name="6">
+<h2></a>Getting Resources Indexed</h2>
+
+<p>The related resources links that OER Recommender provides come from <a href="/collections">collections that it has indexed</a>. 
+To request that your collection be included, email oerrecommender AT cosl DOT usu DOT edu.</p>
