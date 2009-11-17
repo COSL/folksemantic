@@ -13,6 +13,7 @@
     <% end -%>
   </div>
   <div id="tools" class="section">
+    <%= link_to t('muck.services.show_related_resources'), '#', :style => "display:none", :id => "show_recommendations_link", :onclick => 'jQuery("#recs_panel").show();jQuery("#show_recommendations_link").hide();return false;' %>
     <%#= link_to t('muck.services.remix'), new_content_path(@entry), :id => 'share'  - copy the page into the content system %>
     <%#= link_to t('muck.services.save'), new_content_path(@entry), :id => 'share'  - save the content for use later on  %>
     <% if logged_in? -%>
