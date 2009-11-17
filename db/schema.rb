@@ -9,12 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20091022150615) do
-
-  create_table "action_types", :force => true do |t|
-    t.string  "action_type"
-    t.integer "weight"
-  end
+ActiveRecord::Schema.define(:version => 20091116094447) do
 
   create_table "activities", :force => true do |t|
     t.integer  "item_id"
@@ -49,6 +44,7 @@ ActiveRecord::Schema.define(:version => 20091022150615) do
   create_table "aggregation_feeds", :force => true do |t|
     t.integer "aggregation_id"
     t.integer "feed_id"
+    t.string  "feed_type"
   end
 
   add_index "aggregation_feeds", ["aggregation_id"], :name => "index_aggregation_feeds_on_aggregation_id"
@@ -68,13 +64,22 @@ ActiveRecord::Schema.define(:version => 20091022150615) do
 
   add_index "aggregations", ["ownable_id", "ownable_type"], :name => "index_aggregations_on_ownable_id_and_ownable_type"
 
-  create_table "attentions", :force => true do |t|
-    t.integer "attentionable_id"
-    t.string  "attentionable_type"
-    t.integer "entry_id"
-    t.string  "action_type"
-    t.float   "weight"
+  create_table "attention_types", :force => true do |t|
+    t.string  "name"
+    t.integer "default_weight"
   end
+
+  create_table "attentions", :force => true do |t|
+    t.integer  "attentionable_id"
+    t.string   "attentionable_type", :default => "User"
+    t.integer  "entry_id"
+    t.integer  "attention_type_id"
+    t.integer  "weight",             :default => 5
+    t.datetime "created_at"
+  end
+
+  add_index "attentions", ["attention_type_id"], :name => "index_attentions_on_attention_type_id"
+  add_index "attentions", ["entry_id"], :name => "index_attentions_on_entry_id"
 
   create_table "blogs", :force => true do |t|
     t.integer  "blogable_id",   :default => 0
@@ -264,8 +269,8 @@ ActiveRecord::Schema.define(:version => 20091022150615) do
     t.text     "top_tags"
     t.integer  "priority",                                   :default => 10
     t.integer  "status",                                     :default => 1
-    t.datetime "last_requested_at",                          :default => '1969-01-01 00:00:00'
-    t.datetime "last_harvested_at",                          :default => '1969-01-01 00:00:00'
+    t.datetime "last_requested_at"
+    t.datetime "last_harvested_at"
     t.integer  "harvest_interval",                           :default => 86400
     t.integer  "failed_requests",                            :default => 0
     t.text     "error_message"
@@ -405,13 +410,16 @@ ActiveRecord::Schema.define(:version => 20091022150615) do
   end
 
   create_table "personal_recommendations", :force => true do |t|
-    t.integer "personal_recommendable_id"
-    t.string  "personal_recommendable_type"
-    t.integer "destination_id"
-    t.string  "destination_type"
-    t.integer "rank"
-    t.float   "relevance"
+    t.integer  "personal_recommendable_id"
+    t.string   "personal_recommendable_type"
+    t.integer  "destination_id"
+    t.string   "destination_type"
+    t.float    "relevance"
+    t.datetime "created_at"
+    t.datetime "visited_at"
   end
+
+  add_index "personal_recommendations", ["personal_recommendable_id"], :name => "index_personal_recommendations_on_personal_recommendable_id"
 
   create_table "profiles", :force => true do |t|
     t.integer  "user_id"
@@ -502,7 +510,7 @@ ActiveRecord::Schema.define(:version => 20091022150615) do
     t.datetime "created_at"
   end
 
-  add_index "slugs", ["name", "sluggable_type", "scope", "sequence"], :name => "index_slugs_on_n_s_s_and_s", :unique => true
+  add_index "slugs", ["name", "sluggable_type", "scope", "sequence"], :name => "index_slugs_on_name_and_sluggable_type_and_scope_and_sequence", :unique => true
   add_index "slugs", ["scope"], :name => "index_slugs_on_scope"
   add_index "slugs", ["sluggable_id"], :name => "index_slugs_on_sluggable_id"
 
@@ -594,30 +602,30 @@ ActiveRecord::Schema.define(:version => 20091022150615) do
     t.string   "last_name"
     t.string   "crypted_password"
     t.string   "password_salt"
-    t.string   "persistence_token",                      :null => false
-    t.string   "single_access_token",                    :null => false
-    t.string   "perishable_token",                       :null => false
+    t.string   "persistence_token"
+    t.string   "single_access_token"
+    t.string   "perishable_token"
     t.integer  "login_count",         :default => 0,     :null => false
     t.integer  "failed_login_count",  :default => 0,     :null => false
     t.datetime "last_request_at"
-    t.datetime "current_login_at"
     t.datetime "last_login_at"
+    t.datetime "current_login_at"
     t.string   "current_login_ip"
     t.string   "last_login_ip"
     t.boolean  "terms_of_service",    :default => false, :null => false
     t.string   "time_zone",           :default => "UTC"
     t.datetime "disabled_at"
-    t.datetime "created_at"
     t.datetime "activated_at"
+    t.datetime "created_at"
     t.datetime "updated_at"
-    t.string   "identity_url"
-    t.string   "url_key"
   end
 
   add_index "users", ["email"], :name => "index_users_on_email"
   add_index "users", ["last_request_at"], :name => "index_users_on_last_request_at"
   add_index "users", ["login"], :name => "index_users_on_login"
+  add_index "users", ["perishable_token"], :name => "index_users_on_perishable_token"
   add_index "users", ["persistence_token"], :name => "index_users_on_persistence_token"
+  add_index "users", ["single_access_token"], :name => "index_users_on_single_access_token"
 
   create_table "watched_pages", :force => true do |t|
     t.integer  "entry_id"
