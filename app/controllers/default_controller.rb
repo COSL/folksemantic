@@ -39,6 +39,9 @@ class DefaultController < ApplicationController
   
   def oerrecommender
     @page_title = t('oerrecommender.page_title')
+    respond_to do |format|
+      format.html { render :layout => 'oerr' }
+    end
   end
   
   def integration
