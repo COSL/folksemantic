@@ -38,7 +38,7 @@ Rails::Initializer.run do |config|
   config.gem "muck-solr", :lib => 'acts_as_solr', :version => '>=0.4.6'
   config.gem "muck-feedbag", :lib => 'feedbag', :version => '>=0.6.0'
   config.gem "muck-raker", :lib => 'muck_raker', :version => '>=0.3.4'
-  config.gem "muck-services", :lib => 'muck_services', :version => '>=0.1.11'
+  config.gem "muck-services", :lib => 'muck_services', :version => '>=0.1.12'
   config.gem 'muck-users', :lib => 'muck_users', :version => '>=0.2.17'
   config.gem 'muck-activities', :lib => 'muck_activities', :version => '>=0.1.24'
   config.gem 'muck-comments', :lib => 'muck_comments', :version => '>=0.1.15'

@@ -29,11 +29,12 @@
       <li><%= link_to t('folksemantic.contribute_repository'), new_oai_rss_feeds_path(:layout => 'popup'), :class => 'iframe lightbox' %></li>
     </ul>
   </div>
-  <!-- 
+
   <hr class="space" />
   <div id="recommended" class="box">
-    <h4>Recommended Resources</h4>
-  </div> -->
+    <h4><%= t('muck.services.personal_recommendations') %></h4>
+    <%= personal_recommendations(@user) %>
+  </div>
   
   <hr class="space" />
   <div id="identity" class="box">

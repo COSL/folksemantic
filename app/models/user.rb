@@ -53,6 +53,9 @@ class User < ActiveRecord::Base
   acts_as_tagger
   has_muck_blog
   acts_as_muck_inviter
+
+  has_many :personal_recommendations, :foreign_key => 'personal_recommendable_id', :conditions => ['personal_recommendable_type = ?', 'User'], :limit => 5
+  has_many :recommended_resources, :through => 'personal_recommendations', :foreign_key => 'destination_id', :conditions => [:destination_type => 'Entry'], :class_name => 'Entry'
   
   has_many :uploads, :as => :uploadable, :order => 'created_at desc', :dependent => :destroy 
   
