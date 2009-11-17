@@ -44,6 +44,7 @@ en:
     services:
       add_new_feed_title: "Contribute an OCW/OER data feed."
   folksemantic:
+    about: Learn more about the Folksemantic project
     title: folksemantic
     collections: Collections
     demo: Demo
@@ -99,7 +100,7 @@ en:
       why: WHY FOLKSEMANTIC?
       collaborate: COLLABORATE WITH
       people: PEOPLE
-      signup_reasons: Sign up to meet people with whom you can find, discuss, remix, and develop learning resources
+      signup_reasons: Sign up to meet people with whom you can find, discuss, remix, and develop learning resources. <a href='/about'>Learn more &gt;&gt;</a>
       signup: SIGN UP TODAY!
       browse_and_search: BROWSE AND SEARCH OVER
       oers: <b>OPEN</b> EDUCATION
