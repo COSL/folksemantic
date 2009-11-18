@@ -2,7 +2,7 @@ function apply_show_entry_content(){
   jQuery('.combined-feed-list .feed-item .feed-title').hover(
     function () {
       jQuery(this).next('.combined-feed-list .feed-item .feed-content').show();
-    }, 
+    },
     function () {
       jQuery(this).next('.combined-feed-list .feed-item .feed-content').hide();
     }
@@ -10,7 +10,7 @@ function apply_show_entry_content(){
   jQuery('.combined-feed-list .feed-item .feed-content').hover(
     function () {
       jQuery(this).show();
-    }, 
+    },
     function () {
       jQuery(this).hide();
     }
@@ -59,7 +59,7 @@ function setup_entry_comment_submit(){
 }
 function apply_frame_comment_hover(){
 	jQuery('.comment_holder').hover(
-     function () { jQuery(this).addClass('comment-hover'); }, 
+     function () { jQuery(this).addClass('comment-hover'); },
      function () { jQuery(this).removeClass('comment-hover'); } );
 }
 function setup_share_submit(){
