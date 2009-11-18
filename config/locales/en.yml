@@ -111,11 +111,12 @@ en:
       widgets_pitch: Want to get OER recommendations for your web pages?
       get_widgets: GET OER RECOMMENDER WIDGET
   oerrecommender:
-    page_title: "OERRecommender - Search and recommendation engine for Open Educational Resources"
+    page_title: "OER Recommender - Get open education resource recommendation widgets for your website"
     title: OER Recommender
     collections: Collections
     demo: Demo
-    tag_line: Makes it easy for open education resource providers<br/>to provide links to related resources
+    tag_line: Get the Folksemantic - OER Recommender widget<br/>to easily insert "related resources" links into your website
+    signup: Sign up for Folksemantic to get personalized recommendations and collaborate with others
     developers: Developers
     search: Search
     collections_long: Indexed Collections
