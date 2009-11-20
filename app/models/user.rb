@@ -47,15 +47,15 @@ class User < ActiveRecord::Base
   has_activities
   has_muck_feeds
   acts_as_muck_feed_owner
+  has_muck_recommendations
   #acts_as_muck_aggregation_owner
   acts_as_muck_friend_user
   acts_as_muck_sharer
   acts_as_tagger
   has_muck_blog
   acts_as_muck_inviter
-
-  has_many :personal_recommendations, :foreign_key => 'personal_recommendable_id', :conditions => ['personal_recommendable_type = ?', 'User'], :limit => 5
-  has_many :recommended_resources, :through => 'personal_recommendations', :foreign_key => 'destination_id', :conditions => [:destination_type => 'Entry'], :class_name => 'Entry'
+  has_muck_recommendations
+  acts_as_muck_recommendation
   
   has_many :uploads, :as => :uploadable, :order => 'created_at desc', :dependent => :destroy 
   
