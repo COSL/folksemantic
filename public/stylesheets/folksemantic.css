@@ -73,3 +73,7 @@ h3{font-size:14px;font-weight:bold;color:#333;}
 
 .user-profile-icon{float:left;width:100px;}
 .user-profile-icon a{float:left;clear:both;}
+
+/* dashboard */
+.box {background-color:#DDD;-moz-border-radius:5px;}
+.box ul{margin-bottom:0;padding-bottom:0;}

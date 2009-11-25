@@ -44,6 +44,7 @@ en:
     services:
       add_new_feed_title: "Contribute an OCW/OER data feed."
   folksemantic:
+    actions: Actions
     about: Learn more about the Folksemantic project
     title: folksemantic
     collections: Collections

@@ -98,7 +98,7 @@ ul#add_oai_rss_feed_menu li{display:inline;margin:0 5px;}
 #recs_header{color:#777;background-color:white;font-weight:bold;font-size:16px;font-family:Arial,Helvetica,sans-serif;margin: 2px 3px 0 3px; padding: 2px;}
 #recs_list{margin: 1px; padding: 1px; list-style-type: none;}
 #recs_list li{margin-left: 0px; padding: 3px; list-style-type: none; font-size: 12px;}
-.even{background-color:#E6E6E6;}
+.even{background-color:#DDD;}
 #more_recs{margin:4px 0 6px;padding:0;text-align:center;}
 #recs_panel a{color:#3987DC;text-decoration:none;}
 #recs_panel a:hover{text-decoration:underline;}

@@ -29,7 +29,7 @@ ActionController::Routing::Routes.draw do |map|
     a.resources :domain_themes
   end
   
-  map.connect '/widgets', :controller => 'default', :action => 'widgets'
+  map.widgets '/widgets', :controller => 'default', :action => 'widgets'
   map.oerrecommender '/oerrecommender', :controller => 'default', :action => 'oerrecommender'
   map.about '/about', :controller => 'default', :action => 'about'
   map.integration '/integration', :controller => 'default', :action => 'integration'
