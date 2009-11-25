@@ -2,11 +2,12 @@
   <%= output_errors(t('muck.profiles.problem_editing_profile'), {:class => 'help-box'}, @profile) %>
   <% profile_form(@profile) do |f| -%>
     <%# can add form fields as desired here -%>
-    <%= f.text_field :location, {:class => 'tags', :tip => t('muck.contents.tags_help'), :label => t('muck.profiles.location') } %>
-    <%= f.text_field :skill_list, {:class => 'tags', :tip => t('muck.contents.tags_help'), :label => t('muck.profiles.skills') } %>
-    <%= f.text_field :interest_list, {:class => 'tags', :tip => t('muck.contents.tags_help'), :label => t('muck.profiles.interests') } %>
-    <%= f.state_select(:state, {:tip => t('muck.contents.choose_layout_help'), :label => t('muck.profiles.state')}) %>
-    <%= f.country_select(:country, {:tip => t('muck.contents.choose_layout_help'), :label => t('muck.profiles.country')}) %>
-    <%= f.language_select(:language, {:tip => t('muck.contents.choose_layout_help'), :label => t('muck.profiles.language')}) %>
+    <%= f.text_field :about, {:class => 'tags', :tip => t('muck.profiles.about_help'), :label => t('muck.profiles.about') } %>
+    <%= f.text_field :location, {:class => 'tags', :tip => t('muck.profiles.location_help'), :label => t('muck.profiles.location') } %>
+    <%= f.text_field :skill_list, {:class => 'tags', :tip => t('muck.profiles.skills_help'), :label => t('muck.profiles.skills') } %>
+    <%= f.text_field :interest_list, {:class => 'tags', :tip => t('muck.profiles.interests_help'), :label => t('muck.profiles.interests') } %>
+    <%= f.state_select(:state, {:tip => t('muck.profiles.state_help'), :label => t('muck.profiles.state')}) %>
+    <%= f.country_select(:country, {:tip => t('muck.profiles.country_help'), :label => t('muck.profiles.country')}) %>
+    <%= f.language_select(:language, {:tip => t('muck.profiles.language_help'), :label => t('muck.profiles.language')}) %>
   <% end -%>
 </div>
