@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20091116094447) do
+ActiveRecord::Schema.define(:version => 20091125052605) do
 
   create_table "activities", :force => true do |t|
     t.integer  "item_id"
@@ -428,8 +428,19 @@ ActiveRecord::Schema.define(:version => 20091116094447) do
     t.integer  "photo_file_size"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "location"
+    t.decimal  "lat",                :precision => 15, :scale => 10
+    t.decimal  "lng",                :precision => 15, :scale => 10
+    t.text     "about"
+    t.string   "first_name"
+    t.string   "last_name"
+    t.string   "city"
+    t.integer  "state_id"
+    t.integer  "country_id"
+    t.integer  "language_id"
   end
 
+  add_index "profiles", ["lat", "lng"], :name => "index_profiles_on_lat_and_lng"
   add_index "profiles", ["user_id"], :name => "index_profiles_on_user_id"
 
   create_table "queries", :force => true do |t|

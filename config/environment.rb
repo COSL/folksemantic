@@ -20,6 +20,7 @@ Rails::Initializer.run do |config|
 
   # Specify gems that this application depends on and have them installed with rake gems:install
   config.gem 'will_paginate'
+  config.gem 'jrails'
   config.gem "authlogic", :version => ">=2.1.2"
   config.gem "searchlogic", :version => '>= 2.3.5'
   config.gem "bcrypt-ruby", :lib => "bcrypt", :version => ">=2.1.1"
@@ -32,6 +33,7 @@ Rails::Initializer.run do |config|
   config.gem "newrelic_rpm"
   config.gem "feedzirra"
   config.gem 'tiny_mce'
+  config.gem 'geokit'
   config.gem 'babelphish', :version => '>=0.2.6'
   config.gem 'uploader', :version => '>=0.2.6'
   config.gem 'muck-engine', :lib => 'muck_engine', :version => '>=0.2.16'

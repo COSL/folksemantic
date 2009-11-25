@@ -17,4 +17,6 @@
 
 class Profile < ActiveRecord::Base
   acts_as_muck_profile
+  acts_as_taggable_on :skills, :interests
+
 end
