@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20091125052605) do
+ActiveRecord::Schema.define(:version => 20091128170318) do
 
   create_table "activities", :force => true do |t|
     t.integer  "item_id"
@@ -312,11 +312,22 @@ ActiveRecord::Schema.define(:version => 20091125052605) do
 
   add_index "identity_feeds", ["ownable_id", "ownable_type"], :name => "index_identity_feeds_on_ownable_id_and_ownable_type"
 
-  create_table "invites", :force => true do |t|
+  create_table "invitees", :force => true do |t|
     t.string "email", :null => false
   end
 
-  add_index "invites", ["email"], :name => "index_invites_on_email"
+  add_index "invitees", ["email"], :name => "index_invites_on_email"
+
+  create_table "invites", :force => true do |t|
+    t.integer  "user_id"
+    t.integer  "invitee_id",   :null => false
+    t.integer  "inviter_id",   :null => false
+    t.string   "inviter_type"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "invites", ["inviter_id", "inviter_type"], :name => "index_invites_on_inviter_id_and_inviter_type"
 
   create_table "languages", :force => true do |t|
     t.string  "name"
@@ -597,14 +608,6 @@ ActiveRecord::Schema.define(:version => 20091125052605) do
   add_index "uploads", ["local_content_type"], :name => "index_uploads_on_local_content_type"
   add_index "uploads", ["uploadable_id"], :name => "index_uploads_on_uploadable_id"
   add_index "uploads", ["uploadable_type"], :name => "index_uploads_on_uploadable_type"
-
-  create_table "user_invites", :force => true do |t|
-    t.integer  "user_id",    :null => false
-    t.integer  "invite_id",  :null => false
-    t.datetime "created_at", :null => false
-  end
-
-  add_index "user_invites", ["user_id"], :name => "index_user_invites_on_user_id"
 
   create_table "users", :force => true do |t|
     t.string   "login"
