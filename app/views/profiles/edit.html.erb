@@ -1,13 +1,19 @@
+<% mce_id = "#{@profile.dom_id}_content"
+location_id = 'location' -%>
+<%= tiny_mce_messages_and_scripts_for(mce_id, @profile) %>
 <div id="edit_content" class="span-24 colborder column">
   <%= output_errors(t('muck.profiles.problem_editing_profile'), {:class => 'help-box'}, @profile) %>
   <% profile_form(@profile) do |f| -%>
     <%# can add form fields as desired here -%>
-    <%= f.text_field :about, {:class => 'tags', :tip => t('muck.profiles.about_help'), :label => t('muck.profiles.about') } %>
-    <%= f.text_field :location, {:class => 'tags', :tip => t('muck.profiles.location_help'), :label => t('muck.profiles.location') } %>
+    <%= f.text_field :location, {:id => location_id, :class => 'tags', :tip => t('muck.profiles.location_help'), :label => t('muck.profiles.location') } %>
+    <%= location_suggestion(location_id) if @profile.location.blank? %>
     <%= f.text_field :skill_list, {:class => 'tags', :tip => t('muck.profiles.skills_help'), :label => t('muck.profiles.skills') } %>
     <%= f.text_field :interest_list, {:class => 'tags', :tip => t('muck.profiles.interests_help'), :label => t('muck.profiles.interests') } %>
     <%= f.state_select(:state, {:tip => t('muck.profiles.state_help'), :label => t('muck.profiles.state')}) %>
     <%= f.country_select(:country, {:tip => t('muck.profiles.country_help'), :label => t('muck.profiles.country')}) %>
     <%= f.language_select(:language, {:tip => t('muck.profiles.language_help'), :label => t('muck.profiles.language')}) %>
+    <%= f.text_area :about, { :label => t('muck.profiles.about'),
+                              :class => 'mceEditor',
+                              :id => mce_id} %>
   <% end -%>
 </div>

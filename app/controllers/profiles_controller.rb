@@ -2,7 +2,10 @@ class ProfilesController < Muck::ProfilesController
   
   #before_filter :search_results, :only => [:index, :search]
   before_filter :store_location, :only => [:index, :show, :edit]
-  
+
+  uses_tiny_mce(:options => GlobalConfig.simple_mce_options.merge(:height => 450, :width => 700),
+                :only => [:new, :create, :edit, :update])
+                
   def index
     @users = User.by_newest.paginate(:page => @page, :per_page => @per_page, :include => 'profile')
   end
@@ -29,7 +32,7 @@ class ProfilesController < Muck::ProfilesController
       format.html { render :template => 'profiles/show' }
     end
   end
-  
+
   # def search
   #   respond_to do |format|
   #     format.html { render :template => 'profiles/index' }
