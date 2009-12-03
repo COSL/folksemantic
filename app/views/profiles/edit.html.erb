@@ -9,9 +9,9 @@ location_id = 'location' -%>
     <%= location_suggestion(location_id) if @profile.location.blank? %>
     <%= f.text_field :skill_list, {:class => 'tags', :tip => t('muck.profiles.skills_help'), :label => t('muck.profiles.skills') } %>
     <%= f.text_field :interest_list, {:class => 'tags', :tip => t('muck.profiles.interests_help'), :label => t('muck.profiles.interests') } %>
-    <%= f.state_select(:state, {:tip => t('muck.profiles.state_help'), :label => t('muck.profiles.state')}) %>
-    <%= f.country_select(:country, {:tip => t('muck.profiles.country_help'), :label => t('muck.profiles.country')}) %>
-    <%= f.language_select(:language, {:tip => t('muck.profiles.language_help'), :label => t('muck.profiles.language')}) %>
+    <%= f.state_select(:state_id, {:tip => t('muck.profiles.state_help'), :label => t('muck.profiles.state')}) %>
+    <%= f.country_select(:country_id, {:tip => t('muck.profiles.country_help'), :label => t('muck.profiles.country')}) %>
+    <%= f.language_select(:language_id, {:tip => t('muck.profiles.language_help'), :label => t('muck.profiles.language')}) %>
     <%= f.text_area :about, { :label => t('muck.profiles.about'),
                               :class => 'mceEditor',
                               :id => mce_id} %>
