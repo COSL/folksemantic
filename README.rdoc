@@ -4,7 +4,8 @@ Folksemantic is a search,recommendation and social system for helping users enga
 == Installation
 Folksemantic requires a standard Ruby on Rails stack as well as a Java installation to function correctly.
 
-=== Install the required gems:
+=== Install the required gems
+rake gems:install won't work because the gems are included in the project's Rakefile.  Instead copy and paste the code below into your command line.  It will take a while to install all the gems.
   sudo gem install acts-as-taggable-on
   sudo gem install awesome_nested_set
   sudo gem install action_mailer_tls
@@ -16,8 +17,15 @@ Folksemantic requires a standard Ruby on Rails stack as well as a Java installat
   sudo gem install searchlogic
   sudo gem install sanitize
   sudo gem install newrelic_rpm
-
-
+  sudo gem install babelphish
+  sudo gem install uploader
+  sudo gem install muck-profiles
+  sudo gem install muck-solr
+  sudo gem install muck-users
+  sudo gem install muck-engine
+  sudo gem install muck-contents
+  sudo gem install muck-comments
+  
   
 === Setup the database
   rake db:create
