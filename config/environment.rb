@@ -34,6 +34,7 @@ Rails::Initializer.run do |config|
   config.gem "feedzirra"
   config.gem 'tiny_mce'
   config.gem 'geokit'
+  config.gem 'httparty'
   config.gem 'babelphish', :version => '>=0.2.6'
   config.gem 'uploader', :version => '>=0.2.6'
   config.gem 'muck-engine', :lib => 'muck_engine', :version => '>=0.2.19'
