@@ -41,9 +41,9 @@
 # }
 # 
 OAUTH_CREDENTIALS = {
-  :twitter => {
-    :key => GlobalConfig.twitter_oauth_key,
-    :secret => GlobalConfig.twitter_oauth_secret
+  # :twitter => {
+  #   :key => GlobalConfig.twitter_oauth_key,
+  #   :secret => GlobalConfig.twitter_oauth_secret
   }
 } unless defined? OAUTH_CREDENTIALS
 
