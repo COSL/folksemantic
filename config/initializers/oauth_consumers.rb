@@ -4,7 +4,6 @@
 # eg. :twitter => TwitterToken, :hour_feed => HourFeedToken etc.
 #
 # OAUTH_CREDENTIALS={
-#   get it at: http://twitter.com/apps
 #   :twitter=>{
 #     :key=>"",
 #     :secret=>""
@@ -42,6 +41,10 @@
 # }
 # 
 OAUTH_CREDENTIALS={
+  :twitter=>{
+    :key => GlobalConfig.twitter_oauth_key,
+    :secret => GlobalConfig.twitter_oauth_secret
+  }
 } unless defined? OAUTH_CREDENTIALS
 
 load 'oauth/models/consumers/service_loader.rb'
