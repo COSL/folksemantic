@@ -44,7 +44,7 @@ OAUTH_CREDENTIALS = {
   # :twitter => {
   #   :key => GlobalConfig.twitter_oauth_key,
   #   :secret => GlobalConfig.twitter_oauth_secret
-  }
+  # }
 } unless defined? OAUTH_CREDENTIALS
 
 load 'oauth/models/consumers/service_loader.rb'
