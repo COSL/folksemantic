@@ -88,4 +88,9 @@ class User < ActiveRecord::Base
     admin?
   end
   
+  # Determines whether or not users are allowed to add feeds
+  def can_add_feeds?
+    true
+  end
+  
 end
