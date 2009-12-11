@@ -59,6 +59,12 @@ class User < ActiveRecord::Base
   
   has_many :uploads, :as => :uploadable, :order => 'created_at desc', :dependent => :destroy 
   
+  has_many :client_applications
+  has_many :tokens, :class_name => "OauthToken", :order => "authorized_at desc", :include => [:client_application]
+
+  has_one  :twitter_token, :class_name => "TwitterToken", :dependent => :destroy
+  
+  
   def after_create
     add_activity(self, self, self, 'welcome', '', '')
     content = I18n.t('muck.activities.joined_status', :name => self.full_name, :application_name => GlobalConfig.application_name)

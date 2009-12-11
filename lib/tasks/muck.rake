@@ -11,7 +11,8 @@ namespace :muck do
   def muck_gems
     ['uploader', 'muck-solr', 'muck-raker', 'muck-services', 'muck-engine',
     'muck-users', 'muck-activities', 'muck-comments', 'muck-profiles', 'muck-friends',
-    'muck-contents', 'muck-blogs', 'muck-shares', 'muck-invites', 'babelphish']
+    'muck-contents', 'muck-blogs', 'muck-shares', 'muck-invites', 'muck-oauth',
+    'babelphish']
   end
   
   desc "Gets everything ready for a release. Translates muck + gems, release gems, commits gems translates muck, writes versions into muck and then commits muck.  This takes a while"
