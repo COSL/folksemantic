@@ -33,7 +33,8 @@ class UploadsController < Uploader::UploadsController
       render_to_string( :partial => 'uploads/upload_row', :object => upload, :locals => { :style => 'style="display:none;"', :parent => @parent } )
     end
     
-    def get_redirect
+    # source can be :destroy_success, :create_success, :create_failure, :permission_denied
+    def get_redirect(source)
       @parent
     end
 
