@@ -2,8 +2,12 @@
 location_id = 'location' -%>
 <%= tiny_mce_messages_and_scripts_for(mce_id, @profile) %>
 
-<div>
-  <a href="/oauth_consumers/twitter" class="fancybox iframe">Connect your Twitter account to Folksemantic</a>
+
+<div id="oauth-services">
+  <h2><%= t('folksemantic.connect_account') -%></h2>
+  <a href="/oauth_consumers/twitter" class="fancybox iframe" title="Connect your Twitter account to Folksemantic">
+    <img src="/images/service_icons/24/twitter.png" width="24" height="24" alt="Twitter icon" />
+  </a>
 </div>
 
 <div id="edit_content" class="span-24 colborder column">
