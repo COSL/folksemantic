@@ -39,7 +39,7 @@ Rails::Initializer.run do |config|
   config.gem "oauth-plugin"
   config.gem 'babelphish', :version => '>=0.2.6'
   config.gem 'uploader', :version => '>=0.2.6'
-  config.gem 'muck-engine', :lib => 'muck_engine', :version => '>=0.2.20'
+  config.gem 'muck-engine', :lib => 'muck_engine', :version => '>=0.2.21'
   config.gem "muck-solr", :lib => 'acts_as_solr', :version => '>=0.4.5'
   config.gem "muck-feedbag", :lib => 'feedbag', :version => '>=0.6.0'
   config.gem "muck-raker", :lib => 'muck_raker', :version => '>=0.3.6'
