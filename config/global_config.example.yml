@@ -1,66 +1,112 @@
 default: &DEFAULT
 
-  # All fields that need to be changed are marked with 'TODO'
-
-  application_name: 'TODO My application name'  # Common name for your application.  i.e. My App, Billy Bob, etc
-    
   # Sent in emails to users
-  from_email: 'support@TODO.com'                # Emails will come from this address i.e. noreply@example.com, support@example.com, system@example.com, etc
-  from_email_name: 'TODO Name'                  # This will show up as the name on emails.  i.e. support@example.com <Example> 
-  support_email: 'support@TODO.com'             # Support email for your application.  This is used for contact us etc.
-  admin_email: 'admin@folksemantic.com'         # Admin email for your application
-  customer_service_number: '1-800-'
+  application_name: 'Folksemantic'      # Common name for your application.  i.e. My App, Billy Bob, etc
+  from_email: 'support@example.com'     # Emails will come from this address i.e. noreply@example.com, support@example.com, system@example.com, etc
+  from_email_name: 'Folksemantic'       # This will show up as the name on emails.  i.e. support@example.com <Example>
+  support_email: 'support@example.com'  # Support email for your application.  This is used for contact us etc.
+  admin_email: 'admin@example.com'      # Admin email for your application
+  customer_service_number: '1-800-'     # Phone number if you have one (optional)
   
   # Email charset
   mail_charset: 'utf-8'
 
   # Email server configuration
-  email_user_name: 'system@folksemantic.com'
-  email_password: 'engine005'
-  base_domain: 'folksemantic.com'
-
+  # Sendgrid is easy: https://sendgrid.com/user/signup
+  email_server_address: "smtp.sendgrid.net"   # Email server address.  This works for sendgrid
+  email_user_name: 'admin@example.com'        # Email server password
+  email_password: 'password'                  # Email server password
+  base_domain: 'example.com'                  # Basedomain that emails will come from
+  
   # sign up options
-  automatically_activate: true
-  automatically_login_after_account_create: true
-  send_welcome: true
+  automatically_activate: true                    # Automatically active a users account during registration. If true the user won't get a 'confirm account' email. If false then the user will need to confirm their account via an email.
+  automatically_login_after_account_create: true  # Automatically log the user in after they have setup their account. This should be false if you require them to activate their account.
+  send_welcome: true                              # Send out a welcome email after the user has signed up.
     
   # if you use recaptcha you will need to also provide a public and private
   # key available from http://recaptcha.net.
-  use_recaptcha: false
+  use_recaptcha: false                            # This will turn on recaptcha during registration. This is an alternative to sending the user a confirm email and can help reduce spam registrations.
   recaptcha_pub_key: GET_A_RECAPTCHA_KEY(TODO)
   recaptcha_priv_key: GET_A_RECAPTCHA_KEY(TODO)
   
   # jgrowl related settings
-  growl_enabled: false
+  growl_enabled: false    # If true then notifications and errors will popup in an overlay div similar to 'growl' on the mac.
   
   # application configuration
-  let_users_delete_their_account: false  # turn on/off ability for users to delete their own account
+  let_users_delete_their_account: false  # turn on/off ability for users to delete their own account. It is not recommended that you let users delete their own accounts since the delete can cascade through the system with unknown results.
   
   # activity configuration
-  enable_live_activity_updates: true # Turns on polling inside the user's activity feed so they constantly get updates from the site
-  live_activity_update_interval: 60 # time between updates to live activity feed in seconds
-  enable_activity_comments: true
+  enable_live_activity_updates: true  # Turns on polling inside the user's activity feed so they constantly get updates from the site
+  live_activity_update_interval: 60   # time between updates to live activity feed in seconds
+  enable_activity_comments: true      # Turn on comments in the activity feed
+  enable_activity_file_uploads: true  # Turn on file uploads in the activity feed.  Requires that uploader be installed.
+  enable_activity_image_uploads: true # Turn on image uploads in the activity feed.  Requires that uploader be installed.
+  enable_activity_video_sharing: true # Turn on video sharing in the activity feed.
   
   #theme configuration
-  use_domain_for_themes: true
-
+  use_domain_for_themes: false  # If the disguise gem is installed it is possible to change the 'theme' or look of the site based on the current domain.
+  
   # ssl
-  enable_ssl: false
+  enable_ssl: false # Only enable if you have an ssl certificate installed.
 
   # keys
-  hoptoad_key: '689a8e04f4737fcc097e01a371c1a5ea'
+  hoptoad_key: '' # Get a hoptoad key - https://hoptoadapp.com/account/new
   
+  # Google analtyics configuration
+  google_tracking_code: ""                    # Get a tracking code here: http://www.google.com/analytics/. The codes look like this: 'UA-9685000-0'
+  google_tracking_set_domain: "example.com"   # Base domain provided to Google Analytics. Useful if you are using subdomains but want all traffic recorded into one account.
+  
+  # Raker options
+  inform_admin_of_global_feed: true
+  enable_services_comments: true
+  enable_services_shares: true
+  
+  amazon_secret_access_key: ''
+  amazon_access_key_id: ''
+  amazon_associate_tag: 'amzfeeds-20'
+  ecs_to_rss_wishlist: "http://www.example.com/ecs_to_rss-wishlist.xslt"
+  
+  google_ajax_api_key: ''                 # get a Google ajax api key: http://code.google.com/apis/ajaxsearch/signup.html
+  google_ajax_referer: 'www.example.com'  # The website making requests to google.
+  show_google_search: true                # Determines whether or not a google search is displayed on the topic page
+  load_feeds_on_server: false             # Determines whether feeds on a topic page are loaded on the server or the client.  Loading on the server can take a while
+  combine_feeds_on_server: false          # Combines feeds loaded on the server
+  
+  # Geo kit configuration
+  # TODO make sure the google_ajax_api_key from above can be used with geokit.  If it can then refactor and remove google_geo_key in favor of just using a single key.
+  google_geo_key: '' # Get google key from http://www.google.com/apis/maps/signup.html
+  yahoo_geo_key: '' # Get yahoo key from http://developer.yahoo.com/maps/rest/V1/geocode.html
+    
+  # Oauth
+  twitter_oauth_key: ''     # Get twitter credentials here: http://twitter.com/apps
+  twitter_oauth_secret: ''
+  
+  # Contents
+  git_repository: ''
+  content_git_repository: false
+  enable_auto_translations: false     # If true then all content objects will automatically be translated into all languages supported by Google Translate
+  content_enable_solr: true
+  content_css: ['/stylesheets/reset.css', '/stylesheets/styles.css']
+  
+  # Blogs
+  enable_post_activities: true
+  
+  # Friend configuration
+  enable_following: true
+  enable_friending: false
+  enable_friend_activity: true
+     
 production:
   <<: *DEFAULT
-
+  content_css: ['/stylesheets/all.css']
   # Sent in emails to users
-  application_url: 'www.folksemantic.com'
+  application_url: 'www.example.com'
 
 staging:
   <<: *DEFAULT
 
   # Sent in emails to users
-  application_url: 'staging.folksemantic.com'
+  application_url: 'staging.example.com'
     
 development:
   <<: *DEFAULT

@@ -2,31 +2,92 @@
 Folksemantic is a search,recommendation and social system for helping users engage with one another and content from OpenCourseware, the NSDL and various other repositories that focus on Open Educational Content.
 
 == Installation
-Folksemantic requires a standard Ruby on Rails stack as well as a Java installation to function correctly.
+Folksemantic requires a standard Ruby on Rails stack as well as a Java installation to function correctly.  Detailed instructions on how to deploy Folksemantic including
+setting up ruby, ruby on rails, and java can be found in INSTALL.rdoc
+
+=== Setup global config
+Copy config/global_config.yml.example to config/global_config.yml and edit it to reflect your application customized configurations.
+
+=== Setup production environment
+Copy config/environments/production.rb.example to config/environments/production.rb and edit `asset_host` in order to reflect the name of the production asset server.
+
+=== Capistrano
+An example file for Capistrano deployment can be found in config/deploy.example.rb.  Copy that file to config/deploy.rb.
+This file was taken from an EngineYard example file and will need to be modified for your specific server configuration.
 
 === Install the required gems
-rake gems:install won't work because the gems are included in the project's Rakefile.  Instead copy and paste the code below into your command line.  It will take a while to install all the gems.
-  sudo gem install acts-as-taggable-on
-  sudo gem install awesome_nested_set
-  sudo gem install action_mailer_tls
-  sudo gem install friendly_id
-  sudo gem install paperclip
-  sudo gem install bcrypt-ruby
+
+All the gems are hosted on gemcutter so set it up first:
+  sudo gem install gemcutter
+
+rake gems:install won't work because the gems are included in the project's Rakefile. Instead copy and paste the code below into your command line. It will take a while to install all the gems. 
+I recommend getting a tasty beverage and surfing the net while you wait for this to complete.
   sudo gem install will_paginate
+  sudo gem install jrails
   sudo gem install authlogic
   sudo gem install searchlogic
+  sudo gem install bcrypt-ruby
+  sudo gem install acts-as-taggable-on
+  sudo gem install paperclip
+  sudo gem install awesome_nested_set
+  sudo gem install friendly_id
   sudo gem install sanitize
+  sudo gem install recaptcha
   sudo gem install newrelic_rpm
+  sudo gem install feedzirra
+  sudo gem install tiny_mce
+  sudo gem install geokit
+  sudo gem install httparty
+  sudo gem install oauth
+  sudo gem install oauth-plugin
   sudo gem install babelphish
   sudo gem install uploader
-  sudo gem install muck-profiles
-  sudo gem install muck-solr
-  sudo gem install muck-users
   sudo gem install muck-engine
-  sudo gem install muck-contents
+  sudo gem install muck-solr
+  sudo gem install muck-feedbag
+  sudo gem install muck-raker
+  sudo gem install muck-services
+  sudo gem install muck-users
+  sudo gem install muck-activities
   sudo gem install muck-comments
+  sudo gem install muck-profiles
+  sudo gem install muck-friends
+  sudo gem install muck-shares
+  sudo gem install muck-contents
+  sudo gem install muck-blogs
+  sudo gem install muck-invites
+  sudo gem install muck-oauth
+
   
   
 === Setup the database
+Folksemantic requires a database installation.  We recommend MySql, but the project should also work with PostGreSQL.  Folksemantic has not been tested with other databases.
+Copy config/database.example.yml to database.yml. This file contains typical database settings but you might have to change them based on your local configuration.
+
+Run the rake tasks needed to setup and populate the database:
   rake db:create
   rake db:migrate
+  rake muck:db:populate
+  rake muck:raker:db:populate 
+  rake muck:raker:db:bootstrap_services 
+
+If you are running these tasks on the production server you will need to add 'RAILS_ENV=production'  
+  rake db:create RAILS_ENV=production
+  rake db:migrate RAILS_ENV=production
+  rake muck:db:populate RAILS_ENV=production
+  rake muck:raker:db:populate RAILS_ENV=production
+  rake muck:raker:db:bootstrap_services RAILS_ENV=production
+
+=== Start solr
+  rake solr:start
+or on production:
+  rake solr:start RAILS_ENV=production
+  
+=== Start the aggregation and recommendation system
+  rake muck:raker:start
+or on production:
+  rake muck:raker:start RAILS_ENV=production
+  
+  
+=== Configure languages for subdomains
+
