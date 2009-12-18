@@ -1,15 +1,18 @@
 = Folksemantic
-Folksemantic is a search,recommendation and social system for helping users engage with one another and content from OpenCourseware, the NSDL and various other repositories that focus on Open Educational Content.
+Folksemantic is a search,recommendation and social system for helping users engage with one another and content from OpenCourseware, 
+the NSDL and various other repositories that focus on Open Educational Content.
 
 == Installation
-Folksemantic requires a standard Ruby on Rails stack as well as a Java installation to function correctly.  Detailed instructions on how to deploy Folksemantic including
+Folksemantic requires a standard Ruby on Rails stack as well as a Java installation to function correctly.  
+Detailed instructions on how to deploy Folksemantic including
 setting up ruby, ruby on rails, and java can be found in INSTALL.rdoc
 
 === Setup global config
 Copy config/global_config.yml.example to config/global_config.yml and edit it to reflect your application customized configurations.
 
 === Setup production environment
-Copy config/environments/production.rb.example to config/environments/production.rb and edit `asset_host` in order to reflect the name of the production asset server.
+Copy config/environments/production.rb.example to config/environments/production.rb and edit `asset_host` in order to reflect the 
+name of the production asset server.
 
 === Capistrano
 An example file for Capistrano deployment can be found in config/deploy.example.rb.  Copy that file to config/deploy.rb.
@@ -20,7 +23,8 @@ This file was taken from an EngineYard example file and will need to be modified
 All the gems are hosted on gemcutter so set it up first:
   sudo gem install gemcutter
 
-rake gems:install won't work because the gems are included in the project's Rakefile. Instead copy and paste the code below into your command line. It will take a while to install all the gems. 
+rake gems:install won't work because the gems are included in the project's Rakefile. Instead copy and paste the code below into your command line. 
+It will take a while to install all the gems. 
 I recommend getting a tasty beverage and surfing the net while you wait for this to complete.
   sudo gem install will_paginate
   sudo gem install jrails
