@@ -5,7 +5,7 @@ the NSDL and various other repositories that focus on Open Educational Content.
 == Installation
 Folksemantic requires a standard Ruby on Rails stack as well as a Java installation to function correctly.  
 Detailed instructions on how to deploy Folksemantic including
-setting up ruby, ruby on rails, and java can be found in [INSTALL.rdoc](INSTALL.rdoc)
+setting up ruby, ruby on rails, and java can be found in INSTALL.rdoc[INSTALL.rdoc].
 
 === Setup global config
 Copy config/global_config.yml.example to config/global_config.yml and edit it to reflect your application customized configurations.
