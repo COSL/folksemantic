@@ -16,7 +16,7 @@ ground zero on your machine.
 
 === Command Prompt (Windows Only)
 
-You are going to be doing a lot of things from the command prompt. Setting up [Command Prompt Here](http://www.fileformat.info/tip/microsoft/cmd_prompt_here.htm) 
+You are going to be doing a lot of things from the command prompt. Setting up Command Prompt Here[http://www.fileformat.info/tip/microsoft/cmd_prompt_here.htm]
 makes it so you can open a command prompt in the directory that you are viewing in Windows Explorer.
 
    1. Open Windows Explorer
@@ -27,26 +27,26 @@ makes it so you can open a command prompt in the directory that you are viewing 
    6. Give it a nice name like "Command Prompt Here" and the application c:\windows\system32\cmd.exe /K cd "%1"
    7. OK, OK and OK to save it. 
 
-Credits: I copied this verbatim from [FileFormat.info](http://www.fileformat.info/tip/microsoft/cmd_prompt_here.htm).
+Credits: I copied this verbatim from FileFormat.info[http://www.fileformat.info/tip/microsoft/cmd_prompt_here.htm].
 
 
 === Ruby (language), Ruby on Rails (web application framework), and Ruby Gems (package manager)
 
-[Ruby](http://www.ruby-lang.org/en/) is the flexible and fun :-) programming language from Japan made popular by the productive 
-[Ruby on Rails](http://rubyonrails.org/) web application framework. Third party Ruby libraries are called Gems. 
+Ruby[http://www.ruby-lang.org/en/] is the flexible and fun programming language from Japan made popular by the productive 
+Ruby on Rails[http://rubyonrails.org/] web application framework. Third party Ruby libraries are called Gems. 
 Ruby Gems is the standard Ruby package manager, similar to apt-get, emerge, and other OS package managers.
 
 Folksemantic is a web application written on top of the Ruby on Rails framework. Follow these 
-[instructions on installing Ruby, Ruby on Rails, and Ruby Gems](http://rubyonrails.org/download) to get started. 
+instructions on installing Ruby, Ruby on Rails, and Ruby Gems[http://rubyonrails.org/download] to get started. 
 As of 12/18/2009 the following versions are recommended: 
-[Ruby 1.8.7-p174 Ruby Source](ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p174.tar.gz) or
-[Ruby 1.8.6-26 Windows Installer](http://rubyforge.org/frs/download.php/66871/rubyinstaller-1.8.6-p383-rc1.exe), 
-[Ruby Gems 1.3.5](http://rubyforge.org/frs/download.php/60719/rubygems-1.3.5.zip), 
+Ruby 1.8.7-p174 Ruby Source[ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p174.tar.gz] or
+Ruby 1.8.6-26 Windows Installer[http://rubyforge.org/frs/download.php/66871/rubyinstaller-1.8.6-p383-rc1.exe], 
+Ruby Gems 1.3.5[http://rubyforge.org/frs/download.php/60719/rubygems-1.3.5.zip], 
 and Ruby on Rails 2.3.5.
 
-   1. Download and run the [Ruby 1.8.6-p383 install](http://rubyforge.org/frs/download.php/66871/rubyinstaller-1.8.6-p383-rc1.exe) or compile from source
-      [Ruby 1.8.7-p174 Ruby Source](ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p174.tar.gz).
-   2. Download and extract [Ruby Gems 1.3.5](http://rubyforge.org/frs/download.php/60719/rubygems-1.3.5.zip), then 
+   1. Download and run the Ruby 1.8.6-p383 install[http://rubyforge.org/frs/download.php/66871/rubyinstaller-1.8.6-p383-rc1.exe] or compile from source
+      Ruby 1.8.7-p174 Ruby Source[ftp://ftp.ruby-lang.org/pub/ruby/1.8/ruby-1.8.7-p174.tar.gz].
+   2. Download and extract Ruby Gems 1.3.5[http://rubyforge.org/frs/download.php/60719/rubygems-1.3.5.zip], then 
       open a command prompt to the folder you extracted it to and run ruby setup.rb
    3. Install the gemcutter gem.  All ruby gems are now hosted on gemcutter.
       sudo gem install gemcutter
@@ -65,12 +65,12 @@ Textmate is a commercial editor used by many Ruby on Rails developers. (http://m
 Ruby Mine is an integrated development environment. (http://www.jetbrains.com/ruby/index.html)
   
 ==== Aptana Studio and RadRails (Ruby on Rails Development Environment)
-On Windows, the awesome open source [Eclipse](http://www.eclipse.org/) IDE is my favorite. 
-[Aptana](http://www.aptana.com/) has developed a variant of Eclipse (Aptana Studio) and 
+On Windows, the awesome open source Eclipse[http://www.eclipse.org/] IDE is my favorite. 
+Aptana[http://www.aptana.com/] has developed a variant of Eclipse (Aptana Studio) and 
 Ruby on Rails plugins for Aptana Studio and Eclipse that make things easier. 
-[Download Aptana Studio](http://www.aptana.com/studio/download/) (117 MB) or go with your favorite editor (please don't say Notepad :-).
+Download Aptana Studio[http://www.aptana.com/studio/download/] (117 MB) or go with your favorite editor (please don't say Notepad.
 
-   1. Download and install [Aptana Studio 1.2](http://www.aptana.com/studio/download/) (117 MB)
+   1. Download and install Aptana Studio 1.2[http://www.aptana.com/studio/download/] (117 MB)
    2. Add the RadRails plugin (34 MB) to Aptana Studio by following the instructions at Help > Open My Aptana > Plugins > Aptana RadRails.
    
 
@@ -78,9 +78,9 @@ Ruby on Rails plugins for Aptana Studio and Eclipse that make things easier.
 
 Folksemantic utilizes a database on the back end. Development of Folksemantic has used [MySQL, the world's most popular open source database]
 (http://www.mysql.com/), but it should be use other databases such as Postgres. Download and install 
-[MySQL Community Server edition](http://dev.mysql.com/downloads/mysql/5.0.html#win32).
+MySQL Community Server edition[http://dev.mysql.com/downloads/mysql/5.0.html#win32].
 
-Download and install [MySQL Community Server edition (Windows Essentials x86)](http://dev.mysql.com/downloads/mysql/5.0.html#win32).
+Download and install MySQL Community Server edition (Windows Essentials x86)[http://dev.mysql.com/downloads/mysql/5.0.html#win32].
 
 Scroll down and click "No thanks, just take me to the downloads!" if you don't want to register.
 
@@ -96,44 +96,44 @@ This sets it the MySQL server up to run on port 3306.
 
 === Install Git (version control system)
 
-[Git](http://git.or.cz/) is a version control system like CVS or SVN (but better). Folksemantic developers use it to coordinate work. 
-The [definitive source for Folksemantic](http://github.com/COSL/folksemantic) is hosted at [github](http://github.com/) 
+Git[http://git.or.cz/] is a version control system like CVS or SVN (but better). Folksemantic developers use it to coordinate work. 
+The definitive source for Folksemantic[http://github.com/COSL/folksemantic] is hosted at github[http://github.com/] 
 (an awesome free service!).
 
 ==== Mac
-[Follow the guide on github for installing Git on the Mac](http://help.github.com/mac-git-installation/)
+Follow the guide on github for installing Git on the Mac[http://help.github.com/mac-git-installation/]
 
 ==== Windows
-Follow [Kyle's Cordes instructions on installing Git on Windows](http://kylecordes.com/2008/04/30/git-windows-go/) or the 
-[shorter description on github](http://github.com/guides/using-git-and-github-for-the-windows-for-newbies) to get started with Git.
+Follow Kyle's Cordes instructions on installing Git on Windows[http://kylecordes.com/2008/04/30/git-windows-go/] or the 
+shorter description on github[http://github.com/guides/using-git-and-github-for-the-windows-for-newbies] to get started with Git.
 
-Download and run [the msysgit installer](http://code.google.com/p/msysgit/downloads/list) (I tested with 
-[Git-1.6.0.2-preview20080923.exe](http://msysgit.googlecode.com/files/Git-1.6.0.2-preview20080923.exe)).
+Download and run the msysgit installer[http://code.google.com/p/msysgit/downloads/list] (I tested with 
+Git-1.6.0.2-preview20080923.exe[http://msysgit.googlecode.com/files/Git-1.6.0.2-preview20080923.exe)].
 
 I used the default options except on the page titled "Adjusting your PATH environment", I chose run Git and included Unix tools from the command prompt.
 
 
 === Install Capistrano (Deployment tool)
 Deploying Folksemantic to a Linux server can take an hour or more when done by hand, seconds when done using 
-[Jamis Buck's Capistrano](http://www.capify.org/). As stated in the 
-[Capistrano Download Instructions](http://www.capify.org/download), now that you have Ruby Gems installed, 
+Jamis Buck's Capistrano[http://www.capify.org/]. As stated in the 
+Capistrano Download Instructions[http://www.capify.org/download], now that you have Ruby Gems installed, 
 downloading and installing Capistrano is as easy as typing:
 
   sudo gem install capistrano
 
 
 === Install PuTTY (SSH Client, Windows only)
-The standard way to talk to a Linux box is using [SSH](http://en.wikipedia.org/wiki/Secure_Shell). 
-Download and install [PuTTY](http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html) (a Windows SSH client) 
+The standard way to talk to a Linux box is using SSH[http://en.wikipedia.org/wiki/Secure_Shell]. 
+Download and install PuTTY[http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html] (a Windows SSH client) 
 to prepare to connect. While you are at it, you may want to grab pageant, a utility that will save you from having to retype your ssh password repeatedly.
 
 
 === Install RMagick
-[RMagick](http://rmagick.rubyforge.org/) is an image manipulation library that Folksemantic uses. 
-Use these instructions to [Download and Install on Windows](http://rmagick.rubyforge.org/install-faq.html#win):
+RMagick[http://rmagick.rubyforge.org/] is an image manipulation library that Folksemantic uses. 
+Use these instructions to Download and Install on Windows[http://rmagick.rubyforge.org/install-faq.html#win]:
 
-   1. Download the [rmagick-win32 gem](http://rubyforge.org/frs/download.php/43232/RMagick-2.6.0-ImageMagick-6.4.3-6-  
-      Q8.zip) from the [RMagick project page](http://rubyforge.org/projects/rmagick/) on RubyForge.
+   1. Download the rmagick-win32 gem[http://rubyforge.org/frs/download.php/43232/RMagick-2.6.0-ImageMagick-6.4.3-6-  
+      Q8.zip] from the RMagick project page[http://rubyforge.org/projects/rmagick/] on RubyForge.
    2. Unzip it into a temporary directory.
    3. Follow the instructions in the README.html.
          1. Run the ImageMagick installer (ImageMagick-6.4.3-6-Q8-windows-dll.exe) found in the temporary directory.
@@ -156,16 +156,16 @@ Use these instructions to [Download and Install on Windows](http://rmagick.rubyf
   * Commit changes to a Folksemantic branch ssss
   * Push Folksemantic changes to github
 
-=== Retrieve Folksemantic from git hub
+=== Retrieve Folksemantic from github
 Now that you have installed all of that fun stuff, it is time to pull down Folksemantic. To do this, open a command prompt, 
 go to your root projects folder and use the git clone command:
 
-git clone git://github.com/jbasdf/Folksemantic.git
+git clone git://github.com/COSL/folksemantic.git
 
 That will create a folder called Folksemantic and copy the source code to it. If you want to copy the source to a folder other 
 than Folksemantic, just specify the folder name at the end:
 
-git clone git://github.com/jbasdf/Folksemantic.git Folksemantic2
+git clone git://github.com/COSL/folksemantic.git Folksemantic2
 
 Now that you have pulled the code down, you just need to install the gems (ruby libraries) that Folksemantic uses, set up 
 some configuration files, and set up a database for Folksemantic to use.
@@ -187,12 +187,12 @@ config/initializers/mail.rb.example
 Copy or rename these files to get going.
 
 If you are setting up a new Folksemantic instance, you will need to obtain various keys to put in the configuration files. 
-For example, your website will need its own reCaptcha key. To get that, register on the [reCaptcha website](http://recaptcha.net/) and request a key.
+For example, your website will need its own reCaptcha key. To get that, register on the reCaptcha website[http://recaptcha.net/] and request a key.
 
 
 === Install Folksemantic gem dependencies
 Folksemantic depends on the gems specified in config/environment.rb. Install them using the following 
-[Rake](http://wiki.rubyonrails.org/rails/pages/WhatIsRakeAndWhatDoesItDo) command:
+Rake[http://wiki.rubyonrails.org/rails/pages/WhatIsRakeAndWhatDoesItDo] command:
 
 cd Folksemantic
 rake gems:install
@@ -201,7 +201,7 @@ Alternatively, you can install them one at a time using the gem command. For exa
 
 gem install mocha
 
-If you don't get all of the Gems installed, don't worry, when you try to run Folksemantic, it will complain about the missing Gems :-)
+If you don't get all of the Gems installed, don't worry, when you try to run Folksemantic, it will complain about the missing Gems.
 
 In case you are curious, rake is a software build tool.
 
@@ -232,11 +232,11 @@ Before you run Folksemantic, you need to start up the solr server that Folkseman
 
 **Windows**: rake solr:start_win
 
-**Note**: Windows users might run into the following error: **No connection could be made because the target machine actively refused it. - connect(2)**. To resolve this issue, follow the steps listed on [webonrails.com](http://webonrails.com/2007/09/13/acts_as_solr-starting-solr-server-on-windows/).
+**Note**: Windows users might run into the following error: **No connection could be made because the target machine actively refused it. - connect(2)**. To resolve this issue, follow the steps listed on webonrails.com[http://webonrails.com/2007/09/13/acts_as_solr-starting-solr-server-on-windows/].
 
 However, you might have to revert the **Errno::EBADF** to **Errno::ECONNREFUSED** in the modified vendor/plugins/acts_as_solr/lib/taks/solr.rake script for the solr server to start on windows.
 
-Now you should be ready to run Folksemantic on your machine. For convenience in development, Ruby on Rails comes with two web servers, called [WEBrick](http://www.webrick.org/) and [Mongrel](http://mongrel.rubyforge.org/) that can be used to run Folksemantic. Use a ruby script to run Folksemantic using WEBrick:
+Now you should be ready to run Folksemantic on your machine. For convenience in development, Ruby on Rails comes with two web servers, called WEBrick[http://www.webrick.org/] and Mongrel[http://mongrel.rubyforge.org/] that can be used to run Folksemantic. Use a ruby script to run Folksemantic using WEBrick:
 
 ruby script/server webrick
 
@@ -270,7 +270,7 @@ For example:
 
 git checkout --track -b yfh origin/yfh
 
-Use git to [merge](http://www.kernel.org/pub/software/scm/git/docs/git-merge.html) updates from the master branch into the branch you just checked out:
+Use git to merge[http://www.kernel.org/pub/software/scm/git/docs/git-merge.html] updates from the master branch into the branch you just checked out:
 
 git merge master
 
@@ -286,9 +286,9 @@ rake db:test:prepare
 
 Install the following additional gems - these are required for testing:
     
-* gem install thoughtbot-factory_girl 
+* gem install factory_girl 
 * gem install zentest
-* gem install thoughtbot-shoulda
+* gem install shoulda
 * gem install redgreen
 	
 Rename the file **mail.rb** under ..\Folksemantic\config\initializers to **mail.rb.example**, if not done already.  This is not needed for testing in the test environment.
@@ -317,7 +317,7 @@ autotest
 
 When running autotest relevant tests are automatically re-run whenever you change a file.
 
-For more information on Rails testing and autotest, and shoulda (the testing framework that Folksemantic uses) see [A Guide to Testing the Rails](http://manuals.rubyonrails.com/read/chapter/20), [Getting started with Autotest](http://ph7spot.com/articles/getting_started_with_autotest), and [Shoulda testing](http://www.thoughtbot.com/projects/shoulda).
+For more information on Rails testing and autotest, and shoulda (the testing framework that Folksemantic uses) see A Guide to Testing the Rails[http://manuals.rubyonrails.com/read/chapter/20], Getting started with Autotest[http://ph7spot.com/articles/getting_started_with_autotest], and Shoulda testing[http://www.thoughtbot.com/projects/shoulda].
 
 
 === Set up an Aptana Studio project for working on Folksemantic
@@ -365,7 +365,7 @@ sudo mv /po/yfh-tr/Folksemantic.new.po /po/yfh-tr/Folksemantic.po
 
 
 === Update a translation file
-Open the po file (e.g. po/yfh-tr/Folksemantic.po) in Notepad or a po utiity such as [poedit](http://www.poedit.net/). Add translations for any new messages that don't have one. In an editor, you can find these by searching for: msgstr "".
+Open the po file (e.g. po/yfh-tr/Folksemantic.po) in Notepad or a po utiity such as poedit[http://www.poedit.net/]. Add translations for any new messages that don't have one. In an editor, you can find these by searching for: msgstr "".
 
 Now use rake to compile the po (text) file into a format that can be used by GetText (and Folksemantic):
 
@@ -457,7 +457,7 @@ This is where shared files that aren't replaced each time you deploy. For exampl
 <containing folder>/current
 This is a symbolic link to a specific release folder (e.g. /var/www/ozmozr/releases/200805032003)
 
-For more information on Capistrano see the [Capistrano project website](http://www.capify.org/).
+For more information on Capistrano see the Capistrano project website[http://www.capify.org/].
 
 
 === Diagnose and fix problems on the server
