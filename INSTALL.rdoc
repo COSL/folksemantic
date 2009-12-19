@@ -13,7 +13,9 @@ ground zero on your machine.
   * Git (version control system)
   * Capistrano (deployment tool only needed for Windows)
   * PuTTY (SSH client)
-
+  * Install RMagick
+  * Install Gem Dependencies
+  
 === Command Prompt (Windows Only)
 
 You are going to be doing a lot of things from the command prompt. Setting up Command Prompt Here[http://www.fileformat.info/tip/microsoft/cmd_prompt_here.htm]
@@ -128,26 +130,55 @@ Download and install PuTTY[http://www.chiark.greenend.org.uk/~sgtatham/putty/dow
 to prepare to connect. While you are at it, you may want to grab pageant, a utility that will save you from having to retype your ssh password repeatedly.
 
 
-=== Install RMagick
-RMagick[http://rmagick.rubyforge.org/] is an image manipulation library that Folksemantic uses. 
-Use these instructions to Download and Install on Windows[http://rmagick.rubyforge.org/install-faq.html#win]:
+=== Install ImageMagick
+ImageMagick[http://www.imagemagick.org/script/index.php] is a library that Paperclip (file upload gem) uses for image manipulation.
+Look on the ImageMagick[http://www.imagemagick.org/script/index.php] website for instructions on how to install for various platforms.
 
-   1. Download the rmagick-win32 gem[http://rubyforge.org/frs/download.php/43232/RMagick-2.6.0-ImageMagick-6.4.3-6-  
-      Q8.zip] from the RMagick project page[http://rubyforge.org/projects/rmagick/] on RubyForge.
-   2. Unzip it into a temporary directory.
-   3. Follow the instructions in the README.html.
-         1. Run the ImageMagick installer (ImageMagick-6.4.3-6-Q8-windows-dll.exe) found in the temporary directory.
-         2. Open a command prompt to the temporary directory.
-         3. Use gem to install rmagick: gem install rmagick --local
-         
+=== Install Gem Dependencies
+Copy and paste the following into a command window to install the gems needed to run Folksemantic:
+  sudo gem install will_paginate
+  sudo gem install jrails
+  sudo gem install authlogic
+  sudo gem install searchlogic
+  sudo gem install bcrypt-ruby
+  sudo gem install acts-as-taggable-on
+  sudo gem install paperclip
+  sudo gem install awesome_nested_set
+  sudo gem install friendly_id
+  sudo gem install sanitize
+  sudo gem install recaptcha
+  sudo gem install newrelic_rpm
+  sudo gem install feedzirra
+  sudo gem install tiny_mce
+  sudo gem install geokit
+  sudo gem install httparty -v0.4.4
+  sudo gem install oauth
+  sudo gem install oauth-plugin
+  sudo gem install babelphish
+  sudo gem install uploader
+  sudo gem install muck-engine
+  sudo gem install muck-solr
+  sudo gem install muck-feedbag
+  sudo gem install muck-raker
+  sudo gem install muck-services
+  sudo gem install muck-users
+  sudo gem install muck-activities
+  sudo gem install muck-comments
+  sudo gem install muck-profiles
+  sudo gem install muck-friends
+  sudo gem install muck-shares
+  sudo gem install muck-contents
+  sudo gem install muck-blogs
+  sudo gem install muck-invites
+  sudo gem install muck-oauth
+
 
 == Develop
   This section covers:
   * Retrieve Folksemantic from git hub
-  * Install RMagick
-  * Install Folksemantic gem dependencies
   * Configure Folksemantic
   * Set up databases for Folksemantic
+  * Populate the Folksemantic Database
   * Run Folksemantic on your computer
   * Merge the latest Folksemantic code from the master branch into another branch
   * Run the Folksemantic tests
@@ -160,12 +191,12 @@ Use these instructions to Download and Install on Windows[http://rmagick.rubyfor
 Now that you have installed all of that fun stuff, it is time to pull down Folksemantic. To do this, open a command prompt, 
 go to your root projects folder and use the git clone command:
 
-git clone git://github.com/COSL/folksemantic.git
+  git clone git://github.com/COSL/folksemantic.git
 
 That will create a folder called Folksemantic and copy the source code to it. If you want to copy the source to a folder other 
 than Folksemantic, just specify the folder name at the end:
 
-git clone git://github.com/COSL/folksemantic.git Folksemantic2
+  git clone git://github.com/COSL/folksemantic.git Folksemantic2
 
 Now that you have pulled the code down, you just need to install the gems (ruby libraries) that Folksemantic uses, set up 
 some configuration files, and set up a database for Folksemantic to use.
@@ -174,89 +205,59 @@ some configuration files, and set up a database for Folksemantic to use.
 === Configure Folksemantic
 Folksemantic utilizes a number of configuration files that you need to set up to get going:
 
-config/global_config.yml
-config/database.yml
-config/initializers/mail.rb
+  config/global_config.yml
+  config/database.yml
 
 Example files are included with Folksemantic:
 
-config/global_config.yml.example
-config/database.yml.example
-config/initializers/mail.rb.example
+  config/global_config.yml.example
+  config/database.yml.example
 
-Copy or rename these files to get going.
+Copy or rename these files, removing '.example' to get going.
 
-If you are setting up a new Folksemantic instance, you will need to obtain various keys to put in the configuration files. 
-For example, your website will need its own reCaptcha key. To get that, register on the reCaptcha website[http://recaptcha.net/] and request a key.
-
-
-=== Install Folksemantic gem dependencies
-Folksemantic depends on the gems specified in config/environment.rb. Install them using the following 
-Rake[http://wiki.rubyonrails.org/rails/pages/WhatIsRakeAndWhatDoesItDo] command:
-
-cd Folksemantic
-rake gems:install
-
-Alternatively, you can install them one at a time using the gem command. For example:
-
-gem install mocha
-
-If you don't get all of the Gems installed, don't worry, when you try to run Folksemantic, it will complain about the missing Gems.
-
-In case you are curious, rake is a software build tool.
+If you are setting up a new Folksemantic instance, you will need to obtain various keys to put in the configuration files.  
+These keys are documented in config/global_config.yml.example.
 
 
 === Set up databases for Folksemantic
 The database that Folksemantic uses is specified in the :development section /config/database.yml . You need to create the database:
 
-mysqladmin -u <username> -p create <databasename>
-
-For example:
-
-mysqladmin -u root -p create Folksemantic
+  rake db:create
 
 Now use rake to load the Folksemantic schema into the database as following:
 
-rake db:migrate
+  rake db:migrate
 
 **Note**: Windows users need to load the win32console gem before using rake to load the Folksemantic schema. 
 Use the following syntax to install the win32console-1.2.0-x86-mswin32-60 gem:
 
-gem install win32console
+  gem install win32console
 
+=== Populate the Folksemantic Database
+The Folksemantic application requires a number of default values to run properly.  Run the following rake commands to populate the database:
+  rake muck:db:populate
+  rake muck:raker:db:populate
+  rake muck:raker:db:bootstrap_services
 
 === Run Folksemantic on your computer
 Before you run Folksemantic, you need to start up the solr server that Folksemantic uses to support searching:
 
-**Linux & Mac**: rake solr:start
+**Linux & Mac**: 
+  rake solr:start
 
-**Windows**: rake solr:start_win
+**Windows**: 
+  rake solr:start_win
 
-**Note**: Windows users might run into the following error: **No connection could be made because the target machine actively refused it. - connect(2)**. To resolve this issue, follow the steps listed on webonrails.com[http://webonrails.com/2007/09/13/acts_as_solr-starting-solr-server-on-windows/].
+**Note**: Windows users might run into the following error: **No connection could be made because the target machine actively refused it. - connect(2)**. 
+To resolve this issue, follow the steps listed on webonrails.com[http://webonrails.com/2007/09/13/acts_as_solr-starting-solr-server-on-windows/].
 
 However, you might have to revert the **Errno::EBADF** to **Errno::ECONNREFUSED** in the modified vendor/plugins/acts_as_solr/lib/taks/solr.rake script for the solr server to start on windows.
 
-Now you should be ready to run Folksemantic on your machine. For convenience in development, Ruby on Rails comes with two web servers, called WEBrick[http://www.webrick.org/] and Mongrel[http://mongrel.rubyforge.org/] that can be used to run Folksemantic. Use a ruby script to run Folksemantic using WEBrick:
-
-ruby script/server webrick
-
-Populate the database with test data:
-
-rake Folksemantic:db:populate
+Now you should be ready to run Folksemantic on your machine. Start up a local webserver server with the following command:
+  
+  ruby script/server
 
 If all is not good, you will see error messages. If not, open Folksemantic in your favorite web browser: http://localhost:3000/
-
-**Windows Specific Note**: As of 11/12/08, I am not able to install system_timer gem. My work around is to comment it out in environment.rb:
-
-# config.gem 'SystemTimer', :lib => 'system_timer', :version => '1.0'
-
-And in initializers/requires.rb:
-
-# require 'system_timer' # lib/rss_methods.rb
-
-I am not able to get the latest version of hpricot installed. To work around that, I change the required version in environment.rb:
-
-config.gem 'hpricot', :version => '0.6'#.161'
 
 
 === Merge the latest Folksemantic code from the master branch into another branch
@@ -268,7 +269,7 @@ git checkout --track -b <name for local branch> origin/<name of remote branch>
 
 For example:
 
-git checkout --track -b yfh origin/yfh
+git checkout --track -b test origin/test
 
 Use git to merge[http://www.kernel.org/pub/software/scm/git/docs/git-merge.html] updates from the master branch into the branch you just checked out:
 
@@ -276,7 +277,7 @@ git merge master
 
 Now try running the updated branch of Folksemantic to make sure all is well:
 
-ruby script/server webrick 
+ruby script/server 
 
 
 === Run the Folksemantic tests
@@ -286,38 +287,38 @@ rake db:test:prepare
 
 Install the following additional gems - these are required for testing:
     
-* gem install factory_girl 
-* gem install zentest
-* gem install shoulda
-* gem install redgreen
-	
-Rename the file **mail.rb** under ..\Folksemantic\config\initializers to **mail.rb.example**, if not done already.  This is not needed for testing in the test environment.
+  * gem install factory_girl 
+  * gem install zentest
+  * gem install shoulda
+  * gem install redgreen
 
 To run all of the Folksemantic tests:
 
-rake test
+  rake test
 
 To run just the unit, functional, or integration tests:
 
-rake test:units
-rake test:functionals
-rake test:integration
+  rake test:units
+  rake test:functionals
+  rake test:integration
 
 To run a single test script:
 
-ruby <test script ruby file>
+  ruby <test script ruby file>
 
 For example:
 
-ruby test/unit/user_test.rb
+  ruby test/unit/user_test.rb
 
 Each time you run a test the Rails environment is loaded and a clean database is set up. This takes significant time. To avoid this startup time, you can run the tests continuously using autotest:
 
-autotest
+  autotest
 
 When running autotest relevant tests are automatically re-run whenever you change a file.
 
-For more information on Rails testing and autotest, and shoulda (the testing framework that Folksemantic uses) see A Guide to Testing the Rails[http://manuals.rubyonrails.com/read/chapter/20], Getting started with Autotest[http://ph7spot.com/articles/getting_started_with_autotest], and Shoulda testing[http://www.thoughtbot.com/projects/shoulda].
+For more information on Rails testing and autotest, and shoulda (the testing framework that Folksemantic uses) see 
+A Guide to Testing the Rails[http://manuals.rubyonrails.com/read/chapter/20], Getting started 
+with Autotest[http://ph7spot.com/articles/getting_started_with_autotest], and Shoulda testing[http://www.thoughtbot.com/projects/shoulda].
 
 
 === Set up an Aptana Studio project for working on Folksemantic
@@ -336,70 +337,45 @@ In order to work on Folksemantic in Aptana Studio, you will want to create a pro
 
 The project will be set up and its contents will be displayed in the Ruby Explorer on the left side panel.
 
-Note: Aptana Studio comes with powerful recursive search functionality that can help you find things in Folksemantic. To use it, select the parent folder of the files you want to search in the Ruby Explorer, and then choose "File" from the "Search" menu.
+Note: Aptana Studio comes with powerful recursive search functionality that can help you find things in Folksemantic. 
+To use it, select the parent folder of the files you want to search in the Ruby Explorer, and then choose "File" from the "Search" menu.
 
-**Note**: Aptana Studio is very configurable, but by default all files are considered to be ANSI encoded. This means that if you open a UTF8 encoded file or file containing special characters (such as Turkish) in it, the characters will not be displayed correctly. In Folksemantic, this applies especially to the .po translation files. To overcome this problem you can edit those files in a different editor (such as Notepad or poedit), or you can explicitly specify the encoding that Aptana Studio should consider the files to be. To change what encoding Aptana Studio should use for a file, right click on the file and choose Properties from the context sensitive menu. Then choose the "Other" Text file encoding option and select UTF-8, or another appropriate encoding scheme. Close and reopen the file if you already have it open.
-
-
-=== Update translation files
-If the branch that you are working on uses a language other than English, you may need to add or update translation strings. If the branch has been updated and added / changed strings to be translated, you need to make sure you have the latest strings to be translated. If the branch has not changed, but you just want to change the translation, you can just change the existing translation files.
-
-**Make sure you have the latest strings to be translated**
-
-Use rake to generate a new GetText translation template file (/po/Folksemantic.pot):
-
-rake updatepo
-
-Next use GetText's msgmerge utility to merge the updated Folksemantic.pot into the the language file for the translation used for your branch:
-
-msgmerge <pot file> <po file that needs to be updated> -o <name for new po file>
-
-For example:
-
-msgmerge /po/Folksemantic.pot /po/yfh-tr/Folksemantic.po -o /po/yfh-tr/Folksemantic.new.po
-
-Back up the old po file and rename the location of the one used by Folksemantic:
-
-sudo mv /po/yfh-tr/Folksemantic.po /po/yfh-tr/Folksemantic.backup.po
-sudo mv /po/yfh-tr/Folksemantic.new.po /po/yfh-tr/Folksemantic.po
+**Note**: Aptana Studio is very configurable, but by default all files are considered to be ANSI encoded. This means that if you open a 
+UTF8 encoded file or file containing special characters (such as Turkish) in it, the characters will not be displayed correctly. 
+In Folksemantic, this applies especially to the .yml translation files. To overcome this problem you can edit those files in a 
+different editor (such as Notepad), or you can explicitly specify the encoding that Aptana Studio should consider 
+the files to be. To change what encoding Aptana Studio should use for a file, right click on the file and choose Properties 
+from the context sensitive menu. Then choose the "Other" Text file encoding option and select UTF-8, or another appropriate encoding scheme. 
+Close and reopen the file if you already have it open.
 
 
 === Update a translation file
-Open the po file (e.g. po/yfh-tr/Folksemantic.po) in Notepad or a po utiity such as poedit[http://www.poedit.net/]. Add translations for any new messages that don't have one. In an editor, you can find these by searching for: msgstr "".
-
-Now use rake to compile the po (text) file into a format that can be used by GetText (and Folksemantic):
-
-rake makemo
-
-This compiles the translation file to:
-
-locale/yfh-tr/Folksemantic.mo
-
-To test, your translation file, open or refresh the pages where the translation is used in your web browser. If you are running WEBrick in development mode, you should not need to restart it to see the updated translations.
-
-Once you have modified a translation file, you need to copy it up to the server and put it in the correct place. You can do this either by using Capistrano to deploy a new copy of Folksemantic as described in the deploy section of this document, or by copying up just the translation file.
-
-   1. Connect to the server with WinSCP.
-   2. Copy the file to your home directory.
-   3. SSH into the server.
-   4. Copy the file to the deployment directory:
-      sudo cp Folksemantic.mo /var/www/ozmozr/current/locale/yfh-tr/
-   5. Change to the Folksemantic current directory:
-      cd /var/www/ozmozr/current/
-   6. Restart Folksemantic:
-      sudo mongrel_rails cluster::restart
 
 
 === Commit changes to a Folksemantic branch
-In order to deploy updates, first commit your changes to your local repository, and then push them up to github. The gui provided with git can be helpful for reviewing and committing changes:
+In order to deploy updates, first commit your changes to your local repository, and then push them up to github. 
+The gui provided with git can be helpful for reviewing and committing changes:
 
-git gui
+  git gui
 
-Select the changed or added files and click Ctrl + T to stage them for committing. Then type a message describing the commit, and click the Commit button. It is a good idea to create commits that group related changes.
+Select the changed or added files and click Ctrl + T to stage them for committing. Then type a message describing the commit, 
+and click the Commit button. It is a good idea to create commits that group related changes.
 
 
 === Push Folksemantic changes to github
-After you commit changes to your local repository, you can push those changes up to github so they can be pulled down to your production server. If you are still in git gui, do this by clicking the Push button. 
+After you commit changes to your local repository, you can push those changes up to github so 
+they can be pulled down to your production server. If you are still in git gui, do this by clicking the Push button. 
+
+If you prefer using the command line use the following commands:
+  
+Add all changes so that they can be committed:
+  git add . 
+
+Commit changes locally:
+  git commit -m "some interesting message describing the changes you made"
+
+Push change to the remote master branch:
+  git push
 
 
 == Deploy to a Linux server
@@ -411,7 +387,8 @@ Covered in this section
     
 === Generate a private / public key pair and copy your public key to the remote server
 
-Capistrano uses ssh to connect to a linux server to deploy Folksemantic. In order to for this secure connection to occur, you need to set create a private / public key pair on your computer and copy the public key up to the remote server.
+Capistrano uses ssh to connect to a linux server to deploy Folksemantic. In order to for this secure connection to occur, 
+you need to set create a private / public key pair on your computer and copy the public key up to the remote server.
 
    1. Go to a command prompt. 
 
@@ -419,19 +396,19 @@ Capistrano uses ssh to connect to a linux server to deploy Folksemantic. In orde
 === Deploy Folksemantic to the remote server
 Once Capistrano is set up, deploying Folksemantic is as simple as going to the root of Folksemantic at the MINGW32 command prompt and running:
 
-cap deploy
+  cap deploy
 
 Watch the messages it spits out and cross your fingers. Depending on how you have things configured, it may prompt you for the sudo password so it can restart mongrel.
 
 If an error occurs, Capistrano should automatically roll back the deployment and leave you at the state it was in before the deployment was attempted. If you need to manually roll back a deployment:
 
-cap deploy:rollback
+  cap deploy:rollback
 
 When you run cap deploy, it executes the Capfile script located in the current directory. For Rails projects, this file typically just executes config/deploy.rb script.
 
 To see all tasks available via Capistrano:
 
-cap -Tv
+  cap -Tv
 
 Capistrano uses the following directory structure on the server to deploy applications:
 
@@ -444,12 +421,12 @@ Capistrano uses the following directory structure on the server to deploy applic
 
 For example:
 
-/var/www/ozmozr/
-/var/www/ozmozr/shared/
-/var/www/ozmozr/current/
-/var/www/ozmozr/current/app/ (and so on)
-/var/www/ozmozr/releases/200805032003
-/var/www/ozmozr/releases/200805032003/app (and so on)
+/var/www/folksemantic/
+/var/www/folksemantic/shared/
+/var/www/folksemantic/current/
+/var/www/folksemantic/current/app/ (and so on)
+/var/www/folksemantic/releases/200805032003
+/var/www/folksemantic/releases/200805032003/app (and so on)
 
 <containing folder>/shared
 This is where shared files that aren't replaced each time you deploy. For example config/global_config.yml and config/initializers/mail.rb As part of deploying an application, Capistrano sets up symbolic links from these files to the locations where they need to appear underneath the current folder where the application is run from.
@@ -479,17 +456,17 @@ Then press Ctrl+M to sort processes by how much memory they are using.
 === Restart mongrel
 Sometimes you may need to restart mongrel. Go to the current folder and run:
 
-sudo mongrel_rails cluster::restart
+  sudo mongrel_rails cluster::restart
 
 To just stop or start mongrel:
 
-sudo mongrel_rails cluster::stop
-sudo mongrel_rails cluster::start
+  sudo mongrel_rails cluster::stop
+  sudo mongrel_rails cluster::start
 
 Of course if mongrel gets fiesty and won't shut down, there is always:
 
-sudo kill -9 <process id>
+  sudo kill -9 <process id>
 
 To find out the process id for mongrel, use:
 
-sudo ps -ef|grep mongrel
+  sudo ps -ef|grep mongrel

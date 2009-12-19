@@ -41,7 +41,7 @@ I recommend getting a tasty beverage and surfing the net while you wait for this
   sudo gem install feedzirra
   sudo gem install tiny_mce
   sudo gem install geokit
-  sudo gem install httparty
+  sudo gem install httparty -v0.4.4
   sudo gem install oauth
   sudo gem install oauth-plugin
   sudo gem install babelphish

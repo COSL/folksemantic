@@ -34,7 +34,7 @@ Rails::Initializer.run do |config|
   config.gem "feedzirra"
   config.gem 'tiny_mce'
   config.gem 'geokit'
-  config.gem 'httparty'
+  config.gem 'httparty', :version => '~>0.4.3'
   config.gem "oauth"
   config.gem "oauth-plugin"
   config.gem 'babelphish', :version => '>=0.2.6'
