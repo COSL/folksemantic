@@ -398,13 +398,16 @@ Once Capistrano is set up, deploying Folksemantic is as simple as going to the r
 
   cap deploy
 
-Watch the messages it spits out and cross your fingers. Depending on how you have things configured, it may prompt you for the sudo password so it can restart mongrel.
+Watch the messages it spits out and cross your fingers. Depending on how you have things configured, it may prompt you for the 
+sudo password so it can restart mongrel.
 
-If an error occurs, Capistrano should automatically roll back the deployment and leave you at the state it was in before the deployment was attempted. If you need to manually roll back a deployment:
+If an error occurs, Capistrano should automatically roll back the deployment and leave you at the state it was in before the 
+deployment was attempted. If you need to manually roll back a deployment:
 
   cap deploy:rollback
 
-When you run cap deploy, it executes the Capfile script located in the current directory. For Rails projects, this file typically just executes config/deploy.rb script.
+When you run cap deploy, it executes the Capfile script located in the current directory. For Rails projects, this file typically 
+just executes config/deploy.rb script.
 
 To see all tasks available via Capistrano:
 
@@ -432,7 +435,7 @@ For example:
 This is where shared files that aren't replaced each time you deploy. For example config/global_config.yml and config/initializers/mail.rb As part of deploying an application, Capistrano sets up symbolic links from these files to the locations where they need to appear underneath the current folder where the application is run from.
 
 <containing folder>/current
-This is a symbolic link to a specific release folder (e.g. /var/www/ozmozr/releases/200805032003)
+This is a symbolic link to a specific release folder (e.g. /var/www/folksemantic/releases/200805032003)
 
 For more information on Capistrano see the Capistrano project website[http://www.capify.org/].
 
@@ -440,15 +443,15 @@ For more information on Capistrano see the Capistrano project website[http://www
 === Diagnose and fix problems on the server
 If Folksemantic doesn't start up, you can tail the production.log to see if it provides any clues about what is happening.
 
-tail -F logs/production.log
+  tail -F logs/production.log
 
 To verify that Folksemantic is running you can check to see that the Rails server is up and running. If it is mongrel:
 
-sudo ps -ef|grep mongrel
+  sudo ps -ef|grep mongrel
 
 You can also look at the processes:
 
-top
+  top
 
 Then press Ctrl+M to sort processes by how much memory they are using.
 
@@ -470,3 +473,5 @@ Of course if mongrel gets fiesty and won't shut down, there is always:
 To find out the process id for mongrel, use:
 
   sudo ps -ef|grep mongrel
+  
+  

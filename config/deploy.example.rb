@@ -90,7 +90,7 @@ task :install_gems do
   run('sudo gem install muck-blogs')
   run('sudo gem install muck-invites')
   run('sudo gem install muck-oauth')
-  run('sudo gem cleanup')
+  #run('sudo gem cleanup')
 end
 
 # TASKS
