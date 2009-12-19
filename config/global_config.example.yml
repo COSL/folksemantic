@@ -79,7 +79,10 @@ default: &DEFAULT
   combine_feeds_on_server: false          # Combines feeds loaded on the server
   
   # Geo Kit Configuration
-  # TODO make sure the google_ajax_api_key from above can be used with geokit.  If it can then refactor and remove google_geo_key in favor of just using a single key.
+  # TODO make sure the google_ajax_api_key from above can be used with geokit.  If it can then refactor and remove google_geo_key in 
+  # favor of just using a single key.
+  # This configuration is used by the geokit gem to contact Google and Yahoo to connect with their geo related apis.  Currently,
+  # the profile uses this information to guess a user's location and encourage them to provide it as part of the profile.
   google_geo_key: '' # Get google key from http://www.google.com/apis/maps/signup.html
   yahoo_geo_key: '' # Get yahoo key from http://developer.yahoo.com/maps/rest/V1/geocode.html
     
@@ -119,6 +122,9 @@ default: &DEFAULT
 
   # Activity Configuration
   enable_live_activity_updates: true  # Turns on polling inside the user's activity feed so they constantly get updates from the site
+                                      # If the client has their dashboard open and this is true then javascript on the client will contact the 
+                                      # server every 'live_activity_update_interval' seconds and try to reload new activities. This can have a
+                                      # dramatic performance impact on the server if there are a lot of users.
   live_activity_update_interval: 60   # time between updates to live activity feed in seconds
   enable_activity_comments: true      # Turn on comments in the activity feed
   enable_activity_file_uploads: true  # Turn on file uploads in the activity feed.  Requires that uploader be installed.
