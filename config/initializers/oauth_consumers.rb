@@ -50,7 +50,11 @@ OAUTH_CREDENTIALS = {
     :key => GlobalConfig.google_oauth_key,
     :secret => GlobalConfig.google_oauth_secret,
     :scope => "https://mail.google.com/mail/feed/atom/" # see http://code.google.com/apis/gdata/faq.html#AuthScopes
-  }
+  },
+  # :yahoo => {
+  #   :key => GlobalConfig.yahoo_oauth_key,
+  #   :secret => GlobalConfig.yahoo_oauth_secret
+  # }
 } unless defined? OAUTH_CREDENTIALS
 
 load 'oauth/models/consumers/service_loader.rb'
