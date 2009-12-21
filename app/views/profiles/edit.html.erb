@@ -1,15 +1,6 @@
 <% mce_id = "#{@profile.dom_id}_content"
 location_id = 'location' -%>
 <%= tiny_mce_messages_and_scripts_for(mce_id, @profile) %>
-
-
-<div id="oauth-services">
-  <h2><%= t('folksemantic.connect_account') -%></h2>
-  <a href="/oauth_consumers/twitter" class="fancybox iframe" title="Connect your Twitter account to Folksemantic">
-    <img src="/images/service_icons/24/twitter.png" width="24" height="24" alt="Twitter icon" />
-  </a>
-</div>
-
 <div id="edit_content" class="span-24 colborder column">
   <%= output_errors(t('muck.profiles.problem_editing_profile'), {:class => 'help-box'}, @profile) %>
   <% profile_form(@profile) do |f| -%>
@@ -25,4 +16,10 @@ location_id = 'location' -%>
                               :class => 'mceEditor',
                               :id => mce_id} %>
   <% end -%>
+  <div id="oauth-services">
+    <h2><%= t('folksemantic.connect_account') -%></h2>
+    <%= oauth_fancybox_scripts %>
+    <%= oauth_current_services(current_user) %>
+    <%= oauth_available_services(current_user) %>
+  </div>
 </div>

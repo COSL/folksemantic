@@ -41,6 +41,7 @@
 # }
 # 
 OAUTH_CREDENTIALS = {
+  #  http://twitter.com/apps
   :twitter => {
     :key => GlobalConfig.twitter_oauth_key,
     :secret => GlobalConfig.twitter_oauth_secret
