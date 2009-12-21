@@ -45,6 +45,11 @@ OAUTH_CREDENTIALS = {
   :twitter => {
     :key => GlobalConfig.twitter_oauth_key,
     :secret => GlobalConfig.twitter_oauth_secret
+  },
+  :google => {
+    :key => GlobalConfig.google_oauth_key,
+    :secret => GlobalConfig.google_oauth_secret,
+    :scope => "https://mail.google.com/mail/feed/atom/" # see http://code.google.com/apis/gdata/faq.html#AuthScopes
   }
 } unless defined? OAUTH_CREDENTIALS
 
