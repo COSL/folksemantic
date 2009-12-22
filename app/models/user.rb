@@ -56,14 +56,9 @@ class User < ActiveRecord::Base
   acts_as_muck_inviter
   has_muck_recommendations
   acts_as_muck_recommendation
+  acts_as_muck_oauth_user
   
   has_many :uploads, :as => :uploadable, :order => 'created_at desc', :dependent => :destroy 
-  
-  has_many :client_applications
-  has_many :tokens, :class_name => "OauthToken", :order => "authorized_at desc", :include => [:client_application]
-
-  has_one  :twitter_token, :class_name => "TwitterToken", :dependent => :destroy
-  
   
   def after_create
     add_activity(self, self, self, 'welcome', '', '')
