@@ -73,7 +73,7 @@ default: &DEFAULT
   ecs_to_rss_wishlist: "http://www.example.com/ecs_to_rss-wishlist.xslt" # xslt file that can transform xml from Amazon.  This file is found in /public/ecs_to_rss-wishlist.xslt and so changing example.com to you domain will make this work.
   
   google_ajax_api_key: ''                 # get a Google ajax api key: http://code.google.com/apis/ajaxsearch/signup.html
-  google_ajax_referer: 'www.example.com'  # The website making requests to google.
+  request_referer: 'www.example.com'  # The website making requests to google.
   show_google_search: true                # Determines whether or not a google search is displayed on the topic page
   load_feeds_on_server: false             # Determines whether feeds on a topic page are loaded on the server or the client.  Loading on the server can take a while
   combine_feeds_on_server: false          # Combines feeds loaded on the server
