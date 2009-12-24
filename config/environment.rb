@@ -53,7 +53,7 @@ Rails::Initializer.run do |config|
   config.gem 'muck-contents', :lib => 'muck_contents', :version => '>=0.2.13'
   config.gem 'muck-blogs', :lib => 'muck_blogs', :version => '>=0.1.8'
   config.gem 'muck-invites', :lib => 'muck_invites', :version => '>=0.1.5'
-  config.gem 'muck-oauth', :lib => 'muck_oauth', :version => '>=0.1.3'
+  config.gem 'muck-oauth', :lib => 'muck_oauth', :version => '>=0.1.4'
 
   # Only load the plugins named here, in the order given (default is alphabetical).
   # :all can be used as a placeholder for all plugins not explicitly named
