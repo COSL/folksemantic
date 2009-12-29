@@ -134,7 +134,7 @@ function special_website_url(url) {
         }
     }
     // MIT
-    else if (url.indexOf("http://ocw.mit.edu/") == 0)
+    else if (url.indexOf("http://ocw.mit.edu/") == 0 && url.indexOf("http://ocw.mit.edu/OcwWeb/web") == -1)
         {
             bSpecialSite = true;
             bMIT = true;
@@ -190,16 +190,20 @@ function identifySquatParent() {
         }
         // everything else
         else {
-            if (body.parentNode) {
-                squatParent = body.parentNode;
-                squatSibling = body.nextSibling;
-            }
+             setDefaultSquatParent();
         }
     }
 }
 
-String.prototype.startsWith = function(str)
-{
+function setDefaultSquatParent() {
+     if (document.body) {
+         squatParent = document.body;
+         squatSibling = document.body.firstChild;
+	 bSpecialSite = false;
+     }
+}
+
+String.prototype.startsWith = function(str) {
     return (this.match("^" + str) == str)
 }
 
@@ -231,16 +235,17 @@ function recList(recommendations, sDirectLinkText) {
         rec_title = recommendations[i].getElementsByTagName('title')[0].textContent;
         link_uri = recommendations[i].getElementsByTagName('link')[0].textContent;
         collection = recommendations[i].getElementsByTagName('collection')[0].textContent;
-        has_direct_link = recommendations[i].getElementsByTagName('has_direct_link')[0];
+        //has_direct_link = recommendations[i].getElementsByTagName('has_direct_link')[0];
         rec_link = link_uri;
         rec_description = recommendations[i].getElementsByTagName('description')[0].textContent;
         rec_tag = '<a href="' + rec_link + '" style="color:#3987DC !important; text-decoration:none !important; " target="_top">' + rec_title + ' (' + collection + ')</a>';
-        direct_link_tag = has_direct_link ? ' <a href="' + rec_link + '&target=direct_link" style="color:#556664 !important; text-decoration:none !important; " target="_top">' + sDirectLinkText + '</a>' : "";
+        //direct_link_tag = has_direct_link ? ' <a href="' + rec_link + '&target=direct_link" style="color:#556664 !important; text-decoration:none !important; " target="_top">' + sDirectLinkText + '</a>' : "";
+        direct_link_tag = "";
 
         // our lists are different in educommons and on MIT's websites
         if (bSpecialSite == true)
         {
-            sRecList += "<p style='font-size:12px;'>";
+            sRecList += "<p style='font-size:12px;padding-left:4px;'>";
             sRecList += rec_tag + direct_link_tag;
             sRecList += "</p>";
         }
@@ -319,7 +324,7 @@ function positionSquatter(recommendersquat, bRealTime) {
 
 function squatterHeader(sTitle, bFrame) {
  border = bFrame ? "border-top:1px solid black;border-right:1px solid black;border-left:1px solid black;width:240px;" : "border:none;";
- return '<div id="recommendertop" style="color:#777;background-color:white;font-weight:bold;font-size:16px;font-family:Arial,Helvetica,sans-serif;margin: 2px 3px 0 3px; padding: 2px;' + border + '"><img src="' + sBaseUrl + '/images/folksemantic/logo-folksemantic-gm.gif" style="vertical-align:middle;"/>&nbsp;&nbsp;' + sTitle + '</div>';
+ return '<div id="recommendertop" style="color:#777;background-color:white;font-weight:bold;font-size:14px;font-family:Arial,Helvetica,sans-serif;margin: 2px 3px 0 3px; padding: 2px;' + border + '"><img src="' + sBaseUrl + '/images/folksemantic/logo-folksemantic-gm.gif" style="vertical-align:middle;"/>&nbsp;&nbsp;' + sTitle + '</div>';
 }
 
 function squatterContent(root, recommendations) {
@@ -327,7 +332,8 @@ function squatterContent(root, recommendations) {
 }
 
 function displayGetRecsButton(root,sUrl) {
-    src = sBaseUrl + 'recommendations/get_button?u=' + escape(sUrl);
+    setDefaultSquatParent();
+    src = sBaseUrl + 'recommendations/get_button?u=' + sUrl;
     header = squatterHeader(root.getAttribute("title"),true);
     displaySquatter(header + '<iframe allowtransparency="true" scrolling="false" width="250px" height="280px" frameborder="0" src="' + src + '"></iframe>', true);
 }
@@ -377,7 +383,7 @@ var bNeedsRecord = false;
 var body = null;
 var bodyTags = document.getElementsByTagName('body');
 var demoDomains = ['http://ocw.mit.edu','http://www.engineeringpathway.com'];
-var blacklistedDomains = ['google.com','localhost','folksemantic.com','ocwfinder.org','ocwfinder.com','oerrecommender.org'];
+var blacklistedDomains = [sBaseUrl,'google.com','localhost','folksemantic.com','ocwfinder.org','ocwfinder.com','oerrecommender.org'];
 if (sUrlToGetRecsFor.indexOf('http') == 0 && bodyTags && bodyTags.length > 0)
 {
     sUrlToGetRecsFor = special_website_url(sUrlToGetRecsFor);
