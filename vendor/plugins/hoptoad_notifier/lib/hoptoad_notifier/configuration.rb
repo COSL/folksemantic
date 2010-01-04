@@ -3,11 +3,11 @@ module HoptoadNotifier
   class Configuration
 
     OPTIONS = [:api_key, :backtrace_filters, :development_environments,
-      :environment_filters, :environment_name, :host, :http_open_timeout,
-        :http_read_timeout, :ignore, :ignore_by_filters, :ignore_user_agent,
-        :notifier_name, :notifier_url, :notifier_version, :params_filters,
-        :project_root, :port, :protocol, :proxy_host, :proxy_pass, :proxy_port,
-        :proxy_user, :secure].freeze
+        :development_lookup, :environment_name, :host,
+        :http_open_timeout, :http_read_timeout, :ignore, :ignore_by_filters,
+        :ignore_user_agent, :notifier_name, :notifier_url, :notifier_version,
+        :params_filters, :project_root, :port, :protocol, :proxy_host,
+        :proxy_pass, :proxy_port, :proxy_user, :secure].freeze
 
     # The API key for your project, found on the project edit form.
     attr_accessor :api_key
@@ -44,10 +44,6 @@ module HoptoadNotifier
     # By default, all "password" attributes will have their contents replaced.
     attr_reader :params_filters
 
-    # A list of environment keys that should be filtered out of what is send to Hoptoad.
-    # Empty by default.
-    attr_reader :environment_filters
-
     # A list of filters for cleaning and pruning the backtrace. See #filter_backtrace.
     attr_reader :backtrace_filters
 
@@ -62,6 +58,9 @@ module HoptoadNotifier
 
     # A list of environments in which notifications should not be sent.
     attr_accessor :development_environments
+
+    # +true+ if you want to check for production errors matching development errors, +false+ otherwise.
+    attr_accessor :development_lookup
 
     # The name of the environment the application is running in
     attr_accessor :environment_name
@@ -117,12 +116,12 @@ module HoptoadNotifier
       @http_open_timeout        = 2
       @http_read_timeout        = 5
       @params_filters           = DEFAULT_PARAMS_FILTERS.dup
-      @environment_filters      = []
       @backtrace_filters        = DEFAULT_BACKTRACE_FILTERS.dup
       @ignore_by_filters        = []
       @ignore                   = IGNORE_DEFAULT.dup
       @ignore_user_agent        = []
-      @development_environments = %w(development test)
+      @development_environments = %w(development test cucumber)
+      @development_lookup       = true
       @notifier_name            = 'Hoptoad Notifier'
       @notifier_version         = VERSION
       @notifier_url             = 'http://hoptoadapp.com'
@@ -198,14 +197,8 @@ module HoptoadNotifier
       !development_environments.include?(environment_name)
     end
 
-    protected
-
     def port
-      @port ||= if secure?
-                  443
-                else
-                  80
-                end
+      @port || default_port
     end
 
     def protocol
@@ -215,5 +208,22 @@ module HoptoadNotifier
         'http'
       end
     end
+
+    def environment_filters
+      warn 'config.environment_filters has been deprecated and has no effect.'
+      []
+    end
+
+    private
+
+    def default_port
+      if secure?
+        443
+      else
+        80
+      end
+    end
+
   end
+
 end

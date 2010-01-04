@@ -11,7 +11,7 @@ require 'hoptoad_notifier/backtrace'
 # Plugin for applications to automatically post errors to the Hoptoad of their choice.
 module HoptoadNotifier
 
-  VERSION = "2.0.0"
+  VERSION = "2.0.18"
   API_VERSION = "2.0"
   LOG_PREFIX = "** [Hoptoad] "
 
@@ -72,11 +72,11 @@ module HoptoadNotifier
     #     config.api_key = '1234567890abcdef'
     #     config.secure  = false
     #   end
-    def configure
+    def configure(silent = false)
       self.configuration ||= Configuration.new
       yield(configuration)
       self.sender = Sender.new(configuration)
-      report_ready
+      report_ready unless silent
     end
 
     # Sends an exception manually using this method, even when you are not in a controller.
@@ -101,6 +101,23 @@ module HoptoadNotifier
       send_notice(notice) unless notice.ignore?
     end
 
+    def build_lookup_hash_for(exception, options = {})
+      notice = build_notice_for(exception, options)
+
+      result = {}
+      result[:action]           = notice.action      rescue nil
+      result[:component]        = notice.component   rescue nil
+      result[:error_class]      = notice.error_class if notice.error_class
+      result[:environment_name] = 'production'
+
+      unless notice.backtrace.lines.empty?
+        result[:file]        = notice.backtrace.lines.first.file
+        result[:line_number] = notice.backtrace.lines.first.number
+      end
+
+      result
+    end
+
     private
 
     def send_notice(notice)
@@ -110,12 +127,23 @@ module HoptoadNotifier
     end
 
     def build_notice_for(exception, opts = {})
+      exception = unwrap_exception(exception)
       if exception.respond_to?(:to_hash)
         opts = opts.merge(exception)
       else
         opts = opts.merge(:exception => exception)
       end
       Notice.new(configuration.merge(opts))
+    end
+
+    def unwrap_exception(exception)
+      if exception.respond_to?(:original_exception)
+        exception.original_exception
+      elsif exception.respond_to?(:continued_exception)
+        exception.continued_exception
+      else
+        exception
+      end
     end
   end
 end

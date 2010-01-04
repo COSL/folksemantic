@@ -2,6 +2,12 @@ require File.dirname(__FILE__) + '/helper'
 
 class NotifierTest < Test::Unit::TestCase
 
+  class OriginalException < Exception
+  end
+
+  class ContinuedException < Exception
+  end
+
   include DefinesConstants
 
   def setup
@@ -136,4 +142,81 @@ class NotifierTest < Test::Unit::TestCase
     end
   end
 
+  context "building notice JSON for an exception" do
+    setup do
+      @params    = { :controller => "users", :action => "create" }
+      @exception = build_exception
+      @hash      = HoptoadNotifier.build_lookup_hash_for(@exception, @params)
+    end
+
+    should "set action" do
+      assert_equal @params[:action], @hash[:action]
+    end
+
+    should "set controller" do
+      assert_equal @params[:controller], @hash[:component]
+    end
+
+    should "set line number" do
+      assert @hash[:line_number] =~ /\d+/
+    end
+
+    should "set file" do
+      assert_match /\/test\/helper\.rb$/, @hash[:file]
+    end
+
+    should "set rails_env to production" do
+      assert_equal 'production', @hash[:environment_name]
+    end
+
+    should "set error class" do
+      assert_equal 'RuntimeError', @hash[:error_class]
+    end
+
+    should "not set file or line number with no backtrace" do
+      @exception.stubs(:backtrace).returns([])
+
+      @hash = HoptoadNotifier.build_lookup_hash_for(@exception)
+
+      assert_nil @hash[:line_number]
+      assert_nil @hash[:file]
+    end
+
+    should "not set action or controller when not provided" do
+      @hash = HoptoadNotifier.build_lookup_hash_for(@exception)
+
+      assert_nil @hash[:action]
+      assert_nil @hash[:controller]
+    end
+
+    context "when an exception that provides #original_exception is raised" do
+      setup do
+        @exception.stubs(:original_exception).returns(begin
+          raise NotifierTest::OriginalException.new
+        rescue Exception => e
+          e
+        end)
+      end
+
+      should "unwrap exceptions that provide #original_exception" do
+        @hash = HoptoadNotifier.build_lookup_hash_for(@exception)
+        assert_equal "NotifierTest::OriginalException", @hash[:error_class]
+      end
+    end
+
+    context "when an exception that provides #continued_exception is raised" do
+      setup do
+        @exception.stubs(:continued_exception).returns(begin
+          raise NotifierTest::ContinuedException.new
+        rescue Exception => e
+          e
+        end)
+      end
+
+      should "unwrap exceptions that provide #continued_exception" do
+        @hash = HoptoadNotifier.build_lookup_hash_for(@exception)
+        assert_equal "NotifierTest::ContinuedException", @hash[:error_class]
+      end
+    end
+  end
 end

@@ -22,25 +22,33 @@ class ConfigurationTest < Test::Unit::TestCase
     assert_config_default :ignore_user_agent,   []
     assert_config_default :params_filters,
                           HoptoadNotifier::Configuration::DEFAULT_PARAMS_FILTERS
-    assert_config_default :environment_filters, []
     assert_config_default :backtrace_filters,
                           HoptoadNotifier::Configuration::DEFAULT_BACKTRACE_FILTERS
     assert_config_default :ignore,
                           HoptoadNotifier::Configuration::IGNORE_DEFAULT
+    assert_config_default :development_lookup, true
   end
 
   should "provide default values for secure connections" do
     config = HoptoadNotifier::Configuration.new
     config.secure = true
-    assert_config_default :port,     443,     config
-    assert_config_default :protocol, 'https', config
+    assert_equal 443, config.port
+    assert_equal 'https', config.protocol
   end
 
   should "provide default values for insecure connections" do
     config = HoptoadNotifier::Configuration.new
     config.secure = false
-    assert_config_default :port,     80,     config
-    assert_config_default :protocol, 'http', config
+    assert_equal 80, config.port
+    assert_equal 'http', config.protocol
+  end
+
+  should "not cache inferred ports" do
+    config = HoptoadNotifier::Configuration.new
+    config.secure = false
+    config.port
+    config.secure = true
+    assert_equal 443, config.port
   end
 
   should "allow values to be overwritten" do
@@ -58,6 +66,7 @@ class ConfigurationTest < Test::Unit::TestCase
     assert_config_overridable :notifier_name
     assert_config_overridable :notifier_url
     assert_config_overridable :environment_name
+    assert_config_overridable :development_lookup
   end
 
   should "have an api key" do
@@ -68,11 +77,11 @@ class ConfigurationTest < Test::Unit::TestCase
     config = HoptoadNotifier::Configuration.new
     hash = config.to_hash
     [:api_key, :backtrace_filters, :development_environments,
-      :environment_filters, :environment_name, :host, :http_open_timeout,
-        :http_read_timeout, :ignore, :ignore_by_filters, :ignore_user_agent,
-        :notifier_name, :notifier_url, :notifier_version, :params_filters,
-        :project_root, :port, :protocol, :proxy_host, :proxy_pass, :proxy_port,
-        :proxy_user, :secure].each do |option|
+     :environment_name, :host, :http_open_timeout,
+     :http_read_timeout, :ignore, :ignore_by_filters, :ignore_user_agent,
+     :notifier_name, :notifier_url, :notifier_version, :params_filters,
+     :project_root, :port, :protocol, :proxy_host, :proxy_pass, :proxy_port,
+     :proxy_user, :secure, :development_lookup].each do |option|
       assert_equal config[option], hash[option], "Wrong value for #{option}"
     end
   end
@@ -87,8 +96,12 @@ class ConfigurationTest < Test::Unit::TestCase
     assert_appends_value :params_filters
   end
 
-  should "allow environment filters to be appended" do
-    assert_appends_value :environment_filters
+  should "warn when attempting to read environment filters" do
+    config = HoptoadNotifier::Configuration.new
+    config.
+      expects(:warn).
+      with(regexp_matches(/deprecated/i))
+    assert_equal [], config.environment_filters
   end
 
   should "allow ignored user agents to be appended" do
@@ -129,7 +142,7 @@ class ConfigurationTest < Test::Unit::TestCase
 
   should "use development and test as development environments by default" do
     config = HoptoadNotifier::Configuration.new
-    assert_same_elements %w(development test), config.development_environments
+    assert_same_elements %w(development test cucumber), config.development_environments
   end
 
   should "be public in a public environment" do
