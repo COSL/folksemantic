@@ -9,7 +9,7 @@ require 'fileutils'
 namespace :muck do
   
   def muck_gems
-    ['uploader', 'muck-solr', 'muck-raker', 'muck-services', 'muck-engine',
+    ['uploader', 'disguise', 'muck-solr', 'muck-raker', 'muck-services', 'muck-engine',
     'muck-users', 'muck-activities', 'muck-comments', 'muck-profiles', 'muck-friends',
     'muck-contents', 'muck-blogs', 'muck-shares', 'muck-invites', 'muck-oauth',
     'babelphish']

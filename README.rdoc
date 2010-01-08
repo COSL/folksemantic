@@ -92,6 +92,19 @@ or on production:
 or on production:
   rake muck:raker:start RAILS_ENV=production
   
+=== Themes
+Folksemantic provides the 'disguise' theme engine so that the interface can be customized based on themes.
+
+Generate a new theme for your Rails application using the built in theme generator:
+
+  ./script/generate theme theme_name
   
+Disguise can run in two modes. The first is the default which let’s an administrator set the current theme via the built in admin interface. 
+The second looks at the url of the incoming request and matches it to a theme. 
+To enable this second mode create an initializer in /config/initializers/disguise.rb and enter the following contents:
+
+  Disguise::USE_DOMAIN_FOR_THEMES = true
+
+
 === Configure languages for subdomains
 

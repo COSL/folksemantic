@@ -12,6 +12,8 @@ require 'tasks/rails'
 require 'uploader'
 require 'uploader/tasks'
 
+require 'disguise/tasks'
+
 require 'acts_as_solr/tasks'
 require 'muck_engine/tasks'
 require 'muck_users/tasks'
