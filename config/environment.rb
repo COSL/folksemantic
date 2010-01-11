@@ -34,18 +34,18 @@ Rails::Initializer.run do |config|
   config.gem "feedzirra"
   config.gem 'tiny_mce'
   config.gem 'geokit'
-  config.gem 'httparty', :version => '~>0.4.3'
+  config.gem 'httparty', :version => '~>0.4.5'
   config.gem "oauth"
   config.gem "oauth-plugin"
   config.gem 'babelphish', :version => '>=0.2.7'
   config.gem 'uploader', :version => '>=0.2.7'
-  config.gem "disguise"
-  config.gem 'muck-engine', :lib => 'muck_engine', :version => '>=0.2.22'
+  config.gem 'disguise', :version => '>=0.3.11'
+  config.gem 'muck-engine', :lib => 'muck_engine', :version => '>=0.2.23'
   config.gem "muck-solr", :lib => 'acts_as_solr', :version => '>=0.4.5'
   config.gem "muck-feedbag", :lib => 'feedbag', :version => '>=0.6.0'
   config.gem "muck-raker", :lib => 'muck_raker', :version => '>=0.3.7'
-  config.gem "muck-services", :lib => 'muck_services', :version => '>=0.1.27'
-  config.gem 'muck-users', :lib => 'muck_users', :version => '>=0.2.19'
+  config.gem "muck-services", :lib => 'muck_services', :version => '>=0.1.28'
+  config.gem 'muck-users', :lib => 'muck_users', :version => '>=0.2.20'
   config.gem 'muck-activities', :lib => 'muck_activities', :version => '>=0.1.25'
   config.gem 'muck-comments', :lib => 'muck_comments', :version => '>=0.1.17'
   config.gem 'muck-profiles', :lib => 'muck_profiles', :version => '>=0.1.18'
