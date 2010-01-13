@@ -30,7 +30,7 @@ Rails::Initializer.run do |config|
   config.gem "friendly_id", :version => '>=2.2.0'
   config.gem "sanitize"
   config.gem "recaptcha", :lib => "recaptcha/rails"
-  config.gem "newrelic_rpm"
+  #config.gem "newrelic_rpm"
   config.gem "feedzirra"
   config.gem 'tiny_mce'
   config.gem 'geokit'
@@ -40,7 +40,7 @@ Rails::Initializer.run do |config|
   config.gem 'babelphish', :version => '>=0.2.7'
   config.gem 'uploader', :version => '>=0.2.7'
   config.gem 'disguise', :version => '>=0.3.11'
-  config.gem 'muck-engine', :lib => 'muck_engine', :version => '>=0.2.23'
+  config.gem 'muck-engine', :lib => 'muck_engine', :version => '>=0.2.24'
   config.gem "muck-solr", :lib => 'acts_as_solr', :version => '>=0.4.5'
   config.gem "muck-feedbag", :lib => 'feedbag', :version => '>=0.6.0'
   config.gem "muck-raker", :lib => 'muck_raker', :version => '>=0.3.7'
