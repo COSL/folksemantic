@@ -30,7 +30,7 @@ Rails::Initializer.run do |config|
   config.gem "friendly_id", :version => '>=2.2.0'
   config.gem "sanitize"
   config.gem "recaptcha", :lib => "recaptcha/rails"
-  #config.gem "newrelic_rpm"
+  config.gem "newrelic_rpm"
   config.gem "feedzirra"
   config.gem 'tiny_mce'
   config.gem 'geokit'
