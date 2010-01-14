@@ -40,6 +40,9 @@ I recommend getting a tasty beverage and surfing the net while you wait for this
   sudo gem install newrelic_rpm
   sudo gem install feedzirra
   sudo gem install tiny_mce
+  sudo gem install facebooker
+  sudo gem install action_mailer_tls
+  sudo gem install aasm
   sudo gem install geokit
   sudo gem install httparty -v0.4.5
   sudo gem install oauth
