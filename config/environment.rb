@@ -37,10 +37,10 @@ Rails::Initializer.run do |config|
   config.gem 'httparty', :version => '~>0.4.5'
   config.gem "oauth"
   config.gem "oauth-plugin"
-  config.gem 'overlord', :version => '>=0.1.12'
+  config.gem 'overlord', :version => '>=0.1.13'
   config.gem 'babelphish', :version => '>=0.2.7'
   config.gem 'uploader', :version => '>=0.2.7'
-  #config.gem 'disguise', :version => '>=0.3.11'
+  config.gem 'disguise', :version => '>=0.3.12'
   config.gem 'muck-engine', :lib => 'muck_engine', :version => '>=0.2.27'
   config.gem "muck-solr", :lib => 'acts_as_solr', :version => '>=0.4.5'
   config.gem "muck-feedbag", :lib => 'feedbag', :version => '>=0.6.0'
