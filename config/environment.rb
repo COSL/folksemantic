@@ -47,7 +47,7 @@ Rails::Initializer.run do |config|
   config.gem "muck-raker", :lib => 'muck_raker', :version => '>=0.3.7'
   config.gem "muck-services", :lib => 'muck_services', :version => '>=0.1.33'
   config.gem 'muck-users', :lib => 'muck_users', :version => '>=0.2.22'
-  config.gem 'muck-activities', :lib => 'muck_activities', :version => '>=0.1.25'
+  config.gem 'muck-activities', :lib => 'muck_activities', :version => '>=0.1.26'
   config.gem 'muck-comments', :lib => 'muck_comments', :version => '>=0.1.18'
   config.gem 'muck-profiles', :lib => 'muck_profiles', :version => '>=0.1.18'
   config.gem 'muck-friends', :lib => 'muck_friends', :version => '>=0.1.17'
