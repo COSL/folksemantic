@@ -37,7 +37,7 @@ Rails::Initializer.run do |config|
   config.gem 'httparty', :version => '~>0.4.5'
   config.gem "oauth"
   config.gem "oauth-plugin"
-  config.gem 'overlord', :version => '>=0.1.13'
+  config.gem 'overlord', :version => '>=0.1.14'
   config.gem 'babelphish', :version => '>=0.2.7'
   config.gem 'uploader', :version => '>=0.2.7'
   config.gem 'disguise', :version => '>=0.3.12'
