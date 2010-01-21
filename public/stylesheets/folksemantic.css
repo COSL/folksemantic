@@ -60,7 +60,7 @@ h3{font-size:14px;font-weight:bold;color:#333;}
 .features li{padding-bottom:6px;}
 .widget-info textarea{font-size:12px;}
 /* profile */
-.friendship-block a, .friendship-description a{background:#2B7EAA;padding:5px 8px;margin:4px;text-decoration:none;color:#fff;font-weight:bold;}
+.friendship-block a, .friendship-description a{text-decoration:none;font-weight:bold;}
 .friendship-block a:hover, .friendship-description a:hover{background:#8EC0DB;}
 /* css for google widgets */
 .slide_show_content {width:250px;height:200px;margin-bottom:40px;padding:5px;}
