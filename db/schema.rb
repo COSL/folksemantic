@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20091210172015) do
+ActiveRecord::Schema.define(:version => 20091217213239) do
 
   create_table "activities", :force => true do |t|
     t.integer  "item_id"
@@ -499,6 +499,11 @@ ActiveRecord::Schema.define(:version => 20091210172015) do
     t.integer  "state_id"
     t.integer  "country_id"
     t.integer  "language_id"
+    t.string   "occupation"
+    t.string   "gender"
+    t.datetime "birthday"
+    t.string   "company"
+    t.string   "alumni_of"
   end
 
   add_index "profiles", ["lat", "lng"], :name => "index_profiles_on_lat_and_lng"
@@ -682,11 +687,14 @@ ActiveRecord::Schema.define(:version => 20091210172015) do
     t.datetime "activated_at"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "oauth_token"
+    t.string   "oauth_secret"
   end
 
   add_index "users", ["email"], :name => "index_users_on_email"
   add_index "users", ["last_request_at"], :name => "index_users_on_last_request_at"
   add_index "users", ["login"], :name => "index_users_on_login"
+  add_index "users", ["oauth_token"], :name => "index_users_on_oauth_token"
   add_index "users", ["perishable_token"], :name => "index_users_on_perishable_token"
   add_index "users", ["persistence_token"], :name => "index_users_on_persistence_token"
   add_index "users", ["single_access_token"], :name => "index_users_on_single_access_token"
