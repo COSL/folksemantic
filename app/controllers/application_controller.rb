@@ -36,13 +36,13 @@ class ApplicationController < ActionController::Base
     def record_not_found
       render :file => File.join(RAILS_ROOT, 'public', '404.html'), :status => 404
     end
-  
+
     # called by Admin::Muck::BaseController to check whether or not the
     # user should have access to the admin UI
     def admin_access_required
       access_denied unless admin?
     end
-
+    
   private
 
     def choose_layout
