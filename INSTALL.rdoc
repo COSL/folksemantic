@@ -95,6 +95,12 @@ development machine because it is also configured to only accept connections fro
 
 This sets it the MySQL server up to run on port 3306.
 
+==== MySQL gem
+You will need to install the mysql gem.  The installation process varies in difficulty based on your platform and 
+system configuration.
+Here's some help for the Mac:
+http://wonko.com/post/how-to-install-the-mysqlruby-gem-on-mac-os-x-leopard
+http://www.justinball.com/2008/07/28/install-native-mysql-gem-edge-rails-stopped-including-it/
 
 === Install Git (version control system)
 

@@ -86,6 +86,22 @@ If you are running these tasks on the production server you will need to add 'RA
   rake muck:raker:db:populate RAILS_ENV=production
   rake muck:raker:db:bootstrap_services RAILS_ENV=production
 
+Create a default admin user.
+  rake muck:users:create_admin
+
+Then sign in to the application with:
+  username: admin
+  password: asdfasdf
+  
+If you run this task on a production server be sure to change the password.
+  
+=== Setup New Relic
+By default folksemantic uses New Relic to monitor website performance.  config/newrelic.yml.example to config/newrelic.yml and get a get from http://www.newrelic.com.
+You might also want to use their install instructions to ensure you have the latest yml file
+
+== Where to Go Next
+Now that the system is installed you can start harvesting feeds and customizing the UI.
+
 === Start solr
   rake solr:start
 or on production:
@@ -95,7 +111,19 @@ or on production:
   rake muck:raker:start
 or on production:
   rake muck:raker:start RAILS_ENV=production
-  
+
+
+=== Add default feeds
+You can add a set of default feeds that represent the OCW and OER community.  Do this by running:
+  rake muck:services:db:bootstrap 
+
+Run the feed harvester.  This will download entries for each feed in the database and so it might take a while to run.
+  rake muck:raker:harvest 
+
+Run the recommender.  This will create recommendations for each of the entries in the database:
+  rake muck:raker:recommend
+    
+    
 === Themes
 Folksemantic provides the 'disguise' theme engine so that the interface can be customized based on themes.
 
@@ -108,7 +136,7 @@ The second looks at the url of the incoming request and matches it to a theme.
 To enable this second mode create an initializer in /config/initializers/disguise.rb and enter the following contents:
 
   Disguise::USE_DOMAIN_FOR_THEMES = true
-
-
+  
+  
 === Configure languages for subdomains
 

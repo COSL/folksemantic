@@ -1,6 +1,7 @@
 <% mce_id = "#{@profile.dom_id}_content"
 location_id = 'location' -%>
 <%= tiny_mce_messages_and_scripts_for(mce_id, @profile) %>
+<%= country_scripts %>
 <div id="edit_content" class="span-24 colborder column">
   <%= output_errors(t('muck.profiles.problem_editing_profile'), {:class => 'help-box'}, @profile) %>
   <% profile_form(@profile) do |f| -%>

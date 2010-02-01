@@ -45,9 +45,7 @@
 </div>
 
 <% content_for :javascript do  -%>
-  setup_submit_delete();
   function upload_completed_callback(data){
     jQuery('#upload-list').prepend(data);
-    setup_submit_delete();
   }
 <% end -%>
