@@ -117,12 +117,14 @@ or on production:
 You can add a set of default feeds that represent the OCW and OER community.  Do this by running:
   rake muck:services:db:bootstrap 
 
-Run the feed harvester.  This will download entries for each feed in the database and so it might take a while to run.
-  rake muck:raker:harvest 
-
-Run the recommender.  This will create recommendations for each of the entries in the database:
-  rake muck:raker:recommend
+Start up the harvesting and recommendation system:
+  rake muck:raker:start
     
+Output will be logged to:
+  log/raker.log file
+    
+Stop the system with:
+  rake muck:raker:stop
     
 === Themes
 Folksemantic provides the 'disguise' theme engine so that the interface can be customized based on themes.
