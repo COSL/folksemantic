@@ -76,15 +76,17 @@ Run the rake tasks needed to setup and populate the database:
   rake db:create
   rake db:migrate
   rake muck:db:populate
-  rake muck:raker:db:populate 
-  rake muck:raker:db:bootstrap_services 
+  rake muck:services:db:populate
+  rake muck:services:db:bootstrap_services
+  rake muck:services:db:create_global_feeds_aggregation
 
 If you are running these tasks on the production server you will need to add 'RAILS_ENV=production'  
   rake db:create RAILS_ENV=production
   rake db:migrate RAILS_ENV=production
   rake muck:db:populate RAILS_ENV=production
-  rake muck:raker:db:populate RAILS_ENV=production
-  rake muck:raker:db:bootstrap_services RAILS_ENV=production
+  rake muck:services:db:populate RAILS_ENV=production
+  rake muck:services:db:bootstrap_services RAILS_ENV=production
+  rake muck:services:db:create_global_feeds_aggregation RAILS_ENV=production
 
 Create a default admin user.
   rake muck:users:create_admin
