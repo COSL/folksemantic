@@ -23,15 +23,15 @@ class ApplicationController < ActionController::Base
 
     # **********************************************
     # SSL method
-    # only require ssl if we are in production
+    # only require ssl if it is turned on
     def ssl_required?
-      return false unless GlobalConfig.enable_ssl
-      return ENV['SSL'] == 'on' ? true : false if defined? ENV['SSL']
-      return false if local_request?
-      return false if RAILS_ENV == 'test'
-      ((self.class.read_inheritable_attribute(:ssl_required_actions) || []).include?(action_name.to_sym)) && (RAILS_ENV == 'production' || RAILS_ENV == 'staging')
+      if GlobalConfig.enable_ssl
+        (self.class.read_inheritable_attribute(:ssl_required_actions) || []).include?(action_name.to_sym)
+      else
+        false
+      end
     end
-    
+
     # Automatically respond with 404 for ActiveRecord::RecordNotFound
     def record_not_found
       render :file => File.join(RAILS_ROOT, 'public', '404.html'), :status => 404
