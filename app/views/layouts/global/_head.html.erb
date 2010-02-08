@@ -5,6 +5,7 @@
 <meta name="robots" content="all" />
 <meta name="resource-type" content="document" />
 <meta name="MSSmartTagsPreventParsing" content="true" />
+<%= google_load_jquery_ui_css(http_protocol) %>
 <%= stylesheet_link_tag 'blueprint/print.css', :media => "print" %>
 <!--[if IE]><link rel="stylesheet" href="/stylesheets/blueprint/ie.css" type="text/css" media="screen, projection"><![endif]-->
 <%= stylesheet_link_tag %W{ reset blueprint/liquid_screen.css jquery/jquery.fancybox.css styles frame muck-services muck-activities muck-invites }, :cache => true %>
@@ -13,6 +14,7 @@
 <%= google_load_jquery_ui(http_protocol) %>
 <%= javascript_include_tag %w{
             jquery/jrails.js
+            jquery/jquery.form.js
             jquery/jquery.jgrowl.js
             jquery/jquery.tips.js
             jquery/jquery.easing.js
