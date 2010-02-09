@@ -44,12 +44,14 @@ I recommend getting a tasty beverage and surfing the net while you wait for this
   sudo gem install action_mailer_tls
   sudo gem install aasm
   sudo gem install geokit
+  sudo gem install hoptoad_notifier
   sudo gem install httparty -v0.4.5
   sudo gem install oauth
   sudo gem install oauth-plugin
   sudo gem install babelphish
   sudo gem install disguise
   sudo gem install uploader
+  sudo gem install disguise
   sudo gem install muck-engine
   sudo gem install muck-solr
   sudo gem install muck-feedbag
