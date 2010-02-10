@@ -19,6 +19,8 @@ ActionController::Routing::Routes.draw do |map|
   
   map.resources :uploads, :collection => { :photos => :get, :swfupload => :post }
   map.resources :profiles
+  map.connect 'search/results.:format', :controller => 'muck/entries', :action => 'search'
+
   map.public_user '/profiles/:id', :controller => 'profiles', :action => 'show'
   #map.logout_complete '/login', :controller => 'user_sessions', :action => 'new'  
   
