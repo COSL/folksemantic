@@ -21,7 +21,7 @@ class ApplicationController < ActionController::Base
       locale = extract_locale_from_user_selection || extract_locale_from_subdomain
       if !locale
         locale = extract_locale_from_headers
-        redirect_to_subdomain_locale if locale
+        #redirect_to_subdomain_locale if locale
       end
       locale ||= I18n.default_locale
       I18n.locale = locale
