@@ -18,20 +18,7 @@ class ApplicationController < ActionController::Base
   protected
 
     def set_locale
-      locale = extract_locale_from_user_selection || extract_locale_from_subdomain
-      if !locale
-        locale = extract_locale_from_headers
-        #redirect_to_subdomain_locale if locale
-      end
-      locale ||= I18n.default_locale
-      I18n.locale = locale
-    end
-
-    # Redirects to a subdomain matching the current locale.  This method should only be called after discover_locale
-    def redirect_to_subdomain_locale
-      if I18n.default_locale.to_s != I18n.locale.to_s && I18n.locale.to_s != request.subdomains.first
-        redirect_to "#{request.protocol}#{I18n.locale}.#{request.host_with_port}#{request.request_uri}"
-      end
+      I18n.locale = extract_locale_from_url || extract_locale_from_subdomain
     end
     
     # **********************************************
