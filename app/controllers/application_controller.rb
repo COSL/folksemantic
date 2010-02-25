@@ -30,7 +30,7 @@ class ApplicationController < ActionController::Base
     # Redirects to a subdomain matching the current locale.  This method should only be called after discover_locale
     def redirect_to_subdomain_locale
       if I18n.default_locale.to_s != I18n.locale.to_s && I18n.locale.to_s != request.subdomains.first
-        redirect_to request.protocol + I18n.locale + '.' + request.host_with_port + request.request_uri
+        redirect_to "#{request.protocol}#{I18n.locale}.#{request.host_with_port}#{request.request_uri}"
       end
     end
     
