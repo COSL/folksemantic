@@ -19,8 +19,16 @@ class ApplicationController < ActionController::Base
 
     def set_locale
       discover_locale
+      redirect_to_subdomain_locale
     end
 
+    # Redirects to a subdomain matching the current locale.  This method should only be called after discover_locale
+    def redirect_to_subdomain_locale
+      if I18n.default_locale != I18n.locale && I18n.locale != request.subdomains.first
+        redirect_to request.protocol + I18n.locale + '.' + request.host_with_port + request_uri
+      end
+    end
+    
     # **********************************************
     # SSL method
     # only require ssl if it is turned on

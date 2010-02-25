@@ -1,8 +1,7 @@
 class DefaultController < ApplicationController
 
   before_filter :go_to_dashboard, :only => :index
-  caches_page [:contact, :widgets, :oerrecommender, :integration]
-  caches_action [:index]
+  caches_action [:index, :contact, :widgets, :oerrecommender, :integration]
 
   def index
     respond_to do |format|
