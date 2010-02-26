@@ -14,13 +14,17 @@ hi:
     subject: "विषय:"
     subject_help: "एक साधारण आपकी प्रतिक्रिया की प्रकृति का संकेत बयान."
   folksemantic: 
+    about: "जानें Folksemantic परियोजना के बारे में अधिक"
+    actions: कार्रवाई
     add_edit_feeds: "जोड़ें / संपादित करें फ़ीड"
+    advanced_widget_options: "उन्नत सेटिंग्स विजेट"
     all_resources: सब
     atom: एटम
     browse_resources: "ब्राउज़ संसाधन"
     calculated: गणना
     collections: संग्रह
     collections_long: "अनुक्रमित संग्रह"
+    connect_account: "आपके खाते से कनेक्ट:"
     contribute_repository: "योगदान OCW / OER भंडार"
     credits: "<a href=\"http://nsf.gov/\">राष्ट्रीय विज्ञान फाउंडेशन</a> और <a href=\"http://www.mellon.org/\">एंड्रयू डब्ल्यू मेलॉन फाउंडेशन</a> से धन के साथ <a href=\"http://cosl.usu.edu\">खुला और सतत शिक्षा के लिए केंद्र</a> के लिए <a href=\"http://www.tatemae.com\">Tatemae</a> द्वारा विकसित"
     demo: डेमो
@@ -46,6 +50,7 @@ hi:
       why: "क्यों FOLKSEMANTIC?"
       widgets_pitch: "अपने वेब पेज के लिए OER सिफारिशें प्राप्त करना चाहते हैं?"
     just_ocws: पाठ्यक्रम
+    latest_comments: "नवीनतम टिप्पणियाँ"
     metadata: Metadata
     next: अगला
     no_hits: "कोई हिट. कृपया किसी भिन्न खोज का प्रयास करें या कोई अन्य भाषा को चुन सकते हैं."
@@ -98,6 +103,8 @@ hi:
     raker: 
       add_extended_feed_sub_title: ~
       add_extended_feed_title: "योगदान OCW / OER भंडार"
+    services: 
+      add_new_feed_title: "योगदान एक OCW / OER डाटा फ़ीड."
     user_greeting: "हाय {{user}},"
     users: 
       dev_plans: "हम सक्रिय रूप से यह <a href=\"http://ocwfinder.org\">ocwfinder.org</a> बढ़ाने के लिए और <a href=\"http://oerrecommender.org\">oerrecommender.org</a> विकसित कर रहे हैं"
@@ -105,3 +112,36 @@ hi:
       signup_header: "सोचो तुम चतुर हो?"
       signup_pitch: "Folksemantic बनाता है यह आसान मिल जाए, को साझा करें, और खुला शैक्षिक संसाधनों का उपयोग करें ताकि आप स्मार्ट मिल सकती है."
     welcome_activity: "आपका स्वागत है {{application_name}}! को यहाँ आप <a href='/resources'>दुनिया भर से मुक्त शैक्षिक संसाधनों की खोज</a> कर सकते हैं. <a href='/resources/search?q=lady+bugs'>महिला कीड़े</a> में दिलचस्प? <a href='/resources/3909'>कैसे के बारे में नासा से अधिगम संसाधनों?.</a>"
+  oerrecommender: 
+    atom: एटम
+    calculated: गणना
+    collections: संग्रह
+    collections_long: "अनुक्रमित संग्रह"
+    demo: डेमो
+    details: विवरण
+    developers: डेवलपर्स
+    developers_long: "डेवलपर्स के लिए जानकारी"
+    direct_link: "[सीधा लिंक]"
+    for: "के लिए"
+    gm_more_prompt: "अधिक संबंधित संसाधन"
+    gm_title: "संबंधित संसाधन"
+    integration_page_title: "Folksemantic से अपनी वेबसाइट में सिफारिशों को एकीकृत."
+    metadata: Metadata
+    next: अगला
+    no_hits: "कोई हिट. कृपया किसी भिन्न खोज का प्रयास करें या कोई अन्य भाषा को चुन सकते हैं."
+    of: का
+    page_title: "OER Recommender - अपनी वेबसाइट के लिए खुला शिक्षा संसाधन सिफारिश widgets जाओ"
+    powered_by: "इसके द्वारा संचालित"
+    previous: पिछला
+    rdf: RDF
+    related_resources: "संबंधित संसाधन"
+    related_resources_title: "संबंधित संसाधन"
+    relevance: प्रासंगिकता
+    results: परिणाम
+    rss: आरएसएस
+    search: खोज
+    signup: "Folksemantic के लिए साइन अप करें व्यक्तिगत सिफारिशों को पाने के लिए और दूसरों के साथ सहयोग"
+    tag_line: "Folksemantic जाओ - OER Recommender विजेट <br/> आसानी से अपनी वेबसाइट में &#39;संबंधित संसाधन लिंक &quot;डालने"
+    title: "OER Recommender"
+    widgets: Widgets
+    xml: XML

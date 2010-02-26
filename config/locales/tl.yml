@@ -14,13 +14,17 @@ tl:
     subject: "Paksa:"
     subject_help: "Ang isang simpleng pahayag na nagpapahiwatig na ang uri ng iyong puna."
   folksemantic: 
+    about: "Dagdagan ang nalalaman tungkol sa mga proyekto Folksemantic"
+    actions: Aksyon
     add_edit_feeds: "magdagdag / i-edit ang mga feeds"
+    advanced_widget_options: "Mga Advanced na Setting ng Widget"
     all_resources: Lahat
     atom: Atom
     browse_resources: "Browse Resources"
     calculated: kinakalkula
     collections: Collections
     collections_long: "Index Collections"
+    connect_account: "Ikonekta ang iyong account sa:"
     contribute_repository: "Contribute OCW / OER repository"
     credits: "Developed by <a href=\"http://www.tatemae.com\">Tatemae</a> para sa <a href=\"http://cosl.usu.edu\">Center para Buksan at Sustainable Pag-aaral</a> sa pagpopondo mula sa <a href=\"http://nsf.gov/\">National Science Foundation</a> at ang <a href=\"http://www.mellon.org/\">Andrew W Mellon Foundation</a>"
     demo: Demo
@@ -46,6 +50,7 @@ tl:
       why: "BAKIT FOLKSEMANTIC?"
       widgets_pitch: "Gusto mo bang makakuha ng mga rekomendasyon OER para sa iyong mga pahina ng web?"
     just_ocws: "Mga sangay"
+    latest_comments: "Latest Comments"
     metadata: Metadata
     next: Susunod
     no_hits: "Walang mga hits. Mangyaring subukan ang isang naiibang paghahanap o pumili ng ibang lengguahe sa ngayon."
@@ -98,6 +103,8 @@ tl:
     raker: 
       add_extended_feed_sub_title: ~
       add_extended_feed_title: "Contribute OCW / OER repository"
+    services: 
+      add_new_feed_title: "Contribute ng isang OCW / OER data feed."
     user_greeting: "Hi {{user}},"
     users: 
       dev_plans: "Aktibong namin ang pagbuo nito upang patagalin <a href=\"http://ocwfinder.org\">ocwfinder.org</a> at <a href=\"http://oerrecommender.org\">oerrecommender.org</a>"
@@ -105,3 +112,36 @@ tl:
       signup_header: "Mag-isip ka na matalino?"
       signup_pitch: "Folksemantic ginagawang madaling hanapin, ibahagi, at gamitin bukas pang-edukasyon ng mga mapagkukunan upang maaari kang makakuha ng smart."
     welcome_activity: "Maligayang pagdating sa {{application_name}}! Dito maaari mong <a href='/resources'>matuklasan ng libreng edukasyon mula sa mga mapagkukunan sa buong mundo.</a> Kagiliw-giliw na sa <a href='/resources/search?q=lady+bugs'>bugs babae?</a> <a href='/resources/3909'>Paano ang tungkol sa pag-aaral ng yaman mula sa NASA?.</a>"
+  oerrecommender: 
+    atom: Atom
+    calculated: kinakalkula
+    collections: Collections
+    collections_long: "Index Collections"
+    demo: Demo
+    details: "Mga Detalye"
+    developers: "Mga Developer"
+    developers_long: "Impormasyon para sa mga Developer"
+    direct_link: "[direktang link]"
+    for: "para sa"
+    gm_more_prompt: "Higit pang mga kaugnay na Resources"
+    gm_title: "Related Resources"
+    integration_page_title: "Integrate mga rekomendasyon mula sa folksemantic sa iyong website."
+    metadata: Metadata
+    next: Susunod
+    no_hits: "Walang mga hits. Mangyaring subukan ang isang naiibang paghahanap o pumili ng ibang lengguahe sa ngayon."
+    of: ng
+    page_title: "OER Recommender - Maging bukas na edukasyon widgets mapagkukunan rekomendasyon para sa iyong website"
+    powered_by: "pinapatakbo ng"
+    previous: Nakaraan
+    rdf: RDF
+    related_resources: "Mga Kaugnay na yaman"
+    related_resources_title: "Related Resources"
+    relevance: kaugnayan
+    results: "Mga Resulta"
+    rss: RSS
+    search: Maghanap
+    signup: "Mag-sign up para sa Folksemantic upang makakuha ng personalized na mga rekomendasyon at makipagtulungan sa iba"
+    tag_line: "Kunin ang mga Folksemantic - OER Recommender widget <br/> para madaling ipasok &quot;kaugnay na mga resources&quot; na link sa iyong website"
+    title: "OER Recommender"
+    widgets: Widgets
+    xml: XML

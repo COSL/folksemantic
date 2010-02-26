@@ -14,13 +14,17 @@ et:
     subject: "Teema:"
     subject_help: "Lihtne kinnitus selle kohta, iseloom tagasisidet."
   folksemantic: 
+    about: "Lisateavet Folksemantic projekti"
+    actions: Actions
     add_edit_feeds: "Lisa / muuda infovooge"
+    advanced_widget_options: "Laiendatud vidin Seaded"
     all_resources: Kõik
     atom: Atom
     browse_resources: "Browse Resources"
     calculated: arvutatud
     collections: Kogud
     collections_long: "Indekseeritud Kogud"
+    connect_account: "Ühendage oma kontole:"
     contribute_repository: "Panustada OCW / avatud õppevahendite varamu"
     credits: "Developed by <a href=\"http://www.tatemae.com\">Tatemae</a> jaoks <a href=\"http://cosl.usu.edu\">Keskus avatud ning jätkusuutliku õppe</a> rahastatud <a href=\"http://nsf.gov/\">National Science Foundation</a> ja <a href=\"http://www.mellon.org/\">Andrew W Mellon Foundation</a>"
     demo: Demo
@@ -46,6 +50,7 @@ et:
       why: "MIKS FOLKSEMANTIC?"
       widgets_pitch: "Tahad saada OER soovitusi oma veebilehekülgi?"
     just_ocws: Kursused
+    latest_comments: "Viimased Kommentaarid"
     metadata: Metaandmed
     next: Järgmine
     no_hits: "Nr tabamust. Proovige teistsugust otsingut või valige teine keel."
@@ -98,6 +103,8 @@ et:
     raker: 
       add_extended_feed_sub_title: ~
       add_extended_feed_title: "Panustada OCW / avatud õppevahendite varamu"
+    services: 
+      add_new_feed_title: "Panustada OCW / OER andmesööt."
     user_greeting: "Hi {{user}},"
     users: 
       dev_plans: "Oleme aktiivselt arendada seda laiendada <a href=\"http://ocwfinder.org\">ocwfinder.org</a> ja <a href=\"http://oerrecommender.org\">oerrecommender.org</a>"
@@ -105,3 +112,36 @@ et:
       signup_header: "Arvan, et sa oled tark?"
       signup_pitch: "Folksemantic on lihtne leida, jagada ja kasutada avatud õppevahendeid, et saaksite tark."
     welcome_activity: "Tere tulemast {{application_name}}! Siin saab <a href='/resources'>tutvuda tasuta õppevahendeid üle kogu maailma.</a> Huvitav <a href='/resources/search?q=lady+bugs'>lady bugs?</a> <a href='/resources/3909'>Kuidas õppematerjalid NASA?.</a>"
+  oerrecommender: 
+    atom: Atom
+    calculated: arvutatud
+    collections: Kogud
+    collections_long: "Indekseeritud Kogud"
+    demo: Demo
+    details: Detailid
+    developers: Developers
+    developers_long: "Info arendajatele"
+    direct_link: "[link]"
+    for: jaoks
+    gm_more_prompt: "Veel Seostuvad ressursid"
+    gm_title: "Seostuvad ressursid"
+    integration_page_title: "Integreerida soovitused folksemantic oma veebilehel."
+    metadata: Metaandmed
+    next: Järgmine
+    no_hits: "Nr tabamust. Proovige teistsugust otsingut või valige teine keel."
+    of: sellest
+    page_title: "OER Recommender - Get avatud hariduse ressursi soovitus vidinad veebisaidi"
+    powered_by: "powered by"
+    previous: Eelmine
+    rdf: RDF
+    related_resources: "Seostuvad ressursid"
+    related_resources_title: "Seostuvad ressursid"
+    relevance: tekst
+    results: Tulemused
+    rss: RSS
+    search: Otsima
+    signup: "Registreeru Folksemantic saada isiklikke soovitusi ja teha koostööd teiste"
+    tag_line: "Get Folksemantic - OER Recommender vidin <br/> hõlpsasti lisada &quot;seotud vahendid&quot; linke oma kodulehel"
+    title: "OER Recommender"
+    widgets: Vidinad
+    xml: XML

@@ -14,13 +14,17 @@ fi:
     subject: "Aihe:"
     subject_help: "Yksinkertainen ilmoitus luonne palautetta."
   folksemantic: 
+    about: "Lisätietoja Folksemantic hanke"
+    actions: Toimilla
     add_edit_feeds: "Lisää / muokkaa syötteitä"
+    advanced_widget_options: "Advanced Widget Asetukset"
     all_resources: Kaikki
     atom: Atom
     browse_resources: "Selaa Resurssit"
     calculated: laskettiin
     collections: Kokoelmiin
     collections_long: "Indeksoitava Kokoelmat"
+    connect_account: "Liitä tili:"
     contribute_repository: "Edistää OCW / OER Repository"
     credits: "Kehittämä <a href=\"http://www.tatemae.com\">Tatemae</a> on <a href=\"http://cosl.usu.edu\">Center for Open ja kestävä oppiminen</a> rahoituksella <a href=\"http://nsf.gov/\">National Science Foundationin</a> ja <a href=\"http://www.mellon.org/\">Andrew W Mellon Foundation</a>"
     demo: Esittelyauto
@@ -46,6 +50,7 @@ fi:
       why: "MIKSI FOLKSEMANTIC?"
       widgets_pitch: "Haluatko saada OER suosituksia sivuillesi?"
     just_ocws: Kursseille
+    latest_comments: "Viimeisimmät kommentit"
     metadata: Metatietoja
     next: Seuraava
     no_hits: "Ei osumia. Kokeile eri hakusanalla, tai valitse toinen kieli."
@@ -98,6 +103,8 @@ fi:
     raker: 
       add_extended_feed_sub_title: ~
       add_extended_feed_title: "Edistää OCW / OER Repository"
+    services: 
+      add_new_feed_title: "Edistää OCW / OER-data feed."
     user_greeting: "Hi {{user}},"
     users: 
       dev_plans: "Kehitämme aktiivisesti se laajentaa <a href=\"http://ocwfinder.org\">ocwfinder.org</a> ja <a href=\"http://oerrecommender.org\">oerrecommender.org</a>"
@@ -105,3 +112,36 @@ fi:
       signup_header: "Think you&#39;re smart?"
       signup_pitch: "Folksemantic on helppo löytää, jakaa ja käyttää avointen opetusresurssien niin saat fiksu."
     welcome_activity: "Tervetuloa {{application_name}}! Täällä voit <a href='/resources'>löytää vapaa opetusresurssien ympäri maailmaa.</a> Mielenkiintoista <a href='/resources/search?q=lady+bugs'>Lady vikoja?</a> <a href='/resources/3909'>Miten oppimisen resursseja NASA?.</a>"
+  oerrecommender: 
+    atom: Atom
+    calculated: laskettiin
+    collections: Kokoelmiin
+    collections_long: "Indeksoitava Kokoelmat"
+    demo: Esittelyauto
+    details: Yksityiskohtia
+    developers: Kehittäjiä
+    developers_long: "Tietoja kehittäjille"
+    direct_link: "[suora yhteys]"
+    for: koskevat
+    gm_more_prompt: "Lisää Muita resursseja"
+    gm_title: "Muita resursseja"
+    integration_page_title: "Integroida suositusten folksemantic Web-sivustoosi."
+    metadata: Metatietoja
+    next: Seuraava
+    no_hits: "Ei osumia. Kokeile eri hakusanalla, tai valitse toinen kieli."
+    of: ja
+    page_title: "OER Recommender - Get avoimen opetuksen resurssi suositus widgettejä sivuston"
+    powered_by: voimanlähteenä
+    previous: Edellinen
+    rdf: DTO
+    related_resources: Resurssien
+    related_resources_title: "Muita resursseja"
+    relevance: merkityksellinen
+    results: Tulokset
+    rss: RSS
+    search: Haku
+    signup: "Rekisteröidy Folksemantic saada henkilökohtaisia suosituksia ja tehdä yhteistyötä muiden kanssa"
+    tag_line: "Hanki Folksemantic - OER Recommender widget <br/> helposti lisätä &quot;resurssien&quot; linkit sivustosi"
+    title: "OER Recommender"
+    widgets: Widgetien
+    xml: XML

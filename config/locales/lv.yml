@@ -14,13 +14,17 @@ lv:
     subject: "Tēma:"
     subject_help: "Vienkāršu paziņojumu, norādot Jūsu atsauksmi."
   folksemantic: 
+    about: "Uzzināt vairāk par Folksemantic projektu"
+    actions: Darbības
     add_edit_feeds: "Pievienot / rediģēt feeds"
+    advanced_widget_options: "Advanced logrīku iestatījumi"
     all_resources: Viss
     atom: Atoms
     browse_resources: "Browse Resources"
     calculated: aprēķina
     collections: Collections
     collections_long: "Indeksētā Collections"
+    connect_account: "Pievienot savu kontu ar:"
     contribute_repository: "Veicināt OCW / OER Repository"
     credits: "Developed by <a href=\"http://www.tatemae.com\">Tatemae</a> attiecībā <a href=\"http://cosl.usu.edu\">uz atvērta un ilgtspējīga Learning</a> ar finansējumu no <a href=\"http://nsf.gov/\">National Science Foundation</a> un <a href=\"http://www.mellon.org/\">Andrew W Mellon Foundation</a> <a href=\"http://cosl.usu.edu\">Center</a>"
     demo: Demo
@@ -46,6 +50,7 @@ lv:
       why: "KĀPĒC FOLKSEMANTIC?"
       widgets_pitch: "Vēlaties saņemt OER ieteikumus jūsu mājas lapu?"
     just_ocws: Kursi
+    latest_comments: "Jaunākie komentāri"
     metadata: Metadata
     next: Nākamais
     no_hits: "Nē hits. Lūdzu, mēģiniet citu meklēšanu vai izvēlieties citu valodu."
@@ -98,6 +103,8 @@ lv:
     raker: 
       add_extended_feed_sub_title: ~
       add_extended_feed_title: "Veicināt OCW / OER Repository"
+    services: 
+      add_new_feed_title: "Veicināt OCW / AMR datu barību."
     user_greeting: "Hi {{user}},"
     users: 
       dev_plans: "Mēs aktīvi attīstās to paplašināt <a href=\"http://ocwfinder.org\">ocwfinder.org</a> un <a href=\"http://oerrecommender.org\">oerrecommender.org</a>"
@@ -105,3 +112,36 @@ lv:
       signup_header: "Domāju, ka tu esi gudrs?"
       signup_pitch: "Folksemantic ļauj viegli atrast, dalīties un izmantot atvērtu izglītības resursu, lai jūs varētu saņemt smart."
     welcome_activity: "Welcome to {{application_name}}! Šeit jūs varat <a href='/resources'>atrast bezmaksas izglītības resursus no visas pasaules.</a> Interesantas <a href='/resources/search?q=lady+bugs'>lady bugs?</a> <a href='/resources/3909'>Cik par mācību resursiem no NASA?.</a>"
+  oerrecommender: 
+    atom: Atoms
+    calculated: aprēķina
+    collections: Collections
+    collections_long: "Indeksētā Collections"
+    demo: Demo
+    details: Details
+    developers: Izstrādātāji
+    developers_long: "Informācija izstrādātājiem"
+    direct_link: "[Direct link]"
+    for: dēļ
+    gm_more_prompt: "Vairāk Saistītie resursi"
+    gm_title: "Saistītie resursi"
+    integration_page_title: "Integrēt ieteikumi folksemantic savā tīmekļa vietnē."
+    metadata: Metadata
+    next: Nākamais
+    no_hits: "Nē hits. Lūdzu, mēģiniet citu meklēšanu vai izvēlieties citu valodu."
+    of: "no"
+    page_title: "OER Recommender - Get atvērtu izglītības resursu ieteikums logrīki Jūsu mājas lapas"
+    powered_by: "powered by"
+    previous: Iepriekšējais
+    rdf: RDF
+    related_resources: "Related resources"
+    related_resources_title: "Saistītie resursi"
+    relevance: relevance
+    results: Rezultāti
+    rss: RSS
+    search: Meklēt
+    signup: "Pierakstīties Folksemantic saņemt personalizētus ieteikumus un sadarboties ar citiem"
+    tag_line: "Get Folksemantic - AMR Recommender widget <br/> viegli ievietot &quot;saistītu resursu&quot; saistība savā mājas lapā"
+    title: "OER Recommender"
+    widgets: Widgets
+    xml: XML

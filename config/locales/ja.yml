@@ -14,13 +14,17 @@ ja:
     subject: 題目：
     subject_help: 単純なステートメントをあなたのフィードバックの性質を示す。
   folksemantic: 
+    about: 学ぶFolksemanticプロジェクトの詳細について
+    actions: アクション
     add_edit_feeds: 追加/編集RSSフィード
+    advanced_widget_options: 高度なウィジェットの設定
     all_resources: すべての
     atom: アトム
     browse_resources: 閲覧資源
     calculated: 計算
     collections: コレクション
     collections_long: インデックス付きのコレクション
+    connect_account: を使用してアカウントに接続します：
     contribute_repository: "貢献OCW / OERをリポジトリ"
     credits: "<a href=\"http://www.tatemae.com\">建前</a>で<a href=\"http://cosl.usu.edu\">センターを開き</a> 、 <a href=\"http://cosl.usu.edu\">持続可能な学習のための</a> <a href=\"http://nsf.gov/\">国立科学財団</a>と<a href=\"http://www.mellon.org/\">アンドリュー幅Mellon財団</a>からの資金のための開発"
     demo: デモ
@@ -46,6 +50,7 @@ ja:
       why: なぜFOLKSEMANTIC？
       widgets_pitch: お客様のウェブページのOERを勧告を取得したいですか？
     just_ocws: コース
+    latest_comments: 最新のコメント
     metadata: メタデータ
     next: 次の
     no_hits: 無安打。してください別の検索を試行するか、別の言語を選択します。
@@ -98,6 +103,8 @@ ja:
     raker: 
       add_extended_feed_sub_title: ~
       add_extended_feed_title: "貢献OCW / OERをリポジトリ"
+    services: 
+      add_new_feed_title: "OCW / OERをデータフィードに貢献。"
     user_greeting: "こんにちは{{user}},"
     users: 
       dev_plans: "我々は積極的に<a href=\"http://ocwfinder.org\">ocwfinder.org</a>を拡張すると<a href=\"http://oerrecommender.org\">oerrecommender.org</a>開発している"
@@ -105,3 +112,36 @@ ja:
       signup_header: スマートだと思う？
       signup_pitch: Folksemantic簡単、検索、共有するなど、スマート得ることができるオープンな教育リソースを使用することができます。
     welcome_activity: "ようこそ{{application_name}}!するここで<a href='/resources'>は</a> 、 <a href='/resources'>世界各国からの無料の教育資源を発見</a>することができます。 <a href='/resources/3909'>NASAから</a> <a href='/resources/search?q=lady+bugs'>レディバグ</a>の面白い？ <a href='/resources/3909'>方法について学習リソース</a> ？。"
+  oerrecommender: 
+    atom: アトム
+    calculated: 計算
+    collections: コレクション
+    collections_long: インデックス付きのコレクション
+    demo: デモ
+    details: 詳細
+    developers: 開発者
+    developers_long: 情報開発者のため
+    direct_link: "[直リンク]"
+    for: 〜のために
+    gm_more_prompt: 関連リソース
+    gm_title: 関連リソース
+    integration_page_title: folksemanticあなたのウェブサイトにからの推薦を統合します。
+    metadata: メタデータ
+    next: 次の
+    no_hits: 無安打。してください別の検索を試行するか、別の言語を選択します。
+    of: の
+    page_title: "OERを推薦 - あなたのウェブサイトのオープン教育リソースの推薦のウィジェットを入手"
+    powered_by: によって供給さ
+    previous: 前へ
+    rdf: RDFの
+    related_resources: 関連リソース
+    related_resources_title: 関連リソース
+    relevance: 妥当性
+    results: 検索結果
+    rss: RSSフィード
+    search: 探す
+    signup: サインアップFolksemanticのパーソナライズされた勧告を取得し、他のユーザーと共同作業
+    tag_line: "Folksemanticを取得 - OERを推薦ウィジェット<br/>簡単に&quot;あなたのウェブサイトに関連するリソース&quot;のリンクを挿入する"
+    title: OERを推薦
+    widgets: ウィジェット
+    xml: XMLの

@@ -14,13 +14,17 @@ ru:
     subject: "Тема:"
     subject_help: "Простое заявление с указанием характера ваших отзывов."
   folksemantic: 
+    about: "Узнайте больше о проекте Folksemantic"
+    actions: Действия
     add_edit_feeds: "Добавить / Изменить каналы"
+    advanced_widget_options: "Расширенный Widget настройки"
     all_resources: Все
     atom: Атом
     browse_resources: Ресурсы
     calculated: рассчитанные
     collections: Коллекция
     collections_long: "Индексированных коллекций"
+    connect_account: "Подключите ваш счет:"
     contribute_repository: "Способствует ОКУ / УВС кодов"
     credits: "Разработано <a href=\"http://www.tatemae.com\">Tatemae</a> для <a href=\"http://cosl.usu.edu\">Центра открытого и устойчивого обучения</a> при финансовой поддержке <a href=\"http://nsf.gov/\">Национального научного фонда</a> и <a href=\"http://www.mellon.org/\">Эндрю Меллона W</a>"
     demo: Демо
@@ -46,6 +50,7 @@ ru:
       why: "ПОЧЕМУ FOLKSEMANTIC?"
       widgets_pitch: "Хотите получить OER рекомендациям для веб-страниц?"
     just_ocws: Курсы
+    latest_comments: "Последние Комментарии"
     metadata: Метаданные
     next: Следующий
     no_hits: "Нет хиты. Попробуйте другой запрос или выберите другой язык."
@@ -98,6 +103,8 @@ ru:
     raker: 
       add_extended_feed_sub_title: ~
       add_extended_feed_title: "Способствует ОКУ / УВС кодов"
+    services: 
+      add_new_feed_title: "Способствует ОКУ / УВС данного канала."
     user_greeting: "Привет {{user}},"
     users: 
       dev_plans: "Мы активно развиваем его продлить <a href=\"http://ocwfinder.org\">ocwfinder.org</a> и <a href=\"http://oerrecommender.org\">oerrecommender.org</a>"
@@ -105,3 +112,36 @@ ru:
       signup_header: "Думаю, что вы умны?"
       signup_pitch: "Folksemantic позволяет легко найти, разделять и использовать открытые образовательные ресурсы, так что вы можете получить Smart."
     welcome_activity: "Добро пожаловать на {{application_name}}! Здесь вы можете <a href='/resources'>обнаружить бесплатных образовательных ресурсов со всего мира.</a> Интересное в <a href='/resources/search?q=lady+bugs'>даму ошибки?</a> <a href='/resources/3909'>Как насчет учебных ресурсов из НАСА?.</a>"
+  oerrecommender: 
+    atom: Атом
+    calculated: рассчитанные
+    collections: Коллекция
+    collections_long: "Индексированных коллекций"
+    demo: Демо
+    details: Подробности
+    developers: Разработчикам
+    developers_long: "Информация для разработчиков"
+    direct_link: "[Прямая ссылка]"
+    for: для
+    gm_more_prompt: "Дополнительные ресурсы, относящиеся"
+    gm_title: "Связанные ресурсы"
+    integration_page_title: "Учета рекомендаций от folksemantic на Ваш сайт."
+    metadata: Метаданные
+    next: Следующий
+    no_hits: "Нет хиты. Попробуйте другой запрос или выберите другой язык."
+    of: из
+    page_title: "УВС Рекомендующий - Get Widgets открытых ресурсов образования рекомендация для Вашего сайта"
+    powered_by: "Powered By"
+    previous: Предыдущее
+    rdf: RDF
+    related_resources: "Похожие ресурсы"
+    related_resources_title: "Связанные ресурсы"
+    relevance: Соответствие
+    results: Результаты
+    rss: RSS
+    search: Поиск
+    signup: "Подпишитесь на Folksemantic для получения персональных рекомендаций и сотрудничают с другими"
+    tag_line: "Получить Folksemantic - OER Рекомендующий Widget <br/> легко вставить слово &quot;соответствующие ресурсы&quot; ссылки на свой сайт"
+    title: "УВС Рекомендующий"
+    widgets: Виджеты
+    xml: XML

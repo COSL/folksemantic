@@ -5,7 +5,7 @@ ro:
     contact_us: Contactati-ne
     email: "Adresa ta de email:"
     email_help: "Vă rugăm să ne oferiţi un e-mail, astfel încât să vă putem contacta dacă este necesar."
-    name: "Numele dumneavoastră:"
+    name: "Numele tau:"
     name_help: "Vă rugăm să ne furnizaţi numele dumneavoastră."
     phone: "Numărul dvs. de telefon:"
     phone_help: "Numărul dvs. de telefon este facultativă, dar ne va ajuta să vă contactăm dacă este necesar."
@@ -14,13 +14,17 @@ ro:
     subject: "Subiect:"
     subject_help: "O simplă declaraţie care indică natura feedback-ul dumneavoastră."
   folksemantic: 
+    about: "Aflaţi mai multe despre proiect Folksemantic"
+    actions: Acţiunile
     add_edit_feeds: "Adăugare / Editare feed-uri"
+    advanced_widget_options: "Widget Setări avansate"
     all_resources: Toţi
     atom: Atom
     browse_resources: "Cautare resurse"
     calculated: calculează
     collections: Colecţii
     collections_long: "Colectii Indexed"
+    connect_account: "Conectaţi contul dvs. cu:"
     contribute_repository: "Implică-te OCW / RED Repository"
     credits: "Dezvoltat de <a href=\"http://www.tatemae.com\">Tatemae</a> pentru <a href=\"http://cosl.usu.edu\">Centrul de Deschidere şi de studiu durabile,</a> cu finanţare de la <a href=\"http://nsf.gov/\">National Science Foundation</a> si <a href=\"http://www.mellon.org/\">Fundatia Andrew W Mellon,</a>"
     demo: Demo
@@ -46,6 +50,7 @@ ro:
       why: "DE CE FOLKSEMANTIC?"
       widgets_pitch: "Doriţi să obţineţi recomandări RED pentru paginile dvs. de web?"
     just_ocws: Cursurile
+    latest_comments: "Latest Comments"
     metadata: Metadate
     next: Următorul
     no_hits: "Nr hit-uri. Vă rugăm să încercaţi o altă căutare sau alegeţi o altă limbă."
@@ -98,6 +103,8 @@ ro:
     raker: 
       add_extended_feed_sub_title: ~
       add_extended_feed_title: "Implică-te OCW / RED Repository"
+    services: 
+      add_new_feed_title: "Implică-o OCW / date RED hranei pentru animale."
     user_greeting: "Max {{user}},"
     users: 
       dev_plans: "Suntem în curs de dezvoltare este în mod activ pentru a extinde <a href=\"http://ocwfinder.org\">ocwfinder.org</a> şi <a href=\"http://oerrecommender.org\">oerrecommender.org</a>"
@@ -105,3 +112,36 @@ ro:
       signup_header: "Crezi ca esti destept?"
       signup_pitch: "Folksemantic face mai uşor de găsit, partaja, şi utilizarea de resurse educaţionale deschise astfel încât să puteţi Get Smart."
     welcome_activity: "Bine ati venit la {{application_name}}! Aici puteti <a href='/resources'>descoperi resurse educaţionale gratuite din întreaga lume.</a> Interesante în <a href='/resources/search?q=lady+bugs'>bug-uri doamnă?</a> <a href='/resources/3909'>Cum despre resursele de învăţare de la NASA?.</a>"
+  oerrecommender: 
+    atom: Atom
+    calculated: calculează
+    collections: Colecţii
+    collections_long: "Colectii Indexed"
+    demo: Demo
+    details: Detalii
+    developers: Dezvoltatorii
+    developers_long: "Informaţii pentru dezvoltatori"
+    direct_link: "[legătură directă]"
+    for: pentru
+    gm_more_prompt: "Mai multe resurse asociate"
+    gm_title: "Resurse asociate"
+    integration_page_title: "Integraţi recomandări de la folksemantic în site-ul dumneavoastră."
+    metadata: Metadate
+    next: Următorul
+    no_hits: "Nr hit-uri. Vă rugăm să încercaţi o altă căutare sau alegeţi o altă limbă."
+    of: al
+    page_title: "RED Recommender - Ia educaţie widget-uri deschise de resurse de recomandare pentru site-ul dvs."
+    powered_by: "powered by"
+    previous: Previous
+    rdf: RDF
+    related_resources: "Alte resurse"
+    related_resources_title: "Resurse asociate"
+    relevance: relevanţa
+    results: Rezultatele
+    rss: RSS
+    search: Căuta
+    signup: "Înscrieţi-vă pentru a Folksemantic pentru a obţine recomandări personalizate şi de a colabora cu alte persoane"
+    tag_line: "Ia Folksemantic - RED widget Recommender <br/> Pentru a insera cu uşurinţă &quot;resurse legate de&quot; link-uri în site-ul dvs."
+    title: "RED Recommender"
+    widgets: Widget-uri
+    xml: XML

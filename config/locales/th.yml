@@ -1,107 +1,147 @@
 --- 
 th: 
   contact: 
-    contact_response_subject: "ขอขอบคุณสำหรับคำถามของคุณจาก {{application_name}}!"
-    contact_us: ติดต่อเรา
-    email: "อีเมล์ของคุณ:"
-    email_help: กรุณาระบุอีเมล์ของคุณเพื่อให้เราสามารถติดต่อคุณถ้าจำเป็น.
-    name: ชื่อของคุณ
-    name_help: โปรดระบุชื่อของคุณ.
-    phone: "หมายเลขโทรศัพท์ของคุณ:"
-    phone_help: หมายเลขโทรศัพท์ของคุณมีตัวเลือกแต่จะช่วยให้เราติดต่อคุณถ้าจำเป็น.
-    question: "ข้อความ / คำถามของคุณ:"
-    question_help: กรุณาใส่ความคิดเห็นที่คุณต้องการให้เราได้ยิน.
+    contact_response_subject: "ขอ ขอบคุณ สำหรับ คำถาม ของ คุณ จาก {{application_name}}!"
+    contact_us: "ติดต่อ เรา"
+    email: "อีเมล์ ของ คุณ:"
+    email_help: "กรุณา ระบุ อีเมล์ ของ คุณ เพื่อ ให้ เรา สามารถ ติดต่อ คุณ ถ้า จำเป็น."
+    name: "ชื่อ ของ คุณ"
+    name_help: "โปรด ระบุ ชื่อ ของ คุณ."
+    phone: "หมายเลข โทรศัพท์ ของ คุณ:"
+    phone_help: "หมายเลข โทรศัพท์ ของ คุณ มี ตัว เลือก แต่ จะ ช่วย ให้ เรา ติดต่อ คุณ ถ้า จำเป็น."
+    question: "ข้อความ / คำถาม ของ คุณ:"
+    question_help: "กรุณา ใส่ ความ คิดเห็น ที่ คุณ ต้องการ ให้ เรา ได้ยิน."
     subject: "Subject:"
-    subject_help: คำง่ายๆที่ระบุลักษณะการตอบรับของคุณ.
+    subject_help: "คำ ง่ายๆ ที่ ระบุ ลักษณะ การ ตอบ รับ ของ คุณ."
   folksemantic: 
-    add_edit_feeds: "เพิ่ม / แก้ไขข้อมูล"
+    about: "เรียน รู้ เพิ่มเติม เกี่ยว กับ โครงการ Folksemantic"
+    actions: "การ กระทำ"
+    add_edit_feeds: "เพิ่ม / แก้ไข ข้อมูล"
+    advanced_widget_options: "การ ตั้ง ค่า Advanced Widget"
     all_resources: ทั้งหมด
     atom: Atom
     browse_resources: "ทรัพยากร Browse"
     calculated: คำนวณ
-    collections: เรียกเก็บ
-    collections_long: กลุ่มสร้างดัชนี
+    collections: "เรียก เก็บ"
+    collections_long: "กลุ่ม สร้าง ดัชนี"
+    connect_account: "เชื่อม ต่อ บัญชี ของ คุณ:"
     contribute_repository: "ร่วม OCW / OER Repository"
-    credits: "พัฒนาโดย <a href=\"http://www.tatemae.com\">Tatemae</a> สำหรับ <a href=\"http://cosl.usu.edu\">ศูนย์เปิดและการเรียนรู้อย่างยั่งยืน</a> กับเงินจาก <a href=\"http://nsf.gov/\">National Science Foundation</a> และ <a href=\"http://www.mellon.org/\">Andrew W Mellon Foundation</a>"
-    demo: การสาธิต
-    details: รายละเอียด
-    developers: นักพัฒนา
-    developers_long: ข้อมูลสำหรับนักพัฒนา
-    direct_link: "[ลิงค์โดยตรง]"
+    credits: "พัฒนา โดย <a href=\"http://www.tatemae.com\">Tatemae</a> สำหรับ <a href=\"http://cosl.usu.edu\">ศูนย์ เปิด และ การ เรียน รู้ อย่าง ยั่งยืน</a> กับ เงิน จาก <a href=\"http://nsf.gov/\">National Science Foundation</a> และ <a href=\"http://www.mellon.org/\">Andrew W Mellon Foundation</a>"
+    demo: "การ สาธิต"
+    details: "ราย ละเอียด"
+    developers: "นัก พัฒนา"
+    developers_long: "ข้อมูล สำหรับ นัก พัฒนา"
+    direct_link: "[ลิงค์ โดยตรง]"
     for: สำหรับ
-    gm_more_prompt: "ที่เกี่ยวข้องเพิ่มเติม Resources"
-    gm_title: ข้อมูลที่เกี่ยวข้อง
+    gm_more_prompt: "ที่ เกี่ยวข้อง เพิ่มเติม Resources"
+    gm_title: "ข้อมูล ที่ เกี่ยวข้อง"
     home: 
-      browse_and_search: เรียกดูและค้นหา
-      collaborate: ร่วมมือกับ
-      comments_heading: ข้อคิดเห็นล่าสุด
-      example_comment: "คู่มือการก่อสร้างซึ่งเป็น legos น่ากลัว! ฉันสงสัยว่าเราสามารถใช้กับนักเรียนใน CS 102."
+      browse_and_search: "เรียก ดู และ ค้นหา"
+      collaborate: "ร่วมมือ กับ"
+      comments_heading: "ข้อคิดเห็น ล่าสุด"
+      example_comment: "คู่มือ การ ก่อสร้าง ซึ่ง เป็น legos น่า กลัว! ฉัน สงสัย ว่า เรา สามารถ ใช้ กับ นักเรียน ใน CS 102."
       get_widgets: "GET OER RECOMMENDER เครื่องมือ"
       oers: "ศึกษา <b>เปิด</b>"
       people: บุคลากร
       resources: "ทรัพยากร (OERS)"
       search: SEARCH
-      signup: สมัครวันนี้!
-      signup_reasons: "ลงทะเบียนเพื่อให้ตรงกับบุคคลที่ที่คุณสามารถพบหารือ, remix และพัฒนาทรัพยากรการเรียนรู้"
+      signup: "สมัคร วัน นี้!"
+      signup_reasons: "ลง ทะเบียน เพื่อ ให้ ตรง กับ บุคคล ที่ ที่ คุณ สามารถ พบ หารือ, remix และ พัฒนา ทรัพยากร การ เรียน รู้"
       why: "ทำไม FOLKSEMANTIC?"
-      widgets_pitch: "ต้องการรับข้อเสนอแนะ OER สำหรับหน้าเว็บของคุณหรือไม่"
+      widgets_pitch: "ต้องการ รับ ข้อ เสนอ แนะ OER สำหรับ หน้า เว็บ ของ คุณ หรือ ไม่"
     just_ocws: หลักสูตร
-    metadata: เมตาดาต้า
-    next: ถัดไป
-    no_hits: "ชม No. กรุณาลองค้นหาแบบอื่นหรือเลือกภาษาอื่น."
+    latest_comments: "ความ คิดเห็น ล่าสุด"
+    metadata: "เม ตา ดาต้า"
+    next: "ถัด ไป"
+    no_hits: "ชม No. กรุณา ลอง ค้นหา แบบ อื่น หรือ เลือก ภาษา อื่น."
     of: ของ
-    powered_by: ขับเคลื่อนโดย
-    previous: ก่อนหน้านี้
+    powered_by: "ขับเคลื่อน โดย"
+    previous: "ก่อน หน้า นี้"
     rdf: RDF
-    register_description: "ลงทะเบียนเพื่อรับการ <span class=\"highlight\">แนะนำ</span> บุคคล, เข้าร่วมใน <span class=\"highlight\">กลุ่ม</span> ได้อย่างสะดวกและ <span class=\"highlight\">เผยแพร่ในบล็อก</span>"
+    register_description: "ลง ทะเบียน เพื่อ รับ การ <span class=\"highlight\">แนะนำ</span> บุคคล, เข้า ร่วม ใน <span class=\"highlight\">กลุ่ม</span> ได้ อย่าง สะดวก และ <span class=\"highlight\">เผยแพร่ ใน บล็อก</span>"
     register_link: สมัคร!
-    related_resources: ทรัพยากรที่เกี่ยวข้อง
-    related_resources_title: ข้อมูลที่เกี่ยวข้อง
+    related_resources: "ทรัพยากร ที่ เกี่ยวข้อง"
+    related_resources_title: "ข้อมูล ที่ เกี่ยวข้อง"
     relevance: เกี่ยวข้อง
-    results: ผลการค้นหา
+    results: "ผล การ ค้นหา"
     rss: RSS
     search: ค้นหา
     search_button: ไป
-    search_description: "พบทรัพยากรการเรียนรู้ด้วยการ <span class=\"highlight\">ค้นหา</span> และ <span class=\"highlight\">เรียกดู</span> มากกว่า <span class=\"highlight\">110,000</span> ทรัพยากรการศึกษาเปิด"
-    search_link: หาข้อมูล!
-    tag_line: "empowering การศึกษาเปิด"
+    search_description: "พบ ทรัพยากร การ เรียน รู้ ด้วย การ <span class=\"highlight\">ค้นหา</span> และ <span class=\"highlight\">เรียก ดู</span> มากกว่า <span class=\"highlight\">110,000</span> ทรัพยากร การ ศึกษา เปิด"
+    search_link: "หา ข้อมูล!"
+    tag_line: "empowering การ ศึกษา เปิด"
     title: folksemantic
     tour: "ใช้ Tour!"
-    tour_description: "ชม <span class=\"highlight\">วิดีโอการแนะนำ</span> ของ Folksemantic"
-    view_account: ดูบัญชีของคุณ
-    welcome: "ยินดีต้อนรับสู่ Folksemantic."
-    welcome_message: "เราทำงานเพื่องานรวม OCWFinder และ OERRecommender เป็นหนึ่งเว็บไซต์ที่จะช่วยให้คุณพบมากที่สุดที่น่าสนใจและเกี่ยวข้องกับทรัพยากรการศึกษา."
-    welcome_user: "ยินดีต้อนรับ {{user}}"
-    widgets_description: "ได้รับเครื่องมือเพื่อช่วยให้ผู้ใช้ <span class=\"highlight\">ค้นหา</span> และ <span class=\"highlight\">ค้นพบ</span> แหล่ง <span class=\"highlight\">ทรัพยากร</span> ที่ <span class=\"highlight\">เกี่ยวข้อง</span> กับคนในเว็บไซต์ของคุณ"
-    widgets_link: รับอุปกรณ์!
+    tour_description: "ชม <span class=\"highlight\">วิดีโอ การ แนะนำ</span> ของ Folksemantic"
+    view_account: "ดู บัญชี ของ คุณ"
+    welcome: "ยินดี ต้อนรับ สู่ Folksemantic."
+    welcome_message: "เรา ทำงาน เพื่อ งาน รวม OCWFinder และ OERRecommender เป็น หนึ่ง เว็บไซต์ ที่ จะ ช่วย ให้ คุณ พบ มาก ที่สุด ที่ น่า สนใจ และ เกี่ยวข้อง กับ ทรัพยากร การ ศึกษา."
+    welcome_user: "ยินดี ต้อนรับ {{user}}"
+    widgets_description: "ได้ รับ เครื่องมือ เพื่อ ช่วย ให้ ผู้ ใช้ <span class=\"highlight\">ค้นหา</span> และ <span class=\"highlight\">ค้น พบ</span> แหล่ง <span class=\"highlight\">ทรัพยากร</span> ที่ <span class=\"highlight\">เกี่ยวข้อง</span> กับ คน ใน เว็บไซต์ ของ คุณ"
+    widgets_link: "รับ อุปกรณ์!"
     widgets_title: "เครื่องมือ folksemantic"
     xml: XML
   general: 
-    delete_file: ไฟล์ลบ
+    delete_file: "ไฟล์ ลบ"
     send: ส่ง
-    thank_you_contact: "ขอขอบคุณสำหรับข้อความของคุณ. สมาชิกของทีมงานเราจะตอบกับคุณในไม่ช้า."
+    thank_you_contact: "ขอ ขอบคุณ สำหรับ ข้อความ ของ คุณ. สมาชิก ของ ทีม งาน เรา จะ ตอบ กับ คุณ ใน ไม่ ช้า."
   muck: 
     activity_templates: 
-      welcome: ยินดีต้อนรับ
+      welcome: "ยินดี ต้อนรับ"
     admin: 
       home: บ้าน
-      my_dashboard: แผงควบคุมของฉัน
+      my_dashboard: "แผง ควบคุม ของ ฉัน"
       permissions: สิทธิ
       themes: ธีม
-      users: ผู้ใช้งาน
-    contact_request: ขอติดต่อ
-    contact_thanks: "ขอขอบคุณที่ติดต่อเรา. เราได้รับอีเมลของคุณและจะติดต่อเร็ว."
+      users: "ผู้ ใช้ งาน"
+    contact_request: "ขอ ติดต่อ"
+    contact_thanks: "ขอ ขอบคุณ ที่ ติดต่อ เรา. เรา ได้ รับ อีเมล ของ คุณ และ จะ ติดต่อ เร็ว."
     friends: 
       block: Block
       start_following: ตาม
-      unblock: ปลดล็อค
+      unblock: "ปลด ล็อค"
     raker: 
       add_extended_feed_sub_title: ~
       add_extended_feed_title: "ร่วม OCW / OER Repository"
+    services: 
+      add_new_feed_title: "ร่วม OCW ข้อมูล OER อาหาร."
     user_greeting: "{{user}}, Hi"
     users: 
-      dev_plans: "เราพัฒนางานให้ขยาย <a href=\"http://ocwfinder.org\">ocwfinder.org</a> และ <a href=\"http://oerrecommender.org\">oerrecommender.org</a>"
+      dev_plans: "เรา พัฒนา งาน ให้ ขยาย <a href=\"http://ocwfinder.org\">ocwfinder.org</a> และ <a href=\"http://oerrecommender.org\">oerrecommender.org</a>"
       signup: สมัคร!
-      signup_header: คิดว่าคุณสมาร์ท?
-      signup_pitch: "Folksemantic ทำให้หาง่ายแบ่งปันและใช้ทรัพยากรการศึกษาเปิดเพื่อให้คุณสามารถรับสมาร์ท."
-    welcome_activity: "ยินดีต้อนรับสู่ {{application_name}}! ที่นี่คุณสามารถ <a href='/resources'>ค้นพบแหล่งการศึกษาฟรีจากทั่วโลก.</a> ที่น่าสนใจใน <a href='/resources/search?q=lady+bugs'>บ้านาง?</a> <a href='/resources/3909'>วิธีการเกี่ยวกับทรัพยากรการเรียนรู้จากนาซา?.</a>"
+      signup_header: "คิด ว่า คุณ ส มา ร์ ท?"
+      signup_pitch: "Folksemantic ทำให้ หา ง่าย แบ่งปัน และ ใช้ ทรัพยากร การ ศึกษา เปิด เพื่อ ให้ คุณ สามารถ รับ ส มา ร์ ท."
+    welcome_activity: "ยินดี ต้อนรับ สู่ {{application_name}}! ที่ นี่ คุณ สามารถ <a href='/resources'>ค้น พบ แหล่ง การ ศึกษา ฟรี จาก ทั่ว โลก.</a> ที่ น่า สนใจ ใน <a href='/resources/search?q=lady+bugs'>บ้า นาง?</a> <a href='/resources/3909'>วิธี การ เกี่ยว กับ ทรัพยากร การ เรียน รู้ จาก นาซา?.</a>"
+  oerrecommender: 
+    atom: Atom
+    calculated: คำนวณ
+    collections: "เรียก เก็บ"
+    collections_long: "กลุ่ม สร้าง ดัชนี"
+    demo: "การ สาธิต"
+    details: "ราย ละเอียด"
+    developers: "นัก พัฒนา"
+    developers_long: "ข้อมูล สำหรับ นัก พัฒนา"
+    direct_link: "[ลิงค์ โดยตรง]"
+    for: สำหรับ
+    gm_more_prompt: "ที่ เกี่ยวข้อง เพิ่มเติม Resources"
+    gm_title: "ข้อมูล ที่ เกี่ยวข้อง"
+    integration_page_title: "รวม คำ แนะนำ จาก folksemantic ใน เว็บไซต์ ของ คุณ."
+    metadata: "เม ตา ดาต้า"
+    next: "ถัด ไป"
+    no_hits: "ชม No. กรุณา ลอง ค้นหา แบบ อื่น หรือ เลือก ภาษา อื่น."
+    of: ของ
+    page_title: "OER Recommender - รับ การ ศึกษา เครื่องมือ แนะนำ ทรัพยากร เปิด เว็บไซต์ ของ คุณ"
+    powered_by: "ขับเคลื่อน โดย"
+    previous: "ก่อน หน้า นี้"
+    rdf: RDF
+    related_resources: "ทรัพยากร ที่ เกี่ยวข้อง"
+    related_resources_title: "ข้อมูล ที่ เกี่ยวข้อง"
+    relevance: เกี่ยวข้อง
+    results: "ผล การ ค้นหา"
+    rss: RSS
+    search: ค้นหา
+    signup: "ลง ทะเบียน เพื่อ รับ Folksemantic คำ แนะนำ ส่วน บุคคล และ การ ทำงาน ร่วม กับ ผู้ อื่น"
+    tag_line: "รับ Folksemantic - เครื่องมือ OER Recommender <br/> เพื่อ ง่าย ใส่ &quot;ข้อมูล ที่ เกี่ยวข้อง เชื่อม โยง&quot; ใน เว็บไซต์ ของ คุณ"
+    title: "Recommender OER"
+    widgets: เครื่องมือ
+    xml: XML

@@ -14,13 +14,17 @@ el:
     subject: "Θέμα:"
     subject_help: "Μια απλή δήλωση στην οποία αναφέρεται η φύση της τα σχόλιά σας."
   folksemantic: 
+    about: "Μάθετε περισσότερα για το έργο Folksemantic"
+    actions: Ενέργειες
     add_edit_feeds: "προσθήκη / επεξεργασία εγγραφών"
+    advanced_widget_options: "Σύνθετη Widget Ρυθμίσεις"
     all_resources: Όλα
     atom: Atom
     browse_resources: "Browse Resources"
     calculated: υπολογίζονται
     collections: Συλλογές
     collections_long: "Indexed Συλλογές"
+    connect_account: "Συνδέστε το λογαριασμό σας με:"
     contribute_repository: "Συμβάλλουν OCW / ΑΕΜ Repository"
     credits: "Αναπτύχθηκε από <a href=\"http://www.tatemae.com\">Tatemae</a> για το <a href=\"http://cosl.usu.edu\">Κέντρο για την Ανοικτή και βιώσιμη Μάθηση</a> με χρηματοδότηση από το <a href=\"http://nsf.gov/\">Εθνικό Ίδρυμα Επιστημών</a> και το <a href=\"http://www.mellon.org/\">Andrew W Mellon Foundation</a>"
     demo: Demo
@@ -46,6 +50,7 @@ el:
       why: "ΓΙΑΤΙ FOLKSEMANTIC;"
       widgets_pitch: "Θέλετε να πάρετε συστάσεις ΑΕΜ για τις ιστοσελίδες σας;"
     just_ocws: Μαθήματα
+    latest_comments: "Πρόσφατα σχόλια"
     metadata: Μεταδεδομένα
     next: Επόμενος
     no_hits: "Δεν επιτυχίες. Δοκιμάστε μια διαφορετική αναζήτηση ή επιλέξτε μια διαφορετική γλώσσα."
@@ -62,7 +67,7 @@ el:
     rss: RSS
     search: αναζήτηση
     search_button: Πάω
-    search_description: "Βρείτε μαθησιακών πόρων από <span class=\"highlight\">την αναζήτηση</span> και <span class=\"highlight\">την ώρα</span> πάνω από <span class=\"highlight\">110.000</span> ανοικτών εκπαιδευτικών πόρων"
+    search_description: "Βρείτε μαθησιακών πόρων από <span class=\"highlight\">την αναζήτηση</span> και την <span class=\"highlight\">ώρα</span> πάνω από <span class=\"highlight\">110.000</span> ανοικτών εκπαιδευτικών πόρων"
     search_link: "Βρείτε Πόρων!"
     tag_line: "εξουσιοδοτήσεως ανοικτή εκπαίδευση"
     title: folksemantic
@@ -72,7 +77,7 @@ el:
     welcome: "Καλώς ήλθατε στο Folksemantic."
     welcome_message: "Είμαστε ενεργά για την ενσωμάτωση OCWFinder και OERRecommender σε μια σελίδα για να σας βοηθήσει να βρείτε τις πιο ενδιαφέρουσες και συναφείς εκπαιδευτικούς πόρους."
     welcome_user: "Καλώς {{user}}"
-    widgets_description: "Πάρτε widgets για να βοηθήσει τους χρήστες να <span class=\"highlight\">βρουν</span> πόρους και <span class=\"highlight\">να ανακαλύψουν τους πόρους που σχετίζονται</span> με αυτές στην ιστοσελίδα σας"
+    widgets_description: "Πάρτε widgets για να βοηθήσει τους χρήστες να <span class=\"highlight\">βρουν</span> πόρους και να <span class=\"highlight\">ανακαλύψουν τους πόρους που σχετίζονται</span> με αυτές στην ιστοσελίδα σας"
     widgets_link: "Get Widgets!"
     widgets_title: "folksemantic widgets"
     xml: XML
@@ -98,6 +103,8 @@ el:
     raker: 
       add_extended_feed_sub_title: ~
       add_extended_feed_title: "Συμβάλλουν OCW / ΑΕΜ Repository"
+    services: 
+      add_new_feed_title: "Συνεισφέρει OCW / ζωοτροφών ΑΕΜ δεδομένων."
     user_greeting: "Γεια {{user}},"
     users: 
       dev_plans: "Υποστηρίζουμε ενεργά την ανάπτυξη αυτή να επεκταθεί <a href=\"http://ocwfinder.org\">ocwfinder.org</a> και <a href=\"http://oerrecommender.org\">oerrecommender.org</a>"
@@ -105,3 +112,36 @@ el:
       signup_header: "Πιστεύεις ότι είσαι έξυπνος;"
       signup_pitch: "Folksemantic καθιστά εύκολο να βρεθεί, το μερίδιο της, και τη χρήση ανοικτών εκπαιδευτικών πόρων ώστε να μπορείτε να πάρετε έξυπνο."
     welcome_activity: "Καλώς ήλθατε στο {{application_name}}! Εδώ μπορείτε να <a href='/resources'>ανακαλύψετε δωρεάν εκπαιδευτικούς πόρους από όλο τον κόσμο.</a> Ενδιαφέρουσες σε <a href='/resources/search?q=lady+bugs'>σφάλματα κυρία;</a> <a href='/resources/3909'>Τι λέτε για μαθησιακούς πόρους από τη NASA;.</a>"
+  oerrecommender: 
+    atom: Atom
+    calculated: υπολογίζονται
+    collections: Συλλογές
+    collections_long: "Indexed Συλλογές"
+    demo: Demo
+    details: Λεπτομέρειες
+    developers: Developers
+    developers_long: "Πληροφορίες για προγραμματιστές"
+    direct_link: "[άμεσος σύνδεσμος]"
+    for: για
+    gm_more_prompt: "Περισσότερα Σχετικοί πόροι"
+    gm_title: "Σχετικοί πόροι"
+    integration_page_title: "Ενσωμάτωση των συστάσεων από folksemantic στην ιστοσελίδα σας."
+    metadata: Μεταδεδομένα
+    next: Επόμενος
+    no_hits: "Δεν επιτυχίες. Δοκιμάστε μια διαφορετική αναζήτηση ή επιλέξτε μια διαφορετική γλώσσα."
+    of: από
+    page_title: "ΑΕΜ Recommender - Πάρτε ανοικτή widgets σύσταση εκπαίδευση των πόρων για την ιστοσελίδα σας"
+    powered_by: "powered by"
+    previous: Προηγούμενη
+    rdf: RDF
+    related_resources: "Σχετικοί πόροι"
+    related_resources_title: "Σχετικοί πόροι"
+    relevance: ενδιαφέρον
+    results: Αποτελέσματα
+    rss: RSS
+    search: Αναζήτηση
+    signup: "Εγγραφή για Folksemantic να πάρει εξατομικευμένες συστάσεις και να συνεργάζεται με άλλους"
+    tag_line: "Αποκτήστε το Folksemantic - ΑΕΜ Recommender widget <br/> εύκολα να προστεθούν οι λέξεις «σχετικές πόροι&quot; συνδέσμους στην ιστοσελίδα σας"
+    title: "ΑΕΜ Recommender"
+    widgets: Widgets
+    xml: XML

@@ -14,13 +14,17 @@ es:
     subject: "Asunto:"
     subject_help: "Una simple declaración indicando la naturaleza de sus comentarios."
   folksemantic: 
+    about: "Aprenda más sobre el proyecto Folksemantic"
+    actions: Acciones
     add_edit_feeds: "Agregar / Editar canales"
+    advanced_widget_options: "Widget Configuración avanzada"
     all_resources: Todo
     atom: Atom
     browse_resources: "Encuentra Recursos"
     calculated: calculado
     collections: Colecciones
     collections_long: "Colecciones indexadas"
+    connect_account: "Conecte su cuenta con:"
     contribute_repository: "Contribuir OCW / REA Repositorio"
     credits: "Desarrollado por <a href=\"http://www.tatemae.com\">tatemae</a> para el <a href=\"http://cosl.usu.edu\">Center for Open and Sustainable Learning</a> con fondos de la <a href=\"http://nsf.gov/\">National Science Foundation</a> y la <a href=\"http://www.mellon.org/\">Fundación Andrew W Mellon</a>"
     demo: Demo
@@ -46,6 +50,7 @@ es:
       why: "¿POR QUÉ FOLKSEMANTIC?"
       widgets_pitch: "¿Quieres obtener recomendaciones REA para sus páginas web?"
     just_ocws: Cursos
+    latest_comments: "Últimos Comentarios"
     metadata: Metadatos
     next: Siguiente
     no_hits: "No hay éxitos. Por favor, intenta una búsqueda diferente o elija un idioma diferente."
@@ -98,6 +103,8 @@ es:
     raker: 
       add_extended_feed_sub_title: ~
       add_extended_feed_title: "Contribuir OCW / REA Repositorio"
+    services: 
+      add_new_feed_title: "Contribuir con un OCW datos REA piensos."
     user_greeting: "Hola {{user}},"
     users: 
       dev_plans: "Estamos desarrollando activamente a extender <a href=\"http://ocwfinder.org\">ocwfinder.org</a> y <a href=\"http://oerrecommender.org\">oerrecommender.org</a>"
@@ -105,3 +112,36 @@ es:
       signup_header: "¿Crees que eres inteligente?"
       signup_pitch: "Folksemantic hace que sea fácil de encontrar, compartir y utilizar los recursos educativos abiertos para que pueda ser más listos."
     welcome_activity: "Bienvenido a {{application_name}}! Aquí usted puede <a href='/resources'>descubrir una liberación de recursos educativos de todo el mundo.</a> Interesantes en <a href='/resources/search?q=lady+bugs'>mariquitas?</a> <a href='/resources/3909'>¿Qué hay de recursos de aprendizaje de la NASA?.</a>"
+  oerrecommender: 
+    atom: Atom
+    calculated: calculado
+    collections: Colecciones
+    collections_long: "Colecciones indexadas"
+    demo: Demo
+    details: Detalles
+    developers: Desarrolladores
+    developers_long: "Información para desarrolladores"
+    direct_link: "[enlace directo]"
+    for: para
+    gm_more_prompt: "Más Recursos relacionados"
+    gm_title: "Recursos relacionados"
+    integration_page_title: "Integrar las recomendaciones de folksemantic en su sitio web."
+    metadata: Metadatos
+    next: Siguiente
+    no_hits: "No hay éxitos. Por favor, intenta una búsqueda diferente o elija un idioma diferente."
+    of: de
+    page_title: "OER Recommender - Obtener recursos reproductores de educación abierta de recomendación para su sitio web"
+    powered_by: "powered by"
+    previous: Anterior
+    rdf: RDF
+    related_resources: "Recursos relacionados"
+    related_resources_title: "Recursos relacionados"
+    relevance: relevancia
+    results: Resultados
+    rss: RSS
+    search: Búsqueda
+    signup: "Regístrate en Folksemantic para obtener recomendaciones personalizadas y colaborar con otros"
+    tag_line: "Obtener el Folksemantic - REA widget Recommender <br/> para insertar fácilmente &quot;los recursos relacionados con&quot; enlaces en su sitio web"
+    title: "REA Recommender"
+    widgets: Widgets
+    xml: XML

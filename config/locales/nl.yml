@@ -14,13 +14,17 @@ nl:
     subject: "Onderwerp:"
     subject_help: "Een eenvoudige verklaring waaruit de aard van uw feedback."
   folksemantic: 
+    about: "Meer informatie over de Folksemantic project"
+    actions: Acties
     add_edit_feeds: "toevoegen / bewerken feeds"
+    advanced_widget_options: "Geavanceerde Widget Settings"
     all_resources: Alle
     atom: Atom
     browse_resources: "Blader door Hulpbronnen"
     calculated: berekend
     collections: Collecties
     collections_long: "Geïndexeerde Collecties"
+    connect_account: "Sluit uw account met:"
     contribute_repository: "Bijdragen OCW / OER Repository"
     credits: "Ontwikkeld door <a href=\"http://www.tatemae.com\">Tatemae</a> voor het <a href=\"http://cosl.usu.edu\">Center for Open and Sustainable Learning</a> met financiering van de <a href=\"http://nsf.gov/\">National Science Foundation</a> en de <a href=\"http://www.mellon.org/\">W Andrew Mellon Foundation</a>"
     demo: Demo
@@ -46,6 +50,7 @@ nl:
       why: "WAAROM FOLKSEMANTIC?"
       widgets_pitch: "Wil OER aanbevelingen krijgen voor uw webpagina&#39;s?"
     just_ocws: Cursussen
+    latest_comments: "Laatste Reacties"
     metadata: Metadata
     next: Volgende
     no_hits: "Geen hits. Probeer een andere zoekopdracht of kies een andere taal."
@@ -53,7 +58,7 @@ nl:
     powered_by: "powered by"
     previous: Vorige
     rdf: RDF
-    register_description: "Meld u nu aan gepersonaliseerde <span class=\"highlight\">aanbevelingen,</span> deelnemen in <span class=\"highlight\">groepen,</span> en gemakkelijk <span class=\"highlight\">te publiceren op blogs</span>"
+    register_description: "Meld u nu aan gepersonaliseerde <span class=\"highlight\">aanbevelingen,</span> deelnemen in <span class=\"highlight\">groepen,</span> en gemakkelijk te <span class=\"highlight\">publiceren op blogs</span>"
     register_link: "Sign Up!"
     related_resources: "Gerelateerde bronnen"
     related_resources_title: "Verwante bronnen"
@@ -98,6 +103,8 @@ nl:
     raker: 
       add_extended_feed_sub_title: ~
       add_extended_feed_title: "Bijdragen OCW / OER Repository"
+    services: 
+      add_new_feed_title: "Draag een OCW / OER gegevens feed."
     user_greeting: "Hi {{user}},"
     users: 
       dev_plans: "We zijn actief op de ontwikkeling ervan uit te breiden <a href=\"http://ocwfinder.org\">ocwfinder.org</a> en <a href=\"http://oerrecommender.org\">oerrecommender.org</a>"
@@ -105,3 +112,36 @@ nl:
       signup_header: "Denk je slim?"
       signup_pitch: "Folksemantic maakt het gemakkelijk te vinden, delen en gebruik van Open Educational Resources, zodat u kunt krijgen slim."
     welcome_activity: "Welkom op {{application_name}}! Hier kunt u <a href='/resources'>ontdekken gratis educatieve middelen uit de hele wereld.</a> Interessant <a href='/resources/search?q=lady+bugs'>dame bugs?</a> <a href='/resources/3909'>Hoe zit het met het leren van de middelen van de NASA?.</a>"
+  oerrecommender: 
+    atom: Atom
+    calculated: berekend
+    collections: Collecties
+    collections_long: "Geïndexeerde Collecties"
+    demo: Demo
+    details: Details
+    developers: Ontwikkelaars
+    developers_long: "Informatie voor ontwikkelaars"
+    direct_link: "[directe link]"
+    for: voor
+    gm_more_prompt: "Meer Verwante bronnen"
+    gm_title: "Verwante bronnen"
+    integration_page_title: "Integreer aanbevelingen uit folksemantic in uw website."
+    metadata: Metadata
+    next: Volgende
+    no_hits: "Geen hits. Probeer een andere zoekopdracht of kies een andere taal."
+    of: van
+    page_title: "OER Recommender - Get open onderwijs bron aanbeveling widgets voor uw website"
+    powered_by: "powered by"
+    previous: Vorige
+    rdf: RDF
+    related_resources: "Gerelateerde bronnen"
+    related_resources_title: "Verwante bronnen"
+    relevance: relevantie
+    results: Resultaten
+    rss: RSS
+    search: Zoeken
+    signup: "Aanmelden voor Folksemantic te krijgen gepersonaliseerde aanbevelingen en samenwerken met anderen"
+    tag_line: "Haal de Folksemantic - OER Recommender widget <br/> gemakkelijk invoegen &quot;gerelateerde middelen&quot; links op uw website"
+    title: "OER Recommender"
+    widgets: Widgets
+    xml: XML

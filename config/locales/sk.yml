@@ -14,13 +14,17 @@ sk:
     subject: "Predmet:"
     subject_help: "Jednoduchý uvedie povahu svoj názor."
   folksemantic: 
+    about: "Viac informácií o projekte Folksemantic"
+    actions: Akcia
     add_edit_feeds: "pridať / upraviť kanály"
+    advanced_widget_options: "Widget pokročilé nastavenia"
     all_resources: Všetko
     atom: Atom
     browse_resources: "Ľudia Zdroje"
     calculated: vypočítané
     collections: Zbierky
     collections_long: "Indexované Collections"
+    connect_account: "Pripojte svoj účet:"
     contribute_repository: "Prispieť OCW / OER Repository"
     credits: "Vyvinutý <a href=\"http://www.tatemae.com\">Tatemae</a> pre <a href=\"http://cosl.usu.edu\">Centrum pre otvorené a udržateľný rozvoj vzdelávania</a> s financovaním z <a href=\"http://nsf.gov/\">National Science Foundation</a> a <a href=\"http://www.mellon.org/\">Andrew Mellon Foundation W</a>"
     demo: Demo
@@ -46,6 +50,7 @@ sk:
       why: "FOLKSEMANTIC PREČO?"
       widgets_pitch: "Chcete sa dostať OER odporúčania pre vaše webové stránky?"
     just_ocws: Predmety
+    latest_comments: "Posledné Komentáre"
     metadata: Metadata
     next: Budúci
     no_hits: "No hity. Prosím, skúste hľadať iné alebo vyberte iný jazyk."
@@ -98,6 +103,8 @@ sk:
     raker: 
       add_extended_feed_sub_title: ~
       add_extended_feed_title: "Prispieť OCW / OER Repository"
+    services: 
+      add_new_feed_title: "Prispieť OCW / OER dátový zdroj."
     user_greeting: "Hi {{user}},"
     users: 
       dev_plans: "Sme aktívne rozvíjať ju rozšíriť <a href=\"http://ocwfinder.org\">ocwfinder.org</a> a <a href=\"http://oerrecommender.org\">oerrecommender.org</a>"
@@ -105,3 +112,36 @@ sk:
       signup_header: "Myslíte, že ste chytrí?"
       signup_pitch: "Folksemantic uľahčuje vyhľadanie, zdieľanie a využívanie otvorených vzdelávacích zdrojov, takže môžete získať inteligentné."
     welcome_activity: "Vitajte na {{application_name}}! Tu môžete <a href='/resources'>zistiť, zadarmo vzdelávacích zdrojov z celého sveta.</a> Zaujímavé <a href='/resources/search?q=lady+bugs'>pani chyby?</a> <a href='/resources/3909'>Ako naučiť zdrojov z NASA?.</a>"
+  oerrecommender: 
+    atom: Atom
+    calculated: vypočítané
+    collections: Zbierky
+    collections_long: "Indexované Collections"
+    demo: Demo
+    details: Detaily
+    developers: Vývojári
+    developers_long: "Informácie pre vývojárov"
+    direct_link: "[priamy odkaz]"
+    for: pre
+    gm_more_prompt: "Viac Súvisiace zdroje informácií"
+    gm_title: "Súvisiace zdroje informácií"
+    integration_page_title: "Integrovať odporúčania folksemantic na svoj web."
+    metadata: Metadata
+    next: Budúci
+    no_hits: "No hity. Prosím, skúste hľadať iné alebo vyberte iný jazyk."
+    of: z
+    page_title: "OER stránky odporučil - Get otvoreného vzdelávania widgety zdroj odporúčaní pre vaše webové stránky"
+    powered_by: "powered by"
+    previous: Predchádzajúci
+    rdf: RDF
+    related_resources: "Súvisiace zdroje"
+    related_resources_title: "Súvisiace zdroje informácií"
+    relevance: relevance
+    results: Výsledky
+    rss: RSS
+    search: Hľadať
+    signup: "Prihlásiť sa na Folksemantic získať osobné odporúčania a spolupracovať s ostatnými"
+    tag_line: "Get Folksemantic - OER stránky odporučil widget <br/> ľahko vložiť &quot;príslušné zdroje&quot; odkazy do svojej stránky"
+    title: "OER stránky odporučil"
+    widgets: Widgety
+    xml: XML

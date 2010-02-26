@@ -14,13 +14,17 @@ bg:
     subject: "Тема:"
     subject_help: "А просто изявление се посочва естеството на вашето мнение."
   folksemantic: 
+    about: "Научете повече за проекта Folksemantic"
+    actions: Действия
     add_edit_feeds: "добавяне / редактиране на емисии"
+    advanced_widget_options: "Разширено Widget Настройки"
     all_resources: Всички
     atom: Атом
     browse_resources: "Преглед ресурси"
     calculated: изчислени
     collections: Колекции
     collections_long: "Индексирани Колекции"
+    connect_account: "Свържете сметка:"
     contribute_repository: "Принос OCW / OER Repository"
     credits: "Разработено от <a href=\"http://www.tatemae.com\">Tatemae</a> за <a href=\"http://cosl.usu.edu\">център за открито и устойчивото обучение</a> с финансиране от <a href=\"http://nsf.gov/\">Националната научна фондация</a> и <a href=\"http://www.mellon.org/\">Фондация Андрю Мелън W</a>"
     demo: Демо
@@ -46,6 +50,7 @@ bg:
       why: "ЗАЩО FOLKSEMANTIC?"
       widgets_pitch: "Искате ли да получите безплатни образователни източници, препоръки за вашия уеб страници?"
     just_ocws: Курсове
+    latest_comments: "Последни Коментари"
     metadata: Метаданните
     next: Следващ
     no_hits: "Няма попадения. Моля опитайте с различни търсене или изберете друг език."
@@ -98,6 +103,8 @@ bg:
     raker: 
       add_extended_feed_sub_title: ~
       add_extended_feed_title: "Принос OCW / OER Repository"
+    services: 
+      add_new_feed_title: "Допринесли за OCW / OER подаване на данни."
     user_greeting: "Здравейте {{user}},"
     users: 
       dev_plans: "Ние активно развиващите се тя да се разшири <a href=\"http://ocwfinder.org\">ocwfinder.org</a> и <a href=\"http://oerrecommender.org\">oerrecommender.org</a>"
@@ -105,3 +112,36 @@ bg:
       signup_header: "Мислите, че сте умни?"
       signup_pitch: "Folksemantic го прави лесен за намиране, споделяне и използване на отворени образователни ресурси, така че можете да получите добър човек."
     welcome_activity: "Добре дошли в {{application_name}}! Тук можете да <a href='/resources'>откриете безплатните образователни ресурси от цял свят.</a> Интересни в <a href='/resources/search?q=lady+bugs'>дама грешки?</a> <a href='/resources/3909'>Какво ще кажете за учебни ресурси от НАСА?.</a>"
+  oerrecommender: 
+    atom: Атом
+    calculated: изчислени
+    collections: Колекции
+    collections_long: "Индексирани Колекции"
+    demo: Демо
+    details: Детайли
+    developers: Фирми
+    developers_long: "Информация за програмисти"
+    direct_link: "[линк]"
+    for: за
+    gm_more_prompt: "Още Сродни ресурси"
+    gm_title: "Сродни ресурси"
+    integration_page_title: "Интегриране на препоръките от folksemantic в своя уебсайт."
+    metadata: Метаданните
+    next: Следващ
+    no_hits: "Няма попадения. Моля опитайте с различни търсене или изберете друг език."
+    of: на
+    page_title: "OER Recommender - Махни отворен джунджурии образование препоръка ресурс за вашия сайт"
+    powered_by: "захранва от"
+    previous: Назад
+    rdf: RDF
+    related_resources: БГ
+    related_resources_title: "Сродни ресурси"
+    relevance: значение
+    results: Резултати
+    rss: RSS
+    search: Търся
+    signup: "Запишете се за Folksemantic да получите персонализирани препоръки и да си сътрудничат с други"
+    tag_line: "Вземете Folksemantic - OER Recommender джаджа <br/> лесно да въведете &quot;ресурси, свързани с&quot; връзки във вашия уеб сайт"
+    title: "OER Recommender"
+    widgets: Джаджи
+    xml: XML

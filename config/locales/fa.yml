@@ -14,13 +14,17 @@ fa:
     subject: "موضوع :"
     subject_help: "دستور ساده نشان می دهد طبیعت نظرات شما."
   folksemantic: 
+    about: "اطلاعات بیشتر در مورد پروژه Folksemantic"
+    actions: عملیات
     add_edit_feeds: "ایجاد / ویرایش کنید خوردها"
+    advanced_widget_options: "جستجوی پیشرفته ویدجت تنظیمات"
     all_resources: همه
     atom: اتم
     browse_resources: "منابع فهرست اسامی"
     calculated: محاسبه
     collections: "مجموعه ها"
     collections_long: "مجموعه نمایهشده"
+    connect_account: "حساب شما ارتباط برقرار میکند :"
     contribute_repository: "همکاری OCW / OER مخزن"
     credits: "توسط <a href=\"http://www.tatemae.com\">Tatemae</a> برای <a href=\"http://cosl.usu.edu\">مرکز آموزش باز کردن و پایدار</a> با کمک مالی <a href=\"http://nsf.gov/\">بنیاد ملی علوم آمریکا</a> و <a href=\"http://www.mellon.org/\">بنیاد اندرو ملون عرض</a> و توسعه"
     demo: "نسخه ی نمایشی"
@@ -46,6 +50,7 @@ fa:
       why: "چرا FOLKSEMANTIC؟"
       widgets_pitch: "می خواهم برنامه ، جزوه OER برای صفحات وب شما؟"
     just_ocws: دروس
+    latest_comments: "آخرین نظرات"
     metadata: فراداده
     next: بعدی
     no_hits: "بدون بازدید. لطفا یک جستجو های مختلف را امتحان کنید یا زبان دیگری را انتخاب کنید."
@@ -98,6 +103,8 @@ fa:
     raker: 
       add_extended_feed_sub_title: ~
       add_extended_feed_title: "همکاری OCW / OER مخزن"
+    services: 
+      add_new_feed_title: "همکاری OCW / اطلاعات اشتراک OER."
     user_greeting: "سلام {{user}}،"
     users: 
       dev_plans: "ما به طور جدی در حال توسعه آن را به گسترش <a href=\"http://ocwfinder.org\">ocwfinder.org</a> و <a href=\"http://oerrecommender.org\">oerrecommender.org</a>"
@@ -105,3 +112,36 @@ fa:
       signup_header: "فکر می کنم شما هوشیار است؟"
       signup_pitch: "Folksemantic را آسان میکند پیدا کردن ، به اشتراک و استفاده از منابع آموزشی باز ، بنابراین شما میتوانید دریافت هوشمند."
     welcome_activity: "خوش آمدید به {{application_name}}! در اینجا شما میتوانید <a href='/resources'>از منابع رایگان آموزشی از سراسر جهان کشف.</a> جالب در <a href='/resources/search?q=lady+bugs'>اشکالات بانوی؟</a> <a href='/resources/3909'>چگونه در مورد منابع یادگیری از ناسا؟.</a>"
+  oerrecommender: 
+    atom: اتم
+    calculated: محاسبه
+    collections: "مجموعه ها"
+    collections_long: "مجموعه نمایهشده"
+    demo: "نسخه ی نمایشی"
+    details: "اطلاعات بیشتر"
+    developers: "توسعه دهندگان"
+    developers_long: "اطلاعات برای توسعه دهندگان"
+    direct_link: "[لینک مستقیم]"
+    for: برای
+    gm_more_prompt: "بیشتر منابع مرتبط"
+    gm_title: "منابع مرتبط"
+    integration_page_title: "ادغام پیشنهادات folksemantic به وب سایت شما."
+    metadata: فراداده
+    next: بعدی
+    no_hits: "بدون بازدید. لطفا یک جستجو های مختلف را امتحان کنید یا زبان دیگری را انتخاب کنید."
+    of: از
+    page_title: "OER توصیهگر -- دریافت منابع آموزش و پرورش باز ویدجت توصیه برای سایت شما"
+    powered_by: "طراحی توسط"
+    previous: قبلی
+    rdf: RDF
+    related_resources: "منابع مرتبط"
+    related_resources_title: "منابع مرتبط"
+    relevance: ارتباط
+    results: نتایج
+    rss: "آر اس اس"
+    search: جستجو
+    signup: "ثبت نام برای Folksemantic دریافت فایل و همکاری با دیگران"
+    tag_line: "دریافت Folksemantic -- OER ویدجت توصیهگر <br/> به راحتی &quot;گنجاندن منابع مرتبط با&quot; لینک به وب سایت شما"
+    title: "OER توصیهگر"
+    widgets: ویدجت
+    xml: XML

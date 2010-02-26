@@ -14,13 +14,17 @@ iw:
     subject: "נושא:"
     subject_help: "משפט פשוט מצביע על אופי המשוב שלך."
   folksemantic: 
+    about: "למידע נוסף על הפרויקט Folksemantic"
+    actions: פעולות
     add_edit_feeds: "הוספה / עריכה של הזנות"
+    advanced_widget_options: "יישומון הגדרות מתקדמות"
     all_resources: הכל
     atom: Atom
     browse_resources: "משאבים עיון"
     calculated: מחושב
     collections: אוספים
     collections_long: "אוספים אינדקס"
+    connect_account: "להתחבר עם החשבון שלך:"
     contribute_repository: "לתרום OCW / מאגר OER"
     credits: "פותח ע&quot;י <a href=\"http://www.tatemae.com\">Tatemae</a> עבור <a href=\"http://cosl.usu.edu\">מרכז הלמידה פתוח בר קיימא</a> במימון <a href=\"http://nsf.gov/\">קרן המדע הלאומית</a> ואת <a href=\"http://www.mellon.org/\">קרן אנדרו מלון W</a>"
     demo: הדגמה
@@ -46,6 +50,7 @@ iw:
       why: "מדוע FOLKSEMANTIC?"
       widgets_pitch: "רוצים לקבל המלצות OER עבור דפי האינטרנט שלך?"
     just_ocws: קורסים
+    latest_comments: "תגובות אחרונות"
     metadata: Metadata
     next: הבא
     no_hits: "לא hits. אנא נסה חיפוש שונה או בחר בשפה שונה."
@@ -98,6 +103,8 @@ iw:
     raker: 
       add_extended_feed_sub_title: ~
       add_extended_feed_title: "לתרום OCW / מאגר OER"
+    services: 
+      add_new_feed_title: "לתרום OCW / נתונים OER להאכיל."
     user_greeting: "היי {{user}},"
     users: 
       dev_plans: "אנחנו באופן פעיל בפיתוח זה להאריך <a href=\"http://ocwfinder.org\">ocwfinder.org</a> ו <a href=\"http://oerrecommender.org\">oerrecommender.org</a>"
@@ -105,3 +112,36 @@ iw:
       signup_header: "חושב שאתה חכם?"
       signup_pitch: "Folksemantic מקל למצוא, לשתף, ולהשתמש במשאבים חינוך פתוח כדי שתוכל חכם."
     welcome_activity: "ברוכים הבאים {{application_name}}! כאן אתה יכול <a href='/resources'>לגלות משאבים חינוכיים חינם מרחבי העולם.</a> מעניין <a href='/resources/search?q=lady+bugs'>באגים גברת?</a> <a href='/resources/3909'>מה דעתך על משאבי למידה מנאס&quot;א?.</a>"
+  oerrecommender: 
+    atom: Atom
+    calculated: מחושב
+    collections: אוספים
+    collections_long: "אוספים אינדקס"
+    demo: הדגמה
+    details: פרטים
+    developers: מפתחים
+    developers_long: "מידע עבור מפתחים"
+    direct_link: "[קישור ישיר]"
+    for: עבור
+    gm_more_prompt: "יותר משאבים קשורים"
+    gm_title: "משאבים קשורים"
+    integration_page_title: "לשלב המלצות folksemantic לתוך אתר האינטרנט שלך."
+    metadata: Metadata
+    next: הבא
+    no_hits: "לא hits. אנא נסה חיפוש שונה או בחר בשפה שונה."
+    of: של
+    page_title: "OER המלצה - קבל משאב לפתוח יישומונים החינוך המלצה עבור אתר האינטרנט שלך"
+    powered_by: "מופעל על ידי"
+    previous: קודם
+    rdf: RDF
+    related_resources: "משאבים קשורים"
+    related_resources_title: "משאבים קשורים"
+    relevance: הרלוונטיות
+    results: תוצאות
+    rss: RSS
+    search: חיפוש
+    signup: "הירשם Folksemantic לקבל המלצות מותאמות אישית ולשתף פעולה עם אחרים"
+    tag_line: "קבל את Folksemantic - OER יישומון המלצה <br/> כדי להוסיף בקלות &quot;משאבים בנושא&quot; קישורים אל האתר שלך"
+    title: "OER המלצה"
+    widgets: Widgets
+    xml: XML

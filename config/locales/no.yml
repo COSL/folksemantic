@@ -5,7 +5,7 @@
     contact_response_subject: "Takk for forespørselen fra {{application_name}}!"
     contact_us: "Kontakt oss"
     email: "Din e-post:"
-    email_help: "Gi oss din e-post slik at vi kan kontakte deg om nødvendig."
+    email_help: "Vennligst oppgi din e-post slik at vi kan kontakte deg om nødvendig."
     name: "Ditt navn:"
     name_help: "Vennligst oppgi ditt navn."
     phone: "Ditt telefonnummer:"
@@ -15,13 +15,17 @@
     subject: "Emne:"
     subject_help: "En enkel setning som indikerer hva slags tilbakemelding."
   folksemantic: 
+    about: "Lær mer om Folksemantic prosjektet"
+    actions: Handlinger
     add_edit_feeds: "add / edit feeds"
+    advanced_widget_options: "Avanserte innstillinger Widget"
     all_resources: Alle
     atom: Atom
     browse_resources: "Bla Resources"
     calculated: beregnet
     collections: Samlinger
     collections_long: "Indeksert Samlinger"
+    connect_account: "Koble kontoen med:"
     contribute_repository: "Bidra OCW / OER Repository"
     credits: "Utviklet av <a href=\"http://www.tatemae.com\">Tatemae</a> for <a href=\"http://cosl.usu.edu\">Center for Open og bærekraftig læring</a> med støtte fra <a href=\"http://nsf.gov/\">National Science Foundation</a> og <a href=\"http://www.mellon.org/\">Andrew W Mellon Foundation</a>"
     demo: Demo
@@ -47,6 +51,7 @@
       why: "HVORFOR FOLKSEMANTIC?"
       widgets_pitch: "Ønsker å få OER anbefalinger for websidene dine?"
     just_ocws: Kurs
+    latest_comments: "Siste Kommentarer"
     metadata: Metadata
     next: Neste
     no_hits: "Ingen treff. Vennligst prøv et annet søk, eller velg et annet språk."
@@ -99,6 +104,8 @@
     raker: 
       add_extended_feed_sub_title: ~
       add_extended_feed_title: "Bidra OCW / OER Repository"
+    services: 
+      add_new_feed_title: "Bidra en OCW / OER data feed."
     user_greeting: "Hei {{user}},"
     users: 
       dev_plans: "Vi er aktivt med å utvikle den til å utvide <a href=\"http://ocwfinder.org\">ocwfinder.org</a> og <a href=\"http://oerrecommender.org\">oerrecommender.org</a>"
@@ -106,3 +113,36 @@
       signup_header: "Tror du er smart?"
       signup_pitch: "Folksemantic gjør det enkelt å finne, dele og bruke åpne pedagogiske ressurser slik at du kan få smarte."
     welcome_activity: "Velkommen til {{application_name}}! Her kan du <a href='/resources'>finne gratis pedagogiske ressurser fra hele verden.</a> Interessant i <a href='/resources/search?q=lady+bugs'>feil dame?</a> <a href='/resources/3909'>Hva med å lære ressurser fra NASA?.</a>"
+  oerrecommender: 
+    atom: Atom
+    calculated: beregnet
+    collections: Samlinger
+    collections_long: "Indeksert Samlinger"
+    demo: Demo
+    details: Detaljer
+    developers: Developers
+    developers_long: "Informasjon for utviklere"
+    direct_link: "[direkte link]"
+    for: for
+    gm_more_prompt: "Flere Beslektede ressurser"
+    gm_title: "Beslektede ressurser"
+    integration_page_title: "Integrer anbefalinger fra folksemantic på webområdet ditt."
+    metadata: Metadata
+    next: Neste
+    no_hits: "Ingen treff. Vennligst prøv et annet søk, eller velg et annet språk."
+    of: av
+    page_title: "OER Recommender - Få åpen utdanning ressurs anbefaling widgets for nettstedet"
+    powered_by: "powered by"
+    previous: Forrige
+    rdf: RDF
+    related_resources: "Beslektede ressurser"
+    related_resources_title: "Beslektede ressurser"
+    relevance: relevans
+    results: Resultater
+    rss: RSS
+    search: Søke
+    signup: "Registrer deg for Folksemantic å få personlige anbefalinger og samarbeide med andre"
+    tag_line: "Få Folksemantic - OER Recommender widget <br/> for enkelt å sette inn &quot;relaterte ressurser&quot; linker til ditt nettsted"
+    title: "OER Recommender"
+    widgets: Widgets
+    xml: XML

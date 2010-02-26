@@ -14,13 +14,17 @@ id:
     subject: "Perihal:"
     subject_help: "Sebuah pernyataan sederhana yang menunjukkan sifat umpan balik Anda."
   folksemantic: 
+    about: "Pelajari lebih lanjut tentang proyek Folksemantic"
+    actions: Tindakan
     add_edit_feeds: "menambah / edit feed"
+    advanced_widget_options: "Advanced Widget Pengaturan"
     all_resources: Semua
     atom: Atom
     browse_resources: "People Resources"
     calculated: dihitung
     collections: Koleksi
     collections_long: "Indexed Koleksi"
+    connect_account: "Hubungkan account Anda dengan:"
     contribute_repository: "Kontribusi OCW / OER Repositori"
     credits: "Dikembangkan oleh <a href=\"http://www.tatemae.com\">Tatemae</a> untuk <a href=\"http://cosl.usu.edu\">Pusat Belajar Terbuka dan berkelanjutan</a> dengan dana dari <a href=\"http://nsf.gov/\">National Science Foundation</a> dan <a href=\"http://www.mellon.org/\">Andrew W Mellon Foundation</a>"
     demo: Demo
@@ -46,6 +50,7 @@ id:
       why: "MENGAPA FOLKSEMANTIC?"
       widgets_pitch: "Ingin mendapatkan OER rekomendasi untuk halaman web Anda?"
     just_ocws: Kursus
+    latest_comments: "Latest Comments"
     metadata: Metadata
     next: Berikutnya
     no_hits: "Tidak hits. Silakan mencoba pencarian lain atau memilih bahasa yang berbeda."
@@ -98,6 +103,8 @@ id:
     raker: 
       add_extended_feed_sub_title: ~
       add_extended_feed_title: "Kontribusi OCW / OER Repositori"
+    services: 
+      add_new_feed_title: "Kontribusi OCW / OER feed data."
     user_greeting: "Hi {{user}},"
     users: 
       dev_plans: "Kami secara aktif mengembangkan hal itu untuk memperluas <a href=\"http://ocwfinder.org\">ocwfinder.org</a> dan <a href=\"http://oerrecommender.org\">oerrecommender.org</a>"
@@ -105,3 +112,36 @@ id:
       signup_header: "Pikir kau pintar?"
       signup_pitch: "Folksemantic membuatnya mudah untuk menemukan, berbagi, dan menggunakan sumber daya pendidikan terbuka sehingga Anda bisa mendapatkan cerdas."
     welcome_activity: "Welcome to {{application_name}}! Di sini Anda dapat <a href='/resources'>menemukan sumber daya pendidikan gratis dari seluruh dunia.</a> Menarik dalam <a href='/resources/search?q=lady+bugs'>lady bug?</a> <a href='/resources/3909'>Bagaimana dengan sumber belajar dari NASA?.</a>"
+  oerrecommender: 
+    atom: Atom
+    calculated: dihitung
+    collections: Koleksi
+    collections_long: "Indexed Koleksi"
+    demo: Demo
+    details: Details
+    developers: Developers
+    developers_long: "Informasi untuk Pengembang"
+    direct_link: "[direct link]"
+    for: untuk
+    gm_more_prompt: "More Related Resources"
+    gm_title: "Related Resources"
+    integration_page_title: "Mengintegrasikan rekomendasi dari folksemantic ke website Anda."
+    metadata: Metadata
+    next: Berikutnya
+    no_hits: "Tidak hits. Silakan mencoba pencarian lain atau memilih bahasa yang berbeda."
+    of: dari
+    page_title: "OER Recommender - Dapatkan rekomendasi sumber daya pendidikan terbuka widget untuk situs web Anda"
+    powered_by: "powered by"
+    previous: Sebelumnya
+    rdf: RDF
+    related_resources: "Related resources"
+    related_resources_title: "Related Resources"
+    relevance: relevansi
+    results: Hasil
+    rss: RSS
+    search: Mencari
+    signup: "Mendaftar untuk personalisasi Folksemantic untuk mendapatkan rekomendasi dan berkolaborasi dengan orang lain"
+    tag_line: "Dapatkan Folksemantic - Recommender OER widget <br/> dengan mudah menyisipkan &quot;terkait sumber daya&quot; link ke situs web Anda"
+    title: "OER Recommender"
+    widgets: Widgets
+    xml: XML

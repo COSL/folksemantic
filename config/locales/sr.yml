@@ -14,13 +14,17 @@ sr:
     subject: "Наслов:"
     subject_help: "Једноставна изјава означава природу Ваше повратне информације."
   folksemantic: 
+    about: "Сазнајте више о пројекту Фолксемантиц"
+    actions: Акције
     add_edit_feeds: "Додај / измени фидове"
+    advanced_widget_options: "Напредна подешавања виџета"
     all_resources: Све
     atom: Атом
     browse_resources: "Броусе ресурси"
     calculated: израчунати
     collections: Збирке
     collections_long: "Индексед Збирке"
+    connect_account: "Повежите свој налог:"
     contribute_repository: "Допринесе ОЦУ / ОЕР Склади"
     credits: "Девелопед бы <a href=\"http://www.tatemae.com\">Татемае</a> за <a href=\"http://cosl.usu.edu\">Центар за одрживи и отворено учење</a> финансирана од стране <a href=\"http://nsf.gov/\">Националне фондације за науку</a> и <a href=\"http://www.mellon.org/\">Ендрју Мелон фондација У</a>"
     demo: Демо
@@ -46,6 +50,7 @@ sr:
       why: "ЗАШТО ФОЛКСЕМАНТИЦ?"
       widgets_pitch: "Желите да добијете препоруке ОЕР за Ваше уеб странице?"
     just_ocws: Курсеви
+    latest_comments: "Најновији Коментари"
     metadata: Метадата
     next: Следећи
     no_hits: "Нема погодака. Покушајте другу претрагу или изаберите други језик."
@@ -98,6 +103,8 @@ sr:
     raker: 
       add_extended_feed_sub_title: ~
       add_extended_feed_title: "Допринесе ОЦУ / ОЕР Склади"
+    services: 
+      add_new_feed_title: "Допринесе ОЦУ / ОЕР уношење података."
     user_greeting: "Хи {{user}},"
     users: 
       dev_plans: "Ми смо активно развија да прошири <a href=\"http://ocwfinder.org\">оцуфиндер.орг</a> и <a href=\"http://oerrecommender.org\">оеррецоммендер.орг</a>"
@@ -105,3 +112,36 @@ sr:
       signup_header: "Мислите да сте паметни?"
       signup_pitch: "Фолксемантиц олакшава да пронађу, деле и користе отворене образовних ресурса, тако да можете добити паметан."
     welcome_activity: "Добродошли на {{application_name}}! Овде можете <a href='/resources'>открити бесплатне образовне ресурсе из целог света.</a> Занимљиво је <a href='/resources/search?q=lady+bugs'>дама грешке?</a> <a href='/resources/3909'>Како о учењу средства из НАСА.</a>"
+  oerrecommender: 
+    atom: Атом
+    calculated: израчунати
+    collections: Збирке
+    collections_long: "Индексед Збирке"
+    demo: Демо
+    details: Детаљи
+    developers: Програмери
+    developers_long: "Информације за програмере"
+    direct_link: "[Дирецт линк]"
+    for: за
+    gm_more_prompt: "Више Сродни ресурси"
+    gm_title: "Слични извори"
+    integration_page_title: "Интегрисати препоруке од фолксемантиц на Ваш уеб сајт."
+    metadata: Метадата
+    next: Следећи
+    no_hits: "Нема погодака. Покушајте другу претрагу или изаберите други језик."
+    of: од
+    page_title: "ОЕР Рецоммендер - Набавите отворите уидгет образовање ресурса препоруку за ваш сајт"
+    powered_by: "Поуеред бы"
+    previous: Претходни
+    rdf: РДФ
+    related_resources: "Сродни ресурси"
+    related_resources_title: "Слични извори"
+    relevance: релевантности
+    results: Резултати
+    rss: "РСС Феед"
+    search: Претраживати
+    signup: "Пријавите се за Фолксемантиц да добијете персонализоване препоруке и сарађују са другима"
+    tag_line: "Добити Фолксемантиц - ОЕР Рецоммендер виџет <br/> да лако убаците &quot;у вези ресурса&quot; линкове на ваш сајт"
+    title: "ОЕР Рецоммендер"
+    widgets: Уидгетс
+    xml: "КСМЛ -"

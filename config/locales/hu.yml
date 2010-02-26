@@ -14,13 +14,17 @@ hu:
     subject: "Tárgy: Az"
     subject_help: "Egy egyszerű kijelentés jellege visszajelzését."
   folksemantic: 
+    about: "Tudjon meg többet a Folksemantic projekt"
+    actions: Intézkedésekre
     add_edit_feeds: "add / edit feeds"
+    advanced_widget_options: "Widget Advanced Settings"
     all_resources: Mind
     atom: Atomnak
     browse_resources: "Tallózás Resources"
     calculated: számítani
     collections: Gyűjteményeket
     collections_long: "Indexált Collections"
+    connect_account: "Csatlakoztassa a számlát:"
     contribute_repository: "Contribute OCW / OER Repository"
     credits: "Által kifejlesztett <a href=\"http://www.tatemae.com\">Tatemae</a> a <a href=\"http://cosl.usu.edu\">Center for Learning nyitott és fenntartható</a> finanszírozása mellett a <a href=\"http://nsf.gov/\">National Science Foundation</a> és a <a href=\"http://www.mellon.org/\">W Andrew Mellon Alapítvány</a>"
     demo: Demót
@@ -46,6 +50,7 @@ hu:
       why: "AMIÉRT FOLKSEMANTIC?"
       widgets_pitch: "Want to get OER ajánlásokat weblapjára?"
     just_ocws: Tanfolyamokat
+    latest_comments: "Utolsó hozzászólások"
     metadata: Metaadatokat
     next: Következő
     no_hits: "Nincs találat. Próbáld egy másik keresést, vagy válasszon másik nyelvet."
@@ -98,6 +103,8 @@ hu:
     raker: 
       add_extended_feed_sub_title: ~
       add_extended_feed_title: "Contribute OCW / OER Repository"
+    services: 
+      add_new_feed_title: "Hozzájárulást fizet OCW / OER adathalmaz."
     user_greeting: "{{user}}, Hi"
     users: 
       dev_plans: "Nagy erőkkel fejlődő bővítésének <a href=\"http://ocwfinder.org\">ocwfinder.org</a> és <a href=\"http://oerrecommender.org\">oerrecommender.org</a>"
@@ -105,3 +112,36 @@ hu:
       signup_header: "Azt hiszed, okos?"
       signup_pitch: "Folksemantic teszi a könnyű megtalálni, megosztása és nyílt oktatási forrásokat annak érdekében kaphat okos."
     welcome_activity: "Welcome to {{application_name}}! Itt lehet <a href='/resources'>felfedezni szabad oktatási eszközök a világ minden tájáról.</a> Érdekes a <a href='/resources/search?q=lady+bugs'>hölgy hibáit?</a> <a href='/resources/3909'>Mi tanulási források NASA?.</a>"
+  oerrecommender: 
+    atom: Atomnak
+    calculated: számítani
+    collections: Gyűjteményeket
+    collections_long: "Indexált Collections"
+    demo: Demót
+    details: Részleteket
+    developers: Fejlesztőknek
+    developers_long: "Információ fejlesztők számára"
+    direct_link: "[Direct link]"
+    for: miatt
+    gm_more_prompt: "További Kapcsolódó anyagok"
+    gm_title: "Kapcsolódó anyagok"
+    integration_page_title: "Integrálni ajánlásai folksemantic saját weboldalán."
+    metadata: Metaadatokat
+    next: Következő
+    no_hits: "Nincs találat. Próbáld egy másik keresést, vagy válasszon másik nyelvet."
+    of: "-től"
+    page_title: "OER Recommender - Get álló oktatási források ajánlás widgets for your website"
+    powered_by: "powered by"
+    previous: Eddigi
+    rdf: Kemencehulladékot
+    related_resources: "Kapcsolódó anyagok"
+    related_resources_title: "Kapcsolódó anyagok"
+    relevance: relevanciáját
+    results: Eredményt
+    rss: "RSS -"
+    search: Keres
+    signup: "Iratkozzon fel Folksemantic hoz kap személyre szóló ajánlásokat, és együttműködni másokkal"
+    tag_line: "Get the Folksemantic - OER Recommender widget <br/> hogy könnyen be &quot;kapcsolódó források&quot; linkeket webhelye"
+    title: "Egyéb OER Recommender"
+    widgets: Widgeteket
+    xml: XML

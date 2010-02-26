@@ -14,13 +14,17 @@ hr:
     subject: "Tema:"
     subject_help: "Jednostavna izjava ukazuje na prirodu your feedback."
   folksemantic: 
+    about: "Saznajte više o projektu Folksemantic"
+    actions: Akcije
     add_edit_feeds: "dodati / uređivati feeds"
+    advanced_widget_options: "Napredne postavke Widget"
     all_resources: Sve
     atom: Atom
     browse_resources: "Browse Resources"
     calculated: izračunati
     collections: Zbirke
     collections_long: "Indexed Zbirke"
+    connect_account: "Spojite svoj račun s:"
     contribute_repository: "Contribute OCW / OER Repozitorij"
     credits: "Developed by <a href=\"http://www.tatemae.com\">Tatemae</a> za <a href=\"http://cosl.usu.edu\">Centar za održivi Open i učenje</a> uz financiranje iz <a href=\"http://nsf.gov/\">National Science Foundation</a> i <a href=\"http://www.mellon.org/\">Andrew W Mellon Foundation</a>"
     demo: Demo
@@ -46,6 +50,7 @@ hr:
       why: "ZAŠTO FOLKSEMANTIC?"
       widgets_pitch: "Want to get OER preporuke za Vaše web stranice?"
     just_ocws: Tečajevi
+    latest_comments: "Latest Comments"
     metadata: Metapodaci
     next: Dalje
     no_hits: "Nema pogodaka. Molimo pokušajte različite pretrage ili odaberite drugi jezik."
@@ -98,6 +103,8 @@ hr:
     raker: 
       add_extended_feed_sub_title: ~
       add_extended_feed_title: "Contribute OCW / OER Repozitorij"
+    services: 
+      add_new_feed_title: "Contribute OCW / OER data feed."
     user_greeting: "Hi {{user}},"
     users: 
       dev_plans: "Mi aktivno razvijamo ga proširiti <a href=\"http://ocwfinder.org\">ocwfinder.org</a> i <a href=\"http://oerrecommender.org\">oerrecommender.org</a>"
@@ -105,3 +112,36 @@ hr:
       signup_header: "Mislite da ste pametni?"
       signup_pitch: "Folksemantic olakšava pronalaženje, dijeljenje i korištenje otvorene obrazovne izvore na taj način možete dobiti pametan."
     welcome_activity: "Welcome to {{application_name}}! Ovdje možete <a href='/resources'>otkriti bez obrazovne izvore iz cijelog svijeta.</a> Zanimljivi in <a href='/resources/search?q=lady+bugs'>lady bugs?</a> <a href='/resources/3909'>Kako o resursima za učenje iz NASA?.</a>"
+  oerrecommender: 
+    atom: Atom
+    calculated: izračunati
+    collections: Zbirke
+    collections_long: "Indexed Zbirke"
+    demo: Demo
+    details: Detalji
+    developers: Developers
+    developers_long: "Informacije za programere"
+    direct_link: "[direktni link]"
+    for: za
+    gm_more_prompt: "Više Povezani resursi"
+    gm_title: "Povezani resursi"
+    integration_page_title: "Integrirati preporukama iz folksemantic na svoju web lokaciju."
+    metadata: Metapodaci
+    next: Dalje
+    no_hits: "Nema pogodaka. Molimo pokušajte različite pretrage ili odaberite drugi jezik."
+    of: od
+    page_title: "OER Recommender - Get otvoren obrazovanje widgets preporuka resurs za vaše web stranice"
+    powered_by: "powered by"
+    previous: Prethodna
+    rdf: RDF
+    related_resources: "Povezani resursi"
+    related_resources_title: "Povezani resursi"
+    relevance: Relevance
+    results: Rezultati
+    rss: RSS
+    search: Pretraživanje
+    signup: "Prijavite se za Folksemantic dobiti personalizirane preporuka i suradnje s drugima"
+    tag_line: "Get Folksemantic - OER Recommender widget <br/> za lako umetanje &quot;povezanih resursa&quot;, linkove na vaše web stranice"
+    title: "OER Recommender"
+    widgets: Widgets
+    xml: XML

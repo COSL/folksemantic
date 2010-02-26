@@ -14,13 +14,17 @@ sv:
     subject: "Ämne:"
     subject_help: "En enkel uppgift som anger vilken typ av feedback."
   folksemantic: 
+    about: "Läs mer om Folksemantic projektet"
+    actions: Åtgärder
     add_edit_feeds: "Lägg till / redigera feeds"
+    advanced_widget_options: "Widget Avancerade inställningar"
     all_resources: Alla
     atom: Atom
     browse_resources: Bläddrandetillgångar
     calculated: beräknad
     collections: Samlingar
     collections_long: "Indexed Collections"
+    connect_account: "Anslut ditt konto med:"
     contribute_repository: "Medverka OCW / OER Repository"
     credits: "Utvecklad av <a href=\"http://www.tatemae.com\">Tatemae</a> för <a href=\"http://cosl.usu.edu\">Center for Open and Sustainable Learning</a> med finansiering från <a href=\"http://nsf.gov/\">National Science Foundation</a> och <a href=\"http://www.mellon.org/\">Andrew W Mellon Foundation</a>"
     demo: Demo
@@ -46,6 +50,7 @@ sv:
       why: "VARFÖR FOLKSEMANTIC?"
       widgets_pitch: "Vill du få OER rekommendationer för dina webbsidor?"
     just_ocws: Kurser
+    latest_comments: "Latest Comments"
     metadata: Metadata
     next: Nästa
     no_hits: "Inga träffar. Försök med en annan sökning eller välj ett annat språk."
@@ -98,6 +103,8 @@ sv:
     raker: 
       add_extended_feed_sub_title: ~
       add_extended_feed_title: "Medverka OCW / OER Repository"
+    services: 
+      add_new_feed_title: "Medverka en OCW / OER datainmatning."
     user_greeting: "Hej {{user}},"
     users: 
       dev_plans: "Vi arbetar aktivt med att utveckla det fortsatta <a href=\"http://ocwfinder.org\">ocwfinder.org</a> och <a href=\"http://oerrecommender.org\">oerrecommender.org</a>"
@@ -105,3 +112,36 @@ sv:
       signup_header: "Tror du att du är smart?"
       signup_pitch: "Folksemantic gör det enkelt att hitta, dela och använda öppna utbildningsresurser så att du kan få smart."
     welcome_activity: "Välkommen till {{application_name}}! Här kan du <a href='/resources'>upptäcka gratis utbildningsresurser från hela världen.</a> Intressant i <a href='/resources/search?q=lady+bugs'>dam buggar?</a> <a href='/resources/3909'>Vad sägs om att lära resurser från NASA?.</a>"
+  oerrecommender: 
+    atom: Atom
+    calculated: beräknad
+    collections: Samlingar
+    collections_long: "Indexed Collections"
+    demo: Demo
+    details: Detaljer
+    developers: Utvecklare
+    developers_long: "Information för utvecklare"
+    direct_link: "[direktlänk]"
+    for: för
+    gm_more_prompt: "Mer Närliggande resurser"
+    gm_title: "Närliggande resurser"
+    integration_page_title: "Integrera rekommendationer från folksemantic på din webbplats."
+    metadata: Metadata
+    next: Nästa
+    no_hits: "Inga träffar. Försök med en annan sökning eller välj ett annat språk."
+    of: av
+    page_title: "OER recommender - Få öppen utbildning widgets resurs rekommendation för din webbplats"
+    powered_by: "powered by"
+    previous: Föregående
+    rdf: RDF
+    related_resources: Resurserna
+    related_resources_title: "Närliggande resurser"
+    relevance: relevans
+    results: Resultat
+    rss: RSS
+    search: Söka
+    signup: "Registrera dig för Folksemantic att få personliga rekommendationer och samarbeta med andra"
+    tag_line: "Get the Folksemantic - OER recommender widget <br/> enkelt infoga &quot;resurserna&quot; länkar på din webbplats"
+    title: "OER recommender"
+    widgets: Widgets
+    xml: XML

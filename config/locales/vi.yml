@@ -14,13 +14,17 @@ vi:
     subject: "Tiêu đề:"
     subject_help: "Một câu đơn giản chỉ ra bản chất của các phản hồi của bạn."
   folksemantic: 
+    about: "Tìm hiểu thêm về các dự án Folksemantic"
+    actions: "Hành động"
     add_edit_feeds: "thêm / sửa nguồn cấp dữ liệu"
+    advanced_widget_options: "Nâng cao Widget Settings"
     all_resources: "Tất cả"
     atom: "Nguyên tử"
     browse_resources: "Browse Resources"
     calculated: tính
     collections: "Bộ sưu tập"
     collections_long: "Lập chỉ mục Bộ sưu tập"
+    connect_account: "Kết nối tài khoản của bạn với:"
     contribute_repository: "Góp phần OCW / OER Repository"
     credits: "Phát triển bởi <a href=\"http://www.tatemae.com\">Tatemae</a> cho các <a href=\"http://cosl.usu.edu\">Trung tâm học tập mở và bền vững</a> với sự tài trợ từ <a href=\"http://nsf.gov/\">Quỹ khoa học quốc gia</a> và <a href=\"http://www.mellon.org/\">Quỹ Andrew W Mellon</a>"
     demo: Demo
@@ -46,6 +50,7 @@ vi:
       why: "TẠI SAO FOLKSEMANTIC?"
       widgets_pitch: "Bạn muốn nhận được các khuyến nghị OER cho các trang web của bạn?"
     just_ocws: "Các khóa học"
+    latest_comments: "Bình luận mới nhất"
     metadata: Metadata
     next: "Tiếp theo"
     no_hits: "Không có số truy cập. Hãy thử một tìm kiếm khác nhau hoặc chọn một ngôn ngữ khác nhau."
@@ -98,6 +103,8 @@ vi:
     raker: 
       add_extended_feed_sub_title: ~
       add_extended_feed_title: "Góp phần OCW / OER Repository"
+    services: 
+      add_new_feed_title: "Đóng góp một OCW / OER dữ liệu thức ăn."
     user_greeting: "Hi {{user}},"
     users: 
       dev_plans: "Chúng tôi đang tích cực phát triển nó để mở rộng <a href=\"http://ocwfinder.org\">ocwfinder.org</a> và <a href=\"http://oerrecommender.org\">oerrecommender.org</a>"
@@ -105,3 +112,36 @@ vi:
       signup_header: "Hãy suy nghĩ bạn thông minh?"
       signup_pitch: "Folksemantic giúp bạn dễ dàng tìm thấy, chia sẻ, và sử dụng nguồn mở giáo dục, do đó bạn có thể nhận được thông minh."
     welcome_activity: "Chào mừng đến với {{application_name}}! Tại đây bạn có thể <a href='/resources'>khám phá các nguồn tài nguyên miễn phí giáo dục từ khắp nơi trên thế giới.</a> Thú vị ở <a href='/resources/search?q=lady+bugs'>lỗi lady?</a> <a href='/resources/3909'>Làm thế nào về học lực của NASA?.</a>"
+  oerrecommender: 
+    atom: "Nguyên tử"
+    calculated: tính
+    collections: "Bộ sưu tập"
+    collections_long: "Lập chỉ mục Bộ sưu tập"
+    demo: Demo
+    details: "Chi tiết"
+    developers: "Các nhà phát triển"
+    developers_long: "Thông tin cho Người phát triển"
+    direct_link: "[liên kết trực tiếp]"
+    for: vì
+    gm_more_prompt: "More Related Resources"
+    gm_title: "Liên quan đến tài nguyên"
+    integration_page_title: "Tích hợp các khuyến nghị từ folksemantic vào website của bạn."
+    metadata: Metadata
+    next: "Tiếp theo"
+    no_hits: "Không có số truy cập. Hãy thử một tìm kiếm khác nhau hoặc chọn một ngôn ngữ khác nhau."
+    of: của
+    page_title: "OER chạy nhất - Get widget giáo dục đề nghị mở tài nguyên cho trang web của bạn"
+    powered_by: "powered by"
+    previous: Trước
+    rdf: RDF
+    related_resources: "Liên quan đến tài nguyên"
+    related_resources_title: "Liên quan đến tài nguyên"
+    relevance: "sự liên quan"
+    results: "Kết quả"
+    rss: RSS
+    search: "Tìm kiếm"
+    signup: "Đăng ký Folksemantic để có được kiến nghị cá nhân và cộng tác với những người khác"
+    tag_line: "Nhận Folksemantic - OER chạy nhất widget <br/> để dễ dàng chèn &quot;nguồn tài nguyên liên quan đến&quot; liên kết vào website của bạn"
+    title: "OER chạy nhất"
+    widgets: Widgets
+    xml: XML
