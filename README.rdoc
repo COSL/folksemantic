@@ -27,7 +27,6 @@ rake gems:install won't work because the gems are included in the project's Rake
 It will take a while to install all the gems. 
 I recommend getting a tasty beverage and surfing the net while you wait for this to complete.
   sudo gem install will_paginate
-  sudo gem install jrails
   sudo gem install authlogic
   sudo gem install searchlogic
   sudo gem install bcrypt-ruby
@@ -51,7 +50,6 @@ I recommend getting a tasty beverage and surfing the net while you wait for this
   sudo gem install babelphish
   sudo gem install disguise
   sudo gem install uploader
-  sudo gem install disguise
   sudo gem install muck-engine
   sudo gem install muck-solr
   sudo gem install muck-feedbag
