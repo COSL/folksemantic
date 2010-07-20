@@ -18,45 +18,6 @@ Rails::Initializer.run do |config|
   # Add additional load paths for your own custom dirs
   # config.load_paths += %W( #{RAILS_ROOT}/extras )
 
-  # Specify gems that this application depends on and have them installed with rake gems:install
-  config.gem 'will_paginate'
-  config.gem "authlogic", :version => ">=2.1.2"
-  config.gem "searchlogic", :version => '>= 2.3.5'
-  config.gem "bcrypt-ruby", :lib => "bcrypt", :version => ">=2.1.1"
-  config.gem 'acts-as-taggable-on'
-  config.gem 'paperclip'
-  config.gem "awesome_nested_set", :lib => 'awesome_nested_set'
-  config.gem "friendly_id", :version => '>=2.2.0'
-  config.gem "sanitize"
-  config.gem "recaptcha", :lib => "recaptcha/rails"
-  config.gem "newrelic_rpm"
-  config.gem "feedzirra"
-  config.gem 'tiny_mce'
-  config.gem 'geokit'
-  config.gem 'hoptoad_notifier'
-  config.gem 'httparty', :version => '~>0.4.5'
-  config.gem "oauth"
-  config.gem "oauth-plugin"
-  config.gem 'overlord', :version => '>=0.1.20'
-  config.gem 'babelphish', :version => '>=0.2.7'
-  config.gem 'uploader', :version => '>=0.2.7'
-  config.gem 'disguise', :version => '>=0.4.0'
-  config.gem 'muck-engine', :lib => 'muck_engine', :version => '>=0.4.13'
-  config.gem "muck-solr", :lib => 'acts_as_solr', :version => '>=0.4.7'
-  config.gem "muck-feedbag", :lib => 'feedbag', :version => '>=0.6.0'
-  config.gem "muck-raker", :lib => 'muck_raker', :version => '>=0.3.13'
-  config.gem "muck-services", :lib => 'muck_services', :version => '>=0.1.41'
-  config.gem 'muck-users', :lib => 'muck_users', :version => '>=0.3.9'
-  config.gem 'muck-activities', :lib => 'muck_activities', :version => '>=0.1.27'
-  config.gem 'muck-comments', :lib => 'muck_comments', :version => '>=0.1.18'
-  config.gem 'muck-profiles', :lib => 'muck_profiles', :version => '>=0.2.1'
-  config.gem 'muck-friends', :lib => 'muck_friends', :version => '>=0.1.17'
-  config.gem 'muck-shares', :lib => 'muck_shares', :version => '>=0.1.8'
-  config.gem 'muck-contents', :lib => 'muck_contents', :version => '>=0.2.17'
-  config.gem 'muck-blogs', :lib => 'muck_blogs', :version => '>=0.1.8'
-  config.gem 'muck-invites', :lib => 'muck_invites', :version => '>=0.1.5'
-  config.gem 'muck-oauth', :lib => 'muck_oauth', :version => '>=0.1.5'
-
   # Only load the plugins named here, in the order given (default is alphabetical).
   # :all can be used as a placeholder for all plugins not explicitly named
   # config.plugins = [ :exception_notification, :ssl_requirement, :all ]
