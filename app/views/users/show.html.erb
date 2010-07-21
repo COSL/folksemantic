@@ -22,6 +22,9 @@
   <div id="controls" class="box">
     <h3><%= t('folksemantic.actions')%></h3>
     <ul>
+      <% if admin? %>
+      <li><%= link_to t('folksemantic.admin_link'), admin_path %></li>
+      <% end %>
       <li><%= link_to t('muck.invites.invite_friends', :app_name => GlobalConfig.application_name), new_invite_path %></li>
       <li><%= link_to t('muck.profiles.view_profile'), profile_path(@user) %></li>
       <li><%= link_to t('folksemantic.search_link'), resources_url %></li>
