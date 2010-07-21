@@ -7,6 +7,7 @@
         <%= select_tag('grain_size', options_for_select([[t('muck.services.all_resources'),'all'], [t('muck.services.only_courses'),'course']], [@grain_size])) %>
 		&nbsp;
         <% if logged_in? -%>
+          <%= link_to current_user.login, user_path(current_user) %> | 
           <%= link_to t('muck.users.sign_out_title'), logout_path %>
         <% else -%>
           <%= link_to t('muck.users.sign_up'), signup_path %> | <%= link_to t('muck.users.sign_in'), login_path %> 
