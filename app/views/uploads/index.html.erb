@@ -36,9 +36,7 @@
 	<div class="right" id="column_r">
 		<div id="upload-files" class="activity_box">
 			<h2><%= t('uploader.upload_files') %></h2>
-			<%= show_degraded_container_link %>
-			<%= show_swfupload_container_link %>
-			<%= upload_form(@parent) %>
+			<%= uploadify_form(@parent) %>
 		</div>
 	</div>
 	

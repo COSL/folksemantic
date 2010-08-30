@@ -17,7 +17,7 @@ ActionController::Routing::Routes.draw do |map|
     users.resources :aggregations, :controller => 'muck/aggregations'
   end
   
-  map.resources :uploads, :collection => { :photos => :get, :swfupload => :post }
+  map.resources :uploads, :collection => { :photos => :get, :multiupload => :post }
   map.resources :profiles
   map.connect 'search/results.:format', :controller => 'muck/entries', :action => 'search'
 
