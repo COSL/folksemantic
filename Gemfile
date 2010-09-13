@@ -35,7 +35,7 @@ gem 'portablecontacts', '0.1.0'
 gem 'babelphish'
 gem 'overlord'
 gem 'uploader'
-#gem "uploader", :path => "~/projects/uploader"
+#gem 'uploader', :path => "~/projects/uploader"
 
 gem 'aws-s3'
 gem 'disguise', '0.4.0'
