@@ -33,8 +33,8 @@ gem 'agree2', '0.2.0'
 gem 'portablecontacts', '0.1.0'
 
 gem 'babelphish'
-gem 'overlord'
-gem 'uploader'
+gem 'overlord', '0.1.22'
+gem 'uploader', '2.0.2'
 #gem 'uploader', :path => "~/projects/uploader"
 
 gem 'aws-s3'
