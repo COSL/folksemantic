@@ -7,14 +7,6 @@ GIT
       oauth (>= 0.4.0)
       roxml (~> 3.1.3)
 
-PATH
-  remote: /Users/jbasdf/projects/uploader
-  specs:
-    uploader (1.0.1)
-      mime-types
-      paperclip
-      rack
-
 GEM
   remote: http://rubygems.org/
   specs:
@@ -239,6 +231,11 @@ GEM
       httparty (~> 0.5.0)
       oauth (>= 0.3.5)
       yajl-ruby (~> 0.7.0)
+    uploader (2.0.0)
+      aws-s3
+      mime-types
+      paperclip
+      rack
     validation_reflection (0.3.8)
     webrat (0.7.1)
       nokogiri (>= 1.2.0)
@@ -259,7 +256,7 @@ DEPENDENCIES
   authlogic (= 2.1.3)
   awesome_nested_set (= 1.4.3)
   aws-s3
-  babelphish (>= 0.2.7)
+  babelphish
   bcrypt-ruby (= 2.1.2)
   cucumber (>= 0.1.13)
   disguise (= 0.4.0)
@@ -290,7 +287,7 @@ DEPENDENCIES
   newrelic_rpm
   oauth (= 0.4.0)
   oauth-plugin (= 0.3.14)
-  overlord (= 0.1.22)
+  overlord
   paperclip (= 2.3.1.1)
   polyglot (>= 0.2.4)
   portablecontacts (= 0.1.0)
@@ -307,6 +304,6 @@ DEPENDENCIES
   tiny_mce (= 0.1.3)
   treetop (>= 1.2.4)
   twitter (= 0.9.5)
-  uploader!
+  uploader
   webrat (>= 0.4.4)
   will_paginate (= 2.3.11)

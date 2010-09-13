@@ -32,10 +32,9 @@ gem "linkedin", '0.1.8', :git => "git://github.com/jbasdf/linkedin.git" # The re
 gem 'agree2', '0.2.0'
 gem 'portablecontacts', '0.1.0'
 
-gem 'babelphish', '>=0.2.7'
-gem 'overlord', '0.1.22'
-#gem 'uploader', '1.0.1'
-gem 'uploader', :path => "~/projects/uploader"
+gem 'babelphish'
+gem 'overlord'
+gem 'uploader'
 
 gem 'aws-s3'
 gem 'disguise', '0.4.0'
