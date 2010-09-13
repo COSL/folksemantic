@@ -111,8 +111,8 @@ en:
       search: SEARCH
       comments_heading: RECENT COMMENTS
       example_comment: "That legos construction guide is awesome! I wonder if we could use it with the students in CS 102."
-      widgets_pitch: Want to get OER recommendations for your web pages?
-      get_widgets: GET OER RECOMMENDER WIDGET
+      widgets_pitch: Want OER recommendations for your web pages?
+      get_widgets: GET THE OER RECOMMENDER WIDGET
   oerrecommender:
     page_title: "OER Recommender - Get open education resource recommendation widgets for your website"
     title: OER Recommender
