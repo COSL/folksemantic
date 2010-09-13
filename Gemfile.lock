@@ -36,7 +36,6 @@ GEM
       mime-types
       xml-simple
     babelphish (0.2.8)
-      json
       ya2yaml
     bcrypt-ruby (2.1.2)
     builder (2.1.2)
@@ -154,8 +153,8 @@ GEM
       paperclip
       sanitize
       uploader
-    muck-raker (0.3.13)
-    muck-services (0.1.45)
+    muck-raker (0.3.16)
+    muck-services (0.1.46)
       acts-as-taggable-on
       feedzirra
       httparty
@@ -207,7 +206,6 @@ GEM
     recaptcha (0.2.3)
     redgreen (1.2.2)
     river (0.1.0)
-      httparty
     roxml (3.1.5)
       activesupport (>= 2.3.0)
       nokogiri (>= 1.3.3)
@@ -280,8 +278,8 @@ DEPENDENCIES
   muck-invites (= 0.1.12)
   muck-oauth (= 0.2.4)
   muck-profiles (= 0.2.1)
-  muck-raker (= 0.3.13)
-  muck-services (= 0.1.45)
+  muck-raker (= 0.3.16)
+  muck-services (= 0.1.46)
   muck-shares (= 0.1.8)
   muck-solr (= 0.4.7)
   muck-users (= 0.3.19)
