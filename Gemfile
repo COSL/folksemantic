@@ -55,7 +55,7 @@ gem 'muck-invites', '0.1.12', :require => 'muck_invites'
 gem 'muck-comments', '0.1.20', :require => 'muck_comments'
 gem 'muck-oauth', '0.2.4', :require => 'muck_oauth'
 gem 'muck-blogs', '0.1.8', :require => 'muck_blogs'
-gem 'muck-services', '0.1.45', :require => 'muck_services'
+gem 'muck-services', '0.1.46', :require => 'muck_services'
 
 gem 'recaptcha', :require => 'recaptcha/rails'  # Only needed if using recaptcha
 #gem 'action_mailer_tls', :require => 'smtp_tls' # This one won't be needed long term
