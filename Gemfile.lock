@@ -109,7 +109,7 @@ GEM
       muck-engine
       muck-users
       sanitize
-    muck-contents (0.2.28)
+    muck-contents (0.2.27)
       acts-as-taggable-on
       awesome_nested_set
       fleakr
@@ -273,7 +273,7 @@ DEPENDENCIES
   muck-activities (= 0.1.27)
   muck-blogs (= 0.1.8)
   muck-comments (= 0.1.20)
-  muck-contents (= 0.2.28)
+  muck-contents (= 0.2.27)
   muck-engine (= 0.4.30)
   muck-feedbag
   muck-friends (= 0.1.17)
