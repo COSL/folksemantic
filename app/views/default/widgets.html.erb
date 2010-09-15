@@ -1,43 +1,17 @@
-<script type="text/javascript">
-function getRecommendations() {
-    url = document.getElementById('real_time_recommendations_url').value;
-    jQuery('#real_time_recommendations').hide();
-    jQuery('#recommending').show();
-    jQuery('#real_time_recommendations').load('/recommendations/real_time.html?show_header=true&u=' + url, function(){
-        jQuery('#recommending').hide();
-        jQuery('#real_time_recommendations').show();
-    });
-}
-function checkForEnter (event) {
-    if (event.keyCode == 13) {
-        getRecommendations();
-        return false;
-    }
-}
-jQuery(document).ready(function() {
-    jQuery('#get_recommendations').click(function() {
-        getRecommendations();
-    });
-
-    recommendations_url = jQuery("#real_time_recommendations_url");
-    if (jQuery.browser.mozilla) jQuery(recommendations_url).keypress (checkForEnter);
-    else jQuery(recommendations_url).keydown (checkForEnter);
-});
-</script>
 <h1>Widgets for Your Website</h1>
 
 <div class="widget-info block">
 
   <div class="features column span-13 colborder prepend-1">
     <h2>Get Recommendations for a Web Page</h2>
-    <p>Enter the address of your web page to see what recommendations OER Recommender would provide for it.</p>
+    <p>Enter the address of a web page to see what recommendations OER Recommender would provide for it.</p>
     <form>
       <table>
           <tr><td>Address:</td><td><input type="text" id="real_time_recommendations_url" style="width:460px;"></td></tr>
           <tr><td></td><td style="text-align:center;"><input type="button" value="Get Recommendations" id="get_recommendations"/></td></tr>
        </table>
     </form>
-    <p>If your resource is not in OER Recommender's index, it generates recommendations by downloading the resource and analyzing its content.
+    <p>If a resource is not in OER Recommender's index, it generates recommendations by downloading the resource and analyzing its content.
       If you register an <a href="http://en.wikipedia.org/wiki/RSS">RSS</a> feed or <a href="http://en.wikipedia.org/wiki/Open_Archives_Initiative_Protocol_for_Metadata_Harvesting">OAI</a>
       endpoint for your resources, OER Recommender will base its recommendations on the metadata you provide instead
       of the content of the resource.</p>
@@ -125,9 +99,11 @@ jQuery(document).ready(function() {
       <h3>Register Your Resources:</h3>
       <form action="/resources/search" method="get">
         <ol>
-          <li><%= link_to 'Register your resources', new_oai_rss_feeds_path, :class => 'iframe lightbox' %> by specifying an RSS feed, OAI endpoint, sitemap, or url mask.</li>
-          <li>Once your resources have been approved, they will be added to the folksemantic index.</li>
-          <li>If you want be notified of when your resources have been approved and be able to submit resources without approval, <a href="/signup">register as a folksemantic user</a>.</li>
+          <% if !logged_in? -%>
+          <li><%= link_to t('muck.users.sign_up'), signup_path %> or <%= link_to t('muck.users.sign_in'), login_path %>.
+          <% end %>
+          <li><%= link_to 'Register your resources', new_oai_rss_feeds_path %> by specifying an RSS feed, OAI endpoint, sitemap, or url mask.</li>
+          <li>Once your resources have been approved, they will be added to the folksemantic index and you will be notified via email.</li>
         </ol>
       </form>
     </div>
@@ -142,4 +118,28 @@ jQuery(document).ready(function() {
     'frameHeight': 600
   });
 });
+    function getRecommendations() {
+        url = document.getElementById('real_time_recommendations_url').value;
+        jQuery('#real_time_recommendations').hide();
+        jQuery('#recommending').show();
+        jQuery('#real_time_recommendations').load('/recommendations/real_time.html?show_header=true&u=' + url, function(){
+            jQuery('#recommending').hide();
+            jQuery('#real_time_recommendations').show();
+        });
+    }
+    function checkForEnter (event) {
+        if (event.keyCode == 13) {
+            getRecommendations();
+            return false;
+        }
+    }
+    jQuery(document).ready(function() {
+        jQuery('#get_recommendations').click(function() {
+            getRecommendations();
+        });
+
+        recommendations_url = jQuery("#real_time_recommendations_url");
+        if (jQuery.browser.mozilla) jQuery(recommendations_url).keypress (checkForEnter);
+        else jQuery(recommendations_url).keydown (checkForEnter);
+    });
 <% end -%>
