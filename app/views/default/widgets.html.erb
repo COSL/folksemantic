@@ -2,30 +2,6 @@
 
 <div class="widget-info block">
 
-  <div class="features column span-13 colborder prepend-1">
-    <h2>Get Recommendations for a Web Page</h2>
-    <p>Enter the address of a web page to see what recommendations OER Recommender would provide for it.</p>
-    <form>
-      <table>
-          <tr><td>Address:</td><td><input type="text" id="real_time_recommendations_url" style="width:460px;"></td></tr>
-          <tr><td></td><td style="text-align:center;"><input type="button" value="Get Recommendations" id="get_recommendations"/></td></tr>
-       </table>
-    </form>
-    <p>If a resource is not in OER Recommender's index, it generates recommendations by downloading the resource and analyzing its content.
-      If you register an <a href="http://en.wikipedia.org/wiki/RSS">RSS</a> feed or <a href="http://en.wikipedia.org/wiki/Open_Archives_Initiative_Protocol_for_Metadata_Harvesting">OAI</a>
-      endpoint for your resources, OER Recommender will base its recommendations on the metadata you provide instead
-      of the content of the resource.</p>
-  </div>
-
-  <div class="features column span-8 prepend 1">
-    <div id="recommending" style="display:none;text-align:center;font-weight:bold;margin-top:100px;">Recommending<br/><br/><img src="/images/spinner.gif" alt="Recommending..." /></div>
-    <div id="real_time_recommendations">
-    </div>
-  </div>
-</div>
-
-<div class="widget-info block">
-
   <a href="http://ocw.usu.edu/biology/general-ecology"><img src="/images/folksemantic/widget-recommendations.png" class="screenshot column span-11" alt="Folksemantic Recommendations Widget"/></a>
 
   <div class="features column span-12 prepend-1">
@@ -56,6 +32,30 @@
   
   <%= link_to t('folksemantic.advanced_widget_options'), integration_path %>
   
+</div>
+
+<div class="widget-info block">
+
+  <div class="features column span-13 colborder prepend-1">
+    <h2>Get Recommendations for a Web Page</h2>
+    <p>Enter the address of a web page to see what recommendations OER Recommender would provide for it.</p>
+    <form>
+      <table>
+          <tr><td>Address:</td><td><input type="text" id="real_time_recommendations_url" style="width:100%;"></td></tr>
+          <tr><td></td><td style="text-align:center;"><input type="button" value="Get Recommendations" id="get_recommendations"/></td></tr>
+       </table>
+    </form>
+    <p>If a resource is not in OER Recommender's index, it generates recommendations by downloading the resource and analyzing its content.
+      If you register an <a href="http://en.wikipedia.org/wiki/RSS">RSS</a> feed or <a href="http://en.wikipedia.org/wiki/Open_Archives_Initiative_Protocol_for_Metadata_Harvesting">OAI</a>
+      endpoint for your resources, OER Recommender will base its recommendations on the metadata you provide instead
+      of the content of the resource.</p>
+  </div>
+
+  <div class="features column span-8 prepend 1">
+    <div id="recommending" style="display:none;text-align:center;font-weight:bold;margin-top:100px;">Recommending<br/><br/><img src="/images/spinner.gif" alt="Recommending..." /></div>
+    <div id="real_time_recommendations">
+    </div>
+  </div>
 </div>
 
 <div class="widget-info block">
