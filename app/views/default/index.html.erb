@@ -16,6 +16,7 @@
   img{border:0;}
   input[type='text']{font-size:24px;text-align:center;padding:3px 2px 2px;height:32px;border:1px solid #8F8685;vertical-align:bottom;}
   .folk-blue{color:#297FAA;}
+  .no-underline{text-decoration:none;}
   .folk-green{color:#66AF24;}
   .folk-gray{color:#838383;}
   .fs0{font-size:14px;}
@@ -29,6 +30,7 @@
   #home-right-panel{float:left;position:relative;left:220px;top:300px;width:400px;}
   #home-comments{clear:both;float:left;position:relative;left:120px;top:335px;width:260px;}
   #home-get-widgets{float:left;position:relative;left:220px;top:335px;width:400px;}
+  #research{float:left;position:relative;left:116px;top:280px;width:300px;font-size:18px;font-weight:bold; line-height:120%;}
   #search-button{padding:3px 8px 5px;margin-left:8px;color:#FFF;font-size:14px;font-weight:bold;background-color:#66AF24;height:34px;border:3px solid #DDD;}
   #signup-link{margin:14px 20px 0px 0px;font-size:22px;text-align:right;}
   #signup-link a{text-decoration:none;font-weight:bold;}
@@ -80,7 +82,15 @@
       <div id="widgets-link">
         <a href="/widgets"><span class="fs1" id="get-widgets"><img src="/images/folksemantic/btn-blue-arrow2.gif" style="vertical-align:middle;padding-right:10px"/><%= t('folksemantic.home.get_widgets') %></span></a>
       </div>
+      <div style="text-align:center;margin-top:10px;font-size:14px;font-weight:bold;"><a class="folk-blue no-underline" href="/demo">WATCH A DEMO VIDEO</a></div>
     </div>
+
+    <div id="research">
+    <div style="margin-bottom:14px;">Help Evaluate OER Recommender</div>
+    <div style="line-height:30px;"><a class="folk-blue no-underline" href="https://spreadsheets.google.com/viewform?hl=en&formkey=dDhFdndWNlhteTE5eXpSOUlYNWxvelE6MQ#gid=0"><img src="/images/folksemantic/btn-blue-arrow3.gif" style="vertical-align:middle"> OER Providers</a></div>
+    <div style="line-height:30px;"><a class="folk-blue no-underline" href="https://spreadsheets.google.com/viewform?hl=en&formkey=dENCZFQ3blpMWjFNTkxhbjZhV05UN2c6MQ#gid=0"><img src="/images/folksemantic/btn-blue-arrow3.gif" style="vertical-align:middle"> Teachers </a></div>
+    </div>
+
 
     <div id="home-footer" class="folk-gray">
       <%= render :partial => 'layouts/global/footer' %>

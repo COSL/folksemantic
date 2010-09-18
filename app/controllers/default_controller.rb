@@ -36,6 +36,10 @@ class DefaultController < ApplicationController
     @page_title = t('folksemantic.widgets_title')
   end
   
+  def demo
+    @page_title = t('folksemantic.widgets_title')
+  end
+
   def oerrecommender
     @page_title = t('oerrecommender.page_title')
     respond_to do |format|
