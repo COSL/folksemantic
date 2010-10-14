@@ -36,38 +36,38 @@
 #  index_users_on_last_request_at      (last_request_at)
 #
 
-require File.dirname(__FILE__) + '/../test_helper'
+require File.dirname(__FILE__) + '/../spec_helper'
 
-class UserTest < ActiveSupport::TestCase
+describe User do
 
-  context 'A user instance' do
-    should_have_many :uploads
+  describe 'A user instance' do
+    it { should have_many :uploads }
   end
 
-  should "let itself view itself" do
+  it "should let itself view itself" do
     user = Factory(:user)
-    assert user.can_view?(user)
+    user.can_view?(user).should be_true
   end
   
-  context "user activities" do
-    setup do
+  describe "user activities" do
+    before do
       @user = Factory(:user)
     end
     
-    should "add activities after create" do
-      assert_difference "Activity.count", 2 do
+    it "should add activities after create" do
+      lambda{
         user = Factory(:user)
-      end
+      }.should change(Activity, :count).by(2)
     end
     
-    should "add welcome activity" do
+    it "should add welcome activity" do
       templates = @user.activities.map(&:template)
-      assert templates.include?('welcome')
+      templates.should include('welcome')
     end
   
-    should "add status update activity" do
+    it "should add status update activity" do
       templates = @user.activities.map(&:template)
-      assert templates.include?('status_update')
+      templates.should include('status_update')
     end
   
   end

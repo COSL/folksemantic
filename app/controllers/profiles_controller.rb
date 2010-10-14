@@ -3,7 +3,7 @@ class ProfilesController < Muck::ProfilesController
   #before_filter :search_results, :only => [:index, :search]
   before_filter :store_location, :only => [:index, :show, :edit]
 
-  uses_tiny_mce(:options => GlobalConfig.simple_mce_options.merge(:height => 450, :width => 700),
+  uses_tiny_mce(:options => MuckContents.configuration.simple_mce_options.merge(:height => 450, :width => 700),
                 :only => [:new, :create, :edit, :update])
                 
   def index

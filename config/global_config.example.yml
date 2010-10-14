@@ -94,7 +94,7 @@ default: &DEFAULT
   
   # Contents Configuration
   git_repository: ''                  # Not currently used.  Eventually this will be the path to a git repository that the content system uses to store revisions.
-  content_git_repository: false       # Should be set to false as git integration is not currently working.
+  git_repository: false       # Should be set to false as git integration is not currently working.
   enable_auto_translations: false     # If true then all content objects will automatically be translated into all languages supported by Google Translate
   content_enable_solr: true           # Enables solr for the content system.  If you are using solr then set this to true.  If you do not wish to setup and manage solr 
                                       # then set this value to false (but search will be disabled).

@@ -33,34 +33,16 @@
 
 class Upload < ActiveRecord::Base
   
-  acts_as_uploader  :enable_s3 => false,
-                    :has_attached_file => {
-                      :url     => "/system/:attachment/:id_partition/:style/:basename.:extension",
-                      :path    => ":rails_root/public/system/:attachment/:id_partition/:style/:basename.:extension",
-                      :styles  => { :icon => "30x30!", 
-                                    :thumb => "100>", 
-                                    :small => "150>", 
-                                    :medium => "300>", 
-                                    :large => "660>" },
-                      :default_url => "/images/profile_default.jpg",
-                      :storage => :s3,
-                      :s3_credentials => AMAZON_S3_CREDENTIALS,
-                      :bucket => "assets.#{GlobalConfig.application_url}",
-                      :s3_host_alias => "assets.#{GlobalConfig.application_url}",
-                      :convert_options => {
-                         :all => '-quality 80'
-                       }
-                    },
-                    :s3_path => ':id_partition/:style/:basename.:extension'
+  include Uploader::Models::Upload
 
   # has_many :comments, :as => :commentable, :dependent => :destroy, :order => 'created_at ASC'
   # has_many :shared_uploads, :dependent => :destroy
   
   acts_as_taggable
   
-  named_scope :public, :conditions => "is_public = true"
-  named_scope :tagged_with, lambda {|tag_name| {:conditions => ["tags.name = ?", tag_name], :include => :tags} }
-  
+  scope :is_public, :conditions => "is_public = true"
+  scope :tagged_with, lambda {|tag_name| where("tags.name = ?", tag_name).includes(:tags) }
+
   # def after_create
     #  do add_activity
   # end

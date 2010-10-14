@@ -22,7 +22,7 @@
 #
 
 class Comment < ActiveRecord::Base
-  acts_as_muck_comment
-  acts_as_muck_services_comment
+  include MuckComments::Models::MuckComment
+  include MuckServices::Models::MuckServicesComment
   acts_as_activity_item
 end

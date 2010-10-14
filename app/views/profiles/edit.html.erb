@@ -4,7 +4,7 @@ location_id = 'location' -%>
 <%= country_scripts %>
 <div id="edit_content" class="span-24 colborder column">
   <%= output_errors(t('muck.profiles.problem_editing_profile'), {:class => 'help-box'}, @profile) %>
-  <% profile_form(@profile) do |f| -%>
+  <%= profile_form(@profile) do |f| -%>
     <%# can add form fields as desired here -%>
     <%= f.text_field :location, {:id => location_id, :class => 'tags', :tip => t('muck.profiles.location_help'), :label => t('muck.profiles.location') } %>
     <%= location_suggestion(location_id) if @profile.location.blank? %>

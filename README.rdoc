@@ -20,53 +20,8 @@ This file was taken from an EngineYard example file and will need to be modified
 
 === Install the required gems
 
-All the gems are hosted on gemcutter so set it up first:
-  sudo gem install gemcutter
-
-rake gems:install won't work because the gems are included in the project's Rakefile. Instead copy and paste the code below into your command line. 
-It will take a while to install all the gems. 
-I recommend getting a tasty beverage and surfing the net while you wait for this to complete.
-  sudo gem install will_paginate
-  sudo gem install authlogic
-  sudo gem install searchlogic
-  sudo gem install bcrypt-ruby
-  sudo gem install acts-as-taggable-on
-  sudo gem install paperclip
-  sudo gem install awesome_nested_set
-  sudo gem install friendly_id
-  sudo gem install sanitize
-  sudo gem install recaptcha
-  sudo gem install newrelic_rpm
-  sudo gem install feedzirra
-  sudo gem install tiny_mce
-  sudo gem install facebooker
-  sudo gem install action_mailer_tls
-  sudo gem install aasm
-  sudo gem install geokit
-  sudo gem install hoptoad_notifier
-  sudo gem install httparty -v0.4.5
-  sudo gem install oauth
-  sudo gem install oauth-plugin
-  sudo gem install babelphish
-  sudo gem install disguise
-  sudo gem install uploader
-  sudo gem install muck-engine
-  sudo gem install muck-solr
-  sudo gem install muck-feedbag
-  sudo gem install muck-raker
-  sudo gem install muck-services
-  sudo gem install muck-users
-  sudo gem install muck-activities
-  sudo gem install muck-comments
-  sudo gem install muck-profiles
-  sudo gem install muck-friends
-  sudo gem install muck-shares
-  sudo gem install muck-contents
-  sudo gem install muck-blogs
-  sudo gem install muck-invites
-  sudo gem install muck-oauth
-
-  
+Inside the project directory run:
+  bundle install
   
 === Setup the database
 Folksemantic requires a database installation.  We recommend MySql, but the project should also work with PostGreSQL.  Folksemantic has not been tested with other databases.

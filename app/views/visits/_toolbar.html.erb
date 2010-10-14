@@ -7,7 +7,7 @@
     <a id="close_frame_text" title="Remove frame and go to this web address." class="url_fragment" href="<%= @resource_uri %>"><%= t('muck.services.close') %></a>
   </div>
   <div id="search" class="section">
-    <% form_tag(search_entries_path, {:method => :get}) do -%>
+    <%= form_tag(search_entries_path, {:method => :get}) do -%>
       <div id="search_box"><%= text_field_tag(:q, '', :id => 'search-box') %></div>
       <input id="search_go" class="input-button" type="submit" value="<%= t('muck.services.search_button') %>"/>
     <% end -%>

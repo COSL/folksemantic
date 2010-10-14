@@ -42,21 +42,21 @@ class User < ActiveRecord::Base
     c.crypto_provider = Authlogic::CryptoProviders::BCrypt
   end
   has_friendly_id :login
-  acts_as_muck_user
-  has_muck_profile
+  include MuckUsers::Models::MuckUser
+  include MuckProfiles::Models::MuckUser
   has_activities
-  has_muck_feeds
-  acts_as_muck_feed_owner
-  has_muck_recommendations
-  #acts_as_muck_aggregation_owner
+  include MuckServices::Models::MuckFeedParent
+  include MuckServices::Models::MuckFeedOwner
+  include MuckServices::Models::MuckRecommendationOwner
+  #include MuckServices::Models::MuckAggregationOwner
   acts_as_muck_friend_user
-  acts_as_muck_sharer
+  include MuckShares::Models::MuckSharer
   acts_as_tagger
   has_muck_blog
   acts_as_muck_inviter
-  has_muck_recommendations
-  acts_as_muck_recommendation
-  acts_as_muck_oauth_user
+  include MuckServices::Models::MuckRecommendationOwner
+  include MuckServices::Models::MuckRecommendation
+  include MuckOauth::Models::MuckUser
   
   has_many :uploads, :as => :uploadable, :order => 'created_at desc', :dependent => :destroy 
   

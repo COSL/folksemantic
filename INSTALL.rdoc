@@ -147,43 +147,8 @@ On Windows there is an installer available:
 http://www.imagemagick.org/script/binary-releases.php#windows
 
 === Install Gem Dependencies
-Copy and paste the following into a command window to install the gems needed to run Folksemantic:
-  sudo gem install will_paginate
-  sudo gem install jrails
-  sudo gem install authlogic
-  sudo gem install searchlogic
-  sudo gem install bcrypt-ruby
-  sudo gem install acts-as-taggable-on
-  sudo gem install paperclip
-  sudo gem install awesome_nested_set
-  sudo gem install friendly_id
-  sudo gem install sanitize
-  sudo gem install recaptcha
-  sudo gem install newrelic_rpm
-  sudo gem install feedzirra
-  sudo gem install tiny_mce
-  sudo gem install geokit
-  sudo gem install httparty -v0.4.4
-  sudo gem install oauth
-  sudo gem install oauth-plugin
-  sudo gem install babelphish
-  sudo gem install uploader
-  sudo gem install muck-engine
-  sudo gem install muck-solr
-  sudo gem install muck-feedbag
-  sudo gem install muck-raker
-  sudo gem install muck-services
-  sudo gem install muck-users
-  sudo gem install muck-activities
-  sudo gem install muck-comments
-  sudo gem install muck-profiles
-  sudo gem install muck-friends
-  sudo gem install muck-shares
-  sudo gem install muck-contents
-  sudo gem install muck-blogs
-  sudo gem install muck-invites
-  sudo gem install muck-oauth
-
+Run:
+  bundle install
 
 == Develop
   This section covers:

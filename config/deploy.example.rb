@@ -53,46 +53,6 @@ task :setup_symlinks, :roles => :app do
   # run "ln -nfs #{shared_path}/config/newrelic.yml #{release_path}/config/"
 end
 
-desc 'install and update all muck related gems'
-task :install_gems do
-  run('sudo gem install will_paginate')
-  run('sudo gem install jrails')
-  run('sudo gem install authlogic')
-  run('sudo gem install searchlogic')
-  run('sudo gem install bcrypt-ruby')
-  run('sudo gem install acts-as-taggable-on')
-  run('sudo gem install paperclip')
-  run('sudo gem install awesome_nested_set')
-  run('sudo gem install friendly_id')
-  run('sudo gem install sanitize')
-  run('sudo gem install recaptcha')
-  run('sudo gem install newrelic_rpm')
-  run('sudo gem install feedzirra')
-  run('sudo gem install tiny_mce')
-  run('sudo gem install geokit')
-  run('sudo gem install httparty')
-  run('sudo gem install oauth')
-  run('sudo gem install oauth-plugin')
-  run('sudo gem install babelphish')
-  run('sudo gem install uploader')
-  run('sudo gem install muck-engine')
-  run('sudo gem install muck-solr')
-  run('sudo gem install muck-feedbag')
-  run('sudo gem install muck-raker')
-  run('sudo gem install muck-services')
-  run('sudo gem install muck-users')
-  run('sudo gem install muck-activities')
-  run('sudo gem install muck-comments')
-  run('sudo gem install muck-profiles')
-  run('sudo gem install muck-friends')
-  run('sudo gem install muck-shares')
-  run('sudo gem install muck-contents')
-  run('sudo gem install muck-blogs')
-  run('sudo gem install muck-invites')
-  run('sudo gem install muck-oauth')
-  #run('sudo gem cleanup')
-end
-
 # TASKS
 # Don't change unless you know what you are doing!
 after "deploy", "deploy:cleanup"

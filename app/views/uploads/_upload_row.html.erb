@@ -4,7 +4,7 @@
 	<td><%= upload_row.created_at.to_s(:long) -%></td>
 	<td>
 		<% if parent.can_edit?(current_user) -%>
-			<% form_for(:upload, :url => upload_path(upload_row.id), :html => { :class => "delete-form", :method => :delete} ) do |f| -%>
+			<%= form_for(:upload, :url => upload_path(upload_row.id), :html => { :class => "delete-form", :method => :delete} ) do |f| -%>
 				<%= image_submit_tag '/images/icons/delete.png', {:title => t('general.delete_file'), :class => 'submit-delete', :width => '12', :height => '12', :alt => t('general.delete_file') } %>
 			<% end -%>
 			<% if !style.empty? -%>

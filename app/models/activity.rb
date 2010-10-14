@@ -22,5 +22,5 @@
 #
 
 class Activity < ActiveRecord::Base
-  acts_as_muck_activity
+  include MuckActivities::Models::MuckActivity
 end

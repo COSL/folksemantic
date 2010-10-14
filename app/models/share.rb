@@ -19,6 +19,6 @@
 #
 
 class Share < ActiveRecord::Base
-  acts_as_muck_share
-  acts_as_muck_services_share # must be called after acts_as_muck_share
+  include MuckShares::Models::MuckShare
+  include MuckServices::Models::MuckServicesShare # must be called after include MuckShares::Models::MuckShare
 end
