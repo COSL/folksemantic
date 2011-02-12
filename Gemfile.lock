@@ -1,0 +1,400 @@
+GIT
+  remote: git://github.com/binarylogic/authlogic.git
+  revision: 66ed79515919fe13016911b10ebe734cf8718dc7
+  specs:
+    authlogic (2.1.6)
+      activesupport
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+    ZenTest (4.4.2)
+    aasm (2.1.5)
+    abstract (1.0.0)
+    actionmailer (3.0.4)
+      actionpack (= 3.0.4)
+      mail (~> 2.2.15)
+    actionpack (3.0.4)
+      activemodel (= 3.0.4)
+      activesupport (= 3.0.4)
+      builder (~> 2.1.2)
+      erubis (~> 2.6.6)
+      i18n (~> 0.4)
+      rack (~> 1.2.1)
+      rack-mount (~> 0.6.13)
+      rack-test (~> 0.5.7)
+      tzinfo (~> 0.3.23)
+    activemodel (3.0.4)
+      activesupport (= 3.0.4)
+      builder (~> 2.1.2)
+      i18n (~> 0.4)
+    activerecord (3.0.4)
+      activemodel (= 3.0.4)
+      activesupport (= 3.0.4)
+      arel (~> 2.0.2)
+      tzinfo (~> 0.3.23)
+    activeresource (3.0.4)
+      activemodel (= 3.0.4)
+      activesupport (= 3.0.4)
+    activesupport (3.0.4)
+    acts-as-taggable-on (2.0.6)
+    addressable (2.2.4)
+    agree2 (0.2.0)
+      activesupport (>= 2.0.2)
+      json (>= 1.1.3)
+      oauth (>= 0.3.5)
+    arel (2.0.8)
+    autotest (4.4.6)
+      ZenTest (>= 4.4.1)
+    awesome_nested_set (1.4.3)
+      activerecord (>= 1.1)
+    aws-s3 (0.6.2)
+      builder
+      mime-types
+      xml-simple
+    babelphish (0.3.0)
+      json
+      ya2yaml
+    babosa (0.2.2)
+    bcrypt-ruby (2.1.4)
+    builder (2.1.2)
+    capybara (0.4.1.2)
+      celerity (>= 0.7.9)
+      culerity (>= 0.2.4)
+      mime-types (>= 1.16)
+      nokogiri (>= 1.3.3)
+      rack (>= 1.0.0)
+      rack-test (>= 0.5.4)
+      selenium-webdriver (>= 0.0.27)
+      xpath (~> 0.1.3)
+    celerity (0.8.7)
+    childprocess (0.1.7)
+      ffi (~> 0.6.3)
+    columnize (0.3.2)
+    configuration (1.2.0)
+    contacts (1.2.4)
+      gdata (= 1.1.1)
+      json (>= 0.4.1)
+    crack (0.1.6)
+    cucumber (0.10.0)
+      builder (>= 2.1.2)
+      diff-lcs (~> 1.1.2)
+      gherkin (~> 2.3.2)
+      json (~> 1.4.6)
+      term-ansicolor (~> 1.0.5)
+    cucumber-rails (0.3.2)
+      cucumber (>= 0.8.0)
+    culerity (0.2.15)
+    curb (0.7.10)
+    database_cleaner (0.6.3)
+    diff-lcs (1.1.2)
+    disguise (3.0.2)
+    erubis (2.6.6)
+      abstract (>= 1.0.0)
+    factory_girl (1.3.3)
+    faraday (0.5.5)
+      addressable (~> 2.2.4)
+      multipart-post (~> 1.1.0)
+      rack (>= 1.1.0, < 2)
+    feedzirra (0.0.24)
+      activesupport (>= 2.3.8)
+      builder (>= 2.1.2)
+      curb (>= 0.2.3)
+      loofah (>= 0.3.1)
+      nokogiri (> 0.0.0)
+      sax-machine (>= 0.0.12)
+    ffi (0.6.3)
+      rake (>= 0.8.7)
+    friendly_id (3.2.1)
+      babosa (~> 0.2.1)
+    gdata (1.1.1)
+    geokit (1.5.0)
+    gherkin (2.3.3)
+      json (~> 1.4.6)
+    hashie (0.2.2)
+    hoptoad_notifier (2.4.5)
+      activesupport
+      builder
+    hpricot (0.8.3)
+    httparty (0.5.2)
+      crack (= 0.1.6)
+    i18n (0.5.0)
+    json (1.4.6)
+    json_pure (1.5.1)
+    launchy (0.3.7)
+      configuration (>= 0.0.5)
+      rake (>= 0.8.1)
+    linecache (0.43)
+    loofah (1.0.0)
+      nokogiri (>= 1.3.3)
+    mail (2.2.15)
+      activesupport (>= 2.3.6)
+      i18n (>= 0.4.0)
+      mime-types (~> 1.16)
+      treetop (~> 1.4.8)
+    mime-types (1.16)
+    muck-activities (3.1.0)
+      muck-comments
+      muck-engine
+      muck-users
+    muck-comments (3.1.0)
+      muck-engine
+      muck-users
+      nested_set
+      sanitize
+    muck-contents (3.1.0)
+      acts-as-taggable-on
+      awesome_nested_set
+      babelphish
+      friendly_id
+      muck-comments
+      muck-engine
+      muck-users
+      sanitize
+      tiny_mce
+      uploader
+    muck-engine (3.2.1)
+      overlord
+      validation_reflection
+      will_paginate (~> 3.0.beta)
+    muck-feedbag (0.7.1)
+    muck-friends (3.1.0)
+      muck-engine
+      muck-profiles
+      muck-users
+    muck-invites (3.1.0)
+      contacts
+      hpricot
+      muck-engine
+    muck-profiles (3.1.1)
+      geokit
+      muck-comments
+      muck-contents
+      muck-engine
+      muck-raker
+      muck-shares
+      muck-solr
+      muck-users
+      paperclip
+      sanitize
+      uploader
+    muck-raker (3.1.0)
+    muck-services (3.2.1)
+      acts-as-taggable-on
+      feedzirra
+      hpricot
+      httparty
+      muck-comments
+      muck-engine
+      muck-feedbag
+      muck-raker
+      muck-users
+      nokogiri
+      overlord
+      river
+      will_paginate
+    muck-shares (3.1.0)
+      muck-activities
+      muck-comments
+      muck-engine
+      muck-users
+    muck-solr (3.0.1)
+    muck-users (3.1.5)
+      authlogic
+      bcrypt-ruby
+      friendly_id
+      muck-engine (>= 3.0.3)
+    multi_json (0.0.5)
+    multipart-post (1.1.0)
+    mysql (2.8.1)
+    nested_set (1.6.4)
+      activerecord (>= 3.0.0)
+      railties (>= 3.0.0)
+    net-ldap (0.1.1)
+    newrelic_rpm (2.13.4)
+    nokogiri (1.4.4)
+    oa-basic (0.1.6)
+      multi_json (~> 0.0.2)
+      nokogiri (~> 1.4.2)
+      oa-core (= 0.1.6)
+      rest-client (~> 1.6.0)
+    oa-core (0.1.6)
+      rack (~> 1.1)
+    oa-enterprise (0.1.6)
+      net-ldap (~> 0.1.1)
+      nokogiri (~> 1.4.2)
+      oa-core (= 0.1.6)
+      pyu-ruby-sasl (~> 0.0.3.1)
+      rubyntlm (~> 0.1.1)
+    oa-oauth (0.1.6)
+      multi_json (~> 0.0.2)
+      nokogiri (~> 1.4.2)
+      oa-core (= 0.1.6)
+      oauth (~> 0.4.0)
+      oauth2 (~> 0.1.0)
+    oa-openid (0.1.6)
+      oa-core (= 0.1.6)
+      rack-openid (~> 1.2.0)
+      ruby-openid-apps-discovery
+    oauth (0.4.4)
+    oauth2 (0.1.1)
+      faraday (~> 0.5.0)
+      multi_json (~> 0.0.4)
+    omniauth (0.1.6)
+      oa-basic (= 0.1.6)
+      oa-core (= 0.1.6)
+      oa-enterprise (= 0.1.6)
+      oa-oauth (= 0.1.6)
+      oa-openid (= 0.1.6)
+    overlord (3.0.2)
+      httparty
+      json
+    paperclip (2.3.8)
+      activerecord
+      activesupport
+    polyglot (0.3.1)
+    portablecontacts (0.1.0)
+      json
+      oauth (>= 0.3.6)
+    pyu-ruby-sasl (0.0.3.2)
+    rack (1.2.1)
+    rack-mount (0.6.13)
+      rack (>= 1.0.0)
+    rack-openid (1.2.0)
+      rack (>= 1.1.0)
+      ruby-openid (>= 2.1.8)
+    rack-test (0.5.7)
+      rack (>= 1.0)
+    rails (3.0.4)
+      actionmailer (= 3.0.4)
+      actionpack (= 3.0.4)
+      activerecord (= 3.0.4)
+      activeresource (= 3.0.4)
+      activesupport (= 3.0.4)
+      bundler (~> 1.0)
+      railties (= 3.0.4)
+    railties (3.0.4)
+      actionpack (= 3.0.4)
+      activesupport (= 3.0.4)
+      rake (>= 0.8.7)
+      thor (~> 0.14.4)
+    rake (0.8.7)
+    rcov (0.9.9)
+    recaptcha (0.3.1)
+    rest-client (1.6.1)
+      mime-types (>= 1.16)
+    river (3.0.0)
+      httparty
+      rails
+    rspec (2.5.0)
+      rspec-core (~> 2.5.0)
+      rspec-expectations (~> 2.5.0)
+      rspec-mocks (~> 2.5.0)
+    rspec-core (2.5.1)
+    rspec-expectations (2.5.0)
+      diff-lcs (~> 1.1.2)
+    rspec-mocks (2.5.0)
+    rspec-rails (2.5.0)
+      actionpack (~> 3.0)
+      activesupport (~> 3.0)
+      railties (~> 3.0)
+      rspec (~> 2.5.0)
+    ruby-debug (0.10.4)
+      columnize (>= 0.1)
+      ruby-debug-base (~> 0.10.4.0)
+    ruby-debug-base (0.10.4)
+      linecache (>= 0.3)
+    ruby-openid (2.1.8)
+    ruby-openid-apps-discovery (1.2.0)
+      ruby-openid (>= 2.1.7)
+    rubyntlm (0.1.1)
+    rubyzip (0.9.4)
+    sanitize (2.0.0)
+      nokogiri (~> 1.4.4)
+    sax-machine (0.0.16)
+      nokogiri (> 0.0.0)
+    selenium-webdriver (0.1.2)
+      childprocess (~> 0.1.5)
+      ffi (~> 0.6.3)
+      json_pure
+      rubyzip
+    shoulda (2.11.3)
+    spork (0.8.4)
+    term-ansicolor (1.0.5)
+    thor (0.14.6)
+    tiny_mce (0.1.4)
+    treetop (1.4.9)
+      polyglot (>= 0.3.1)
+    twitter (0.9.5)
+      hashie (~> 0.2.0)
+      httparty (~> 0.5.0)
+      oauth (>= 0.3.5)
+      yajl-ruby (~> 0.7.0)
+    tzinfo (0.3.24)
+    uploader (3.0.2)
+      aws-s3
+      mime-types
+      paperclip
+      rack
+    validation_reflection (1.0.0)
+    will_paginate (3.0.pre2)
+    xml-simple (1.0.14)
+    xpath (0.1.3)
+      nokogiri (~> 1.3)
+    ya2yaml (0.30)
+    yajl-ruby (0.7.9)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  aasm (= 2.1.5)
+  acts-as-taggable-on
+  agree2 (= 0.2.0)
+  authlogic!
+  autotest
+  aws-s3
+  babelphish
+  bcrypt-ruby (>= 2.1.1)
+  capybara
+  cucumber
+  cucumber-rails
+  database_cleaner
+  disguise (= 3.0.2)
+  factory_girl
+  feedzirra
+  friendly_id (>= 3.1.7)
+  geokit (= 1.5.0)
+  hoptoad_notifier
+  httparty
+  launchy
+  muck-activities (>= 3.1.0)
+  muck-comments (>= 3.1.0)
+  muck-contents (>= 3.1.0)
+  muck-engine (>= 3.2.0)
+  muck-friends (>= 3.1.0)
+  muck-invites (>= 3.1.0)
+  muck-profiles (>= 3.1.1)
+  muck-services (>= 3.2.1)
+  muck-shares (>= 3.1.0)
+  muck-users (>= 3.1.4)
+  mysql
+  nested_set
+  newrelic_rpm
+  omniauth
+  paperclip
+  portablecontacts (= 0.1.0)
+  rails (= 3.0.4)
+  rcov
+  recaptcha
+  river (= 3.0.0)
+  rspec (>= 2.1.0)
+  rspec-rails (>= 2.1.0)
+  ruby-debug
+  sanitize
+  shoulda
+  spork
+  tiny_mce
+  twitter (= 0.9.5)
+  uploader (= 3.0.2)
+  will_paginate
