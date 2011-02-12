@@ -1,4 +1,4 @@
-s3_file = "#{RAILS_ROOT}/config/s3.yml"
+s3_file = "#{::Rails.root.to_s}/config/s3.yml"
 if File.exist?(s3_file)
   AMAZON_S3_CREDENTIALS = s3_file
 else

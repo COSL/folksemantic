@@ -52,6 +52,7 @@ gem "muck-friends", ">=3.1.0"
 gem "muck-shares", ">=3.1.0"
 gem "muck-invites", ">=3.1.0"
 gem "muck-services", ">=3.2.1"
+gem "muck-raker"
 
 #gem "muck-feedbag", :path => "~/projects/muck-feedbag"
 #gem "muck-solr", :require => "acts_as_solr", :path => "~/projects/acts_as_solr"

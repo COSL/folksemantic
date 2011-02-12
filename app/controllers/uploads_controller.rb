@@ -39,6 +39,7 @@ class UploadsController < Uploader::UploadsController
     end
 
     def has_permission_to_upload(user, upload_parent)
+      return true if upload_parent.blank?
       upload_parent.can_edit?(user)
     end
   

@@ -8,7 +8,7 @@
 		<div class="clear">
 			<span class="link-button"><%= link_to "Main", uploads_path(make_parent_params(@parent)) -%></span>
       <span class="link-button"><%= link_to "Photos", photos_uploads_path(@parent) -%></span>
-			<%= output_errors('', {:class => 'help-box'}, :upload) %>
+			<%= output_errors('', {:class => 'help-box'}, @upload) %>
 		</div>
 		
 		<div class="activity_box">

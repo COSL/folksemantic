@@ -1,1 +1,1 @@
-ActionController::Base.cache_store = :file_store, RAILS_ROOT + '/tmp/cache/'
+ActionController::Base.cache_store = :file_store, ::Rails.root.to_s + '/tmp/cache/'

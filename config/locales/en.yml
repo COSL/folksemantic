@@ -11,7 +11,7 @@ en:
     subject_help: 'A simple statement indicating the nature of your feedback.'
     question: 'Your message/question:'
     question_help: 'Please include any comments you would like us to hear.'
-    contact_response_subject: 'Thanks for your inquiry from {{application_name}}!'
+    contact_response_subject: 'Thanks for your inquiry from %{application_name}!'
   general:
     thank_you_contact: 'Thank you for your message.  A member of our team will respond to you shortly.'
     send: 'Send'
@@ -19,8 +19,8 @@ en:
   muck:
     contact_request: "Contact Request"
     contact_thanks: "Thanks for contacting us.  We've recieved your email and will be in touch soon."
-    user_greeting: "Hi {{user}},"
-    welcome_activity: "Welcome to {{application_name}}!  Here you can <a href='/resources'>discover free educational resources from around the world</a>.  Interesting in <a href='/resources/search?q=lady+bugs'>lady bugs</a>?  <a href='/resources/3909'>How about learning resources from NASA</a>?."
+    user_greeting: "Hi %{user},"
+    welcome_activity: "Welcome to %{application_name}!  Here you can <a href='/resources'>discover free educational resources from around the world</a>.  Interesting in <a href='/resources/search?q=lady+bugs'>lady bugs</a>?  <a href='/resources/3909'>How about learning resources from NASA</a>?."
     admin:
       home: Home
       users: Users
@@ -84,7 +84,7 @@ en:
     search: search
     search_link: Find Resources!
     search_description: Find learning resources by <span class="highlight">searching</span> and <span class="highlight">browsing</span> over <span class="highlight">110,000</span> open educational resources
-    welcome_user: "Welcome {{user}}"
+    welcome_user: "Welcome %{user}"
     all_resources: All
     just_ocws: Courses
     credits: Developed by <a href="http://www.tatemae.com">Tatemae</a> for the <a href="http://cosl.usu.edu">Center for Open and Sustainable Learning</a> with funding from the <a href="http://nsf.gov/">National Science Foundation</a> and the <a href="http://www.mellon.org/">Andrew W Mellon Foundation</a>
