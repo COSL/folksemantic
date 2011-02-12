@@ -39,8 +39,32 @@ gem 'uploader', '3.0.2'
 #gem 'uploader', :path => "~/projects/uploader"
 
 gem 'aws-s3'
+<<<<<<< HEAD
 gem 'disguise', '3.0.2'
 gem 'river', '3.0.0'
+=======
+gem 'disguise', '0.4.0'
+gem 'river', '0.1.0'
+
+gem 'muck-engine', '0.4.30', :require => 'muck_engine'
+gem 'muck-users', '0.3.19', :require => 'muck_users'
+gem 'muck-friends', '0.1.17', :require => 'muck_friends'
+gem 'muck-activities', '0.1.27',:require => 'muck_activities'
+gem 'muck-profiles', '0.2.1', :require => 'muck_profiles'
+gem 'muck-shares', '0.1.8', :require => 'muck_shares'
+gem 'muck-contents', '0.2.27', :require => 'muck_contents'
+gem 'muck-feedbag', :require => 'feedbag'
+gem 'muck-raker', '0.3.18', :require => 'muck_raker'
+gem 'muck-solr', '0.4.7', :require => 'acts_as_solr'
+gem 'muck-invites', '0.1.12', :require => 'muck_invites'
+gem 'muck-comments', '0.1.20', :require => 'muck_comments'
+gem 'muck-oauth', '0.2.4', :require => 'muck_oauth'
+gem 'muck-blogs', '0.1.8', :require => 'muck_blogs'
+gem 'muck-services', '0.1.47', :require => 'muck_services'
+
+gem 'recaptcha', :require => 'recaptcha/rails'  # Only needed if using recaptcha
+#gem 'action_mailer_tls', :require => 'smtp_tls' # This one won't be needed long term
+>>>>>>> 024a11303be142a758e49f598036b53584a598f2
 
 gem "muck-engine", ">=3.2.0"
 gem "muck-users", ">=3.1.4"
