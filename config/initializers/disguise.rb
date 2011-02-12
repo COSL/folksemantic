@@ -1,6 +1,5 @@
-Disguise::Config.use_domain_for_themes = GlobalConfig.use_domain_for_themes
-Disguise::Config.themes_enabled = GlobalConfig.themes_enabled
-
-# These options are also available to configure disguise.  In most cases the defaults should work fine.
-Disguise::Config.theme_path = 'themes'
-Disguise::Config.theme_full_base_path = File.join(RAILS_ROOT, Disguise::Config.theme_path)
+Disguise.configure do |config|
+  config.use_domain_for_themes = false    # Changing theme per domain can be expense so it's off by default
+  config.themes_enabled = true            # Turns disguise off/on.
+  config.theme_full_base_path = File.join(::Rails.root.to_s, 'themes') # Full path to the themes folder
+end

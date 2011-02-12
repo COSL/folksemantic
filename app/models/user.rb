@@ -42,18 +42,18 @@ class User < ActiveRecord::Base
     c.crypto_provider = Authlogic::CryptoProviders::BCrypt
   end
   has_friendly_id :login
+  acts_as_tagger
   include MuckUsers::Models::MuckUser
   include MuckProfiles::Models::MuckUser
-  has_activities
+  include MuckActivities::Models::MuckActivityConsumer
   include MuckServices::Models::MuckFeedParent
   include MuckServices::Models::MuckFeedOwner
   include MuckServices::Models::MuckRecommendationOwner
   #include MuckServices::Models::MuckAggregationOwner
-  acts_as_muck_friend_user
+  include MuckFriends::Models::MuckUser
   include MuckShares::Models::MuckSharer
-  acts_as_tagger
-  has_muck_blog
-  acts_as_muck_inviter
+  #include MuckBlogs::Models::MuckBloggable
+  include MuckInvites::Models::MuckInviter
   include MuckServices::Models::MuckRecommendationOwner
   include MuckServices::Models::MuckRecommendation
   include MuckOauth::Models::MuckUser
@@ -62,7 +62,7 @@ class User < ActiveRecord::Base
   
   def after_create
     add_activity(self, self, self, 'welcome', '', '')
-    content = I18n.t('muck.activities.joined_status', :name => self.full_name, :application_name => GlobalConfig.application_name)
+    content = I18n.t('muck.activities.joined_status', :name => self.full_name, :application_name => MuckEngine.configuration.application_name)
     add_activity(self, self, self, 'status_update', '', content)
   end
   

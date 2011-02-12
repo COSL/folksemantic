@@ -8,7 +8,7 @@ require File.join(File.dirname(__FILE__), 'boot')
 
 require 'ostruct'
 require 'yaml'
-::GlobalConfig = OpenStruct.new(YAML.load_file("#{RAILS_ROOT}/config/global_config.yml")[RAILS_ENV])
+::Secrets = OpenStruct.new(YAML.load_file(File.expand_path('../secrets.yml', __FILE__))[Rails.env])
 
 Rails::Initializer.run do |config|
   # Settings in config/environments/* take precedence over those specified here.

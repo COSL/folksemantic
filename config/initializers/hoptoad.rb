@@ -1,5 +1,5 @@
-if GlobalConfig.hoptoad_key
+if Secrets.hoptoad_key
   HoptoadNotifier.configure do |config|
-    config.api_key = GlobalConfig.hoptoad_key
+    config.api_key = Secrets.hoptoad_key
   end
 end

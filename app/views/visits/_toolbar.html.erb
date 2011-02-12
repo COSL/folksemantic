@@ -17,10 +17,10 @@
     <%#= link_to t('muck.services.remix'), new_content_path(@entry), :id => 'share'  - copy the page into the content system %>
     <%#= link_to t('muck.services.save'), new_content_path(@entry), :id => 'share'  - save the content for use later on  %>
     <% if logged_in? -%>
-      <%= link_to t('muck.services.share'), new_user_share_path(current_user, :title => @entry.title, :uri => @resource_uri), :id => 'share' if GlobalConfig.enable_services_shares -%>      
+      <%= link_to t('muck.services.share'), new_user_share_path(current_user, :title => @entry.title, :uri => @resource_uri), :id => 'share' if MuckServices.configuration.enable_services_shares -%>
     <% else -%>
       <span id="share_login"><%= t('muck.services.login_or_signup_prompt', :signup => link_to(t('muck.services.signup'), signup_path, :id => 'signup'), :login => link_to(t('muck.services.login'), login_path, :id => 'login') ) %></span>
     <% end -%>
-    <%= link_to t('muck.services.comment_entries_count', :count => @comment_count), entry_comments_path(@entry), :id => 'comment' if GlobalConfig.enable_services_comments -%>
+    <%= link_to t('muck.services.comment_entries_count', :count => @comment_count), entry_comments_path(@entry), :id => 'comment' if MuckServices.configuration.enable_services_comments -%>
   </div>
 </div>

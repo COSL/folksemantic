@@ -1,40 +1,47 @@
-ROUTES_PROTOCOL = GlobalConfig.enable_ssl ? (ENV["RAILS_ENV"] =~ /(development|test)/ ? "http" : "https") : 'http'
+ROUTES_PROTOCOL = MuckEngine.configuration.enable_ssl ? (ENV["RAILS_ENV"] =~ /(development|test)/ ? "http" : "https") : 'http'
 
 ActionController::Routing::Routes.draw do |map|
 
-  map.home '', :controller => 'default', :action => 'index'
-  map.root :controller => 'default', :action => 'index'
+  root :to => "default#index"
 
   # top level pages
-  map.contact '/contact', :controller => 'default', :action => 'contact'
-  map.sitemap '/sitemap', :controller => 'default', :action => 'sitemap'
-  map.ping '/ping', :controller => 'default', :action => 'ping'
+  match '/contact' => 'default#contact', :as => :contact
+  match '/sitemap' => 'default#sitemap', :as => :sitemap
+  match '/ping' => 'default#ping', :as => :ping
   
-  map.resources :users, :has_many => :uploads, :has_one => :profile do |users|
+  resources :users do
+    resources :uploads
+    resource :profile
     # have to map into the muck/identity_feeds controller or rails can't find the identity_feeds
-    users.resources :identity_feeds, :controller => 'muck/identity_feeds'
-    users.resources :feeds, :controller => 'muck/feeds'
-    users.resources :aggregations, :controller => 'muck/aggregations'
+    resources :identity_feeds, :controller => 'muck/identity_feeds'
+    resources :feeds, :controller => 'muck/feeds'
+    resources :aggregations, :controller => 'muck/aggregations'
   end
   
-  map.resources :uploads, :collection => { :photos => :get, :multiupload => :post }
-  map.resources :profiles
-  map.connect 'search/results.:format', :controller => 'muck/entries', :action => 'search'
+  resources :uploads do
+    collection do
+      get :photos
+      post :multiupload
+    end
+  end
 
-  map.public_user '/profiles/:id', :controller => 'profiles', :action => 'show'
-  #map.logout_complete '/login', :controller => 'user_sessions', :action => 'new'  
+  resources :profiles
+  match 'search/results.:format' => 'muck/entries#search'
+
+  match '/profiles/:id' => 'profiles#show', :as => :public_user
+  #map.logout_complete '/login', :controller => 'user_sessions#new'
   
   # admin
-  map.namespace :admin do |a|
-    a.resource :theme
-    a.resources :domain_themes
+  namespace :admin do
+    resource :theme
+    resources :domain_themes
   end
   
-  map.widgets '/widgets', :controller => 'default', :action => 'widgets'
-  map.oerrecommender '/oerrecommender', :controller => 'default', :action => 'oerrecommender'
-  map.about '/about', :controller => 'default', :action => 'about'
-  map.demo '/demo', :controller => 'default', :action => 'demo'
-  map.integration '/integration', :controller => 'default', :action => 'integration'
-  map.example '/example', :controller => 'default', :action => 'example'
-  map.example2 '/example2', :controller => 'default', :action => 'example2'
+  match '/widgets' => 'default#widgets', :as => :widgets
+  match '/oerrecommender' => 'default#oerrecommender', :as => :oerrecommender
+  match '/about' => 'default#about', :as => :about
+  match '/demo' => 'default#demo', :as => :demo
+  match '/integration' => 'default#integration', :as => :integration
+  match '/example' => 'default#example', :as => :example
+  match '/example2' => 'default#example2', :as => :example2
 end

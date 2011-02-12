@@ -1,7 +1,7 @@
 #source :gemcutter
 source "http://rubygems.org"
 
-gem "rails", "2.3.5"
+gem "rails", "3.0.4"
 gem 'mysql'
 
 # Specify gems that this application depends on and have them installed with rake gems:install

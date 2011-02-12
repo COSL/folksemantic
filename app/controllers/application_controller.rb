@@ -18,17 +18,6 @@ class ApplicationController < ActionController::Base
     def set_locale
       I18n.locale = extract_locale_from_url || extract_locale_from_subdomain
     end
-    
-    # **********************************************
-    # SSL method
-    # only require ssl if it is turned on
-    def ssl_required?
-      if GlobalConfig.enable_ssl
-        (self.class.read_inheritable_attribute(:ssl_required_actions) || []).include?(action_name.to_sym)
-      else
-        false
-      end
-    end
 
     # Automatically respond with 404 for ActiveRecord::RecordNotFound
     def record_not_found
