@@ -1,0 +1,148 @@
+---
+ht:
+  contact:
+    contact_response_subject: "Mèsi pou ankèt ou nan %{application_name}!"
+    contact_us: "Contact Us"
+    email: "Email ou:"
+    email_help: "Tanpri bay nou ak imel ou pou nou kapab kontakte ou si sa nesesè."
+    name: "Non ou:"
+    name_help: "Tanpri bay nou ak non ou."
+    phone: "nimewo telefòn ou:"
+    phone_help: "nimewo telefòn ou a si w vle, men yo ap ede nou kontakte ou si sa nesesè."
+    question: "mesaj ou an / Kesyon:"
+    question_help: "Tanpri enkli nenpòt kòmantè ou ta renmen nou tande."
+    subject: "Subject:"
+    subject_help: "Yon deklarasyon ki senp endike nati a fidbak ou."
+  folksemantic:
+    about: "Aprann plis sou pwojè a Folksemantic"
+    actions: Aksyon
+    add_edit_feeds: "ajoute / edit manje"
+    admin_link: Admin
+    advanced_widget_options: "Avanse widje Settings"
+    all_resources: Tout
+    atom: Atòm
+    browse_resources: "Browse Resous"
+    calculated: kalkile
+    collections: Koleksyon
+    collections_long: "Koleksyon endisyèl"
+    connect_account: "Konekte kont ou avèk:"
+    contribute_repository: "Kontribye OCW / OER depo"
+    credits: "Devlope pa <a href=\"http://www.tatemae.com\">Tatemae</a> pou <a href=\"http://cosl.usu.edu\">Center</a> a <a href=\"http://cosl.usu.edu\">pou ouvè ak Dirab Learning</a> avèk fon nan <a href=\"http://nsf.gov/\">Fondasyon</a> nan <a href=\"http://nsf.gov/\">Syans Nasyonal</a> ak <a href=\"http://www.mellon.org/\">Andrew W Mellon Fondasyon</a> an"
+    demo: Demo
+    details: Detay
+    developers: Devlopè
+    developers_long: "Enfòmasyon pou Developers"
+    direct_link: "[Lyen dirèk]"
+    for: pou
+    gm_more_prompt: "Plis ki an relasyon Resous"
+    gm_title: "Relasyon Resous"
+    home:
+      browse_and_search: "Parcourir RECHÈCH AK VIRE PAJ LA"
+      collaborate: "KOLABORE AVÈK"
+      comments_heading: "KÒMANTÈ RECENT"
+      example_comment: "Ki gid konstriksyon legos se pè! Mwen mande si nou te ka itilize li ak elèv yo nan CS 102."
+      get_widgets: "GET widje LA rkomandasyon OER"
+      oers: "<b>OUVRI</b> EDIKASYON"
+      people: PÈP
+      resources: "Resous (OERS)"
+      search: SEARCH
+      signup: "Enskri TODAY!"
+      signup_reasons: "Siyen, li al kontre moun ki gen moun ou ka jwenn, diskite, Remix, ak devlope resous aprantisaj"
+      why: "POUKISA FOLKSEMANTIC?"
+      widgets_pitch: "Vle rekòmandasyon OER pou paj wèb ou a?"
+    just_ocws: Kou
+    latest_comments: "Dènye Comments"
+    metadata: Metadata
+    next: Next
+    no_hits: "Pa frape. Tanpri eseye yon rechèch diferan oswa chwazi yon lang diferan."
+    of: nan
+    powered_by: "Powered by"
+    previous: Previous
+    rdf: Rdf
+    register_description: "Enskri a resevwa <span class=\"highlight\">rekòmandasyon</span> pèsonalize, patisipe nan <span class=\"highlight\">gwoup,</span> ak fasil <span class=\"highlight\">pibliye blogs</span>"
+    register_link: Enskri!
+    related_resources: "resous Related"
+    related_resources_title: "Relasyon Resous"
+    relevance: enpòtans
+    results: Rezilta
+    rss: RSS
+    search: rechèch
+    search_button: Go
+    search_description: "Jwenn aprantisaj resous nan <span class=\"highlight\">chache</span> ak <span class=\"highlight\">Browsing</span> sou <span class=\"highlight\">110,000</span> resous edikatif louvri"
+    search_link: "Jwenn resous!"
+    tag_line: "abilite louvri edikasyon"
+    title: folksemantic
+    tour: "Pran yon Tour!"
+    tour_description: "Gade yon <span class=\"highlight\">videyo entwodiksyon</span> an Folksemantic"
+    view_account: "View kont ou"
+    welcome: "Byenveni nan Folksemantic."
+    welcome_message: "Nou aktivman travay entegre OCWFinder ak OERRecommender nan youn sit ede ou jwenn resous yo pi enteresan ak enpòtan edikasyon."
+    welcome_user: "Byenveni %{user}"
+    widgets_description: "Jwenn Widgets ede itilizatè yo <span class=\"highlight\">jwenn</span> resous epi <span class=\"highlight\">dekouvri resous ki an relasyon</span> ak moun ou an sou sit wèb"
+    widgets_link: "Jwenn Widgets!"
+    widgets_title: "Widgets folksemantic"
+    xml: XML
+  general:
+    delete_file: "Delete File"
+    send: Send
+    thank_you_contact: "Mèsi pou mesaj ou yo. Yon manm nan ekip nou yo pral reponn ou yon ti tan."
+  muck:
+    activity_templates:
+      welcome: Byenveni
+    admin:
+      home: Lakay
+      my_dashboard: "Mwen dachbord"
+      permissions: Otorizasyon
+      themes: Tèm
+      users: Itilizatè
+    contact_request: "Kontakte Mande"
+    contact_thanks: "Mèsi pou kontakte nou. Nou te resevwa imel ou epi yo pral an kontak byento."
+    friends:
+      block: Blòk
+      start_following: Swiv
+      unblock: Degaje
+    raker:
+      add_extended_feed_sub_title: ~
+      add_extended_feed_title: "Kontribye OCW / OER depo"
+    services:
+      add_new_feed_title: "Kontribye yon OCW / OER done manje."
+    user_greeting: "Hi %{user},"
+    users:
+      dev_plans: "Nou aktivman devlope li pwolonje <a href=\"http://ocwfinder.org\">ocwfinder.org</a> ak <a href=\"http://oerrecommender.org\">oerrecommender.org</a>"
+      signup: "Sign up!"
+      signup_header: "Panse ou entelijan?"
+      signup_pitch: "Folksemantic fè l pi fasil jwenn, pataje, epi itilize louvri resous edikatif konsa ou ka resevwa entelijan."
+    welcome_activity: "Byenveni nan %{application_name}! Isit la ou ka <a href='/resources'>dekouvri gratis resous edikasyonèl nan atravè mond lan</a> . Enteresan nan <a href='/resources/search?q=lady+bugs'>pinèz lady</a> ? <a href='/resources/3909'>Kouman sou aprantisaj resous nan NASA</a> ?."
+  oerrecommender:
+    atom: Atòm
+    calculated: kalkile
+    collections: Koleksyon
+    collections_long: "Koleksyon endisyèl"
+    demo: Demo
+    details: Detay
+    developers: Devlopè
+    developers_long: "Enfòmasyon pou Developers"
+    direct_link: "[Lyen dirèk]"
+    for: pou
+    gm_more_prompt: "Plis ki an relasyon Resous"
+    gm_title: "Relasyon Resous"
+    integration_page_title: "Entegre rekòmandasyon nan folksemantic antre nan sit entènèt ou."
+    metadata: Metadata
+    next: Next
+    no_hits: "Pa frape. Tanpri eseye yon rechèch diferan oswa chwazi yon lang diferan."
+    of: nan
+    page_title: "OER rkomandasyon - Jwenn Widgets louvri resous edikasyon rekòmandasyon pou sit entènèt ou a"
+    powered_by: "Powered by"
+    previous: Previous
+    rdf: Rdf
+    related_resources: "resous Related"
+    related_resources_title: "Relasyon Resous"
+    relevance: enpòtans
+    results: Rezilta
+    rss: RSS
+    search: Search
+    signup: "Enskri pou Folksemantic jwenn rekòmandasyon pèsonalize epi kolabore ak lòt moun"
+    tag_line: "Jwenn Folksemantic - OER rkomandasyon widje a <br/> fasil insert &quot;resous relasyon&quot; lyen nan sit entènèt ou a"
+    title: "OER rkomandasyon"
+    widgets: Widgets
+    xml: XML

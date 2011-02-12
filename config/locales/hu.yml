@@ -1,147 +1,148 @@
 --- 
 hu: 
   contact: 
-    contact_response_subject: "Köszönjük, hogy a vizsgálat a {{application_name}}!"
-    contact_us: Érdeklődjön
-    email: "Ön e-mail:"
+    contact_response_subject: "Köszönöm érdeklődését a %{application_name}!"
+    contact_us: Kapcsolat
+    email: "E-mail címe:"
     email_help: "Kérjük, adja meg e-mail, hogy felvehessük Önnel a kapcsolatot, ha szükséges."
     name: "Az Ön neve:"
     name_help: "Kérjük, adja meg a nevét."
     phone: "Az Ön telefonszáma:"
-    phone_help: "Ön telefonszáma nem kötelező, de segít nekünk Önnel a kapcsolatot, ha szükséges."
-    question: "Üzenete / kérdése:"
-    question_help: "Kérjük, észrevételeiket szeretne minket hallani."
-    subject: "Tárgy: Az"
-    subject_help: "Egy egyszerű kijelentés jellege visszajelzését."
+    phone_help: "A telefon számot nem kötelező, de segít bennünket Önnel a kapcsolatot, ha szükséges."
+    question: "Az Ön üzenete / kérdése:"
+    question_help: "Kérjük, adja meg észrevételeit szeretné velünk hallani."
+    subject: "Tárgy:"
+    subject_help: "Egy egyszerű kijelentés jellegét a véleményét."
   folksemantic: 
     about: "Tudjon meg többet a Folksemantic projekt"
-    actions: Intézkedésekre
-    add_edit_feeds: "add / edit feeds"
-    advanced_widget_options: "Widget Advanced Settings"
-    all_resources: Mind
-    atom: Atomnak
-    browse_resources: "Tallózás Resources"
-    calculated: számítani
-    collections: Gyűjteményeket
-    collections_long: "Indexált Collections"
+    actions: Intézkedések
+    add_edit_feeds: "hozzáadása / szerkesztése feed"
+    admin_link: Admin
+    advanced_widget_options: "Haladó beállítások Widget"
+    all_resources: Minden
+    atom: Atom
+    browse_resources: "Böngésszen források"
+    calculated: számított
+    collections: Gyűjtemények
+    collections_long: "Indexelt gyűjtemények"
     connect_account: "Csatlakoztassa a számlát:"
-    contribute_repository: "Contribute OCW / OER Repository"
-    credits: "Által kifejlesztett <a href=\"http://www.tatemae.com\">Tatemae</a> a <a href=\"http://cosl.usu.edu\">Center for Learning nyitott és fenntartható</a> finanszírozása mellett a <a href=\"http://nsf.gov/\">National Science Foundation</a> és a <a href=\"http://www.mellon.org/\">W Andrew Mellon Alapítvány</a>"
-    demo: Demót
-    details: Részleteket
-    developers: Fejlesztőknek
+    contribute_repository: "Adalék OCW / SzOF Adattár"
+    credits: "Által kifejlesztett <a href=\"http://www.tatemae.com\">Tatemae</a> a <a href=\"http://cosl.usu.edu\">Center for Open és fenntartható tanulás</a> finanszírozása mellett a <a href=\"http://nsf.gov/\">Nemzeti Tudományos Alapítvány</a> és az <a href=\"http://www.mellon.org/\">Andrew Mellon Alapítvány W</a>"
+    demo: Demó
+    details: Részletek
+    developers: Fejlesztők
     developers_long: "Információ fejlesztők számára"
-    direct_link: "[Direct link]"
-    for: miatt
-    gm_more_prompt: "További Kapcsolódó anyagok"
-    gm_title: "Kapcsolódó anyagok"
+    direct_link: "[Közvetlen link]"
+    for: A
+    gm_more_prompt: "Tovább Kapcsolódó források"
+    gm_title: "Kapcsolódó források"
     home: 
-      browse_and_search: "Kereshetsz és OVER"
-      collaborate: Együttműködhet
-      comments_heading: "Recent Comments"
-      example_comment: "Hogy az legos építési útmutatót is awesome! Kíváncsi vagyok, ha tudnánk használni a diákok a CS 102."
-      get_widgets: "GET OER RECOMMENDER widget"
-      oers: "EDUCATION <b>NYÍLT</b>"
-      people: EMBEREKET
+      browse_and_search: "Böngészés és keresés OVER"
+      collaborate: "Együttműködés a"
+      comments_heading: "Legutóbbi megjegyzések"
+      example_comment: "Ez Legos építési útmutatót is awesome! Kíváncsi vagyok, ha tudnánk használni a diákok a CS 102."
+      get_widgets: "A GET SzOF ajánló Widget"
+      oers: "<b>OPEN</b> OKTATÁS"
+      people: EMBEREK
       resources: "FORRÁSOK (OERS)"
-      search: KERESÉSE
+      search: KERESÉS
       signup: "Regisztráljon még ma!"
-      signup_reasons: "Jelentkezzen be, hogy tudják az emberek, akikkel talál, megvitatására, remix, és fejlessze tanulási erőforrások"
-      why: "AMIÉRT FOLKSEMANTIC?"
-      widgets_pitch: "Want to get OER ajánlásokat weblapjára?"
-    just_ocws: Tanfolyamokat
-    latest_comments: "Utolsó hozzászólások"
-    metadata: Metaadatokat
+      signup_reasons: "Jelentkezzen be, hogy tudják az emberek, akikkel lehet találni, megvitatják, remix, és a tananyagok fejlesztése"
+      why: "MIÉRT FOLKSEMANTIC?"
+      widgets_pitch: "Szeretne SzOF ajánlásokat a weboldalakat?"
+    just_ocws: Tanfolyamok
+    latest_comments: "Legfrissebb Hozzászólások"
+    metadata: Metaadatok
     next: Következő
-    no_hits: "Nincs találat. Próbáld egy másik keresést, vagy válasszon másik nyelvet."
-    of: "-től"
+    no_hits: "Nincs találat. Kérjük, próbálja másik keresést vagy válasszon egy másik nyelvet."
+    of: A
     powered_by: "powered by"
-    previous: Eddigi
-    rdf: Kemencehulladékot
-    register_description: "Jelentkezzen be, hogy személyre szóló <span class=\"highlight\">ajánlásokat, a</span> fórumokon, és könnyen <span class=\"highlight\">közzé a blogok</span>"
-    register_link: "Sign Up!"
-    related_resources: "Kapcsolódó anyagok"
-    related_resources_title: "Kapcsolódó anyagok"
-    relevance: relevanciáját
-    results: Eredményt
-    rss: "RSS -"
-    search: keres
-    search_button: Jár
-    search_description: "Find tanulási források <span class=\"highlight\">felkutatására</span> és <span class=\"highlight\">böngészés 110.000</span> nyitott oktatási források"
+    previous: Előző
+    rdf: RDF
+    register_description: "Jelentkezzen be, hogy személyre szabott <span class=\"highlight\">ajánlásokat,</span> részt <span class=\"highlight\">csoportokban,</span> és könnyen <span class=\"highlight\">közzé a blogok</span>"
+    register_link: Regisztráció!
+    related_resources: "Kapcsolódó források"
+    related_resources_title: "Kapcsolódó források"
+    relevance: vonatkozású
+    results: Eredmények
+    rss: RSS
+    search: Keresés
+    search_button: Tovább
+    search_description: "Keresse tananyagok <span class=\"highlight\">keresési</span> és <span class=\"highlight\">böngészési</span> több mint <span class=\"highlight\">110.000</span> nyílt oktatási erőforrások"
     search_link: "Forrásokat találni!"
-    tag_line: "felhatalmazzák nyílt oktatás"
+    tag_line: "felhatalmazó rendelkezésre álló oktatási"
     title: folksemantic
-    tour: "Take a Tour!"
+    tour: "Vegyen részt!"
     tour_description: "Nézzen meg egy <span class=\"highlight\">videót bevezetése</span> Folksemantic"
-    view_account: "View Your Account"
-    welcome: "Welcome to Folksemantic."
-    welcome_message: "Vagyunk aktívan dolgozik, hogy integrálja OCWFinder és OERRecommender be egy helyre, hogy segítsen megtalálni a leginkább érdekes és fontos oktatási források."
-    welcome_user: "Welcome {{user}}"
-    widgets_description: "Get widgets hogy segítse a felhasználókat forrásokat <span class=\"highlight\">találni,</span> és <span class=\"highlight\">fedezze fel</span> az <span class=\"highlight\">erőforrásokkal összefüggő</span> egyek weboldalán"
-    widgets_link: "Get Widgets!"
+    view_account: "Nézd meg Ön fiókja"
+    welcome: "Üdvözöljük a Folksemantic."
+    welcome_message: "Mi aktívan dolgozik, hogy integrálja OCWFinder és OERRecommender egyetlen oldalon, hogy segítsen megtalálni a legérdekesebb és fontos oktatási források."
+    welcome_user: "Üdvözöljük %{user}"
+    widgets_description: "Get widgetek segítségével a felhasználók forrásokat <span class=\"highlight\">találni, és</span> fedezd <span class=\"highlight\">kapcsolódó források</span> is az Ön weboldalán"
+    widgets_link: "Get Widget!"
     widgets_title: "folksemantic kütyü"
     xml: XML
   general: 
-    delete_file: "Fájl törlése"
-    send: Elküld
-    thank_you_contact: "Köszönjük az üzenetet. A csapatunk tagja lesz hamarosan válaszolunk Önnek."
+    delete_file: "Törlés File"
+    send: Küldés
+    thank_you_contact: "Köszönjük az üzenetet. A tag a csapat fog reagálni Önnel."
   muck: 
     activity_templates: 
-      welcome: Üdvözlöm
+      welcome: Üdvözöljük
     admin: 
-      home: Otthon
-      my_dashboard: "Saját beállítópult"
-      permissions: Jogosítványait
-      themes: Témákban
-      users: Álláskeresők
-    contact_request: "Contact Request"
-    contact_thanks: "Köszönjük, hogy felkeresett minket. Megkaptuk az e-mail, és azt a kapcsolatot hamarosan."
+      home: Főoldal
+      my_dashboard: "Saját Dashboard"
+      permissions: Engedélyek
+      themes: Témák
+      users: Felhasználók
+    contact_request: "Kapcsolat kérés"
+    contact_thanks: "Köszönöm, hogy felkeresett minket. Megkaptuk az e-mail, és majd a kapcsolatot hamarosan."
     friends: 
-      block: Blokkolni
-      start_following: Követ
-      unblock: "Felold gombot"
+      block: Tömb
+      start_following: Nyomon
+      unblock: "Tiltás feloldása"
     raker: 
       add_extended_feed_sub_title: ~
-      add_extended_feed_title: "Contribute OCW / OER Repository"
+      add_extended_feed_title: "Adalék OCW / SzOF Adattár"
     services: 
-      add_new_feed_title: "Hozzájárulást fizet OCW / OER adathalmaz."
-    user_greeting: "{{user}}, Hi"
+      add_new_feed_title: "Adalék egy OCW / SzOF adathalmaz."
+    user_greeting: "Szia %{user},"
     users: 
-      dev_plans: "Nagy erőkkel fejlődő bővítésének <a href=\"http://ocwfinder.org\">ocwfinder.org</a> és <a href=\"http://oerrecommender.org\">oerrecommender.org</a>"
-      signup: Regisztráció
-      signup_header: "Azt hiszed, okos?"
-      signup_pitch: "Folksemantic teszi a könnyű megtalálni, megosztása és nyílt oktatási forrásokat annak érdekében kaphat okos."
-    welcome_activity: "Welcome to {{application_name}}! Itt lehet <a href='/resources'>felfedezni szabad oktatási eszközök a világ minden tájáról.</a> Érdekes a <a href='/resources/search?q=lady+bugs'>hölgy hibáit?</a> <a href='/resources/3909'>Mi tanulási források NASA?.</a>"
+      dev_plans: "Aktívan fejlődő azt kiterjeszteni <a href=\"http://ocwfinder.org\">ocwfinder.org</a> és <a href=\"http://oerrecommender.org\">oerrecommender.org</a>"
+      signup: Regisztrálj!
+      signup_header: "Szerintem te okos?"
+      signup_pitch: "Folksemantic könnyen találni, részvény, valamint a nyílt oktatási források, így kap okos."
+    welcome_activity: "Üdvözöljük a %{application_name}! Itt <a href='/resources'>felfedezni ingyenes oktatási erőforrások a világ minden tájáról</a> . Érdekes a <a href='/resources/search?q=lady+bugs'>hölgy a hibákat</a> ? <a href='/resources/3909'>Mi tanulási források a NASA</a> ?."
   oerrecommender: 
-    atom: Atomnak
-    calculated: számítani
-    collections: Gyűjteményeket
-    collections_long: "Indexált Collections"
-    demo: Demót
-    details: Részleteket
-    developers: Fejlesztőknek
+    atom: Atom
+    calculated: számított
+    collections: Gyűjtemények
+    collections_long: "Indexelt gyűjtemények"
+    demo: Demó
+    details: Részletek
+    developers: Fejlesztők
     developers_long: "Információ fejlesztők számára"
-    direct_link: "[Direct link]"
-    for: miatt
-    gm_more_prompt: "További Kapcsolódó anyagok"
-    gm_title: "Kapcsolódó anyagok"
-    integration_page_title: "Integrálni ajánlásai folksemantic saját weboldalán."
-    metadata: Metaadatokat
+    direct_link: "[Közvetlen link]"
+    for: A
+    gm_more_prompt: "Tovább Kapcsolódó források"
+    gm_title: "Kapcsolódó források"
+    integration_page_title: "Integrálja ajánlásai folksemantic be a honlapján."
+    metadata: Metaadatok
     next: Következő
-    no_hits: "Nincs találat. Próbáld egy másik keresést, vagy válasszon másik nyelvet."
-    of: "-től"
-    page_title: "OER Recommender - Get álló oktatási források ajánlás widgets for your website"
+    no_hits: "Nincs találat. Kérjük, próbálja másik keresést vagy válasszon egy másik nyelvet."
+    of: A
+    page_title: "SzOF Ajánló - Get álló oktatási források ajánlást kütyü az Ön weboldalán"
     powered_by: "powered by"
-    previous: Eddigi
-    rdf: Kemencehulladékot
-    related_resources: "Kapcsolódó anyagok"
-    related_resources_title: "Kapcsolódó anyagok"
-    relevance: relevanciáját
-    results: Eredményt
-    rss: "RSS -"
-    search: Keres
-    signup: "Iratkozzon fel Folksemantic hoz kap személyre szóló ajánlásokat, és együttműködni másokkal"
-    tag_line: "Get the Folksemantic - OER Recommender widget <br/> hogy könnyen be &quot;kapcsolódó források&quot; linkeket webhelye"
-    title: "Egyéb OER Recommender"
-    widgets: Widgeteket
+    previous: Előző
+    rdf: RDF
+    related_resources: "Kapcsolódó források"
+    related_resources_title: "Kapcsolódó források"
+    relevance: vonatkozású
+    results: Eredmények
+    rss: RSS
+    search: Keresés
+    signup: "Regisztrálj a Folksemantic, hogy személyre szabott ajánlásokat és együttműködni másokkal,"
+    tag_line: "Szerezd meg a Folksemantic - SzOF Ajánló widget <br/> hogy könnyen be &quot;kapcsolódó források&quot; linkeket a honlapon"
+    title: "SzOF Ajánló"
+    widgets: Kütyü
     xml: XML

@@ -1,95 +1,96 @@
 --- 
 vi: 
   contact: 
-    contact_response_subject: "Cảm ơn bạn đã yêu cầu thông tin của bạn từ {{application_name}}!"
+    contact_response_subject: "Cảm ơn câu hỏi của bạn từ %{application_name}!"
     contact_us: "Liên hệ"
     email: "Email của bạn:"
-    email_help: "Xin vui lòng cho chúng tôi email của bạn để chúng tôi có thể liên lạc với bạn nếu cần thiết."
+    email_help: "Xin vui lòng cung cấp cho chúng tôi với email của bạn để chúng tôi có thể liên lạc với bạn nếu cần thiết."
     name: "Tên của bạn:"
-    name_help: "Xin vui lòng cung cấp cho chúng tôi với tên của bạn."
-    phone: "Số điện thoại của bạn:"
-    phone_help: "Số điện thoại của bạn là tùy chọn, nhưng sẽ giúp chúng tôi liên lạc với bạn nếu cần thiết."
-    question: "Câu hỏi của bạn tin nhắn /:"
+    name_help: "Xin vui lòng cung cấp cho chúng tôi tên của bạn."
+    phone: "Số điện thoại:"
+    phone_help: "số điện thoại của bạn là tùy chọn nhưng sẽ giúp chúng tôi liên lạc với bạn nếu cần thiết."
+    question: "Thông điệp của bạn / câu hỏi:"
     question_help: "Xin vui lòng bao gồm bất kỳ ý kiến bạn muốn chúng tôi nghe."
     subject: "Tiêu đề:"
-    subject_help: "Một câu đơn giản chỉ ra bản chất của các phản hồi của bạn."
+    subject_help: "Một tuyên bố đơn giản chỉ ra bản chất của phản hồi của bạn."
   folksemantic: 
-    about: "Tìm hiểu thêm về các dự án Folksemantic"
+    about: "Tìm hiểu thêm về dự án Folksemantic"
     actions: "Hành động"
-    add_edit_feeds: "thêm / sửa nguồn cấp dữ liệu"
-    advanced_widget_options: "Nâng cao Widget Settings"
+    add_edit_feeds: "thêm / chỉnh sửa nguồn cấp dữ liệu"
+    admin_link: Admin
+    advanced_widget_options: "Advanced Settings Widget"
     all_resources: "Tất cả"
-    atom: "Nguyên tử"
-    browse_resources: "Browse Resources"
+    atom: Atom
+    browse_resources: "Duyệt Tài nguyên"
     calculated: tính
-    collections: "Bộ sưu tập"
-    collections_long: "Lập chỉ mục Bộ sưu tập"
+    collections: "Bộ Sưu Tập"
+    collections_long: "Các bộ sưu tập được lập chỉ mục"
     connect_account: "Kết nối tài khoản của bạn với:"
-    contribute_repository: "Góp phần OCW / OER Repository"
-    credits: "Phát triển bởi <a href=\"http://www.tatemae.com\">Tatemae</a> cho các <a href=\"http://cosl.usu.edu\">Trung tâm học tập mở và bền vững</a> với sự tài trợ từ <a href=\"http://nsf.gov/\">Quỹ khoa học quốc gia</a> và <a href=\"http://www.mellon.org/\">Quỹ Andrew W Mellon</a>"
+    contribute_repository: "Đóng góp OCW / OER Repository"
+    credits: "Phát triển bởi <a href=\"http://www.tatemae.com\">Tatemae</a> cho các <a href=\"http://cosl.usu.edu\">Trung tâm học tập mở và bền vững</a> với sự tài trợ của <a href=\"http://nsf.gov/\">khoa học quốc gia</a> và các <a href=\"http://www.mellon.org/\">Andrew W Mellon Foundation</a>"
     demo: Demo
-    details: "Chi tiết"
-    developers: "Các nhà phát triển"
-    developers_long: "Thông tin cho Người phát triển"
-    direct_link: "[liên kết trực tiếp]"
-    for: vì
-    gm_more_prompt: "More Related Resources"
-    gm_title: "Liên quan đến tài nguyên"
+    details: "Thông tin chi tiết"
+    developers: "Nhà phát triển"
+    developers_long: "Thông tin dành cho nhà phát triển"
+    direct_link: "[Trực tiếp liên kết]"
+    for: cho
+    gm_more_prompt: "Tai nguyên liên quan khác"
+    gm_title: "Tai nguyên liên quan"
     home: 
-      browse_and_search: "BROWSE VÀ TÌM KIẾM TRÊN"
-      collaborate: "Cộng tác với"
-      comments_heading: "RECENT COMMENTS"
-      example_comment: "Điều đó hướng dẫn xây dựng legos is awesome! Tôi tự hỏi nếu chúng ta có thể sử dụng nó với các sinh viên trong CS 102."
-      get_widgets: "GET OER chạy nhất Widget"
-      oers: "<b>MỞ</b> GIÁO DỤC"
+      browse_and_search: "DANH VÀ TÌM KIẾM TRÊN"
+      collaborate: "Phối hợp với"
+      comments_heading: "BÌNH LUẬN MỚI"
+      example_comment: "Đó là hướng dẫn xây dựng Legos là awesome! Tôi tự hỏi nếu chúng ta có thể sử dụng nó với các học sinh trong CS 102."
+      get_widgets: "GET Widget Recommender OER"
+      oers: "<b>OPEN</b> GIÁO DỤC"
       people: "NHÂN DÂN"
       resources: "TÀI NGUYÊN (OERS)"
       search: "TÌM KIẾM"
       signup: "SIGN UP TODAY!"
-      signup_reasons: "Đăng ký để gặp gỡ những người mà bạn có thể tìm thấy, thảo luận, remix, học tập và phát triển tài nguyên"
+      signup_reasons: "Đăng ký để gặp gỡ những người mà bạn có thể tìm thấy, thảo luận, remix, và phát triển nguồn tài nguyên học tập"
       why: "TẠI SAO FOLKSEMANTIC?"
-      widgets_pitch: "Bạn muốn nhận được các khuyến nghị OER cho các trang web của bạn?"
-    just_ocws: "Các khóa học"
+      widgets_pitch: "OER muốn khuyến nghị cho các trang web của bạn?"
+    just_ocws: Khoá
     latest_comments: "Bình luận mới nhất"
     metadata: Metadata
     next: "Tiếp theo"
     no_hits: "Không có số truy cập. Hãy thử một tìm kiếm khác nhau hoặc chọn một ngôn ngữ khác nhau."
     of: của
-    powered_by: "powered by"
+    powered_by: "được cung cấp bởi"
     previous: Trước
     rdf: RDF
-    register_description: "Đăng ký để nhận <span class=\"highlight\">đề xuất</span> được cá nhân, tham gia vào các <span class=\"highlight\">nhóm,</span> và dễ dàng <span class=\"highlight\">xuất bản vào blog</span>"
+    register_description: "Đăng ký để nhận được <span class=\"highlight\">kiến nghị</span> cá nhân, tham gia vào <span class=\"highlight\">nhóm,</span> và dễ dàng <span class=\"highlight\">xuất bản lên blog</span>"
     register_link: "Đăng ký!"
     related_resources: "Liên quan đến tài nguyên"
-    related_resources_title: "Liên quan đến tài nguyên"
-    relevance: "sự liên quan"
+    related_resources_title: "Tai nguyên liên quan"
+    relevance: "liên quan"
     results: "Kết quả"
     rss: RSS
     search: "tìm kiếm"
-    search_button: Đi
-    search_description: "Tìm nguồn tài nguyên học tập bằng cách <span class=\"highlight\">tìm kiếm</span> và <span class=\"highlight\">duyệt</span> hơn <span class=\"highlight\">110.000</span> nguồn mở giáo dục"
+    search_button: Go
+    search_description: "Tìm hiểu nguồn lực bằng cách <span class=\"highlight\">tìm kiếm</span> và <span class=\"highlight\">duyệt</span> hơn <span class=\"highlight\">110.000</span> tài nguyên giáo dục mở"
     search_link: "Tìm nguyên!"
-    tag_line: "nâng cao vị thế giáo dục mở"
+    tag_line: "nâng cao vị thế nền giáo dục mở"
     title: folksemantic
-    tour: "Take a Tour!"
-    tour_description: "Xem một <span class=\"highlight\">video giới thiệu</span> của Folksemantic"
+    tour: "Tham quan!"
+    tour_description: "Xem <span class=\"highlight\">video giới thiệu</span> của Folksemantic"
     view_account: "Xem Tài khoản của bạn"
-    welcome: "Chào mừng đến với Folksemantic."
-    welcome_message: "Chúng tôi đang tích cực làm việc để tích hợp OCWFinder và OERRecommender vào một trang web để giúp bạn tìm thấy thú vị nhất và có liên quan tài nguyên giáo dục."
-    welcome_user: "Chào mừng {{user}}"
-    widgets_description: "Get widget để giúp người dùng <span class=\"highlight\">tìm</span> các nguồn lực <span class=\"highlight\">và</span> khám phá các <span class=\"highlight\">nguồn tài nguyên liên quan</span> đến những người trên trang web của bạn"
-    widgets_link: "Get Widgets!"
+    welcome: "Chào mừng bạn đến Folksemantic."
+    welcome_message: "Chúng tôi đang tích cực làm việc để tích hợp OCWFinder và OERRecommender vào một trang web để giúp bạn tìm thấy thú vị nhất và có liên quan nguồn tài nguyên giáo dục."
+    welcome_user: "Chào mừng %{user}"
+    widgets_description: "Nhận vật dụng để giúp người dùng <span class=\"highlight\">tìm thấy</span> nguồn tài nguyên <span class=\"highlight\">và</span> khám phá <span class=\"highlight\">nguồn tài nguyên liên quan</span> đến những người thân trên trang web của bạn"
+    widgets_link: "Get Widget!"
     widgets_title: "folksemantic widget"
     xml: XML
   general: 
-    delete_file: "Xoá tệp"
+    delete_file: "Delete File"
     send: Gửi
-    thank_you_contact: "Cám ơn các tin nhắn của bạn. Một thành viên của nhóm chúng tôi sẽ trả lời bạn ngay."
+    thank_you_contact: "Cảm ơn bạn đã cho tin nhắn của bạn. Một thành viên của nhóm chúng tôi sẽ trả lời bạn ngay."
   muck: 
     activity_templates: 
       welcome: "Chào mừng"
     admin: 
-      home: "Gia đình"
+      home: "Trang chủ"
       my_dashboard: "Bảng điều khiển của tôi"
       permissions: Permissions
       themes: "Chủ đề"
@@ -97,51 +98,51 @@ vi:
     contact_request: "Liên hệ Yêu cầu"
     contact_thanks: "Cảm ơn bạn đã liên hệ với chúng tôi. Chúng tôi đã nhận được email của bạn và sẽ liên lạc sớm."
     friends: 
-      block: Chặn
-      start_following: "Theo sau"
-      unblock: "Bỏ cấm"
+      block: Block
+      start_following: Theo
+      unblock: "Bỏ chặn"
     raker: 
       add_extended_feed_sub_title: ~
-      add_extended_feed_title: "Góp phần OCW / OER Repository"
+      add_extended_feed_title: "Đóng góp OCW / OER Repository"
     services: 
-      add_new_feed_title: "Đóng góp một OCW / OER dữ liệu thức ăn."
-    user_greeting: "Hi {{user}},"
+      add_new_feed_title: "Đóng góp một OCW / OER nguồn cấp dữ liệu."
+    user_greeting: "Hi %{user},"
     users: 
       dev_plans: "Chúng tôi đang tích cực phát triển nó để mở rộng <a href=\"http://ocwfinder.org\">ocwfinder.org</a> và <a href=\"http://oerrecommender.org\">oerrecommender.org</a>"
       signup: "Đăng ký!"
-      signup_header: "Hãy suy nghĩ bạn thông minh?"
-      signup_pitch: "Folksemantic giúp bạn dễ dàng tìm thấy, chia sẻ, và sử dụng nguồn mở giáo dục, do đó bạn có thể nhận được thông minh."
-    welcome_activity: "Chào mừng đến với {{application_name}}! Tại đây bạn có thể <a href='/resources'>khám phá các nguồn tài nguyên miễn phí giáo dục từ khắp nơi trên thế giới.</a> Thú vị ở <a href='/resources/search?q=lady+bugs'>lỗi lady?</a> <a href='/resources/3909'>Làm thế nào về học lực của NASA?.</a>"
+      signup_header: "Hãy nghĩ bạn là thông minh?"
+      signup_pitch: "Folksemantic làm cho nó dễ dàng để tìm kiếm, chia sẻ, và sử dụng nguồn tài nguyên giáo dục mở, do đó bạn có thể nhận được thông minh."
+    welcome_activity: "Chào mừng bạn đến %{application_name}! Tại đây bạn có thể <a href='/resources'>khám phá tài nguyên giáo dục miễn phí từ khắp nơi trên thế giới</a> . Thú vị ở <a href='/resources/search?q=lady+bugs'>lỗi phụ nữ</a> ? <a href='/resources/3909'>Làm thế nào về nguồn học liệu từ NASA</a> ?."
   oerrecommender: 
-    atom: "Nguyên tử"
+    atom: Atom
     calculated: tính
-    collections: "Bộ sưu tập"
-    collections_long: "Lập chỉ mục Bộ sưu tập"
+    collections: "Bộ Sưu Tập"
+    collections_long: "Các bộ sưu tập được lập chỉ mục"
     demo: Demo
-    details: "Chi tiết"
-    developers: "Các nhà phát triển"
-    developers_long: "Thông tin cho Người phát triển"
-    direct_link: "[liên kết trực tiếp]"
-    for: vì
-    gm_more_prompt: "More Related Resources"
-    gm_title: "Liên quan đến tài nguyên"
-    integration_page_title: "Tích hợp các khuyến nghị từ folksemantic vào website của bạn."
+    details: "Thông tin chi tiết"
+    developers: "Nhà phát triển"
+    developers_long: "Thông tin dành cho nhà phát triển"
+    direct_link: "[Trực tiếp liên kết]"
+    for: cho
+    gm_more_prompt: "Tai nguyên liên quan khác"
+    gm_title: "Tai nguyên liên quan"
+    integration_page_title: "Tích hợp kiến nghị từ folksemantic vào website của bạn."
     metadata: Metadata
     next: "Tiếp theo"
     no_hits: "Không có số truy cập. Hãy thử một tìm kiếm khác nhau hoặc chọn một ngôn ngữ khác nhau."
     of: của
-    page_title: "OER chạy nhất - Get widget giáo dục đề nghị mở tài nguyên cho trang web của bạn"
-    powered_by: "powered by"
+    page_title: "OER Recommender - Nhận vật dụng giới thiệu giáo dục mở tài nguyên cho trang web của bạn"
+    powered_by: "được cung cấp bởi"
     previous: Trước
     rdf: RDF
     related_resources: "Liên quan đến tài nguyên"
-    related_resources_title: "Liên quan đến tài nguyên"
-    relevance: "sự liên quan"
+    related_resources_title: "Tai nguyên liên quan"
+    relevance: "liên quan"
     results: "Kết quả"
     rss: RSS
     search: "Tìm kiếm"
-    signup: "Đăng ký Folksemantic để có được kiến nghị cá nhân và cộng tác với những người khác"
-    tag_line: "Nhận Folksemantic - OER chạy nhất widget <br/> để dễ dàng chèn &quot;nguồn tài nguyên liên quan đến&quot; liên kết vào website của bạn"
-    title: "OER chạy nhất"
+    signup: "Đăng ký tài khoản Folksemantic để có được cá nhân hoá các khuyến nghị và hợp tác với người khác"
+    tag_line: "Nhận Folksemantic - OER Recommender widget <br/> để dễ dàng chèn &quot;tài nguyên liên quan&quot; liên kết vào website của bạn"
+    title: "OER Recommender"
     widgets: Widgets
     xml: XML

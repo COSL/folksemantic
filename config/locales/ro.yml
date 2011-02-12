@@ -1,147 +1,148 @@
 --- 
 ro: 
   contact: 
-    contact_response_subject: "Vă mulţumim pentru solicitarea de informatii de la {{application_name}}!"
+    contact_response_subject: "Vă mulţumim pentru intrebarea dumneavoastra, de la %{application_name}!"
     contact_us: Contactati-ne
-    email: "Adresa ta de email:"
-    email_help: "Vă rugăm să ne oferiţi un e-mail, astfel încât să vă putem contacta dacă este necesar."
+    email: "Adresa dvs. de email:"
+    email_help: "Vă rugăm să ne furnizaţi cu adresa dvs. de email, astfel încât să vă putem contacta, dacă este necesar."
     name: "Numele tau:"
     name_help: "Vă rugăm să ne furnizaţi numele dumneavoastră."
-    phone: "Numărul dvs. de telefon:"
-    phone_help: "Numărul dvs. de telefon este facultativă, dar ne va ajuta să vă contactăm dacă este necesar."
+    phone: "Numărul dumneavoastră de telefon:"
+    phone_help: "Numărul dvs. de telefon este opţională, dar ne va ajuta să vă contactăm, dacă este necesar."
     question: "Mesajul dvs. / întrebare:"
-    question_help: "Vă rugăm să includă orice observaţii pe care doriţi ca noi să aud."
+    question_help: "Vă rugăm să includeţi orice comentarii pe care doriţi să ne auzim."
     subject: "Subiect:"
-    subject_help: "O simplă declaraţie care indică natura feedback-ul dumneavoastră."
+    subject_help: "O simplă declaraţie indicând natura feedback-ul dumneavoastră."
   folksemantic: 
     about: "Aflaţi mai multe despre proiect Folksemantic"
-    actions: Acţiunile
+    actions: Acţiuni
     add_edit_feeds: "Adăugare / Editare feed-uri"
-    advanced_widget_options: "Widget Setări avansate"
-    all_resources: Toţi
+    admin_link: Admin
+    advanced_widget_options: "Advanced Widget Setări"
+    all_resources: Toate
     atom: Atom
     browse_resources: "Cautare resurse"
-    calculated: calculează
+    calculated: calculate
     collections: Colecţii
-    collections_long: "Colectii Indexed"
+    collections_long: "Colecţii indexate"
     connect_account: "Conectaţi contul dvs. cu:"
-    contribute_repository: "Implică-te OCW / RED Repository"
-    credits: "Dezvoltat de <a href=\"http://www.tatemae.com\">Tatemae</a> pentru <a href=\"http://cosl.usu.edu\">Centrul de Deschidere şi de studiu durabile,</a> cu finanţare de la <a href=\"http://nsf.gov/\">National Science Foundation</a> si <a href=\"http://www.mellon.org/\">Fundatia Andrew W Mellon,</a>"
+    contribute_repository: "Implică-te OCW / OER Depozitului"
+    credits: "Dezvoltat de <a href=\"http://www.tatemae.com\">Tatemae</a> pentru <a href=\"http://cosl.usu.edu\">Centrul pentru Open şi învăţare durabilă</a> , cu finanţare de la <a href=\"http://nsf.gov/\">National Science Foundation</a> şi <a href=\"http://www.mellon.org/\">Andrew W Mellon Foundation</a>"
     demo: Demo
     details: Detalii
-    developers: Dezvoltatorii
+    developers: Dezvoltatori
     developers_long: "Informaţii pentru dezvoltatori"
-    direct_link: "[legătură directă]"
+    direct_link: "[Direct link]"
     for: pentru
-    gm_more_prompt: "Mai multe resurse asociate"
-    gm_title: "Resurse asociate"
+    gm_more_prompt: "Mai multe resurse conexe"
+    gm_title: "Legate de Resurse"
     home: 
-      browse_and_search: "Răsfoiţi şi căutaţi OVER"
-      collaborate: "COLABOREAZĂ CU"
+      browse_and_search: "Răsfoiţi şi căutaţi PESTE"
+      collaborate: "Colabora cu"
       comments_heading: "Comentarii recente"
-      example_comment: "Acest ghid Legos de construcţie este minunat! Mă întreb dacă am putea folosi cu studenţii în CS 102."
-      get_widgets: "GET RED Recommender WIDGET"
+      example_comment: "Acest ghid de construcţie Legos este minunat! Mă întreb dacă am putea folosi cu elevii în CS 102."
+      get_widgets: "Ia widget RECOMMENDER OER"
       oers: "<b>OPEN</b> EDUCAŢIE"
-      people: PEOPLE
+      people: OAMENI
       resources: "RESURSE (OERS)"
-      search: CAUTA
-      signup: "Sign up today!"
-      signup_reasons: "Inscrie-te pentru a întâlni oameni cu care puteţi găsi, discuta, remix, şi de a dezvolta resurse de învăţare"
-      why: "DE CE FOLKSEMANTIC?"
-      widgets_pitch: "Doriţi să obţineţi recomandări RED pentru paginile dvs. de web?"
-    just_ocws: Cursurile
-    latest_comments: "Latest Comments"
+      search: CAUTARE
+      signup: "Înscrieţi-vă astăzi!"
+      signup_reasons: "Înscrie-te pentru a întâlni oameni cu care puteţi găsi, discuta, remix, şi de a dezvolta resurse de învăţare"
+      why: "CE FOLKSEMANTIC?"
+      widgets_pitch: "Vrei recomandări OER pentru paginile dvs. de web?"
+    just_ocws: Cursuri
+    latest_comments: "Ultimele Comentarii"
     metadata: Metadate
     next: Următorul
-    no_hits: "Nr hit-uri. Vă rugăm să încercaţi o altă căutare sau alegeţi o altă limbă."
-    of: al
-    powered_by: "powered by"
-    previous: Previous
+    no_hits: "Nu hit-uri. Vă rugăm să încercaţi o altă căutare sau alegeţi o altă limbă."
+    of: de
+    powered_by: "Realizat de"
+    previous: Anterioare
     rdf: RDF
-    register_description: "Inscrie-te pentru a primi <span class=\"highlight\">recomandări</span> personalizate, să participe în <span class=\"highlight\">grupuri,</span> şi uşor <span class=\"highlight\">de a publica blog-uri</span>"
-    register_link: "Sign Up!"
-    related_resources: "Alte resurse"
-    related_resources_title: "Resurse asociate"
-    relevance: relevanţa
-    results: Rezultatele
+    register_description: "Înscrie-te pentru a primi <span class=\"highlight\">recomandari</span> personalizate, să participe în <span class=\"highlight\">grupuri,</span> şi uşor de <span class=\"highlight\">a publica bloguri</span>"
+    register_link: Înregistrează-te!
+    related_resources: "resurse conexe"
+    related_resources_title: "Legate de Resurse"
+    relevance: relevanţă
+    results: Rezultate
     rss: RSS
-    search: căuta
-    search_button: Merge
-    search_description: "Găsiţi resurse de învăţare de <span class=\"highlight\">căutare</span> şi <span class=\"highlight\">navigare</span> peste <span class=\"highlight\">110.000 de</span> resurse educaţionale deschise"
-    search_link: "Găsiţi resurse!"
-    tag_line: "oferirea de mijloace educaţionale deschise"
+    search: căutare
+    search_button: Du-te
+    search_description: "Găsiţi resurse de învăţare de <span class=\"highlight\">căutare</span> şi <span class=\"highlight\">navigare</span> de peste <span class=\"highlight\">110.000</span> de resurse educaţionale deschise"
+    search_link: "Găsească resurse!"
+    tag_line: "împuternicirea învăţământ deschis"
     title: folksemantic
-    tour: "Ia-o Tour!"
-    tour_description: "Uita-te la o <span class=\"highlight\">introducere video</span> a Folksemantic"
-    view_account: "Contul dvs. View"
-    welcome: "Bine ati venit la Folksemantic."
-    welcome_message: "Ne străduim în mod activ pentru a integra OCWFinder şi OERRecommender într-un singur site pentru a vă ajuta să găsiţi resursele cele mai interesante si relevante de învăţământ."
-    welcome_user: "Bine aţi venit {{user}}"
-    widgets_description: "Get Widgets pentru a ajuta utilizatorii să <span class=\"highlight\">găsească</span> resurse şi de a <span class=\"highlight\">descoperi resurse legate</span> de cele de pe site-ul dvs."
+    tour: "Faceţi un tur!"
+    tour_description: "Urmăriţi o <span class=\"highlight\">prezentare video</span> a Folksemantic"
+    view_account: "Vizualizarea contului dvs."
+    welcome: "Bine aţi venit la Folksemantic."
+    welcome_message: "Suntem activ de lucru pentru a integra OCWFinder şi OERRecommender într-un singur site pentru a vă ajuta să găsiţi resursele cele mai interesante şi educaţionale relevante."
+    welcome_user: "Bine ati venit %{user}"
+    widgets_description: "Ia widget-uri pentru a ajuta utilizatorii să <span class=\"highlight\">găsească</span> resurse şi de a <span class=\"highlight\">descoperi resurse legate</span> de cele de pe site-ul dvs."
     widgets_link: "Get Widgets!"
     widgets_title: "widget-uri folksemantic"
     xml: XML
   general: 
-    delete_file: "Şterge fişier"
+    delete_file: "Ştergeţi fişiere"
     send: Trimite
-    thank_you_contact: "Vă mulţumim pentru mesaj. Un membru al echipei noastre va va raspunde in scurt timp."
+    thank_you_contact: "Vă mulţumim pentru mesajul dumneavoastră. Un membru al echipei noastre va raspunde in scurt timp."
   muck: 
     activity_templates: 
-      welcome: "Bun venit"
+      welcome: "Bine ai venit"
     admin: 
-      home: Acasă
-      my_dashboard: "My Tablou de bord"
-      permissions: Permissions
-      themes: Themes
-      users: Users
-    contact_request: "A lua legatura cu Cerere de"
-    contact_thanks: "Vă mulţumim pentru a ne contacta. Am primit un e-mail şi va fi în contact în curând."
+      home: Home
+      my_dashboard: "Tabloul de bord meu"
+      permissions: Permisiuni
+      themes: Teme
+      users: Utilizatori
+    contact_request: "A lua legatura cu Cerere"
+    contact_thanks: "Vă mulţumim pentru a ne contacta. Am primit adresa dvs. de email şi vor fi în legătura în curând."
     friends: 
       block: Bloc
-      start_following: Urma
-      unblock: Unblock
+      start_following: Urmaţi
+      unblock: Deblocare
     raker: 
       add_extended_feed_sub_title: ~
-      add_extended_feed_title: "Implică-te OCW / RED Repository"
+      add_extended_feed_title: "Implică-te OCW / OER Depozitului"
     services: 
-      add_new_feed_title: "Implică-o OCW / date RED hranei pentru animale."
-    user_greeting: "Max {{user}},"
+      add_new_feed_title: "Contribuie cu o OCW / OER de date feed."
+    user_greeting: "Hi %{user},"
     users: 
-      dev_plans: "Suntem în curs de dezvoltare este în mod activ pentru a extinde <a href=\"http://ocwfinder.org\">ocwfinder.org</a> şi <a href=\"http://oerrecommender.org\">oerrecommender.org</a>"
-      signup: Inscrie-te!
+      dev_plans: "Suntem în mod activ în curs de dezvoltare este de a extinde <a href=\"http://ocwfinder.org\">ocwfinder.org</a> şi <a href=\"http://oerrecommender.org\">oerrecommender.org</a>"
+      signup: Înscrie-te!
       signup_header: "Crezi ca esti destept?"
-      signup_pitch: "Folksemantic face mai uşor de găsit, partaja, şi utilizarea de resurse educaţionale deschise astfel încât să puteţi Get Smart."
-    welcome_activity: "Bine ati venit la {{application_name}}! Aici puteti <a href='/resources'>descoperi resurse educaţionale gratuite din întreaga lume.</a> Interesante în <a href='/resources/search?q=lady+bugs'>bug-uri doamnă?</a> <a href='/resources/3909'>Cum despre resursele de învăţare de la NASA?.</a>"
+      signup_pitch: "Folksemantic îl face uşor de găsit, parts, şi de a folosi resurse educaţionale deschise astfel încât să puteţi Get Smart."
+    welcome_activity: "Bine aţi venit la %{application_name}! Aici puteti <a href='/resources'>descoperi educaţionale resurse gratuite din întreaga lume</a> . Interesant în <a href='/resources/search?q=lady+bugs'>bug-uri doamnă</a> ? <a href='/resources/3909'>Cât despre resurse de învăţare de la NASA</a> ?."
   oerrecommender: 
     atom: Atom
-    calculated: calculează
+    calculated: calculate
     collections: Colecţii
-    collections_long: "Colectii Indexed"
+    collections_long: "Colecţii indexate"
     demo: Demo
     details: Detalii
-    developers: Dezvoltatorii
+    developers: Dezvoltatori
     developers_long: "Informaţii pentru dezvoltatori"
-    direct_link: "[legătură directă]"
+    direct_link: "[Direct link]"
     for: pentru
-    gm_more_prompt: "Mai multe resurse asociate"
-    gm_title: "Resurse asociate"
-    integration_page_title: "Integraţi recomandări de la folksemantic în site-ul dumneavoastră."
+    gm_more_prompt: "Mai multe resurse conexe"
+    gm_title: "Legate de Resurse"
+    integration_page_title: "recomandări de la Integrarea folksemantic în site-ul tau."
     metadata: Metadate
     next: Următorul
-    no_hits: "Nr hit-uri. Vă rugăm să încercaţi o altă căutare sau alegeţi o altă limbă."
-    of: al
-    page_title: "RED Recommender - Ia educaţie widget-uri deschise de resurse de recomandare pentru site-ul dvs."
-    powered_by: "powered by"
-    previous: Previous
+    no_hits: "Nu hit-uri. Vă rugăm să încercaţi o altă căutare sau alegeţi o altă limbă."
+    of: de
+    page_title: "OER Recommender - Ia deschis resursă widget-uri educaţie recomandarea pentru site-ul dvs."
+    powered_by: "Realizat de"
+    previous: Anterioare
     rdf: RDF
-    related_resources: "Alte resurse"
-    related_resources_title: "Resurse asociate"
-    relevance: relevanţa
-    results: Rezultatele
+    related_resources: "resurse conexe"
+    related_resources_title: "Legate de Resurse"
+    relevance: relevanţă
+    results: Rezultate
     rss: RSS
-    search: Căuta
-    signup: "Înscrieţi-vă pentru a Folksemantic pentru a obţine recomandări personalizate şi de a colabora cu alte persoane"
-    tag_line: "Ia Folksemantic - RED widget Recommender <br/> Pentru a insera cu uşurinţă &quot;resurse legate de&quot; link-uri în site-ul dvs."
-    title: "RED Recommender"
-    widgets: Widget-uri
+    search: Căutare
+    signup: "Înscrie-te pentru Folksemantic pentru a obţine recomandări personalizate şi să colaboreze cu alţii"
+    tag_line: "Ia Folksemantic - OER widget Recommender <br/> să inseraţi cu uşurinţă &quot;resurse legate de&quot; link-uri în site-ul tau"
+    title: "OER Recommender"
+    widgets: Widgets
     xml: XML

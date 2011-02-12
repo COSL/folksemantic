@@ -1,37 +1,38 @@
 --- 
 da: 
   contact: 
-    contact_response_subject: "Tak for din henvendelse fra {{application_name}}!"
+    contact_response_subject: "Tak for din henvendelse fra %{application_name}!"
     contact_us: "Kontakt os"
-    email: "Din email:"
-    email_help: "Giv os din e-mail, så vi kan kontakte dig, hvis nødvendigt."
+    email: "Din e-mail:"
+    email_help: "Bedes du give os din e-mail, så vi kan kontakte dig, hvis det er nødvendigt."
     name: "Dit navn:"
-    name_help: "Giv os dit navn."
+    name_help: "Bedes du give os dit navn."
     phone: "Dit telefonnummer:"
-    phone_help: "Dit telefonnummer er frivillig, men vil hjælpe os med at kontakte dig, hvis det er nødvendigt."
+    phone_help: "Dit telefonnummer er valgfrit, men vil hjælpe os med at kontakte dig, hvis det er nødvendigt."
     question: "Din besked / spørgsmål:"
-    question_help: "Inkluder venligst eventuelle kommentarer, du vil have os til at høre."
-    subject: "Emne:"
+    question_help: "Du bedes vedlægge eventuelle kommentarer, du vil have os til at høre."
+    subject: "Om:"
     subject_help: "En simpel angivelse af arten af din feedback."
   folksemantic: 
     about: "Lær mere om Folksemantic projektet"
     actions: Initiativer
     add_edit_feeds: "tilføj / rediger feeds"
-    advanced_widget_options: "Avancerede indstillinger Widget"
+    admin_link: Admin
+    advanced_widget_options: "Avancerede widget indstillinger"
     all_resources: Alle
     atom: Atom
-    browse_resources: "Browse Ressourcer"
-    calculated: beregnet
+    browse_resources: "Gennemse Ressourcer"
+    calculated: beregnede
     collections: Samlinger
     collections_long: "Indekseret Samlinger"
     connect_account: "Tilslut din konto med:"
     contribute_repository: "Bidrage OCW / OER Repository"
-    credits: "Udviklet af <a href=\"http://www.tatemae.com\">Tatemae</a> for <a href=\"http://cosl.usu.edu\">Center for Open and Sustainable Learning</a> med støtte fra <a href=\"http://nsf.gov/\">National Science Foundation</a> og <a href=\"http://www.mellon.org/\">Andrew W Mellon Foundation</a>"
+    credits: "Udviklet af <a href=\"http://www.tatemae.com\">Tatemae</a> for <a href=\"http://cosl.usu.edu\">Center for Open og Bæredygtig læring</a> med støtte fra <a href=\"http://nsf.gov/\">National Science Foundation</a> og <a href=\"http://www.mellon.org/\">Andrew W Mellon Foundation</a>"
     demo: Demo
     details: Detaljer
     developers: Udviklere
     developers_long: "Oplysninger til udviklere"
-    direct_link: "[direkte link]"
+    direct_link: "[Direkte link]"
     for: for
     gm_more_prompt: "Mere Relaterede ressourcer"
     gm_title: "Relaterede ressourcer"
@@ -39,109 +40,109 @@ da:
       browse_and_search: "Gennemse og søg i"
       collaborate: "SAMARBEJDE MED"
       comments_heading: "SENESTE KOMMENTARER"
-      example_comment: "At Legos byggeri guide is awesome! Jeg spekulerer på, om vi kunne bruge det med de studerende i CS 102."
-      get_widgets: "GET OER Er du i WIDGET"
-      oers: "<b>ÅBEN</b> UDDANNELSE"
-      people: PEOPLE
+      example_comment: "At Legos konstruktion guide er awesome! Jeg spekulerer på, om vi kunne bruge det med de studerende i CS 102."
+      get_widgets: "GET OER Recommender widget"
+      oers: "<b>Åben</b> Uddannelse"
+      people: MENNESKER
       resources: "RESSOURCER (Oers)"
       search: SØG
       signup: "Tilmeld dig i dag!"
-      signup_reasons: "Tilmeld dig til at møde mennesker, som du kan finde, diskutere, remix, og udvikle læring ressourcer"
+      signup_reasons: "Opret en Facebook-profil for at møde mennesker, som du kan finde, diskutere, remix, og udvikle læringsressourcer"
       why: "HVORFOR FOLKSEMANTIC?"
-      widgets_pitch: "Ønsker at få OER anbefalinger til dine websider?"
+      widgets_pitch: "Ønsker OER anbefalinger til dine websider?"
     just_ocws: Kurser
-    latest_comments: "Seneste Kommentarer"
+    latest_comments: "Nyeste Kommentarer"
     metadata: Metadata
     next: Næste
-    no_hits: "Ingen hits. Prøv en anden søgning eller vælg et andet sprog."
+    no_hits: "Ingen hits. Prøv venligst en anden søgning eller vælg et andet sprog."
     of: af
     powered_by: "powered by"
     previous: Forrige
     rdf: RDF
-    register_description: "Tilmeld dig til at modtage personlige <span class=\"highlight\">anbefalinger,</span> deltage i <span class=\"highlight\">grupper,</span> og nemt at <span class=\"highlight\">udgive til blogs</span>"
-    register_link: "Sign Up!"
+    register_description: "Tilmeld dig for at modtage personlige <span class=\"highlight\">anbefalinger,</span> deltage i <span class=\"highlight\">grupper,</span> og nemt at <span class=\"highlight\">udgive til blogs</span>"
+    register_link: "Tilmeld dig!"
     related_resources: "Relaterede ressourcer"
     related_resources_title: "Relaterede ressourcer"
-    relevance: relevant
+    relevance: relevans
     results: Resultater
     rss: RSS
-    search: søgning
-    search_button: Start
-    search_description: "Find læring ressourcer ved at <span class=\"highlight\">søge og</span> surfe over <span class=\"highlight\">110.000</span> åben uddannelsesmæssige ressourcer"
+    search: søg
+    search_button: Go
+    search_description: "Find indlæringsressourcer ved at <span class=\"highlight\">søge</span> i og <span class=\"highlight\">gennemse</span> mere end <span class=\"highlight\">110.000</span> Åbne Undervisningsressourcer"
     search_link: "Find ressourcer!"
     tag_line: "bemyndigelse åben uddannelse"
     title: folksemantic
     tour: "Tag en rundtur!"
     tour_description: "Se en <span class=\"highlight\">video introduktion</span> af Folksemantic"
-    view_account: "Se min konto"
+    view_account: "Se din konto"
     welcome: "Velkommen til Folksemantic."
-    welcome_message: "Vi arbejder aktivt for at integrere OCWFinder og OERRecommender til en hjemmeside for at hjælpe dig med at finde de mest interessante og relevante uddannelsesmæssige ressourcer."
-    welcome_user: "Velkommen {{user}}"
-    widgets_description: "Få widgets til at hjælpe brugerne med at <span class=\"highlight\">finde</span> ressourcer og <span class=\"highlight\">opdage ressourcer</span> i <span class=\"highlight\">forbindelse</span> med dem på din hjemmeside"
-    widgets_link: "Get Widgets!"
+    welcome_message: "Vi arbejder aktivt for at integrere OCWFinder og OERRecommender ind et sted for at hjælpe dig med at finde de mest interessante og relevante uddannelsesmæssige ressourcer."
+    welcome_user: "Velkommen %{user}"
+    widgets_description: "Få widgets til at hjælpe brugere med at <span class=\"highlight\">finde</span> ressourcer og <span class=\"highlight\">opdage ressourcer</span> i <span class=\"highlight\">forbindelse</span> med dem på din hjemmeside"
+    widgets_link: "Få Widgets!"
     widgets_title: "folksemantic widgets"
     xml: XML
   general: 
     delete_file: "Slet fil"
-    send: Sende
+    send: Send
     thank_you_contact: "Tak for din besked. Et medlem af vores team vil svare dig snarest."
   muck: 
     activity_templates: 
       welcome: Velkommen
     admin: 
-      home: Hjem
-      my_dashboard: "My Dashboard"
+      home: Home
+      my_dashboard: "Min Dashboard"
       permissions: Tilladelser
       themes: Temaer
       users: Brugere
-    contact_request: "Contact Request"
-    contact_thanks: "Tak for din henvendelse. Vi har modtaget din e-mail og vil blive kontaktet snarest."
+    contact_request: "Kontakt Anmodning"
+    contact_thanks: "Tak for din henvendelse. Vi har modtaget din e-mail og vil være i kontakt snart."
     friends: 
-      block: Block
-      start_following: Følge
+      block: Blok
+      start_following: Følg
       unblock: Unblock
     raker: 
       add_extended_feed_sub_title: ~
       add_extended_feed_title: "Bidrage OCW / OER Repository"
     services: 
-      add_new_feed_title: "Bidrager med et OCW / OER data feed."
-    user_greeting: "Hi {{user}},"
+      add_new_feed_title: "Bidrage med et OCW / OER data feed."
+    user_greeting: "Hej %{user},"
     users: 
-      dev_plans: "Vi er aktivt at udvikle det til at udvide <a href=\"http://ocwfinder.org\">ocwfinder.org</a> og <a href=\"http://oerrecommender.org\">oerrecommender.org</a>"
-      signup: "Sign up!"
+      dev_plans: "Vi udvikler aktivt at udvide <a href=\"http://ocwfinder.org\">ocwfinder.org</a> og <a href=\"http://oerrecommender.org\">oerrecommender.org</a>"
+      signup: "Tilmeld dig!"
       signup_header: "Tror du er smart?"
-      signup_pitch: "Folksemantic gør det nemt at finde, dele og bruge åbne uddannelsesmæssige ressourcer, så du kan få smart."
-    welcome_activity: "Velkommen til {{application_name}}! Her kan du <a href='/resources'>finde gratis uddannelsesmæssige ressourcer fra hele verden.</a> Interessant i <a href='/resources/search?q=lady+bugs'>dame bugs?</a> <a href='/resources/3909'>Hvad med at lære midler fra NASA?.</a>"
+      signup_pitch: "Folksemantic gør det nemt at finde, dele og brug af åben uddannelsesmæssige ressourcer, så du kan få smart."
+    welcome_activity: "Velkommen til %{application_name}! Her kan du <a href='/resources'>opleve gratis uddannelsesmæssige ressourcer fra hele verden</a> . Interessante i <a href='/resources/search?q=lady+bugs'>dame bugs</a> ? <a href='/resources/3909'>Hvad med at lære ressourcer fra NASA</a> ?."
   oerrecommender: 
     atom: Atom
-    calculated: beregnet
+    calculated: beregnede
     collections: Samlinger
     collections_long: "Indekseret Samlinger"
     demo: Demo
     details: Detaljer
     developers: Udviklere
     developers_long: "Oplysninger til udviklere"
-    direct_link: "[direkte link]"
+    direct_link: "[Direkte link]"
     for: for
     gm_more_prompt: "Mere Relaterede ressourcer"
     gm_title: "Relaterede ressourcer"
-    integration_page_title: "Integrer anbefalinger fra folksemantic ind på din hjemmeside."
+    integration_page_title: "Integrer anbefalinger fra folksemantic på din hjemmeside."
     metadata: Metadata
     next: Næste
-    no_hits: "Ingen hits. Prøv en anden søgning eller vælg et andet sprog."
+    no_hits: "Ingen hits. Prøv venligst en anden søgning eller vælg et andet sprog."
     of: af
-    page_title: "OER Er du i - Få åben uddannelse ressource anbefaling widgets til din hjemmeside"
+    page_title: "OER Recommender - Få åben uddannelse ressource anbefaling widgets til din hjemmeside"
     powered_by: "powered by"
     previous: Forrige
     rdf: RDF
     related_resources: "Relaterede ressourcer"
     related_resources_title: "Relaterede ressourcer"
-    relevance: relevant
+    relevance: relevans
     results: Resultater
     rss: RSS
-    search: Søgning
-    signup: "Tilmeld dig Folksemantic at få personlige anbefalinger og samarbejde med andre"
-    tag_line: "Få Folksemantic - OER Er du i widget <br/> for nemt at indsætte &quot;relaterede ressourcer&quot; links ind på din hjemmeside"
-    title: "OER Er du i"
+    search: Søg
+    signup: "Opret en Facebook-profil for Folksemantic at få personlige anbefalinger og samarbejde med andre"
+    tag_line: "Få de Folksemantic - OER Recommender widget <br/> for nemt at indsætte &quot;relaterede ressourcer&quot; links ind på din hjemmeside"
+    title: "OER Recommender"
     widgets: Widgets
     xml: XML

@@ -1,84 +1,85 @@
 --- 
 sv: 
   contact: 
-    contact_response_subject: "Tack för din förfrågan från {{application_name}}!"
-    contact_us: Kontakt
+    contact_response_subject: "Tack för din förfrågan från %{application_name}!"
+    contact_us: "Kontakta oss"
     email: "Din e-post:"
     email_help: "Vänligen förse oss med din e-postadress så att vi kan kontakta dig vid behov."
     name: "Ditt namn:"
     name_help: "Uppge ditt namn."
     phone: "Ditt telefonnummer:"
-    phone_help: "Ditt telefonnummer är frivilligt, men kommer att hjälpa oss att kontakta dig vid behov."
+    phone_help: "Ditt telefonnummer är valfri men hjälper oss att kontakta dig vid behov."
     question: "Ditt meddelande / fråga:"
     question_help: "Ta gärna med kommentarer du vill att vi ska höra."
     subject: "Ämne:"
-    subject_help: "En enkel uppgift som anger vilken typ av feedback."
+    subject_help: "En enkel förklaring anger arten av din feedback."
   folksemantic: 
     about: "Läs mer om Folksemantic projektet"
-    actions: Åtgärder
-    add_edit_feeds: "Lägg till / redigera feeds"
-    advanced_widget_options: "Widget Avancerade inställningar"
+    actions: Aktiviteter
+    add_edit_feeds: "Lägg till / redigera flöden"
+    admin_link: Admin
+    advanced_widget_options: "Avancerade inställningar Widget"
     all_resources: Alla
     atom: Atom
-    browse_resources: Bläddrandetillgångar
-    calculated: beräknad
+    browse_resources: "Bläddra Resurser"
+    calculated: beräknat
     collections: Samlingar
-    collections_long: "Indexed Collections"
-    connect_account: "Anslut ditt konto med:"
-    contribute_repository: "Medverka OCW / OER Repository"
-    credits: "Utvecklad av <a href=\"http://www.tatemae.com\">Tatemae</a> för <a href=\"http://cosl.usu.edu\">Center for Open and Sustainable Learning</a> med finansiering från <a href=\"http://nsf.gov/\">National Science Foundation</a> och <a href=\"http://www.mellon.org/\">Andrew W Mellon Foundation</a>"
+    collections_long: "Indexerad Samlingar"
+    connect_account: "Anslut din konto med:"
+    contribute_repository: "Bidra OCW / OER Repository"
+    credits: "Utvecklat av <a href=\"http://www.tatemae.com\">Tatemae</a> för <a href=\"http://cosl.usu.edu\">Centrum för öppen och hållbar lärande</a> med finansiering från <a href=\"http://nsf.gov/\">National Science Foundation</a> och <a href=\"http://www.mellon.org/\">Andrew W Mellon Foundation</a>"
     demo: Demo
     details: Detaljer
     developers: Utvecklare
     developers_long: "Information för utvecklare"
-    direct_link: "[direktlänk]"
+    direct_link: "[Direktlänk]"
     for: för
-    gm_more_prompt: "Mer Närliggande resurser"
-    gm_title: "Närliggande resurser"
+    gm_more_prompt: "Fler Relaterade resurser"
+    gm_title: "Relaterade resurser"
     home: 
-      browse_and_search: "Bläddra och sök"
-      collaborate: "Samarbeta med"
-      comments_heading: "SENASTE KOMMENTARER"
-      example_comment: "Det legos konstruktion guide is awesome! Jag undrar om vi kunde använda den med eleverna i CS 102."
-      get_widgets: "GET OER recommender WIDGET"
-      oers: "<b>OPEN</b> UTBILDNING"
-      people: PEOPLE
-      resources: "MEDEL (Oers)"
+      browse_and_search: "Bläddra och sök bland"
+      collaborate: "Samarbeta Med"
+      comments_heading: "Senaste kommentarer"
+      example_comment: "Det legos byggandet av is awesome! Jag undrar om vi kunde använda det med eleverna i CS 102."
+      get_widgets: "Få widget OER har rekommenderat"
+      oers: "<b>Öppen utbildning</b>"
+      people: FOLK
+      resources: "RESURSER (Oers)"
       search: SÖK
-      signup: "Sign up today!"
-      signup_reasons: "Registrera dig för att träffa personer som du kan hitta, diskutera, remix, och utveckla inlärningsresurser"
+      signup: "Registrera dig idag!"
+      signup_reasons: "Gå med att träffa personer som du kan hitta, diskutera, remix, och utveckla lärresurser"
       why: "VARFÖR FOLKSEMANTIC?"
-      widgets_pitch: "Vill du få OER rekommendationer för dina webbsidor?"
+      widgets_pitch: "Vill OER rekommendationer för dina webbsidor?"
     just_ocws: Kurser
-    latest_comments: "Latest Comments"
+    latest_comments: "Senaste Kommentarer"
     metadata: Metadata
     next: Nästa
     no_hits: "Inga träffar. Försök med en annan sökning eller välj ett annat språk."
     of: av
-    powered_by: "powered by"
+    powered_by: "Drivs av"
     previous: Föregående
     rdf: RDF
-    register_description: "Registrera dig för att få personliga <span class=\"highlight\">rekommendationer,</span> delta i <span class=\"highlight\">grupper,</span> och enkelt <span class=\"highlight\">publicera till bloggar</span>"
-    register_link: "Sign Up!"
-    related_resources: Resurserna
-    related_resources_title: "Närliggande resurser"
+    register_description: "Gå med i Facebook för att ta emot personliga <span class=\"highlight\">rekommendationer,</span> delta i <span class=\"highlight\">grupper,</span> och enkelt <span class=\"highlight\">publicera till bloggar</span>"
+    register_link: "Registrera dig!"
+    related_resources: "Relaterade resurser"
+    related_resources_title: "Relaterade resurser"
     relevance: relevans
     results: Resultat
     rss: RSS
-    search: söka
-    search_button: Gå
-    search_description: "Hitta learning resurser genom att <span class=\"highlight\">söka</span> och <span class=\"highlight\">bläddra</span> över <span class=\"highlight\">110.000</span> öppna utbildningsresurser"
+    search: sök
+    search_button: Go
+    search_description: "Hitta lärresurser genom att <span class=\"highlight\">söka</span> och <span class=\"highlight\">surfa</span> över <span class=\"highlight\">110.000</span> öppna utbildningsresurser"
     search_link: "Hitta resurser!"
     tag_line: "ge öppen utbildning"
     title: folksemantic
-    tour: "Ta en rundtur!"
+    tour: "Ta en tur!"
     tour_description: "Se en <span class=\"highlight\">video introduktion</span> av Folksemantic"
-    view_account: "Visa din profil"
+    view_account: "Visa ditt konto"
     welcome: "Välkommen till Folksemantic."
-    welcome_message: "Vi arbetar aktivt för att integrera OCWFinder och OERRecommender till en webbplats för att hjälpa dig hitta de mest intressanta och relevanta pedagogiska resurser."
-    welcome_user: "Välkommen {{user}}"
-    widgets_description: "Få widgets för att hjälpa användarna <span class=\"highlight\">att hitta</span> resurser och <span class=\"highlight\">hitta resurser</span> som <span class=\"highlight\">rör</span> dem på din webbplats"
-    widgets_link: "Get Widgets!"
+    welcome_message: "Vi arbetar aktivt för att integrera OCWFinder och OERRecommender till en webbplats som hjälper dig att hitta de mest intressanta och relevanta utbildningsresurser."
+    welcome_user: "Välkommen %{user}"
+    widgets_description: "Få widgets för att hjälpa användare att <span class=\"highlight\">hitta</span> resurser och <span class=\"highlight\">upptäcka resurser</span> som <span class=\"highlight\">rör</span> dem på din webbplats"
+    widgets_link: "Få prylar!"
     widgets_title: "folksemantic widgets"
     xml: XML
   general: 
@@ -90,58 +91,58 @@ sv:
       welcome: Välkommen
     admin: 
       home: Hem
-      my_dashboard: "My Dashboard"
-      permissions: Permissions
+      my_dashboard: "Min instrumentpanel"
+      permissions: Behörigheter
       themes: Teman
       users: Användare
-    contact_request: Kontaktbegäran
-    contact_thanks: "Tack för att du kontaktar oss. Vi har fått ditt mail och hör av oss snart."
+    contact_request: "Kontakta Begär"
+    contact_thanks: "Tack för att du kontaktar oss. Vi har fått ditt mail och kommer att vara i kontakt snart."
     friends: 
       block: Block
-      start_following: Följa
-      unblock: Unblock
+      start_following: Följ
+      unblock: Avblockera
     raker: 
       add_extended_feed_sub_title: ~
-      add_extended_feed_title: "Medverka OCW / OER Repository"
+      add_extended_feed_title: "Bidra OCW / OER Repository"
     services: 
-      add_new_feed_title: "Medverka en OCW / OER datainmatning."
-    user_greeting: "Hej {{user}},"
+      add_new_feed_title: "Bidra med en OCW / OER data foder."
+    user_greeting: "Hej %{user},"
     users: 
-      dev_plans: "Vi arbetar aktivt med att utveckla det fortsatta <a href=\"http://ocwfinder.org\">ocwfinder.org</a> och <a href=\"http://oerrecommender.org\">oerrecommender.org</a>"
-      signup: "Sign up!"
+      dev_plans: "Vi arbetar aktivt utveckla den så att utvidga <a href=\"http://ocwfinder.org\">ocwfinder.org</a> och <a href=\"http://oerrecommender.org\">oerrecommender.org</a>"
+      signup: "Gå med i Facebook!"
       signup_header: "Tror du att du är smart?"
-      signup_pitch: "Folksemantic gör det enkelt att hitta, dela och använda öppna utbildningsresurser så att du kan få smart."
-    welcome_activity: "Välkommen till {{application_name}}! Här kan du <a href='/resources'>upptäcka gratis utbildningsresurser från hela världen.</a> Intressant i <a href='/resources/search?q=lady+bugs'>dam buggar?</a> <a href='/resources/3909'>Vad sägs om att lära resurser från NASA?.</a>"
+      signup_pitch: "Folksemantic gör det lätt att hitta, dela och använda öppna lärresurser så du kan få smarta."
+    welcome_activity: "Välkommen till %{application_name}! Här kan du <a href='/resources'>upptäcka fri pedagogiska resurser från hela världen</a> . Intressant i <a href='/resources/search?q=lady+bugs'>damen fel</a> ? <a href='/resources/3909'>Vad sägs om lärresurser från NASA</a> ?."
   oerrecommender: 
     atom: Atom
-    calculated: beräknad
+    calculated: beräknat
     collections: Samlingar
-    collections_long: "Indexed Collections"
+    collections_long: "Indexerad Samlingar"
     demo: Demo
     details: Detaljer
     developers: Utvecklare
     developers_long: "Information för utvecklare"
-    direct_link: "[direktlänk]"
+    direct_link: "[Direktlänk]"
     for: för
-    gm_more_prompt: "Mer Närliggande resurser"
-    gm_title: "Närliggande resurser"
-    integration_page_title: "Integrera rekommendationer från folksemantic på din webbplats."
+    gm_more_prompt: "Fler Relaterade resurser"
+    gm_title: "Relaterade resurser"
+    integration_page_title: "Integrera rekommendationer från folksemantic på din hemsida."
     metadata: Metadata
     next: Nästa
     no_hits: "Inga träffar. Försök med en annan sökning eller välj ett annat språk."
     of: av
-    page_title: "OER recommender - Få öppen utbildning widgets resurs rekommendation för din webbplats"
-    powered_by: "powered by"
+    page_title: "OER har rekommenderat - Få öppen utbildning widgets resurs rekommendation för din webbplats"
+    powered_by: "Drivs av"
     previous: Föregående
     rdf: RDF
-    related_resources: Resurserna
-    related_resources_title: "Närliggande resurser"
+    related_resources: "Relaterade resurser"
+    related_resources_title: "Relaterade resurser"
     relevance: relevans
     results: Resultat
     rss: RSS
-    search: Söka
-    signup: "Registrera dig för Folksemantic att få personliga rekommendationer och samarbeta med andra"
-    tag_line: "Get the Folksemantic - OER recommender widget <br/> enkelt infoga &quot;resurserna&quot; länkar på din webbplats"
-    title: "OER recommender"
+    search: Sök
+    signup: "Gå med i Facebook för Folksemantic att få personlig rekommendationer och samarbeta med andra"
+    tag_line: "Få Folksemantic - OER har rekommenderat widget <br/> att enkelt infoga &quot;resurserna&quot; länkar på din webbplats"
+    title: "OER har rekommenderat"
     widgets: Widgets
     xml: XML

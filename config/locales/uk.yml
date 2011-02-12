@@ -1,147 +1,148 @@
 --- 
 uk: 
   contact: 
-    contact_response_subject: "Дякуємо за ваш запит від {{application_name}}!"
+    contact_response_subject: "Дякуємо за Ваш запит від %{application_name}!"
     contact_us: "Зв&#39;язатися з Нами"
-    email: "Ваша електронна адреса:"
-    email_help: "Будь ласка, надайте нам свій лист, щоб ми могли з Вами зв&#39;язатися у разі потреби."
+    email: "Вашу адресу електронної пошти:"
+    email_help: "Будь ласка, надайте нам ваш лист, щоб ми могли з вами зв&#39;язатися у разі потреби."
     name: "Ваше ім&#39;я:"
     name_help: "Будь ласка, повідомте нам ваше ім&#39;я."
     phone: "Ваш номер телефону:"
-    phone_help: "Ваш номер телефону є обов&#39;язковим, але нам допоможе зв&#39;язатися з Вами у разі потреби."
+    phone_help: "Ваш телефонний номер не обов&#39;язково, але допоможе нам зв&#39;язатися з Вами при необхідності."
     question: "Ваше повідомлення / питання:"
-    question_help: "Будь ласка, увімкніть будь-які коментарі, які Ви хотіли б, щоб чути."
+    question_help: "Будь ласка, включіть будь-які коментарі, які Ви хочете, щоб ми чули."
     subject: "Тема:"
-    subject_help: "Просте заяву із зазначенням характеру ваших відгуків."
+    subject_help: "Просте заяву про характер ваших відгуків."
   folksemantic: 
-    about: "Дізнайтеся більше про проект Folksemantic"
+    about: "Дізнайтеся більше про Folksemantic проекту"
     actions: Дії
-    add_edit_feeds: "Додати / Змінити канали"
-    advanced_widget_options: "Розширений Widget налаштування"
+    add_edit_feeds: "додавати / редагувати канали"
+    admin_link: Admin
+    advanced_widget_options: "Додаткові налаштування віджетів"
     all_resources: Всі
-    atom: Атом
-    browse_resources: Ресурси
-    calculated: розраховані
-    collections: Колекція
-    collections_long: "Індексованих колекцій"
+    atom: Atom
+    browse_resources: "Використовуй ресурси"
+    calculated: розраховується
+    collections: Колекції
+    collections_long: "Індексованих колекціях"
     connect_account: "Підключіть ваш рахунок:"
-    contribute_repository: "Сприяє ОКУ / УВС кодів"
-    credits: "Розроблено <a href=\"http://www.tatemae.com\">Tatemae</a> для <a href=\"http://cosl.usu.edu\">Центру відкритого та стійкого навчання</a> за фінансової підтримки <a href=\"http://nsf.gov/\">Національного наукового фонду</a> і <a href=\"http://www.mellon.org/\">Ендрю Меллона W</a>"
+    contribute_repository: "Пожертвуйте OCW / ОВС Репозиторій"
+    credits: "Розроблено <a href=\"http://www.tatemae.com\">Tatemae</a> для <a href=\"http://cosl.usu.edu\">Центру відкритого та сталого навчання</a> при фінансуванні <a href=\"http://nsf.gov/\">Національного наукового фонду</a> і <a href=\"http://www.mellon.org/\">Ендрю Меллона W</a>"
     demo: Демо
-    details: Подробиці
-    developers: Розробникам
+    details: "Детальна інформація"
+    developers: Розробники
     developers_long: "Інформація для розробників"
     direct_link: "[Пряме посилання]"
     for: для
-    gm_more_prompt: "Додаткові ресурси, що відносяться"
+    gm_more_prompt: "Більше споріднених ресурсів"
     gm_title: "Інші ресурси"
     home: 
-      browse_and_search: "Перегляд і пошук у"
-      collaborate: СПІВРОБІТНИЦТВО
+      browse_and_search: "Перегляд і пошук по"
+      collaborate: "СПІВПРАЦЮВАТИ З"
       comments_heading: "ОСТАННІ КОМЕНТАРІ"
-      example_comment: "Це керівництво Legos будівництві Awesome! Цікаво, якщо б ми могли використовувати її з учнями в CS 102."
-      get_widgets: "GET OER рекомендує Widget"
-      oers: "<b>Відкрита</b> освіта"
-      people: ЛЮДИ
+      example_comment: "Це Legos керівництво будівництва є дивним! Цікаво, якщо б ми могли використовувати її з учнями в CS 102."
+      get_widgets: "Отримати віджет ОВС рекомендує"
+      oers: "<b>ВІДКРИТОГО</b> ОСВІТИ"
+      people: Люди
       resources: "РЕСУРСИ (ООР)"
-      search: Пошук
+      search: ПОШУК
       signup: "Зареєструйтеся сьогодні!"
-      signup_reasons: "Увійдіть, щоб зустрітися з людьми, з якими можна знайти, обговорювати, реміксів, а також розробити навчальні ресурси"
-      why: "ЧОМУ FOLKSEMANTIC?"
-      widgets_pitch: "Хочете отримати OER рекомендацій для веб-сторінок?"
+      signup_reasons: "Увійдіть, щоб зустріти людей, з якими ви можете знайти, обговорювати, ремікс, і розробки навчальних ресурсів"
+      why: "ЧОМУ Folksemantic?"
+      widgets_pitch: "Хочете ОВС рекомендації для веб-сторінок?"
     just_ocws: Курси
-    latest_comments: "Останні Коментарі"
+    latest_comments: "Останні коментарі"
     metadata: Метадані
-    next: Наступний
-    no_hits: "Ні хіти. Спробуйте інший запит або виберіть іншу мову."
+    next: Наступна
+    no_hits: "Ні хітів. Будь ласка, спробуйте ще один пошук або виберіть іншу мову."
     of: з
-    powered_by: "Powered By"
-    previous: Попереднє
+    powered_by: "Працює на"
+    previous: Попередня
     rdf: RDF
-    register_description: "Зареєструватися для отримання персональних <span class=\"highlight\">рекомендаціях,</span> участь у <span class=\"highlight\">групах,</span> і легко <span class=\"highlight\">публікувати в блогах</span>"
+    register_description: "Підпишіться, щоб отримувати персоналізовані <span class=\"highlight\">рекомендації,</span> участь в <span class=\"highlight\">групах,</span> і легко <span class=\"highlight\">публікувати в блогах</span>"
     register_link: Зареєструватися!
-    related_resources: "Схожі ресурси"
+    related_resources: "Близькі по темі ресурси"
     related_resources_title: "Інші ресурси"
-    relevance: Відповідність
+    relevance: релевантність
     results: Результати
     rss: RSS
     search: пошук
-    search_button: Йти
-    search_description: "Знайти навчальні ресурси, за допомогою функції <span class=\"highlight\">пошуку</span> та <span class=\"highlight\">перегляду</span> понад <span class=\"highlight\">110000</span> відкриті освітні ресурси"
-    search_link: "Пошук ресурсів!"
-    tag_line: "розширення можливостей відкритої освіти"
-    title: folksemantic
-    tour: Ознайомтеся!
-    tour_description: "Дивитися <span class=\"highlight\">відео впровадження</span> Folksemantic"
-    view_account: "Подивитись Ваш Рахунок"
-    welcome: "Ласкаво просимо на Folksemantic."
-    welcome_message: "Ми ведемо активну роботу з інтеграції OCWFinder і OERRecommender в одному місці, щоб допомогти вам знайти найбільш цікаві та актуальні освітні ресурси."
-    welcome_user: "Ласкаво просимо {{user}}"
-    widgets_description: "Отримати віджети, щоб допомогти користувачам <span class=\"highlight\">знайти</span> ресурси і <span class=\"highlight\">виявити ресурси, пов&#39;язані</span> з них на вашому сайті"
-    widgets_link: "Get Widgets!"
-    widgets_title: "folksemantic віджети"
+    search_button: Перейти
+    search_description: "Знайти освітніх ресурсів за допомогою функції <span class=\"highlight\">пошуку</span> та <span class=\"highlight\">перегляду</span> понад <span class=\"highlight\">110000</span> відкритих освітніх ресурсів"
+    search_link: "Знайти ресурси!"
+    tag_line: "розширення прав і можливостей відкритого освіти"
+    title: Folksemantic
+    tour: "Візьміть тур!"
+    tour_description: "Дивитися <span class=\"highlight\">відео введення</span> Folksemantic"
+    view_account: "Переглянути Ваш акаунт"
+    welcome: "Ласкаво просимо до Folksemantic."
+    welcome_message: "Ми активно працюємо з інтеграції OCWFinder і OERRecommender в одному місці, щоб допомогти вам знайти найбільш цікаві та актуальні освітні ресурси."
+    welcome_user: "Ласкаво просимо %{user}"
+    widgets_description: "Отримайте віджети, щоб допомогти користувачам <span class=\"highlight\">знайти</span> ресурси <span class=\"highlight\">і</span> відкрийте для себе <span class=\"highlight\">ресурси, пов&#39;язані</span> з одиницями на вашому сайті"
+    widgets_link: "Отримайте віджети!"
+    widgets_title: "Folksemantic віджети"
     xml: XML
   general: 
     delete_file: "Видалити файл"
-    send: Відправляти
-    thank_you_contact: "Дякуємо за ваше повідомлення. Член нашої команди відповімо Вам найближчим часом."
+    send: Надіслати
+    thank_you_contact: "Дякуємо за ваше повідомлення. Член нашої команди буде реагувати на вас найближчим часом."
   muck: 
     activity_templates: 
       welcome: "Ласкаво просимо"
     admin: 
-      home: Будинок
-      my_dashboard: "Моя Dashboard"
+      home: Головна
+      my_dashboard: "Мій пульт управління"
       permissions: Дозволи
       themes: Теми
-      users: Користувач
-    contact_request: "Контакт Запит"
-    contact_thanks: "Дякую за листа. Ми отримали Вашого листа і буде з вами зв&#39;яжемося."
+      users: Користувачі
+    contact_request: "Контакти Запит"
+    contact_thanks: "Дякуємо за звернення до нас. Ми отримали вашу електронну пошту і буде з вами зв&#39;яжемося."
     friends: 
       block: Блок
-      start_following: Дотримуватися
+      start_following: Дотримуйтесь
       unblock: Розблокувати
     raker: 
       add_extended_feed_sub_title: ~
-      add_extended_feed_title: "Сприяє ОКУ / УВС кодів"
+      add_extended_feed_title: "Пожертвуйте OCW / ОВС Репозиторій"
     services: 
-      add_new_feed_title: "Сприяє ОКУ / УВС даного каналу."
-    user_greeting: "Привіт {{user}},"
+      add_new_feed_title: "Пожертвуйте OCW / ОВС каналу даних."
+    user_greeting: "Привіт %{user},"
     users: 
       dev_plans: "Ми активно розвиваємо його продовжити <a href=\"http://ocwfinder.org\">ocwfinder.org</a> і <a href=\"http://oerrecommender.org\">oerrecommender.org</a>"
-      signup: Зареєструйтесь!
+      signup: Увійдіть!
       signup_header: "Думаю, що ви розумні?"
-      signup_pitch: "Folksemantic дозволяє легко знайти, розділяти і використовувати відкриті освітні ресурси, так що ви можете отримати Smart."
-    welcome_activity: "Ласкаво просимо на {{application_name}}! Тут ви можете <a href='/resources'>виявити безкоштовних освітніх ресурсів з усього світу.</a> Цікаве в <a href='/resources/search?q=lady+bugs'>даму помилки?</a> <a href='/resources/3909'>Як щодо навчальних ресурсів з НАСА?.</a>"
+      signup_pitch: "Folksemantic робить його легко знайти, спільно використовувати і використовувати відкриті освітні ресурси, так що ви можете отримати смарт."
+    welcome_activity: "Ласкаво просимо до %{application_name}! Тут ви можете <a href='/resources'>виявити безкоштовних освітніх ресурсів з усього світу</a> . Цікавим у <a href='/resources/search?q=lady+bugs'>леді помилок</a> ? <a href='/resources/3909'>Як про вивчення ресурсів з НАСА</a> ?."
   oerrecommender: 
-    atom: Атом
-    calculated: розраховані
-    collections: Колекція
-    collections_long: "Індексованих колекцій"
+    atom: Atom
+    calculated: розраховується
+    collections: Колекції
+    collections_long: "Індексованих колекціях"
     demo: Демо
-    details: Подробиці
-    developers: Розробникам
+    details: "Детальна інформація"
+    developers: Розробники
     developers_long: "Інформація для розробників"
     direct_link: "[Пряме посилання]"
     for: для
-    gm_more_prompt: "Додаткові ресурси, що відносяться"
+    gm_more_prompt: "Більше споріднених ресурсів"
     gm_title: "Інші ресурси"
-    integration_page_title: "Обліку рекомендацій від folksemantic на Ваш сайт."
+    integration_page_title: "Інтеграція рекомендації Folksemantic у ваш сайт."
     metadata: Метадані
-    next: Наступний
-    no_hits: "Ні хіти. Спробуйте інший запит або виберіть іншу мову."
+    next: Наступна
+    no_hits: "Ні хітів. Будь ласка, спробуйте ще один пошук або виберіть іншу мову."
     of: з
-    page_title: "УВС Рекомендую - Get Widgets відкритих ресурсів освіти рекомендація для Вашого сайту"
-    powered_by: "Powered By"
-    previous: Попереднє
+    page_title: "ОВС рекомендує - Отримати відкритої освіти ресурсів рекомендації віджети для вашого веб-сайту"
+    powered_by: "Працює на"
+    previous: Попередня
     rdf: RDF
-    related_resources: "Схожі ресурси"
+    related_resources: "Близькі по темі ресурси"
     related_resources_title: "Інші ресурси"
-    relevance: Відповідність
+    relevance: релевантність
     results: Результати
     rss: RSS
     search: Пошук
-    signup: "Підпишіться на Folksemantic для отримання персональних рекомендацій та співпрацюють з іншими"
-    tag_line: "Отримати Folksemantic - OER рекомендує Widget <br/> легко вставити слово &quot;відповідні ресурси&quot; посилання на свій сайт"
-    title: "УВС рекомендуючий"
+    signup: "Увійдіть в Folksemantic, щоб отримати персональні рекомендації та співпрацювати з іншими"
+    tag_line: "Отримати Folksemantic - віджет ОВС рекомендує <br/> легко вставити &quot;відповідних ресурсів&quot; посилання на свій сайт"
+    title: "ОВС рекомендує"
     widgets: Віджети
     xml: XML

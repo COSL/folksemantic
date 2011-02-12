@@ -1,64 +1,65 @@
 --- 
 zh-CN: 
   contact: 
-    contact_response_subject: "感谢您的{{application_name}}!查询"
+    contact_response_subject: "感谢您的询价信，%{application_name}!"
     contact_us: 联系我们
     email: 您的电子邮件：
-    email_help: 请提供您的电子邮件，以便我们与您联系，如果必要的。
+    email_help: 请提供您的电子邮件我们，以便我们与您联系，如果必要的。
     name: 您的姓名：
-    name_help: 请提供你的姓名。
+    name_help: 请提供您的姓名我们。
     phone: 您的电话号码：
-    phone_help: 您的电话号码是可选的，但将帮助我们与您联系，如果必要的。
+    phone_help: 您的电话号码是可选的，但将有助于我们与您联系，如有必要。
     question: 您的留言/问题：
-    question_help: 请包含任何您希望我们听到的。
-    subject: 主题：
-    subject_help: 一个简单的声明，表示您的反馈意见的性质。
+    question_help: 请包括任何评论您希望我们听到的。
+    subject: 标题：
+    subject_help: 一个简单的声明，表示对您的反馈性质。
   folksemantic: 
-    about: 进一步了解Folksemantic项目
-    actions: 动作
+    about: 了解Folksemantic项目的更多信息
+    actions: 行动
     add_edit_feeds: 添加/编辑供稿
+    admin_link: 管理
     advanced_widget_options: 先进的小工具设置
-    all_resources: 全部
+    all_resources: 所有
     atom: 原子
-    browse_resources: 搜索资源
+    browse_resources: 浏览资源
     calculated: 计算
-    collections: 集合
-    collections_long: 索引的集合
+    collections: 收藏
+    collections_long: 有序集合
     connect_account: 连接您的帐户：
-    contribute_repository: OCW的贡献/开放教育资源库
-    credits: "由<a href=\"http://www.tatemae.com\">Tatemae</a>开发的与来自<a href=\"http://nsf.gov/\">美国国家科学基金会</a>和<a href=\"http://www.mellon.org/\">安德鲁糯梅隆基金会</a>资助<a href=\"http://cosl.usu.edu\">中心开放和可持续学习</a>"
+    contribute_repository: 促进开放式/开放教育资源库
+    credits: "发达国家<a href=\"http://www.tatemae.com\">Tatemae</a>为<a href=\"http://cosl.usu.edu\">学习中心的开放式和可持续</a>的资金由<a href=\"http://nsf.gov/\">美国国家科学基金会</a>和<a href=\"http://www.mellon.org/\">安德鲁W梅隆基金会</a>"
     demo: 演示
-    details: 详细信息
+    details: 详情
     developers: 开发人员
-    developers_long: 开发者信息
+    developers_long: 提供给开发人员
     direct_link: "[直接链接]"
-    for: 为了
+    for: 为
     gm_more_prompt: 更多相关资源
     gm_title: 相关资源
     home: 
-      browse_and_search: 浏览并搜寻
+      browse_and_search: 浏览并搜索超过
       collaborate: 协作
       comments_heading: 最近的评论
-      example_comment: 这莱戈斯建设指南是真棒！我想如果我们能在CS中使用的学生有102个。
-      get_widgets: 推荐人获得款额部件
+      example_comment: "这Legos的施工指南是真棒！我想如果我们能够用在CS 102学生的。"
+      get_widgets: 推荐控件的工作开支偿还款额的GET
       oers: <b>开放</b>教育
-      people: 人民食堂
-      resources: 资源（Oers继续）
+      people: 人民
+      resources: 资源（OERS）
       search: 搜索
       signup: 立即注册！
-      signup_reasons: 注册，以满足人们与你可以找到，讨论，混音和发展学习资源
+      signup_reasons: 注册以满足人与你可以发现，讨论，混音，发展学习资源
       why: 为什么FOLKSEMANTIC？
-      widgets_pitch: 希望能为您的网页款额建议？
+      widgets_pitch: 想为你的网页OER的建议？
     just_ocws: 课程
     latest_comments: 最新评论
     metadata: 元数据
-    next: 下一个
-    no_hits: 没有命中。请尝试不同的搜索或选择不同的语言。
+    next: 下一页
+    no_hits: 没有命中。请尝试不同的搜寻或选择不同的语言。
     of: 的
-    powered_by: 采用
+    powered_by: 技术支持
     previous: 上一页
-    rdf: RDF的
-    register_description: "注册接收个性化的<span class=\"highlight\">建议</span> ，并参与<span class=\"highlight\">组织</span> ，并方便地<span class=\"highlight\">发布到博客</span>"
+    rdf: 的RDF
+    register_description: "注册接收个性化的<span class=\"highlight\">建议</span> ，参与<span class=\"highlight\">团体</span> ，轻松地<span class=\"highlight\">发布到博客</span>"
     register_link: 注册！
     related_resources: 相关资源
     related_resources_title: 相关资源
@@ -66,82 +67,82 @@ zh-CN:
     results: 结果
     rss: 的RSS
     search: 搜索
-    search_button: 离去
-    search_description: "通过<span class=\"highlight\">搜索</span>学习资源和<span class=\"highlight\">浏览</span>超过<span class=\"highlight\">110,000</span>开放教育资源"
-    search_link: 资源！
-    tag_line: 授权开放教育
+    search_button: 转到
+    search_description: "查找学习资源，教育资源的<span class=\"highlight\">搜索</span>和<span class=\"highlight\">浏览</span>超过<span class=\"highlight\">110,000</span>开放"
+    search_link: 有资源！
+    tag_line: 赋权开放教育
     title: folksemantic
     tour: 浏览一下！
-    tour_description: "看<span class=\"highlight\">录像引入</span> Folksemantic"
+    tour_description: "观看<span class=\"highlight\">视频介绍</span>的Folksemantic"
     view_account: 查看您的帐户
-    welcome: 欢迎Folksemantic。
-    welcome_message: 我们正在努力融入一个站点OCWFinder和OERRecommender帮助您找到最有趣和相关的教育资源。
-    welcome_user: "欢迎{{user}}"
-    widgets_description: "获取部件，以帮助用户<span class=\"highlight\">查找</span>资源和您的网站上<span class=\"highlight\">发现有关</span>的<span class=\"highlight\">资源</span>"
-    widgets_link: 获取插件窗口！
+    welcome: 欢迎来到Folksemantic。
+    welcome_message: 我们正积极努力融入一个站点OCWFinder和OERRecommender，以帮助您找到最有趣和相关的教育资源。
+    welcome_user: "欢迎%{user}"
+    widgets_description: "获得部件，以帮助用户<span class=\"highlight\">发现</span>资源， <span class=\"highlight\">发现</span>网站上的<span class=\"highlight\">相关资源</span>的"
+    widgets_link: 获取小工具！
     widgets_title: folksemantic部件
     xml: XML的
   general: 
     delete_file: 删除文件
     send: 发送
-    thank_you_contact: 感谢您的来信。我们的小组成员将很快回复您。
+    thank_you_contact: 感谢您的来信。我们的小组成员将在短期内回复您。
   muck: 
     activity_templates: 
       welcome: 欢迎
     admin: 
-      home: 家
-      my_dashboard: 我的仪表板
+      home: 首页
+      my_dashboard: 我的控制台
       permissions: 权限
       themes: 主题
       users: 用户
-    contact_request: 联系索取
-    contact_thanks: 感谢您与我们联系。我们已经收到您的电子邮件，并会很快联系。
+    contact_request: 联系请求
+    contact_thanks: 感谢您与我们联系。我们已经收到您的电子邮件，并将很快接触。
     friends: 
-      block: 块
-      start_following: 跟随
+      block: 座
+      start_following: 按照
       unblock: 解除封锁
     raker: 
       add_extended_feed_sub_title: ~
-      add_extended_feed_title: OCW的贡献/开放教育资源库
+      add_extended_feed_title: 促进开放式/开放教育资源库
     services: 
-      add_new_feed_title: 寄发开放式课程/款额数据饲料。
-    user_greeting: "您好{{user}},"
+      add_new_feed_title: "贡献一个OCW / OER的数据传输。"
+    user_greeting: "嗨%{user},"
     users: 
-      dev_plans: "我们正在积极开发它扩大<a href=\"http://ocwfinder.org\">ocwfinder.org</a>和<a href=\"http://oerrecommender.org\">oerrecommender.org</a>"
+      dev_plans: "我们正在积极发展资讯科技，延长<a href=\"http://ocwfinder.org\">ocwfinder.org</a>和<a href=\"http://oerrecommender.org\">oerrecommender.org</a>"
       signup: 注册！
-      signup_header: 认为你是聪明？
-      signup_pitch: Folksemantic可以轻松地查找，共享和使用开放式教育资源，让您能够聪明。
-    welcome_activity: "欢迎{{application_name}}!在这里你可以<a href='/resources'>发现来自世界各地的免费的教育资源</a> 。在<a href='/resources/search?q=lady+bugs'>瓢虫</a>有趣？ <a href='/resources/3909'>怎么样的学习资源美国宇航局</a> ？。"
+      signup_header: 觉得你聪明吗？
+      signup_pitch: Folksemantic可以轻松地查找，共享和利用开放式教育资源，让你可以得到聪明。
+    welcome_activity: "欢迎来到%{application_name}!在这里你可以<a href='/resources'>发现世界各地的免费教育资源</a> 。在有趣的<a href='/resources/search?q=lady+bugs'>夫人错误</a> ？ <a href='/resources/3909'>如何学习资源，从美国航空航天局</a> ？。"
   oerrecommender: 
     atom: 原子
     calculated: 计算
-    collections: 集合
-    collections_long: 索引的集合
+    collections: 收藏
+    collections_long: 有序集合
     demo: 演示
-    details: 详细信息
+    details: 详情
     developers: 开发人员
-    developers_long: 开发者信息
+    developers_long: 提供给开发人员
     direct_link: "[直接链接]"
-    for: 为了
+    for: 为
     gm_more_prompt: 更多相关资源
     gm_title: 相关资源
-    integration_page_title: 整合folksemantic到您的网站的建议。
+    integration_page_title: 建议从folksemantic整合到您的网站。
     metadata: 元数据
-    next: 下一个
-    no_hits: 没有命中。请尝试不同的搜索或选择不同的语言。
+    next: 下一页
+    no_hits: 没有命中。请尝试不同的搜寻或选择不同的语言。
     of: 的
-    page_title: "款额推荐人 - 为您的网站开放教育资源的建议部件"
-    powered_by: 采用
+    page_title: "开放教育资源推荐 - 为您的网站开放教育资源推荐部件"
+    powered_by: 技术支持
     previous: 上一页
-    rdf: RDF的
+    rdf: 的RDF
     related_resources: 相关资源
     related_resources_title: 相关资源
     relevance: 相关
     results: 结果
     rss: 的RSS
     search: 搜索
-    signup: 注册Folksemantic最多可以获得个性化的建议，并与其他人协作
-    tag_line: "获取Folksemantic - 开放教育资源推荐人部件<br/>轻松地插入“到您的网站”链接相关资源"
-    title: 开放教育资源推荐人
-    widgets: 小部件
+    signup: 赶快Folksemantic最多获取个性化的建议，并与他人合作
+    tag_line: "获取Folksemantic - 开放教育资源推荐部件<br/>轻松插入“相关资源”到你的网站的链接"
+    title: 开放教育资源推荐
+    widgets: 小工具
     xml: XML的

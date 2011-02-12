@@ -1,117 +1,118 @@
 --- 
 id: 
   contact: 
-    contact_response_subject: "Terima kasih atas pertanyaan dari {{application_name}}!"
-    contact_us: Kontak
-    email: "Email:"
-    email_help: "Harap menyediakan kami dengan email Anda agar kami dapat menghubungi Anda jika perlu."
+    contact_response_subject: "Terima kasih atas pertanyaan Anda dari %{application_name}!"
+    contact_us: "Hubungi Kami"
+    email: "Email Anda:"
+    email_help: "Harap berikan kami dengan email Anda sehingga kami dapat menghubungi Anda jika perlu."
     name: "Nama Anda:"
-    name_help: "Harap menyediakan kami dengan nama Anda."
+    name_help: "Harap berikan kami dengan nama Anda."
     phone: "Nomor telepon Anda:"
-    phone_help: "Nomor telepon Anda adalah opsional, namun akan membantu kami menghubungi Anda jika perlu."
-    question: "Pesan Anda / Pertanyaan:"
-    question_help: "Harap sertakan komentar Anda ingin kami dengar."
-    subject: "Perihal:"
+    phone_help: "Nomor telepon Anda adalah opsional tapi akan membantu kami menghubungi Anda jika perlu."
+    question: "Anda pesan / pertanyaan:"
+    question_help: "Silahkan memasukkan setiap komentar yang Anda ingin kami dengar."
+    subject: "Subject:"
     subject_help: "Sebuah pernyataan sederhana yang menunjukkan sifat umpan balik Anda."
   folksemantic: 
     about: "Pelajari lebih lanjut tentang proyek Folksemantic"
     actions: Tindakan
     add_edit_feeds: "menambah / edit feed"
+    admin_link: Admin
     advanced_widget_options: "Advanced Widget Pengaturan"
     all_resources: Semua
     atom: Atom
-    browse_resources: "People Resources"
+    browse_resources: "Browse Resources"
     calculated: dihitung
     collections: Koleksi
     collections_long: "Indexed Koleksi"
     connect_account: "Hubungkan account Anda dengan:"
-    contribute_repository: "Kontribusi OCW / OER Repositori"
-    credits: "Dikembangkan oleh <a href=\"http://www.tatemae.com\">Tatemae</a> untuk <a href=\"http://cosl.usu.edu\">Pusat Belajar Terbuka dan berkelanjutan</a> dengan dana dari <a href=\"http://nsf.gov/\">National Science Foundation</a> dan <a href=\"http://www.mellon.org/\">Andrew W Mellon Foundation</a>"
+    contribute_repository: "Berkontribusi OCW / OER Repositori"
+    credits: "Dikembangkan oleh <a href=\"http://www.tatemae.com\">Tatemae</a> untuk <a href=\"http://cosl.usu.edu\">Pusat Terbuka dan Berkelanjutan Belajar</a> dengan dana dari <a href=\"http://nsf.gov/\">National Science Foundation</a> dan <a href=\"http://www.mellon.org/\">Andrew W Mellon Foundation</a>"
     demo: Demo
     details: Details
-    developers: Developers
+    developers: Pengembang
     developers_long: "Informasi untuk Pengembang"
-    direct_link: "[direct link]"
+    direct_link: "[Link langsung]"
     for: untuk
-    gm_more_prompt: "More Related Resources"
-    gm_title: "Related Resources"
+    gm_more_prompt: "Lebih Sumber-sumber Terkait"
+    gm_title: "Sumber-sumber Terkait"
     home: 
       browse_and_search: "BROWSE DAN CARI OVER"
-      collaborate: "Berkolaborasi dengan"
-      comments_heading: "RECENT COMMENTS"
-      example_comment: "Bahwa konstruksi Lego panduan is awesome! Aku ingin tahu apakah kita dapat menggunakannya dengan siswa di CS 102."
-      get_widgets: "GET OER RECOMMENDER WIDGET"
+      collaborate: "BEKERJASAMA DENGAN"
+      comments_heading: "KOMENTAR TERBARU"
+      example_comment: "Bahwa panduan konstruksi Lego is awesome! Aku ingin tahu apakah kita bisa menggunakannya dengan siswa di CS 102."
+      get_widgets: "DAPATKAN WIDGET REKOMENDASI OER"
       oers: "<b>TERBUKA</b> PENDIDIKAN"
       people: ORANG
       resources: "SUMBER (OERS)"
-      search: SEARCH
+      search: CARI
       signup: "SIGN UP TODAY!"
-      signup_reasons: "Sign up untuk bertemu orang-orang dengan siapa Anda dapat menemukan, mendiskusikan, remix, dan mengembangkan sumber belajar"
+      signup_reasons: "Mendaftar untuk bertemu orang-orang dengan siapa Anda dapat menemukan, mendiskusikan, remix, dan mengembangkan sumber belajar"
       why: "MENGAPA FOLKSEMANTIC?"
-      widgets_pitch: "Ingin mendapatkan OER rekomendasi untuk halaman web Anda?"
-    just_ocws: Kursus
-    latest_comments: "Latest Comments"
+      widgets_pitch: "Ingin OER rekomendasi untuk halaman web Anda?"
+    just_ocws: Program
+    latest_comments: "Komentar Terbaru"
     metadata: Metadata
     next: Berikutnya
-    no_hits: "Tidak hits. Silakan mencoba pencarian lain atau memilih bahasa yang berbeda."
+    no_hits: "No hits. Silakan mencoba pencarian yang berbeda atau memilih bahasa yang berbeda."
     of: dari
     powered_by: "powered by"
     previous: Sebelumnya
     rdf: RDF
     register_description: "Mendaftar untuk menerima <span class=\"highlight\">rekomendasi</span> pribadi, berpartisipasi dalam <span class=\"highlight\">kelompok,</span> dan mudah <span class=\"highlight\">mempublikasikan ke blog</span>"
     register_link: "Sign Up!"
-    related_resources: "Related resources"
-    related_resources_title: "Related Resources"
+    related_resources: "Sumber terkait"
+    related_resources_title: "Sumber-sumber Terkait"
     relevance: relevansi
     results: Hasil
     rss: RSS
-    search: mencari
-    search_button: Pergi
-    search_description: "Menemukan sumber belajar dengan <span class=\"highlight\">mencari</span> dan <span class=\"highlight\">browsing</span> seluas <span class=\"highlight\">110.000</span> sumber daya pendidikan terbuka"
-    search_link: "Find Resources!"
-    tag_line: "memberdayakan buka pendidikan"
+    search: pencarian
+    search_button: Go
+    search_description: "Cari sumber belajar dengan <span class=\"highlight\">mencari</span> dan <span class=\"highlight\">browsing</span> lebih dari <span class=\"highlight\">110.000</span> sumber daya pendidikan terbuka"
+    search_link: "Cari Sumber Daya!"
+    tag_line: "memberdayakan pendidikan terbuka"
     title: folksemantic
-    tour: "Take a Tour!"
+    tour: "Ambil Tur!"
     tour_description: "Menonton <span class=\"highlight\">video pengenalan</span> Folksemantic"
-    view_account: "View Your Account"
-    welcome: "Welcome to Folksemantic."
-    welcome_message: "Kami aktif bekerja untuk mengintegrasikan OCWFinder dan OERRecommender menjadi satu situs untuk membantu Anda menemukan yang paling menarik dan relevan sumber daya pendidikan."
-    welcome_user: "Selamat {{user}}"
-    widgets_description: "Get widget untuk membantu pengguna <span class=\"highlight\">menemukan</span> sumber daya dan <span class=\"highlight\">menemukan sumber daya</span> yang <span class=\"highlight\">terkait</span> dengan yang di situs web Anda"
-    widgets_link: "Get Widgets!"
+    view_account: "Lihat Account Anda"
+    welcome: "Selamat Datang di Folksemantic."
+    welcome_message: "Kami aktif bekerja untuk mengintegrasikan OCWFinder dan OERRecommender menjadi satu situs untuk membantu Anda menemukan sumber daya pendidikan yang paling menarik dan relevan."
+    welcome_user: "Selamat Datang %{user}"
+    widgets_description: "Dapatkan widget untuk membantu pengguna <span class=\"highlight\">menemukan</span> sumber daya dan <span class=\"highlight\">menemukan sumber daya yang berhubungan</span> dengan yang di website Anda"
+    widgets_link: "Get Widget!"
     widgets_title: "folksemantic widget"
     xml: XML
   general: 
-    delete_file: "Hapus File"
-    send: Mengirim
-    thank_you_contact: "Terima kasih untuk pesan Anda. Seorang anggota tim kami akan merespon anda segera."
+    delete_file: "Hapus Berkas"
+    send: Kirim
+    thank_you_contact: "Terima kasih untuk pesan Anda. Seorang anggota tim kami akan merespon Anda segera."
   muck: 
     activity_templates: 
-      welcome: "Selamat datang"
+      welcome: "Selamat Datang"
     admin: 
-      home: Rumah
+      home: Home
       my_dashboard: "My Dashboard"
-      permissions: Perizinan
+      permissions: Permissions
       themes: Tema
-      users: Users
+      users: Pengguna
     contact_request: "Kontak Permintaan"
     contact_thanks: "Terima kasih telah menghubungi kami. Kami telah menerima email Anda dan akan menghubungi segera."
     friends: 
       block: Blok
       start_following: Mengikuti
-      unblock: Unblock
+      unblock: "Membuka blokir"
     raker: 
       add_extended_feed_sub_title: ~
-      add_extended_feed_title: "Kontribusi OCW / OER Repositori"
+      add_extended_feed_title: "Berkontribusi OCW / OER Repositori"
     services: 
-      add_new_feed_title: "Kontribusi OCW / OER feed data."
-    user_greeting: "Hi {{user}},"
+      add_new_feed_title: "Berkontribusi sebuah OCW / OER data feed."
+    user_greeting: "Hi %{user},"
     users: 
-      dev_plans: "Kami secara aktif mengembangkan hal itu untuk memperluas <a href=\"http://ocwfinder.org\">ocwfinder.org</a> dan <a href=\"http://oerrecommender.org\">oerrecommender.org</a>"
+      dev_plans: "Kami secara aktif mengembangkan hal itu untuk memperpanjang <a href=\"http://ocwfinder.org\">ocwfinder.org</a> dan <a href=\"http://oerrecommender.org\">oerrecommender.org</a>"
       signup: "Sign up!"
       signup_header: "Pikir kau pintar?"
-      signup_pitch: "Folksemantic membuatnya mudah untuk menemukan, berbagi, dan menggunakan sumber daya pendidikan terbuka sehingga Anda bisa mendapatkan cerdas."
-    welcome_activity: "Welcome to {{application_name}}! Di sini Anda dapat <a href='/resources'>menemukan sumber daya pendidikan gratis dari seluruh dunia.</a> Menarik dalam <a href='/resources/search?q=lady+bugs'>lady bug?</a> <a href='/resources/3909'>Bagaimana dengan sumber belajar dari NASA?.</a>"
+      signup_pitch: "Folksemantic membuatnya mudah untuk menemukan, berbagi, dan menggunakan sumber daya pendidikan terbuka sehingga anda bisa mendapatkan pintar."
+    welcome_activity: "Selamat Datang di %{application_name}! Di sini Anda dapat <a href='/resources'>menemukan sumber daya pendidikan gratis dari seluruh dunia</a> . Menarik di <a href='/resources/search?q=lady+bugs'>bug wanita</a> ? <a href='/resources/3909'>Bagaimana dengan sumber belajar dari NASA</a> ?."
   oerrecommender: 
     atom: Atom
     calculated: dihitung
@@ -119,29 +120,29 @@ id:
     collections_long: "Indexed Koleksi"
     demo: Demo
     details: Details
-    developers: Developers
+    developers: Pengembang
     developers_long: "Informasi untuk Pengembang"
-    direct_link: "[direct link]"
+    direct_link: "[Link langsung]"
     for: untuk
-    gm_more_prompt: "More Related Resources"
-    gm_title: "Related Resources"
-    integration_page_title: "Mengintegrasikan rekomendasi dari folksemantic ke website Anda."
+    gm_more_prompt: "Lebih Sumber-sumber Terkait"
+    gm_title: "Sumber-sumber Terkait"
+    integration_page_title: "Mengintegrasikan rekomendasi dari folksemantic ke situs web Anda."
     metadata: Metadata
     next: Berikutnya
-    no_hits: "Tidak hits. Silakan mencoba pencarian lain atau memilih bahasa yang berbeda."
+    no_hits: "No hits. Silakan mencoba pencarian yang berbeda atau memilih bahasa yang berbeda."
     of: dari
-    page_title: "OER Recommender - Dapatkan rekomendasi sumber daya pendidikan terbuka widget untuk situs web Anda"
+    page_title: "OER industri tersebut - Dapatkan widget membuka pendidikan rekomendasi sumber daya untuk situs web Anda"
     powered_by: "powered by"
     previous: Sebelumnya
     rdf: RDF
-    related_resources: "Related resources"
-    related_resources_title: "Related Resources"
+    related_resources: "Sumber terkait"
+    related_resources_title: "Sumber-sumber Terkait"
     relevance: relevansi
     results: Hasil
     rss: RSS
-    search: Mencari
-    signup: "Mendaftar untuk personalisasi Folksemantic untuk mendapatkan rekomendasi dan berkolaborasi dengan orang lain"
-    tag_line: "Dapatkan Folksemantic - Recommender OER widget <br/> dengan mudah menyisipkan &quot;terkait sumber daya&quot; link ke situs web Anda"
-    title: "OER Recommender"
+    search: Cari
+    signup: "Mendaftar untuk Folksemantic untuk mendapatkan rekomendasi pribadi dan berkolaborasi dengan orang lain"
+    tag_line: "Dapatkan Folksemantic - widget OER industri tersebut <br/> untuk dengan mudah memasukkan &quot;sumber daya terkait&quot; link ke situs web Anda"
+    title: "OER industri tersebut"
     widgets: Widgets
     xml: XML

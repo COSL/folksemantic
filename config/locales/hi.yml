@@ -1,64 +1,65 @@
 --- 
 hi: 
   contact: 
-    contact_response_subject: "{{application_name}}! से अपनी जांच के लिए धन्यवाद"
+    contact_response_subject: "अपने से पूछताछ के लिए धन्यवाद %{application_name}!"
     contact_us: "हमसे संपर्क करें"
     email: "आपका ईमेल:"
-    email_help: "कृपया हमें अपनी तो ईमेल के साथ उपलब्ध है कि हम आप से संपर्क करें यदि आवश्यक हो सकता है."
+    email_help: "हमें अपने ईमेल के साथ प्रदान ताकि हम आपसे संपर्क कर सकते हैं यदि आवश्यक हो तो कृपया."
     name: "आपका नाम:"
-    name_help: "कृपया हमें अपने नाम के साथ प्रदान करते हैं."
-    phone: "आपका फ़ोन नंबर:"
-    phone_help: "आपका फ़ोन नंबर वैकल्पिक लेकिन हम आप की मदद से संपर्क करें यदि आवश्यक हो जाएगा."
-    question: "आपका संदेश / प्रश्न:"
-    question_help: "कृपया कोई टिप्पणी तुम हमारी तरह सुनना होगा शामिल हैं."
+    name_help: "हम आपके नाम के साथ दें."
+    phone: "आपका फोन नंबर:"
+    phone_help: "आपका फोन नंबर वैकल्पिक है, लेकिन हमें आपसे संपर्क यदि आवश्यक मदद करेगा."
+    question: "अपने संदेश सवाल:"
+    question_help: "कोई टिप्पणी तुम हमें सुनने के लिए चाहेंगे शामिल करें."
     subject: "विषय:"
     subject_help: "एक साधारण आपकी प्रतिक्रिया की प्रकृति का संकेत बयान."
   folksemantic: 
-    about: "जानें Folksemantic परियोजना के बारे में अधिक"
-    actions: कार्रवाई
+    about: "Folksemantic परियोजना के बारे में अधिक जानें"
+    actions: क्रियाएँ
     add_edit_feeds: "जोड़ें / संपादित करें फ़ीड"
+    admin_link: व्यवस्थापक
     advanced_widget_options: "उन्नत सेटिंग्स विजेट"
-    all_resources: सब
-    atom: एटम
+    all_resources: सभी
+    atom: परमाणु
     browse_resources: "ब्राउज़ संसाधन"
     calculated: गणना
     collections: संग्रह
     collections_long: "अनुक्रमित संग्रह"
-    connect_account: "आपके खाते से कनेक्ट:"
-    contribute_repository: "योगदान OCW / OER भंडार"
-    credits: "<a href=\"http://nsf.gov/\">राष्ट्रीय विज्ञान फाउंडेशन</a> और <a href=\"http://www.mellon.org/\">एंड्रयू डब्ल्यू मेलॉन फाउंडेशन</a> से धन के साथ <a href=\"http://cosl.usu.edu\">खुला और सतत शिक्षा के लिए केंद्र</a> के लिए <a href=\"http://www.tatemae.com\">Tatemae</a> द्वारा विकसित"
+    connect_account: "अपने खाते के साथ कनेक्ट:"
+    contribute_repository: "योगदान OCW / oer भंडार"
+    credits: "द्वारा विकसित <a href=\"http://www.tatemae.com\">Tatemae</a> के लिए <a href=\"http://cosl.usu.edu\">लर्निंग सेंटर फॉर सस्टेनेबल खोलें और</a> से धन के साथ <a href=\"http://nsf.gov/\">राष्ट्रीय विज्ञान फाउंडेशन</a> और <a href=\"http://www.mellon.org/\">एंड्रयू डब्ल्यू Mellon फाउंडेशन</a>"
     demo: डेमो
     details: विवरण
     developers: डेवलपर्स
     developers_long: "डेवलपर्स के लिए जानकारी"
-    direct_link: "[सीधा लिंक]"
+    direct_link: "[डायरेक्ट लिंक]"
     for: "के लिए"
     gm_more_prompt: "अधिक संबंधित संसाधन"
     gm_title: "संबंधित संसाधन"
     home: 
-      browse_and_search: "ब्राउज़ करें और खोज का पदभार"
-      collaborate: "सहयोग के साथ"
+      browse_and_search: "ब्राउज़ करें और अधिक खोजें"
+      collaborate: "के साथ सहयोग"
       comments_heading: "हाल की टिप्पणियाँ"
-      example_comment: "कि legos निर्माण गाइड भयानक है! मुझे आश्चर्य है कि यदि हम इसे 102 सीएस में छात्रों के साथ इस्तेमाल कर सकते हैं."
-      get_widgets: "OER RECOMMENDER विजेट प्राप्त"
+      example_comment: "कि Legos निर्माण गाइड कमाल है! मुझे आश्चर्य है कि अगर हम इसे 102 सीएस में छात्रों के साथ इस्तेमाल कर सकते हैं."
+      get_widgets: "Oer RECOMMENDER विजेट जाओ"
       oers: "<b>खुली</b> शिक्षा"
-      people: जनता
-      resources: "संसाधन OERS ()"
-      search: खोज
-      signup: "आज ही पंजीकरण करें!"
-      signup_reasons: "साइन अप करें जिसे आप लोगों को मिल जाए, पर चर्चा कर सकते हैं रीमिक्स, और अधिगम संसाधनों के विकास के साथ मिलने के लिए"
+      people: लोग
+      resources: "संसाधन (OERS)"
+      search: खोजें
+      signup: "आज साइन अप करें!"
+      signup_reasons: "साइन अप करने के लिए लोग जिनके साथ आप पाते हैं, पर चर्चा कर सकते हैं, रीमिक्स मिलते हैं, और सीखने के संसाधनों का विकास"
       why: "क्यों FOLKSEMANTIC?"
-      widgets_pitch: "अपने वेब पेज के लिए OER सिफारिशें प्राप्त करना चाहते हैं?"
+      widgets_pitch: "अपने वेब पेज के लिए oer सिफारिशों चाहते हैं?"
     just_ocws: पाठ्यक्रम
-    latest_comments: "नवीनतम टिप्पणियाँ"
-    metadata: Metadata
+    latest_comments: "नवीनतम टिप्पणी"
+    metadata: मेटाडाटा
     next: अगला
-    no_hits: "कोई हिट. कृपया किसी भिन्न खोज का प्रयास करें या कोई अन्य भाषा को चुन सकते हैं."
-    of: का
-    powered_by: "इसके द्वारा संचालित"
+    no_hits: "कोई मारता है. एक भिन्न खोज का प्रयास करें या एक अलग भाषा चुनें."
+    of: की
+    powered_by: "द्वारा संचालित"
     previous: पिछला
     rdf: RDF
-    register_description: "साइन अप करें व्यक्तिगत <span class=\"highlight\">सिफारिशों को</span> प्राप्त करने के लिए, <span class=\"highlight\">समूह</span> में शामिल है, और आसानी से <span class=\"highlight\">ब्लॉग को प्रकाशित</span>"
+    register_description: "साइन अप करने के लिए प्राप्त <span class=\"highlight\">सिफारिशों को</span> व्यक्तिगत, <span class=\"highlight\">समूह</span> में भाग लेने के लिए, और आसानी से <span class=\"highlight\">ब्लॉग पर प्रकाशित</span>"
     register_link: "साइन अप करें!"
     related_resources: "संबंधित संसाधन"
     related_resources_title: "संबंधित संसाधन"
@@ -67,53 +68,53 @@ hi:
     rss: आरएसएस
     search: खोज
     search_button: जाना
-    search_description: "<span class=\"highlight\">खोज</span> द्वारा अधिगम संसाधनों ढूँढें और अधिक <span class=\"highlight\">110.000</span> खुले शैक्षिक संसाधन <span class=\"highlight\">ब्राउज़िंग</span>"
-    search_link: "खोजें संसाधन!"
-    tag_line: "खुली शिक्षा अधिकार"
+    search_description: "शैक्षिक संसाधनों खुला <span class=\"highlight\">110000</span> खोजें सीखने पर <span class=\"highlight\">ब्राउज़िंग</span> संसाधनों से <span class=\"highlight\">खोज</span> और"
+    search_link: "संसाधन खोजो!"
+    tag_line: "खुला शिक्षा अधिकार"
     title: folksemantic
-    tour: "एक यात्रा लो!"
-    tour_description: "घड़ी के <span class=\"highlight\">वीडियो</span> एक <span class=\"highlight\">परिचय</span> Folksemantic"
-    view_account: "देखें आपका खाता"
-    welcome: "Folksemantic में आपका स्वागत है."
-    welcome_message: "हम सक्रिय रूप से एक साइट में OCWFinder और OERRecommender को एकीकृत करने में मदद आपको सबसे रोचक और प्रासंगिक शैक्षिक संसाधन ढूँढ काम कर रहे हैं."
-    welcome_user: "आपका स्वागत है {{user}}"
-    widgets_description: "Widgets जाओ मदद करने के लिए उपयोगकर्ताओं को संसाधनों <span class=\"highlight\">खोजें</span> और अपनी वेबसाइट पर लोगों से <span class=\"highlight\">संबंधित संसाधनों की खोज</span>"
-    widgets_link: "Widgets जाओ!"
-    widgets_title: "folksemantic widgets"
-    xml: XML
+    tour: "एक यात्रा ले लो!"
+    tour_description: "घड़ी <span class=\"highlight\">परिचय</span> के Folksemantic <span class=\"highlight\">वीडियो</span> एक"
+    view_account: "अपने खाते देखें"
+    welcome: "Folksemantic आपका स्वागत है."
+    welcome_message: "हम सक्रिय रूप से एक साइट में OCWFinder और OERRecommender एकीकृत करने के लिए मदद से आप सबसे दिलचस्प और प्रासंगिक शैक्षिक संसाधन ढूँढ काम कर रहे हैं."
+    welcome_user: "स्वागत %{user}"
+    widgets_description: "विजेट प्राप्त करने के लिए उपयोगकर्ताओं की मदद संसाधन <span class=\"highlight\">खोजने के लिए</span> और वेबसाइट पर अपने लोगों से <span class=\"highlight\">संबंधित की खोज संसाधन</span>"
+    widgets_link: "विजेट जाओ!"
+    widgets_title: "folksemantic विगेट्स"
+    xml: एक्सएमएल
   general: 
-    delete_file: "फ़ाइल हटाएँ"
-    send: भेजना
-    thank_you_contact: "आप अपने संदेश के लिए धन्यवाद. हमारी टीम के एक सदस्य आपको शीघ्र ही जवाब होगा."
+    delete_file: फ़ाइलमिटाएँ
+    send: भेजें
+    thank_you_contact: "आप अपने संदेश के लिए धन्यवाद. हमारी टीम के एक सदस्य को आप जल्द ही जवाब देंगे."
   muck: 
     activity_templates: 
-      welcome: स्वागत
+      welcome: "आपका स्वागत है"
     admin: 
       home: घर
       my_dashboard: "मेरा डैशबोर्ड"
       permissions: अनुमतियाँ
-      themes: विषयों
-      users: Users
-    contact_request: "संपर्क अनुरोध"
-    contact_thanks: "हमसे संपर्क करने के लिए धन्यवाद. हम आपके ईमेल प्राप्त है और संपर्क में जल्द ही हो जाएगा."
+      themes: थीम्स
+      users: उपयोगकर्ताओं
+    contact_request: "संपर्क का अनुरोध"
+    contact_thanks: "हमसे संपर्क करने के लिए धन्यवाद. हम आपके ईमेल मिला है और संपर्क में जल्दी ही हो जाएगा."
     friends: 
-      block: ब्लॉक
-      start_following: "पीछे आना"
-      unblock: Unblock
+      block: खंड
+      start_following: "का पालन करें"
+      unblock: "जल्दी से ले लेना"
     raker: 
       add_extended_feed_sub_title: ~
-      add_extended_feed_title: "योगदान OCW / OER भंडार"
+      add_extended_feed_title: "योगदान OCW / oer भंडार"
     services: 
-      add_new_feed_title: "योगदान एक OCW / OER डाटा फ़ीड."
-    user_greeting: "हाय {{user}},"
+      add_new_feed_title: "योगदान पास एक oer डाटा फ़ीड OCW."
+    user_greeting: "हाय %{user},"
     users: 
-      dev_plans: "हम सक्रिय रूप से यह <a href=\"http://ocwfinder.org\">ocwfinder.org</a> बढ़ाने के लिए और <a href=\"http://oerrecommender.org\">oerrecommender.org</a> विकसित कर रहे हैं"
+      dev_plans: "हम विकसित कर रहे हैं सक्रिय रूप से यह विस्तार करने के लिए <a href=\"http://ocwfinder.org\">ocwfinder.org</a> और <a href=\"http://oerrecommender.org\">oerrecommender.org</a>"
       signup: "साइन अप करें!"
-      signup_header: "सोचो तुम चतुर हो?"
-      signup_pitch: "Folksemantic बनाता है यह आसान मिल जाए, को साझा करें, और खुला शैक्षिक संसाधनों का उपयोग करें ताकि आप स्मार्ट मिल सकती है."
-    welcome_activity: "आपका स्वागत है {{application_name}}! को यहाँ आप <a href='/resources'>दुनिया भर से मुक्त शैक्षिक संसाधनों की खोज</a> कर सकते हैं. <a href='/resources/search?q=lady+bugs'>महिला कीड़े</a> में दिलचस्प? <a href='/resources/3909'>कैसे के बारे में नासा से अधिगम संसाधनों?.</a>"
+      signup_header: "लगता है कि तुम चतुर हो?"
+      signup_pitch: "Folksemantic यह आसान लगता है, साझा करने के लिए, और खुले शैक्षिक संसाधनों का उपयोग करें ताकि आप स्मार्ट प्राप्त कर सकते हैं बनाता है."
+    welcome_activity: "आपका स्वागत है %{application_name}! यहाँ आप कर सकते हैं <a href='/resources'>दुनिया भर से संसाधनों की खोज शैक्षिक मुफ्त</a> . दिलचस्प में <a href='/resources/search?q=lady+bugs'>महिला के कीड़े</a> ? <a href='/resources/3909'>संसाधन कैसे के बारे में सीखने नासा से</a> ?."
   oerrecommender: 
-    atom: एटम
+    atom: परमाणु
     calculated: गणना
     collections: संग्रह
     collections_long: "अनुक्रमित संग्रह"
@@ -121,17 +122,17 @@ hi:
     details: विवरण
     developers: डेवलपर्स
     developers_long: "डेवलपर्स के लिए जानकारी"
-    direct_link: "[सीधा लिंक]"
+    direct_link: "[डायरेक्ट लिंक]"
     for: "के लिए"
     gm_more_prompt: "अधिक संबंधित संसाधन"
     gm_title: "संबंधित संसाधन"
-    integration_page_title: "Folksemantic से अपनी वेबसाइट में सिफारिशों को एकीकृत."
-    metadata: Metadata
+    integration_page_title: "folksemantic से अपनी वेबसाइट में एकीकृत सिफारिशें की हैं."
+    metadata: मेटाडाटा
     next: अगला
-    no_hits: "कोई हिट. कृपया किसी भिन्न खोज का प्रयास करें या कोई अन्य भाषा को चुन सकते हैं."
-    of: का
-    page_title: "OER Recommender - अपनी वेबसाइट के लिए खुला शिक्षा संसाधन सिफारिश widgets जाओ"
-    powered_by: "इसके द्वारा संचालित"
+    no_hits: "कोई मारता है. एक भिन्न खोज का प्रयास करें या एक अलग भाषा चुनें."
+    of: की
+    page_title: "Oer Recommender - खुले अपनी वेबसाइट के लिए शिक्षा संसाधन सिफारिश widgets जाओ"
+    powered_by: "द्वारा संचालित"
     previous: पिछला
     rdf: RDF
     related_resources: "संबंधित संसाधन"
@@ -140,8 +141,8 @@ hi:
     results: परिणाम
     rss: आरएसएस
     search: खोज
-    signup: "Folksemantic के लिए साइन अप करें व्यक्तिगत सिफारिशों को पाने के लिए और दूसरों के साथ सहयोग"
-    tag_line: "Folksemantic जाओ - OER Recommender विजेट <br/> आसानी से अपनी वेबसाइट में &#39;संबंधित संसाधन लिंक &quot;डालने"
-    title: "OER Recommender"
-    widgets: Widgets
-    xml: XML
+    signup: "Folksemantic के लिए साइन अप व्यक्तिगत सिफारिशों को पाने के लिए और दूसरों के साथ सहयोग"
+    tag_line: "Oer Recommender विजेट - Folksemantic जाओ <br/> आसानी से सम्मिलित अपनी वेबसाइट में &quot;संबंधित संसाधन&quot; लिंक करने के लिए"
+    title: "Oer Recommender"
+    widgets: विजेट
+    xml: एक्सएमएल

@@ -1,147 +1,148 @@
 --- 
 el: 
   contact: 
-    contact_response_subject: "Ευχαριστώ για την έρευνα σας από {{application_name}}!"
-    contact_us: Επικοινωνία
+    contact_response_subject: "Ευχαριστώ για το ερώτημά σας από %{application_name}!"
+    contact_us: "Επικοινωνήστε μαζί μας"
     email: "Το email σας:"
-    email_help: "Παρακαλούμε δώστε μας το email σας για να μπορέσουμε να επικοινωνήσουμε μαζί σας εάν είναι απαραίτητο."
+    email_help: "Παρακαλούμε να μας δώσετε το email σας ώστε να μπορέσουμε να επικοινωνήσουμε μαζί σας εάν χρειαστεί."
     name: "Το όνομά σας:"
-    name_help: "Παρακαλείσθε να μας δώσετε το όνομά σας."
-    phone: "Αριθμό τηλεφώνου σας:"
-    phone_help: "Αριθμό του τηλεφώνου σας είναι προαιρετική, αλλά θα μας βοηθήσει να επικοινωνήσουμε μαζί σας εάν είναι απαραίτητο."
+    name_help: "Παρακαλούμε δώστε μας το όνομά σας."
+    phone: "Ο αριθμός τηλεφώνου σας:"
+    phone_help: "Ο αριθμός τηλεφώνου σας είναι προαιρετικός, αλλά θα μας βοηθήσει να επικοινωνήσουμε μαζί σας εάν χρειαστεί."
     question: "Το μήνυμά σας / ερώτηση:"
     question_help: "Παρακαλείσθε να συμπεριλάβετε οποιαδήποτε σχόλια θα θέλατε να ακούσετε."
     subject: "Θέμα:"
-    subject_help: "Μια απλή δήλωση στην οποία αναφέρεται η φύση της τα σχόλιά σας."
+    subject_help: "Μια απλή δήλωση στην οποία αναφέρεται η φύση των σχολίων σας."
   folksemantic: 
     about: "Μάθετε περισσότερα για το έργο Folksemantic"
-    actions: Ενέργειες
-    add_edit_feeds: "προσθήκη / επεξεργασία εγγραφών"
-    advanced_widget_options: "Σύνθετη Widget Ρυθμίσεις"
-    all_resources: Όλα
-    atom: Atom
-    browse_resources: "Browse Resources"
+    actions: Δράσεις
+    add_edit_feeds: "Προσθήκη / Επεξεργασία feeds"
+    admin_link: Admin
+    advanced_widget_options: "Ρυθμίσεις για προχωρημένους Widget"
+    all_resources: Όλες
+    atom: Άτομο
+    browse_resources: "Αναζήτηση πόρων"
     calculated: υπολογίζονται
     collections: Συλλογές
     collections_long: "Indexed Συλλογές"
-    connect_account: "Συνδέστε το λογαριασμό σας με:"
-    contribute_repository: "Συμβάλλουν OCW / ΑΕΜ Repository"
-    credits: "Αναπτύχθηκε από <a href=\"http://www.tatemae.com\">Tatemae</a> για το <a href=\"http://cosl.usu.edu\">Κέντρο για την Ανοικτή και βιώσιμη Μάθηση</a> με χρηματοδότηση από το <a href=\"http://nsf.gov/\">Εθνικό Ίδρυμα Επιστημών</a> και το <a href=\"http://www.mellon.org/\">Andrew W Mellon Foundation</a>"
+    connect_account: "Συνδέστε τον λογαριασμό σας με:"
+    contribute_repository: "Συμβολή OCW / ΑΕΜ Repository"
+    credits: "Αναπτύχθηκε από <a href=\"http://www.tatemae.com\">Tatemae</a> για το <a href=\"http://cosl.usu.edu\">Κέντρο για την Ανοικτή και βιώσιμη Μάθηση</a> με χρηματοδότηση από το <a href=\"http://nsf.gov/\">Εθνικό Ίδρυμα Επιστημών</a> και της <a href=\"http://www.mellon.org/\">Andrew W Mellon Foundation</a>"
     demo: Demo
     details: Λεπτομέρειες
-    developers: Developers
+    developers: Προγραμματιστές
     developers_long: "Πληροφορίες για προγραμματιστές"
-    direct_link: "[άμεσος σύνδεσμος]"
+    direct_link: "[Άμεση σύνδεση]"
     for: για
-    gm_more_prompt: "Περισσότερα Σχετικοί πόροι"
+    gm_more_prompt: "Περισσότερες Σχετικοί πόροι"
     gm_title: "Σχετικοί πόροι"
     home: 
-      browse_and_search: "Περιηγηθείτε και αναζητήστε OVER"
-      collaborate: "Συνεργαζόμαστε με"
-      comments_heading: "ΠΡΟΣΦΑΤΑ ΣΧΟΛΙΑ"
-      example_comment: "Αυτό legos οδηγός κατασκευή είναι φοβερό! Αναρωτιέμαι αν θα μπορούσαμε να το χρησιμοποιήσει με τους μαθητές στο CS 102."
-      get_widgets: "GET ΑΕΜ Recommender WIDGET"
+      browse_and_search: "Περιηγηθείτε και αναζητήστε ΑΝΩ"
+      collaborate: "Συνεργαστείτε με"
+      comments_heading: "Πρόσφατα σχόλια"
+      example_comment: "Αυτό Legos οδηγός κατασκευής είναι φοβερό! Αναρωτιέμαι αν θα μπορούσαμε να το χρησιμοποιήσει με τους μαθητές στο CS 102."
+      get_widgets: "GET Το Widget Recommender ΑΕΜ"
       oers: "<b>ΑΝΟΙΚΤΗ</b> ΕΚΠΑΙΔΕΥΣΗ"
       people: ΑΝΘΡΩΠΟΙ
       resources: "ΠΟΡΟΙ (OERS)"
       search: ΑΝΑΖΗΤΗΣΗ
-      signup: "SIGN UP TODAY!"
-      signup_reasons: "Εγγραφείτε για να συναντηθούν οι άνθρωποι με τους οποίους μπορείτε να βρείτε, να συζητήσουν, remix, και να αναπτύξουν πόρους εκμάθησης"
+      signup: "Εγγραφείτε σήμερα!"
+      signup_reasons: "Εγγραφείτε στο Facebook για να συναντήσουν ανθρώπους με τους οποίους μπορείτε να βρείτε, να συζητήσουν, remix, και την ανάπτυξη μαθησιακών πόρων"
       why: "ΓΙΑΤΙ FOLKSEMANTIC;"
-      widgets_pitch: "Θέλετε να πάρετε συστάσεις ΑΕΜ για τις ιστοσελίδες σας;"
+      widgets_pitch: "Θέλετε συστάσεις ΑΕΜ για τις ιστοσελίδες σας;"
     just_ocws: Μαθήματα
-    latest_comments: "Πρόσφατα σχόλια"
+    latest_comments: "Τελευταία Σχόλια"
     metadata: Μεταδεδομένα
-    next: Επόμενος
+    next: Επόμενο
     no_hits: "Δεν επιτυχίες. Δοκιμάστε μια διαφορετική αναζήτηση ή επιλέξτε μια διαφορετική γλώσσα."
-    of: από
+    of: του
     powered_by: "powered by"
     previous: Προηγούμενη
     rdf: RDF
-    register_description: "Εγγραφείτε για να λαμβάνετε εξατομικευμένες <span class=\"highlight\">συστάσεις,</span> συμμετέχουν σε <span class=\"highlight\">ομάδες,</span> και εύκολα <span class=\"highlight\">να δημοσιεύουν blogs</span>"
-    register_link: "Sign Up!"
-    related_resources: "Σχετικοί πόροι"
+    register_description: "Εγγραφείτε για να λαμβάνετε εξατομικευμένες <span class=\"highlight\">συστάσεις,</span> να συμμετέχει σε <span class=\"highlight\">ομάδες,</span> και εύκολα <span class=\"highlight\">να δημοσιεύουν blogs</span>"
+    register_link: Εγγραφείτε!
+    related_resources: "Σχετικές πηγές"
     related_resources_title: "Σχετικοί πόροι"
-    relevance: ενδιαφέρον
+    relevance: συνάφεια
     results: Αποτελέσματα
     rss: RSS
     search: αναζήτηση
-    search_button: Πάω
-    search_description: "Βρείτε μαθησιακών πόρων από <span class=\"highlight\">την αναζήτηση</span> και την <span class=\"highlight\">ώρα</span> πάνω από <span class=\"highlight\">110.000</span> ανοικτών εκπαιδευτικών πόρων"
-    search_link: "Βρείτε Πόρων!"
+    search_button: Go
+    search_description: "Βρείτε πόρους μάθησης με την <span class=\"highlight\">έρευνα</span> και <span class=\"highlight\">την ώρα</span> πάνω από <span class=\"highlight\">110.000</span> ανοικτών εκπαιδευτικών πόρων"
+    search_link: "Εύρεση Πόρων!"
     tag_line: "εξουσιοδοτήσεως ανοικτή εκπαίδευση"
     title: folksemantic
-    tour: "Take a Tour!"
-    tour_description: "Παρακολουθήστε ένα <span class=\"highlight\">βίντεο εισαγωγή</span> Folksemantic"
-    view_account: "Ο λογαριασμός σας"
+    tour: "Κάντε μια περιήγηση!"
+    tour_description: "Παρακολουθήστε μια <span class=\"highlight\">εισαγωγή βίντεο</span> από Folksemantic"
+    view_account: "Προβολή του λογαριασμού σας"
     welcome: "Καλώς ήλθατε στο Folksemantic."
-    welcome_message: "Είμαστε ενεργά για την ενσωμάτωση OCWFinder και OERRecommender σε μια σελίδα για να σας βοηθήσει να βρείτε τις πιο ενδιαφέρουσες και συναφείς εκπαιδευτικούς πόρους."
-    welcome_user: "Καλώς {{user}}"
-    widgets_description: "Πάρτε widgets για να βοηθήσει τους χρήστες να <span class=\"highlight\">βρουν</span> πόρους και να <span class=\"highlight\">ανακαλύψουν τους πόρους που σχετίζονται</span> με αυτές στην ιστοσελίδα σας"
-    widgets_link: "Get Widgets!"
+    welcome_message: "Είμαστε ενεργά για την ενσωμάτωση OCWFinder και OERRecommender σε ένα site για να σας βοηθήσει να βρείτε τις πιο ενδιαφέρουσες και σχετικές εκπαιδευτικές πόρων."
+    welcome_user: "Καλώς %{user}"
+    widgets_description: "Λάβετε widgets για να βοηθήσουν τους χρήστες να <span class=\"highlight\">βρουν</span> πόρους και να <span class=\"highlight\">ανακαλύψει τους πόρους που σχετίζονται</span> με αυτούς στην ιστοσελίδα σας"
+    widgets_link: "Πάρτε Widgets!"
     widgets_title: "folksemantic widgets"
     xml: XML
   general: 
-    delete_file: Διαγραφήαρχείου
-    send: Αποστέλω
-    thank_you_contact: "Σας ευχαριστούμε για το μήνυμά σας. Ένα μέλος της ομάδας μας θα σας απαντήσουμε πολύ σύντομα."
+    delete_file: "Διαγραφή αρχείου"
+    send: Αποστολή
+    thank_you_contact: "Σας ευχαριστούμε για το μήνυμά σας. Ένα μέλος της ομάδας μας θα σας απαντήσουμε σύντομα."
   muck: 
     activity_templates: 
-      welcome: "Καλώς ορίσατε"
+      welcome: "Καλώς ήρθατε"
     admin: 
-      home: Σπίτι
-      my_dashboard: "Ταμπλό μου"
+      home: "Αρχική Σελίδα"
+      my_dashboard: "My Dashboard"
       permissions: Άδειες
       themes: Θέματα
       users: Χρήστες
-    contact_request: "Αίτηση Επικοινωνία"
-    contact_thanks: "Ευχαριστώ που επικοινωνήσατε μαζί μας. Λάβαμε το email σας και θα είναι σε επαφή σύντομα."
+    contact_request: "Επικοινωνία Αίτηση"
+    contact_thanks: "Σας ευχαριστούμε που επικοινωνήσατε μαζί μας. Λάβαμε το email σας και θα είναι σε επαφή σύντομα."
     friends: 
       block: Block
-      start_following: Ακολουθώ
-      unblock: Unblock
+      start_following: Συνέχεια
+      unblock: Απεμπλοκή
     raker: 
       add_extended_feed_sub_title: ~
-      add_extended_feed_title: "Συμβάλλουν OCW / ΑΕΜ Repository"
+      add_extended_feed_title: "Συμβολή OCW / ΑΕΜ Repository"
     services: 
-      add_new_feed_title: "Συνεισφέρει OCW / ζωοτροφών ΑΕΜ δεδομένων."
-    user_greeting: "Γεια {{user}},"
+      add_new_feed_title: "Συνεισφέρει OCW / ΑΕΜ τροφή στοιχείων."
+    user_greeting: "Γεια %{user},"
     users: 
-      dev_plans: "Υποστηρίζουμε ενεργά την ανάπτυξη αυτή να επεκταθεί <a href=\"http://ocwfinder.org\">ocwfinder.org</a> και <a href=\"http://oerrecommender.org\">oerrecommender.org</a>"
-      signup: Εγγραφείτε!
-      signup_header: "Πιστεύεις ότι είσαι έξυπνος;"
-      signup_pitch: "Folksemantic καθιστά εύκολο να βρεθεί, το μερίδιο της, και τη χρήση ανοικτών εκπαιδευτικών πόρων ώστε να μπορείτε να πάρετε έξυπνο."
-    welcome_activity: "Καλώς ήλθατε στο {{application_name}}! Εδώ μπορείτε να <a href='/resources'>ανακαλύψετε δωρεάν εκπαιδευτικούς πόρους από όλο τον κόσμο.</a> Ενδιαφέρουσες σε <a href='/resources/search?q=lady+bugs'>σφάλματα κυρία;</a> <a href='/resources/3909'>Τι λέτε για μαθησιακούς πόρους από τη NASA;.</a>"
+      dev_plans: "Είμαστε ενεργά την ανάπτυξη προκειμένου να παρατείνει <a href=\"http://ocwfinder.org\">ocwfinder.org</a> και <a href=\"http://oerrecommender.org\">oerrecommender.org</a>"
+      signup: "Εγγραφείτε στο Facebook!"
+      signup_header: "Νομίζεις ότι είσαι έξυπνος;"
+      signup_pitch: "Folksemantic καθιστά εύκολο να βρεθεί, το μερίδιο της, και τη χρήση ανοικτών εκπαιδευτικών πόρων έτσι μπορείτε να πάρετε έξυπνη."
+    welcome_activity: "Καλώς ήλθατε στο %{application_name}! Εδώ μπορείτε να <a href='/resources'>ανακαλύψετε δωρεάν εκπαιδευτικό υλικό από όλο τον κόσμο</a> . Ενδιαφέρουσες σε <a href='/resources/search?q=lady+bugs'>σφάλματα κυρία</a> ; <a href='/resources/3909'>Τι λέτε για μαθησιακούς πόρους από τη NASA</a> ;."
   oerrecommender: 
-    atom: Atom
+    atom: Άτομο
     calculated: υπολογίζονται
     collections: Συλλογές
     collections_long: "Indexed Συλλογές"
     demo: Demo
     details: Λεπτομέρειες
-    developers: Developers
+    developers: Προγραμματιστές
     developers_long: "Πληροφορίες για προγραμματιστές"
-    direct_link: "[άμεσος σύνδεσμος]"
+    direct_link: "[Άμεση σύνδεση]"
     for: για
-    gm_more_prompt: "Περισσότερα Σχετικοί πόροι"
+    gm_more_prompt: "Περισσότερες Σχετικοί πόροι"
     gm_title: "Σχετικοί πόροι"
-    integration_page_title: "Ενσωμάτωση των συστάσεων από folksemantic στην ιστοσελίδα σας."
+    integration_page_title: "Ενσωματώστε συστάσεις από folksemantic στον ιστοχώρο σας."
     metadata: Μεταδεδομένα
-    next: Επόμενος
+    next: Επόμενο
     no_hits: "Δεν επιτυχίες. Δοκιμάστε μια διαφορετική αναζήτηση ή επιλέξτε μια διαφορετική γλώσσα."
-    of: από
-    page_title: "ΑΕΜ Recommender - Πάρτε ανοικτή widgets σύσταση εκπαίδευση των πόρων για την ιστοσελίδα σας"
+    of: του
+    page_title: "ΑΕΜ Recommender - Λάβετε widgets ανοικτή πηγή εκπαίδευσης σύσταση για την ιστοσελίδα σας"
     powered_by: "powered by"
     previous: Προηγούμενη
     rdf: RDF
-    related_resources: "Σχετικοί πόροι"
+    related_resources: "Σχετικές πηγές"
     related_resources_title: "Σχετικοί πόροι"
-    relevance: ενδιαφέρον
+    relevance: συνάφεια
     results: Αποτελέσματα
     rss: RSS
     search: Αναζήτηση
-    signup: "Εγγραφή για Folksemantic να πάρει εξατομικευμένες συστάσεις και να συνεργάζεται με άλλους"
-    tag_line: "Αποκτήστε το Folksemantic - ΑΕΜ Recommender widget <br/> εύκολα να προστεθούν οι λέξεις «σχετικές πόροι&quot; συνδέσμους στην ιστοσελίδα σας"
+    signup: "Εγγραφείτε στο Facebook για Folksemantic να λάβετε εξατομικευμένες συστάσεις και συνεργάζεται με άλλους"
+    tag_line: "Αποκτήστε το Folksemantic - ΑΕΜ Recommender widget <br/> για την εύκολη εισαγωγή &quot;σχετικοί πόροι&quot; δεσμούς στον ιστοχώρο σας"
     title: "ΑΕΜ Recommender"
     widgets: Widgets
     xml: XML

@@ -1,147 +1,148 @@
 --- 
 ar: 
   contact: 
-    contact_response_subject: "شكرا لاستفسارك من {{application_name}}!"
+    contact_response_subject: "شكرا لاستفسارك من %{application_name}!"
     contact_us: "اتصل بنا"
-    email: "البريد الإلكتروني الخاص بك :"
-    email_help: "يرجى تزويدنا البريد الإلكتروني الخاص بك لكي نتمكن من الاتصال بكم إذا لزم الأمر."
+    email: "البريد الإلكتروني :"
+    email_help: "الرجاء تزويدنا بريدك الالكتروني حتى نتمكن من الاتصال بك إذا لزم الأمر."
     name: "اسمك :"
-    name_help: "يرجى تزويدنا باسمك."
+    name_help: "الرجاء تزويدنا باسمك."
     phone: "رقم الهاتف :"
-    phone_help: "رقم الهاتف الخاص بك هو اختياري ولكن سيساعدنا على الاتصال بكم إذا لزم الأمر."
+    phone_help: "رقم الهاتف هو اختياري ولكن سوف تساعدنا في الاتصال بكم إذا لزم الأمر."
     question: "رسالتك / السؤال :"
-    question_help: "يرجى إدراج أي تعليقات تودون منا أن يسمع."
+    question_help: "يرجى إدراج أي تعليقات كنت تريد منا أن يسمع."
     subject: "الموضوع :"
-    subject_help: "وجاء في بيان بسيط يبين طبيعة مشاركتك."
+    subject_help: "بيان بسيط يدل على طبيعة مشاركتك."
   folksemantic: 
-    about: "معرفة المزيد حول هذا المشروع Folksemantic"
+    about: "تعلم المزيد عن المشروع Folksemantic"
     actions: الإجراءات
     add_edit_feeds: "إضافة / تحرير يغذي"
-    advanced_widget_options: "القطعة إعدادات متقدمة"
-    all_resources: الكل
+    admin_link: المشرف
+    advanced_widget_options: "إعدادات متقدمة القطعة"
+    all_resources: جميع
     atom: ذرة
     browse_resources: "تصفح المصادر"
-    calculated: حسبت
+    calculated: محسوب
     collections: المجموعات
-    collections_long: "مجموعات المفهرس"
-    connect_account: "ربط حسابك مع :"
-    contribute_repository: "تسهم OCW / OER مستودع"
-    credits: "التي وضعتها <a href=\"http://www.tatemae.com\">تاتيماي</a> <a href=\"http://cosl.usu.edu\">لمركز التعلم المفتوح والتنمية المستدامة</a> وذلك بتمويل من <a href=\"http://nsf.gov/\">مؤسسة العلوم الوطنية</a> <a href=\"http://www.mellon.org/\">ومؤسسة أندرو دبليو ميلون</a>"
-    demo: تجريبي
-    details: التفاصيل
-    developers: للمطورين
+    collections_long: "فهرسة المجموعات"
+    connect_account: "تواصل مع حسابك :"
+    contribute_repository: "المساهمة OCW / OER مستودع"
+    credits: "التي وضعتها <a href=\"http://www.tatemae.com\">Tatemae</a> ل <a href=\"http://cosl.usu.edu\">مركز التعلم المفتوح والمستدامة</a> بتمويل من <a href=\"http://nsf.gov/\">مؤسسة العلوم الوطنية</a> و <a href=\"http://www.mellon.org/\">مؤسسة أندرو دبليو ميلون</a>"
+    demo: عرض
+    details: تفاصيل
+    developers: المطورين
     developers_long: "معلومات للمطورين"
     direct_link: "[صلة مباشرة]"
-    for: لأجل
-    gm_more_prompt: "مزيد من موارد ذات الصلة"
+    for: ل
+    gm_more_prompt: "أكثر موارد ذات الصلة"
     gm_title: "موارد ذات الصلة"
     home: 
-      browse_and_search: "تصفح وابحث عن"
+      browse_and_search: "تصفح والبحث أكثر من"
       collaborate: "التعاون مع"
       comments_heading: "التعليقات الأخيرة"
-      example_comment: "لغس] أن البناء هو دليل رهيبة! وأتساءل عما إذا كنا قد استخدامه مع الطلاب في خدمات العملاء 102."
-      get_widgets: "OER حصول على القطعة المزكي"
+      example_comment: "هذا دليل البناء لغس] هو رهيبة! وأتساءل عما إذا نحن يمكن استخدامه مع الطلاب في خدمات العملاء 102."
+      get_widgets: "احصل على القطعة المزكي OER"
       oers: "التعليم <b>المفتوح</b>"
-      people: "مجلس الشعب"
-      resources: "الموارد (OERS)"
+      people: الناس
+      resources: "الموارد (العروض))"
       search: بحث
       signup: "اشترك اليوم!"
-      signup_reasons: "توقع لقاء الناس الذين يمكنك العثور على ومناقشة ، ريمكس ، وتطوير الموارد التعليمية"
-      why: "FOLKSEMANTIC لماذا؟"
-      widgets_pitch: "ترغب في الحصول على توصيات OER لصفحات الويب الخاصة بك؟"
-    just_ocws: الدورات
-    latest_comments: "أحدث التعليقات"
-    metadata: التعريف
-    next: التالي
-    no_hits: "لم يضرب. الرجاء تجربة بحث أخر ، أو اختر لغة مختلفة."
+      signup_reasons: "قم بالتسجيل في لقاء الناس الذين يمكنك أن تجد ، ومناقشة ، ريمكس ، وتطوير مصادر التعلم"
+      why: "لماذا FOLKSEMANTIC؟"
+      widgets_pitch: "نريد توصيات OER لصفحات الويب الخاص بك؟"
+    just_ocws: المقررات
+    latest_comments: "آخر التعليقات"
+    metadata: الفوقية
+    next: القادم
+    no_hits: "لا يضرب. يرجى محاولة البحث المختلفة أو اختر لغة مختلفة."
     of: من
-    powered_by: "مدعوم من"
+    powered_by: "بدعم من"
     previous: السابقة
     rdf: "قوات الدفاع الرواندية"
-    register_description: "الإنتساب لتلقي <span class=\"highlight\">توصيات ذات طابع</span> شخصي ، والمشاركة في <span class=\"highlight\">مجموعات</span> ، وسهولة <span class=\"highlight\">نشر لبلوق</span>"
-    register_link: "إشترك الآن!"
-    related_resources: "مصادر ذات علاقة"
+    register_description: "وقع لتلقي <span class=\"highlight\">توصيات ذات طابع</span> شخصي ، والمشاركة في <span class=\"highlight\">مجموعات</span> ، وسهولة <span class=\"highlight\">نشر على بلوق</span>"
+    register_link: التوقيع!
+    related_resources: "موارد ذات الصلة"
     related_resources_title: "موارد ذات الصلة"
-    relevance: أهمية
+    relevance: الصلة
     results: النتائج
     rss: "آر إس إس"
-    search: بحث
-    search_button: يذهب
-    search_description: "العثور على موارد التعلم عن طريق <span class=\"highlight\">البحث وتصفح</span> أكثر من <span class=\"highlight\">110،000</span> الموارد التعليمية المفتوحة"
+    search: البحث
+    search_button: الذهاب
+    search_description: "البحث عن مصادر التعلم من خلال <span class=\"highlight\">البحث والتصفح</span> عبر فتح الموارد التعليمية <span class=\"highlight\">110000</span>"
     search_link: "العثور على موارد!"
     tag_line: "تمكين التعليم المفتوح"
     title: folksemantic
-    tour: "أخذ جولة!"
-    tour_description: "مشاهدة شريط <span class=\"highlight\">فيديو لإدخال</span> Folksemantic"
-    view_account: "الاطلاع على حسابك"
+    tour: "القيام بجولة!"
+    tour_description: "مشاهدة <span class=\"highlight\">الفيديو مقدمة</span> من Folksemantic"
+    view_account: "عرض حسابك"
     welcome: "مرحبا بكم في Folksemantic."
-    welcome_message: "نحن تعمل بنشاط من أجل إدماج OCWFinder وOERRecommender في موقع واحد لمساعدتك في العثور على الموارد الأكثر إثارة للاهتمام والتعليمية ذات الصلة."
-    welcome_user: "نرحب {{user}}"
-    widgets_description: "الحصول على الحاجيات لمساعدة المستخدمين على <span class=\"highlight\">العثور على</span> موارد جديدة <span class=\"highlight\">واكتشاف الموارد المتصلة</span> منها على موقع الويب الخاص بك"
+    welcome_message: "نحن نعمل بنشاط لدمج OCWFinder وOERRecommender في موقع واحد لمساعدتك في العثور على موارد الأكثر إثارة للاهتمام وذات الصلة التعليمية."
+    welcome_user: "نرحب %{user}"
+    widgets_description: "الحصول على الحاجيات لمساعدة المستخدمين على <span class=\"highlight\">البحث عن</span> موارد جديدة <span class=\"highlight\">واكتشاف الموارد ذات الصلة</span> لتلك الموجودة على موقع الويب الخاص بك"
     widgets_link: "الحصول على القطع!"
-    widgets_title: "الحاجيات folksemantic"
-    xml: XML
+    widgets_title: "folksemantic الحاجيات"
+    xml: "إكس إم إل"
   general: 
     delete_file: "حذف ملف"
-    send: يرسل
-    thank_you_contact: "شكرا على رسالتك. وقال عضو في فريق عملنا سوف نرد عليك قريبا."
+    send: إرسال
+    thank_you_contact: "شكرا لك على رسالتك. وهناك عضو في فريق الرد عليك قريبا."
   muck: 
     activity_templates: 
-      welcome: مرحبا
+      welcome: "مرحبا بكم"
     admin: 
-      home: منزل
-      my_dashboard: "بلدي لوحة"
-      permissions: أذونات
-      themes: المواضيع
-      users: شاهد
+      home: "الصفحة الرئيسية"
+      my_dashboard: "لوحة بلدي"
+      permissions: الأذونات
+      themes: ثيمات
+      users: المستخدمين
     contact_request: "طلب الاتصال"
-    contact_thanks: "شكرا على اتصالك بنا. تلقينا البريد الإلكتروني الخاص بك ، وسوف يكون على اتصال في وقت قريب."
+    contact_thanks: "شكرا على اتصالك بنا. لقد تلقينا البريد الإلكتروني الخاص بك وسوف يكون على اتصال في وقت قريب."
     friends: 
       block: كتلة
       start_following: يتبع
-      unblock: افراج
+      unblock: فتح
     raker: 
       add_extended_feed_sub_title: ~
-      add_extended_feed_title: "تسهم OCW / OER مستودع"
+      add_extended_feed_title: "المساهمة OCW / OER مستودع"
     services: 
-      add_new_feed_title: "المساهمة في OCW / OER البيانات تغذية."
-    user_greeting: "مرحبا {{user}}،"
+      add_new_feed_title: "المساهمة في OCW / تغذية البيانات OER."
+    user_greeting: "مرحبا %{user}،"
     users: 
-      dev_plans: "نحن نعمل بنشاط لتطوير وتوسيع <a href=\"http://ocwfinder.org\">ocwfinder.org</a> <a href=\"http://oerrecommender.org\">وoerrecommender.org</a>"
-      signup: التوقيع!
+      dev_plans: "نحن نعمل على تطوير بنشاط لتوسيع <a href=\"http://ocwfinder.org\">ocwfinder.org</a> و <a href=\"http://oerrecommender.org\">oerrecommender.org</a>"
+      signup: "قم بالتسجيل!"
       signup_header: "تعتقد أنك ذكي؟"
-      signup_pitch: "Folksemantic يجعل من السهل العثور عليها ، ونصيب ، واستخدام الموارد التعليمية المفتوحة حتى تتمكن من الحصول الذكية."
-    welcome_activity: "مرحبا بكم في {{application_name}}! هنا يمكنك <a href='/resources'>اكتشاف موارد تعليمية خالية من جميع أنحاء العالم.</a> مثيرة للاهتمام في <a href='/resources/search?q=lady+bugs'>البق سيدة؟</a> <a href='/resources/3909'>ماذا عن الموارد التعليمية من وكالة ناسا؟.</a>"
+      signup_pitch: "Folksemantic يجعل من السهل العثور عليها ، حصة ، واستخدام الموارد التعليمية المفتوحة حتى تتمكن من الحصول على ذكية."
+    welcome_activity: "مرحبا بكم في %{application_name}! هنا يمكنك <a href='/resources'>اكتشاف الموارد التعليمية مجانا من جميع أنحاء العالم</a> . مثيرة للاهتمام في <a href='/resources/search?q=lady+bugs'>البق سيدة</a> ؟ <a href='/resources/3909'>كيف تعلم من وكالة ناسا حول الموارد</a> ؟."
   oerrecommender: 
     atom: ذرة
-    calculated: حسبت
+    calculated: محسوب
     collections: المجموعات
-    collections_long: "مجموعات المفهرس"
-    demo: تجريبي
-    details: التفاصيل
-    developers: للمطورين
+    collections_long: "فهرسة المجموعات"
+    demo: عرض
+    details: تفاصيل
+    developers: المطورين
     developers_long: "معلومات للمطورين"
     direct_link: "[صلة مباشرة]"
-    for: لأجل
-    gm_more_prompt: "مزيد من موارد ذات الصلة"
+    for: ل
+    gm_more_prompt: "أكثر موارد ذات الصلة"
     gm_title: "موارد ذات الصلة"
-    integration_page_title: "دمج التوصيات الصادرة عن folksemantic إلى موقع الويب الخاص بك."
-    metadata: التعريف
-    next: التالي
-    no_hits: "لم يضرب. الرجاء تجربة بحث أخر ، أو اختر لغة مختلفة."
+    integration_page_title: "توصيات من دمج folksemantic إلى موقع الويب الخاص بك."
+    metadata: الفوقية
+    next: القادم
+    no_hits: "لا يضرب. يرجى محاولة البحث المختلفة أو اختر لغة مختلفة."
     of: من
-    page_title: "OER المزكي -- احصل على التعليم المفتوح الموارد الحاجيات توصية لموقع الويب الخاص بك"
-    powered_by: "مدعوم من"
+    page_title: "OER المزكي -- احصل على توصية التعليم المفتوح الحاجيات من الموارد لموقع الويب الخاص بك"
+    powered_by: "بدعم من"
     previous: السابقة
     rdf: "قوات الدفاع الرواندية"
-    related_resources: "مصادر ذات علاقة"
+    related_resources: "موارد ذات الصلة"
     related_resources_title: "موارد ذات الصلة"
-    relevance: أهمية
+    relevance: الصلة
     results: النتائج
     rss: "آر إس إس"
-    search: بحث
-    signup: "الاشتراك في Folksemantic إلى الحصول على توصيات شخصية والتعاون مع الآخرين"
-    tag_line: "الحصول على Folksemantic -- OER المزكي القطعة <br/> لسهولة إدراج &quot;الموارد ذات الصلة&quot; وصلات إلى موقع الويب الخاص بك"
+    search: البحث
+    signup: "قم بالتسجيل في Folksemantic إلى الحصول على توصيات شخصية والتعاون مع الآخرين"
+    tag_line: "الحصول على Folksemantic -- القطعة المزكي OER <br/> بسهولة إدراج روابط &quot;الموارد ذات الصلة&quot; في موقعك"
     title: "OER المزكي"
     widgets: الحاجيات
-    xml: XML
+    xml: "إكس إم إل"

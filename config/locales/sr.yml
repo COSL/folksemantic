@@ -1,147 +1,148 @@
 --- 
 sr: 
   contact: 
-    contact_response_subject: "Хвала за ваш упит из {{application_name}}!"
+    contact_response_subject: "Хвала за ваш упит из %{application_name}!"
     contact_us: Контакт
-    email: "Ваш емаил:"
-    email_help: "Молимо Вас да нам доставите ваше е-поште да бисмо могли да вас контактирамо ако је потребно."
+    email: "Ваша е-маил:"
+    email_help: "Молимо Вас да нам Вашу емаил како бисмо могли да вас контактирамо ако је потребно."
     name: "Ваше име:"
     name_help: "Молимо Вас да нам доставите своје име."
     phone: "Ваш број телефона:"
-    phone_help: "Ваш број телефона је опциона, али ће нам помоћи да вас контактирати ако је потребно."
+    phone_help: "Ваш телефонски број је опционално, али ће нам помоћи да вас контактирамо ако је потребно."
     question: "Ваша порука / питање:"
-    question_help: "Молимо Вас да укључите коментаре које би желели да чују."
+    question_help: "Молимо Вас да све коментаре које бисте желели да чујемо."
     subject: "Наслов:"
-    subject_help: "Једноставна изјава означава природу Ваше повратне информације."
+    subject_help: "Једноставна изјава показује природу ваших повратних информација."
   folksemantic: 
     about: "Сазнајте више о пројекту Фолксемантиц"
-    actions: Акције
-    add_edit_feeds: "Додај / измени фидове"
-    advanced_widget_options: "Напредна подешавања виџета"
+    actions: Радње
+    add_edit_feeds: "Адд / Едит фидова"
+    admin_link: Админ
+    advanced_widget_options: "Напредна подешавања уидгет"
     all_resources: Све
     atom: Атом
-    browse_resources: "Броусе ресурси"
+    browse_resources: "Погледајте ресурси"
     calculated: израчунати
-    collections: Збирке
-    collections_long: "Индексед Збирке"
+    collections: Колекције
+    collections_long: "Индексирано Колекције"
     connect_account: "Повежите свој налог:"
-    contribute_repository: "Допринесе ОЦУ / ОЕР Склади"
-    credits: "Девелопед бы <a href=\"http://www.tatemae.com\">Татемае</a> за <a href=\"http://cosl.usu.edu\">Центар за одрживи и отворено учење</a> финансирана од стране <a href=\"http://nsf.gov/\">Националне фондације за науку</a> и <a href=\"http://www.mellon.org/\">Ендрју Мелон фондација У</a>"
+    contribute_repository: "Допринесите апп / ОЕР Спремиште"
+    credits: "Развијен од стране <a href=\"http://www.tatemae.com\">Татемае</a> за <a href=\"http://cosl.usu.edu\">Центар за Опен и одрживи Учење</a> уз финансијску подршку <a href=\"http://nsf.gov/\">Националне фондације за науку</a> и <a href=\"http://www.mellon.org/\">Ендру Мелон Фондације В</a>"
     demo: Демо
     details: Детаљи
     developers: Програмери
-    developers_long: "Информације за програмере"
-    direct_link: "[Дирецт линк]"
+    developers_long: "Информација за програмере"
+    direct_link: "[Директну везу]"
     for: за
     gm_more_prompt: "Више Сродни ресурси"
-    gm_title: "Слични извори"
+    gm_title: "Сродни ресурси"
     home: 
-      browse_and_search: "Прегледајте и претражујте"
-      collaborate: "Сарадњу са"
+      browse_and_search: "Прегледајте и претражујете"
+      collaborate: "Сарађујте са"
       comments_heading: "Рецент Цомментс"
-      example_comment: "То легос изградње упутство је одлично! Питам се да ли бисмо могли да га користите са студентима у ЦС 102."
-      get_widgets: "ДОБИТИ ОЕР РЕЦОММЕНДЕР уидгет"
-      oers: "<b>ОТВОРЕНА</b> ОБРАЗОВАЊЕ"
+      example_comment: "То Легос конструкција за употребу је одлично! Питам се да ли смо могли да га користите са студентима у ЦС 102."
+      get_widgets: "ГЕТ ВИДГЕТ ОЕР препоруке"
+      oers: "<b>ОТВОРЕНО</b> ОБРАЗОВАЊЕ"
       people: ЉУДИ
       resources: "СРЕДСТВА (ОЕРС)"
-      search: ПРЕТРАЖИВАЊЕ
-      signup: "Сигн уп тодаы!"
-      signup_reasons: "Пријавите се да упознају људе са којима можете пронаћи, расправљати, Ремикс, учење и развијање ресурса"
+      search: ПРЕТРАГА
+      signup: "Пријавите се данас!"
+      signup_reasons: "Пријавите се да упознају људе са којима можете да пронађете, дискутују, Ремик, учење и развој ресурса"
       why: "ЗАШТО ФОЛКСЕМАНТИЦ?"
-      widgets_pitch: "Желите да добијете препоруке ОЕР за Ваше уеб странице?"
+      widgets_pitch: "Желите ОЕР препоруке за Ваше веб странице?"
     just_ocws: Курсеви
     latest_comments: "Најновији Коментари"
-    metadata: Метадата
-    next: Следећи
-    no_hits: "Нема погодака. Покушајте другу претрагу или изаберите други језик."
+    metadata: Метаподаци
+    next: Следећа
+    no_hits: "Без хитова. Молимо покушајте другачији претрагу или изаберите други језик."
     of: од
-    powered_by: "Поуеред бы"
+    powered_by: "Поверед би"
     previous: Претходни
     rdf: РДФ
-    register_description: "Пријавите се да примате персонализоване <span class=\"highlight\">препоруке,</span> да учествује у <span class=\"highlight\">групама,</span> а лако <span class=\"highlight\">објавити на блогове</span>"
+    register_description: "Пријавите се да примате персонализоване <span class=\"highlight\">препоруке,</span> учествује у <span class=\"highlight\">групама,</span> и лако <span class=\"highlight\">објави на блогове</span>"
     register_link: "Пријавите се!"
-    related_resources: "Сродни ресурси"
-    related_resources_title: "Слични извори"
+    related_resources: "Повезани ресурси"
+    related_resources_title: "Сродни ресурси"
     relevance: релевантности
     results: Резултати
-    rss: "РСС Феед"
-    search: претраживати
-    search_button: Ићи
-    search_description: "Пронађи сестринском пројекту <span class=\"highlight\">претраживањем</span> и <span class=\"highlight\">претражује</span> преко <span class=\"highlight\">110.000</span> отворен образовни ресурси"
-    search_link: "Пронађи ресурси!"
-    tag_line: "моћ отвореног образовања"
+    rss: РСС
+    search: Сеарцх
+    search_button: Иди
+    search_description: "Пронађи учење ресурса <span class=\"highlight\">претраживање и</span> прегледање више од <span class=\"highlight\">110.000</span> отворен образовни ресурси"
+    search_link: "Пронађите ресурсе!"
+    tag_line: "оснаживање образовању отворите"
     title: фолксемантиц
-    tour: "Пођите у обилазак!"
+    tour: "Крените у обилазак!"
     tour_description: "Погледајте <span class=\"highlight\">видео увођење</span> Фолксемантиц"
-    view_account: "Погледај Ваш налог"
+    view_account: "Погледајте Ваш налог"
     welcome: "Добродошли на Фолксемантиц."
-    welcome_message: "Ми активно радимо на томе да се интегришу ОЦУФиндер и ОЕРРецоммендер на једном месту ће вам помоћи да пронађете најзанимљивије и релевантним образовним ресурсима."
-    welcome_user: "Добродошли {{user}}"
-    widgets_description: "Гет Уидгетс да помогне корисницима да <span class=\"highlight\">пронађу</span> средства и <span class=\"highlight\">открити ресурсе везане</span> за оне на Вашем сајту"
-    widgets_link: "Гет Справе!"
-    widgets_title: "фолксемантиц вињете"
-    xml: "КСМЛ -"
+    welcome_message: "Ми активно радимо на томе да интегришу ОЦВФиндер и ОЕРРецоммендер у један сајт да вам помогне да пронађете најинтересантнији и релевантним образовним ресурсима."
+    welcome_user: "Добродошли %{user}"
+    widgets_description: "Преузмите додаци да помогне корисницима да <span class=\"highlight\">пронађу</span> ресурсе и <span class=\"highlight\">пронађу ресурсе везане</span> за оне на Вашем сајту"
+    widgets_link: "Набавите Додаци!"
+    widgets_title: "фолксемантиц додаци"
+    xml: КСМЛ
   general: 
-    delete_file: "Брисање фајла"
-    send: Послати
-    thank_you_contact: "Хвала Вам на поруци. Члан нашег тима це вам убрзо одговорити."
+    delete_file: "Брисање датотека"
+    send: Пошаљи
+    thank_you_contact: "Хвала Вам на поруци. Члан нашег тима ће одговорити на вас ускоро."
   muck: 
     activity_templates: 
-      welcome: "Добро дошли"
+      welcome: Добродошли
     admin: 
-      home: "Почетна страница"
-      my_dashboard: "Моја контролна табла"
+      home: Почетак
+      my_dashboard: "Мој контролној табли"
       permissions: Дозволе
       themes: Теме
       users: Корисници
-    contact_request: "Захтев за контакт"
-    contact_thanks: "Хвала што сте нас контактирате. Примили смо вашу е-маил и да ће ускоро бити у контакту."
+    contact_request: "Захтев Контакт"
+    contact_thanks: "Хвала што сте нас контактирали. Примили смо вашу е-маил и да ће бити у контакту убрзо."
     friends: 
-      block: Блок
-      start_following: Следити
-      unblock: Одблокирај
+      block: Блокирати
+      start_following: Прати
+      unblock: Одблокирати
     raker: 
       add_extended_feed_sub_title: ~
-      add_extended_feed_title: "Допринесе ОЦУ / ОЕР Склади"
+      add_extended_feed_title: "Допринесите апп / ОЕР Спремиште"
     services: 
-      add_new_feed_title: "Допринесе ОЦУ / ОЕР уношење података."
-    user_greeting: "Хи {{user}},"
+      add_new_feed_title: "Допринесите апп / ОЕР података хране."
+    user_greeting: "Хи %{user},"
     users: 
-      dev_plans: "Ми смо активно развија да прошири <a href=\"http://ocwfinder.org\">оцуфиндер.орг</a> и <a href=\"http://oerrecommender.org\">оеррецоммендер.орг</a>"
+      dev_plans: "Ми смо активно развијају да прошири <a href=\"http://ocwfinder.org\">оцвфиндер.орг</a> и <a href=\"http://oerrecommender.org\">оеррецоммендер.орг</a>"
       signup: "Пријавите се!"
       signup_header: "Мислите да сте паметни?"
-      signup_pitch: "Фолксемантиц олакшава да пронађу, деле и користе отворене образовних ресурса, тако да можете добити паметан."
-    welcome_activity: "Добродошли на {{application_name}}! Овде можете <a href='/resources'>открити бесплатне образовне ресурсе из целог света.</a> Занимљиво је <a href='/resources/search?q=lady+bugs'>дама грешке?</a> <a href='/resources/3909'>Како о учењу средства из НАСА.</a>"
+      signup_pitch: "Фолксемантиц олакшава да пронађу, деле и користе отворене образовне изворе, тако да можете Гет Смарт."
+    welcome_activity: "Добродошли на %{application_name}! Овде можете да <a href='/resources'>откријете слободан образовне ресурсе из целог света</a> . Занимљиве у <a href='/resources/search?q=lady+bugs'>дама бугова</a> ? <a href='/resources/3909'>Како о учењу средстава из НАСА-</a> ."
   oerrecommender: 
     atom: Атом
     calculated: израчунати
-    collections: Збирке
-    collections_long: "Индексед Збирке"
+    collections: Колекције
+    collections_long: "Индексирано Колекције"
     demo: Демо
     details: Детаљи
     developers: Програмери
-    developers_long: "Информације за програмере"
-    direct_link: "[Дирецт линк]"
+    developers_long: "Информација за програмере"
+    direct_link: "[Директну везу]"
     for: за
     gm_more_prompt: "Више Сродни ресурси"
-    gm_title: "Слични извори"
-    integration_page_title: "Интегрисати препоруке од фолксемантиц на Ваш уеб сајт."
-    metadata: Метадата
-    next: Следећи
-    no_hits: "Нема погодака. Покушајте другу претрагу или изаберите други језик."
+    gm_title: "Сродни ресурси"
+    integration_page_title: "Интегришите препоруке из фолксемантиц на ваш сајт."
+    metadata: Метаподаци
+    next: Следећа
+    no_hits: "Без хитова. Молимо покушајте другачији претрагу или изаберите други језик."
     of: од
-    page_title: "ОЕР Рецоммендер - Набавите отворите уидгет образовање ресурса препоруку за ваш сајт"
-    powered_by: "Поуеред бы"
+    page_title: "ОЕР Рецоммендер - Набавите отворена додаци образовни ресурс препоруку за ваш сајт"
+    powered_by: "Поверед би"
     previous: Претходни
     rdf: РДФ
-    related_resources: "Сродни ресурси"
-    related_resources_title: "Слични извори"
+    related_resources: "Повезани ресурси"
+    related_resources_title: "Сродни ресурси"
     relevance: релевантности
     results: Резултати
-    rss: "РСС Феед"
-    search: Претраживати
-    signup: "Пријавите се за Фолксемантиц да добијете персонализоване препоруке и сарађују са другима"
-    tag_line: "Добити Фолксемантиц - ОЕР Рецоммендер виџет <br/> да лако убаците &quot;у вези ресурса&quot; линкове на ваш сајт"
+    rss: РСС
+    search: Претрага
+    signup: "Пријавите се на Фолксемантиц да се персонализоване препоруке и сарађује са другима"
+    tag_line: "Набавите Фолксемантиц - ОЕР Рецоммендер виџет <br/> да лако убаците &quot;Слични извори&quot; линкове на ваш сајт"
     title: "ОЕР Рецоммендер"
-    widgets: Уидгетс
-    xml: "КСМЛ -"
+    widgets: Видгетс
+    xml: КСМЛ

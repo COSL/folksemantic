@@ -1,147 +1,148 @@
 --- 
 lt: 
   contact: 
-    contact_response_subject: "Ačiū už klausimą iš {{application_name}}!"
-    contact_us: Kontaktai
-    email: "Jūsų email:"
-    email_help: "Prašome pateikti mums savo elektroninio pašto adresą, kad galėtume su Jumis susisiekti, jei reikia."
+    contact_response_subject: "Ačiū už klausimą iš %{application_name}!"
+    contact_us: "Susisiekite su mumis"
+    email: "Jūsų elektroninio pašto adresas:"
+    email_help: "Prašome pateikti mums savo elektroninio pašto adresą, kad mes galėtume su jumis susisiekti, jei reikia."
     name: "Jūsų vardas:"
     name_help: "Prašome pateikti mums savo vardą."
     phone: "Jūsų telefono numeris:"
-    phone_help: "Jūsų telefono numeris yra neprivalomas, bet leis mums su jumis susisiekti, jei reikia."
-    question: "Jūsų pranešimas / klausimas:"
-    question_help: "Prašome pateikti pastabas norėtumėte, kad būtų išgirsti."
-    subject: "Tema:"
-    subject_help: "Paprastas teiginys apie jūsų atsiliepimus pobūdis."
+    phone_help: "Jūsų telefono numeris yra neprivalomas, tačiau padės mums susisiekti su Jumis, jei reikia."
+    question: "Jūsų žinutė / klausimas:"
+    question_help: "Prašome įtraukti visus komentarus norėtumėte mums išgirsti."
+    subject: "Objektas:"
+    subject_help: "Paprastas teiginys, kuriame nurodoma jūsų atsiliepimus pobūdį."
   folksemantic: 
-    about: "Sužinokite daugiau apie Folksemantic projektą"
+    about: "Sužinokite daugiau apie Folksemantic projektas"
     actions: Veiksmai
-    add_edit_feeds: "Add / Edit feeds"
+    add_edit_feeds: "pridėti / redaguoti kanalai"
+    admin_link: Administratorius
     advanced_widget_options: "Išplėstinė widget Nustatymai"
     all_resources: Visi
-    atom: Atom
-    browse_resources: Ištekliai
-    calculated: apskaičiuotas
+    atom: Atomas
+    browse_resources: "Naršyti ištekliai"
+    calculated: apskaičiuojamas
     collections: Rinkiniai
-    collections_long: "Indeksuotos Kolekcijos"
+    collections_long: "Indeksuota Rinkiniai"
     connect_account: "Prijunkite savo sąskaitą:"
     contribute_repository: "Prisidėti OCW / AMŠ saugyklos"
-    credits: "Developed by <a href=\"http://www.tatemae.com\">Tatemae</a> dėl <a href=\"http://cosl.usu.edu\">atviros ir tvarios mokymo centras</a> su finansavimu iš <a href=\"http://nsf.gov/\">Nacionalinio mokslo fondo</a> bei <a href=\"http://www.mellon.org/\">V Andrew Mellon fondas</a>"
+    credits: "Developed by <a href=\"http://www.tatemae.com\">Tatemae</a> už <a href=\"http://cosl.usu.edu\">mokymo centro atviro ir subalansuotos</a> su finansavimą iš <a href=\"http://nsf.gov/\">Nacionalinio mokslo fondo</a> ir <a href=\"http://www.mellon.org/\">Andrew W. Mellon fondas</a>"
     demo: Demo
-    details: Detaliau
+    details: Informacija
     developers: Programavimas
     developers_long: "Informacija kūrėjams"
     direct_link: "[Direct link]"
-    for: dėl
-    gm_more_prompt: "Daugiau informacijos Susiję šaltiniai ir ištekliai"
+    for: už
+    gm_more_prompt: "Daugiau Susiję šaltiniai ir ištekliai"
     gm_title: "Susiję šaltiniai ir ištekliai"
     home: 
-      browse_and_search: "Paieškos rezultatus"
-      collaborate: "Bendradarbiauti su"
+      browse_and_search: "Naršyti ir ieškoti"
+      collaborate: "Bendradarbiauja su"
       comments_heading: "Naujausi komentarai"
-      example_comment: "Tai legos statybos vadovas yra awesome! Įdomu, jei galėtume jį naudoti su CS 102 studentų."
-      get_widgets: "Gaukite AMŠ Rekomenduokite Widget"
-      oers: "<b>Atviras mokymasis</b>"
+      example_comment: "Tai legos statybos vadovas yra awesome! Įdomu, jei mes galime naudoti jį su CS 102 studentų."
+      get_widgets: "Gaukite AMŠ Rekomenduokite valdikliui"
+      oers: "<b>Atvirų</b> švietimo"
       people: ŽMONĖS
       resources: "IŠTEKLIAI (OERS)"
       search: PAIEŠKA
-      signup: Užsiregistruokite!
-      signup_reasons: "Registruotis susitikti žmonių, su kuriais jūs galite surasti, aptarti, remix, ir sukurti mokymosi išteklių"
+      signup: "Užsiregistruokite šiandien!"
+      signup_reasons: "Užsiregistruokite &quot;susitikti su žmonėmis, su kuriais galite rasti, svarstyti, remix, ir plėtoti mokymosi išteklių"
       why: "KODĖL FOLKSEMANTIC?"
-      widgets_pitch: "Norite gauti AMŠ rekomendacijas dėl savo puslapius?"
+      widgets_pitch: "Norite AMŠ rekomendacijas savo puslapius?"
     just_ocws: Kursai
     latest_comments: "Paskutiniai komentarai"
     metadata: Duomenys
     next: Kitas
-    no_hits: "Nr hitai. Prašome pabandyti kitokią užklausą, arba pasirinkti kitą kalbą."
+    no_hits: "Nr hitai. Bandykite kitą paiešką arba pasirinkite kitą kalbą."
     of: iš
-    powered_by: varomas
+    powered_by: "Powered by"
     previous: Ankstesnis
     rdf: RDF
     register_description: "Registruotis gauti asmeninį <span class=\"highlight\">rekomendacijas,</span> dalyvauti <span class=\"highlight\">grupės</span> ir lengvai <span class=\"highlight\">publikuoti dienoraščiai</span>"
-    register_link: "Sign Up!"
-    related_resources: "Related resources"
+    register_link: Užsiregistruok!
+    related_resources: "Susiję resursai"
     related_resources_title: "Susiję šaltiniai ir ištekliai"
-    relevance: tinkamumas
+    relevance: EEE
     results: Rezultatai
     rss: RSS
-    search: ieškoti
-    search_button: Eiti
-    search_description: "Rasti mokymosi išteklių <span class=\"highlight\">paieškos ir</span> virš <span class=\"highlight\">110.000</span> Atviri mokymo šaltiniai"
-    search_link: "Rasti ištekliai!"
-    tag_line: "suteikiančio atvira švietimo"
+    search: paieška
+    search_button: Grįžti
+    search_description: "Rasti mokymosi išteklių <span class=\"highlight\">paieškos ir</span> per <span class=\"highlight\">110.000</span> atvirus švietimo išteklius"
+    search_link: "Find Resources!"
+    tag_line: "suteikiančio atvirų švietimo"
     title: folksemantic
-    tour: "Take a tour!"
-    tour_description: "Žiūrėti <span class=\"highlight\">vaizdo įvedimas</span> Folksemantic"
-    view_account: "Peržiūrėti Jūsų"
+    tour: "Take a Tour!"
+    tour_description: "Žiūrėti <span class=\"highlight\">vaizdo įvedimo</span> Folksemantic"
+    view_account: "Žiūrėti Jūsų paskyra"
     welcome: "Sveiki atvykę į Folksemantic."
-    welcome_message: "Mes aktyviai dirbame, kad integruoti OCWFinder ir OERRecommender į vieną svetainę, kad padėtų jums rasti įdomių ir atitinkamomis švietimo išteklius."
-    welcome_user: "Sveiki {{user}}"
+    welcome_message: "Mes aktyviai dirbame, kad integracijos OCWFinder ir OERRecommender į vieną svetainę, kad padėtų jums rasti labiausiai įdomios ir aktualios švietimo išteklius."
+    welcome_user: "Sveiki %{user}"
     widgets_description: "Gauti raštai padėti vartotojams <span class=\"highlight\">rasti</span> išteklių ir <span class=\"highlight\">atrasti ištekliai, susiję</span> su tuos savo svetainėje"
-    widgets_link: "Gauti widgets!"
+    widgets_link: "Paimti Įtaisai!"
     widgets_title: "folksemantic raštai"
     xml: XML
   general: 
     delete_file: "Ištrinti failą"
     send: Siųsti
-    thank_you_contact: "Dėkojame už pranešimą. Mūsų komandos narys turės atsakyti Jumis."
+    thank_you_contact: "Dėkojame už pranešimą. Mūsų komandos narys bus reaguoti laiku su Jumis susisieksime."
   muck: 
     activity_templates: 
-      welcome: Sutikti
+      welcome: "Sveiki atvykę"
     admin: 
-      home: Namai
-      my_dashboard: "Mano skydelis"
+      home: Pradžia
+      my_dashboard: "Mano Įrankinė"
       permissions: Leidimai
       themes: Temos
       users: Vartotojai
     contact_request: "Kontaktai Užklausa"
-    contact_thanks: "Dėkojame už susisiekti su mumis. Mes gavome Jūsų laišką ir su jumis artimiausiu metu."
+    contact_thanks: "Dėkojame už susisiekti su mumis. Mes gavome jūsų laišką ir bus paliesti greičiau."
     friends: 
       block: Blokas
-      start_following: Laikytis
-      unblock: Unblock
+      start_following: Sekti
+      unblock: Atblokuoti
     raker: 
       add_extended_feed_sub_title: ~
       add_extended_feed_title: "Prisidėti OCW / AMŠ saugyklos"
     services: 
       add_new_feed_title: "Prisidėti OCW / AMŠ duomenų lapą."
-    user_greeting: "Hi {{user}},"
+    user_greeting: "Labas %{user},"
     users: 
       dev_plans: "Mes aktyviai vystome jį pratęsti <a href=\"http://ocwfinder.org\">ocwfinder.org</a> ir <a href=\"http://oerrecommender.org\">oerrecommender.org</a>"
-      signup: "Sign up!"
-      signup_header: "Manau, kad jūs esate protingas?"
+      signup: Užsiregistruoti!
+      signup_header: "Manote, kad esate protingas?"
       signup_pitch: "Folksemantic leidžia lengvai surasti, dalytis ir naudoti atvirus švietimo išteklius, kad būtų galima gauti protingas."
-    welcome_activity: "Sveiki atvykę į {{application_name}}! Čia galite <a href='/resources'>atrasti laisvą švietimo išteklius iš viso pasaulio.</a> Įdomus <a href='/resources/search?q=lady+bugs'>Lady klaidas?</a> <a href='/resources/3909'>Kaip apie mokymosi išteklių NASA?.</a>"
+    welcome_activity: "Sveiki atvykę į %{application_name}! Čia galite <a href='/resources'>rasti nemokamai švietimo išteklius iš viso pasaulio</a> . Įdomi <a href='/resources/search?q=lady+bugs'>panele klaidas</a> ? <a href='/resources/3909'>Kaip apie mokymosi išteklių NASA</a> ?."
   oerrecommender: 
-    atom: Atom
-    calculated: apskaičiuotas
+    atom: Atomas
+    calculated: apskaičiuojamas
     collections: Rinkiniai
-    collections_long: "Indeksuotos Kolekcijos"
+    collections_long: "Indeksuota Rinkiniai"
     demo: Demo
-    details: Detaliau
+    details: Informacija
     developers: Programavimas
     developers_long: "Informacija kūrėjams"
     direct_link: "[Direct link]"
-    for: dėl
-    gm_more_prompt: "Daugiau informacijos Susiję šaltiniai ir ištekliai"
+    for: už
+    gm_more_prompt: "Daugiau Susiję šaltiniai ir ištekliai"
     gm_title: "Susiję šaltiniai ir ištekliai"
     integration_page_title: "Integruoti rekomendacijos folksemantic į jūsų svetainę."
     metadata: Duomenys
     next: Kitas
-    no_hits: "Nr hitai. Prašome pabandyti kitokią užklausą, arba pasirinkti kitą kalbą."
+    no_hits: "Nr hitai. Bandykite kitą paiešką arba pasirinkite kitą kalbą."
     of: iš
-    page_title: "Rekomenduokite AMŠ - Gauti atvirų švietimo išteklių rekomendacija raštai į savo svetainę"
-    powered_by: varomas
+    page_title: "AMŠ Rekomenduokite - Gauti atvirų švietimo išteklių rekomendaciją raštai į savo svetainę"
+    powered_by: "Powered by"
     previous: Ankstesnis
     rdf: RDF
-    related_resources: "Related resources"
+    related_resources: "Susiję resursai"
     related_resources_title: "Susiję šaltiniai ir ištekliai"
-    relevance: tinkamumas
+    relevance: EEE
     results: Rezultatai
     rss: RSS
-    search: Ieškoti
-    signup: "Užsiregistruoti Folksemantic gauti asmeninį rekomendacijas ir bendradarbiauti su kitais"
-    tag_line: "Gauti Folksemantic - AMŠ Rekomenduokite list <br/> lengvai įterpti &quot;susijusią ištekliai&quot; nuorodos į savo svetainę"
+    search: Paieška
+    signup: "Užsiregistruokite Folksemantic gauti asmeninį rekomendacijas ir bendradarbiauti su kitais"
+    tag_line: "Paimti Folksemantic - AMŠ Rekomenduokite valdikliui <br/> lengvai įterpti &quot;išteklių, susijusių su&quot; nuorodos į jūsų svetainę"
     title: "AMŠ Rekomenduokite"
     widgets: Atsiliepimai
     xml: XML

@@ -1,147 +1,148 @@
 --- 
 lv: 
   contact: 
-    contact_response_subject: "Paldies par Jūsu izmeklēšanu no {{application_name}}!"
-    contact_us: "Contact Us"
+    contact_response_subject: "Paldies par jūsu jautājumu, no %{application_name}!"
+    contact_us: "Sazinieties ar mums"
     email: "Jūsu e-pasts:"
-    email_help: "Lūdzu, sniedziet mums savu e-pastu, lai mēs varētu ar jums sazināties, ja nepieciešams."
-    name: "Jūsu vārds:"
+    email_help: "Lūdzu, sniedziet mums savu e-pasta, lai mēs varētu ar jums sazināties, ja nepieciešams."
+    name: "Tavs vārds:"
     name_help: "Lūdzu, sniedziet mums savu vārdu."
-    phone: "Jūsu tālruņa numurs:"
-    phone_help: "Jūsu telefona numurs ir obligāta, bet mums palīdzēs jums sazināties, ja nepieciešams."
-    question: "Jūsu ziņa / jautājums:"
-    question_help: "Lūdzu, ietver visus komentārus Jūs vēlētos mūs dzirdēt."
-    subject: "Tēma:"
-    subject_help: "Vienkāršu paziņojumu, norādot Jūsu atsauksmi."
+    phone: "Jūsu telefona numurs:"
+    phone_help: "Jūsu tālruņa numurs nav obligāts, bet palīdzēs mums ar Jums sazināties, ja nepieciešams."
+    question: "Jūsu ziņojums / jautājumu:"
+    question_help: "Lūdzu, iekļaujiet komentārus vēlaties, lai mēs dzirdēt."
+    subject: "Temats:"
+    subject_help: "Vienkāršu paziņojumu, kas norāda veidu jūsu atsauksmi."
   folksemantic: 
-    about: "Uzzināt vairāk par Folksemantic projektu"
+    about: "Uzziniet vairāk par Folksemantic projektu"
     actions: Darbības
-    add_edit_feeds: "Pievienot / rediģēt feeds"
-    advanced_widget_options: "Advanced logrīku iestatījumi"
-    all_resources: Viss
+    add_edit_feeds: "pievienot / rediģēt plūsmas"
+    admin_link: Admin
+    advanced_widget_options: "Izvērstā logrīku iestatījumi"
+    all_resources: Visi
     atom: Atoms
-    browse_resources: "Browse Resources"
+    browse_resources: "Pārlūkot resursi"
     calculated: aprēķina
-    collections: Collections
-    collections_long: "Indeksētā Collections"
-    connect_account: "Pievienot savu kontu ar:"
-    contribute_repository: "Veicināt OCW / OER Repository"
-    credits: "Developed by <a href=\"http://www.tatemae.com\">Tatemae</a> attiecībā <a href=\"http://cosl.usu.edu\">uz atvērta un ilgtspējīga Learning</a> ar finansējumu no <a href=\"http://nsf.gov/\">National Science Foundation</a> un <a href=\"http://www.mellon.org/\">Andrew W Mellon Foundation</a> <a href=\"http://cosl.usu.edu\">Center</a>"
+    collections: Kolekcijas
+    collections_long: "Indeksēts kolekcijas"
+    connect_account: "Savienojiet savu kontu:"
+    contribute_repository: "Ieguldījumu OCW / AMR informācijas krātuves"
+    credits: "Izstrādāts <a href=\"http://www.tatemae.com\">Tatemae</a> par <a href=\"http://cosl.usu.edu\">mācību centra atvērta un ilgtspējīga</a> , saņemot finansējumu no <a href=\"http://nsf.gov/\">National Science Foundation</a> un <a href=\"http://www.mellon.org/\">Endrjū W Mellon Foundation</a>"
     demo: Demo
-    details: Details
+    details: "Sīkāka informācija"
     developers: Izstrādātāji
     developers_long: "Informācija izstrādātājiem"
-    direct_link: "[Direct link]"
-    for: dēļ
+    direct_link: "[Tiešu saikni]"
+    for: par
     gm_more_prompt: "Vairāk Saistītie resursi"
     gm_title: "Saistītie resursi"
     home: 
-      browse_and_search: "Pārlūkojiet un meklējiet"
+      browse_and_search: "Pārlūkojiet un meklējiet VAIRĀK"
       collaborate: "Sadarboties ar"
       comments_heading: "Jaunākie komentāri"
-      example_comment: "Ka legos būvniecības rokasgrāmata ir awesome! Nez, ja mēs varētu to izmantot ar 102 CS studentiem."
+      example_comment: "Ka legos būvniecības rokasgrāmata ir awesome! Nez, ja mēs varētu izmantot to ar 102 CS studentiem."
       get_widgets: "GET OER RECOMMENDER logrīku"
-      oers: "<b>OPEN</b> IZGLĪTĪBA"
-      people: PEOPLE
+      oers: "<b>Atvērtu</b> izglītības"
+      people: CILVĒKI
       resources: "RESURSI (OERS)"
-      search: MEKLĒT
-      signup: "SIGN UP TODAY!"
-      signup_reasons: "Pierakstieties, lai apmierinātu cilvēku ar kuru jūs varat atrast, diskutēt, Remix un attīstīt mācību resursi"
+      search: SEARCH
+      signup: "Piesakieties jau šodien!"
+      signup_reasons: "Reģistrējieties, lai apmierinātu cilvēku, ar kuru jūs varat atrast, diskutēt, remiksu, un izstrādāt mācību līdzekļiem"
       why: "KĀPĒC FOLKSEMANTIC?"
-      widgets_pitch: "Vēlaties saņemt OER ieteikumus jūsu mājas lapu?"
+      widgets_pitch: "Vēlaties OER ieteikumus jūsu tīmekļa lapām?"
     just_ocws: Kursi
-    latest_comments: "Jaunākie komentāri"
-    metadata: Metadata
-    next: Nākamais
+    latest_comments: "Pēdējie komentāri"
+    metadata: Metadatu
+    next: Nākamā
     no_hits: "Nē hits. Lūdzu, mēģiniet citu meklēšanu vai izvēlieties citu valodu."
-    of: "no"
+    of: gada
     powered_by: "powered by"
     previous: Iepriekšējais
     rdf: RDF
-    register_description: "Reģistrējieties, lai saņemtu personalizētu <span class=\"highlight\">ieteikumiem,</span> piedalīties <span class=\"highlight\">grupas</span> un viegli <span class=\"highlight\">Publicēt blogi</span>"
+    register_description: "Reģistrējieties, lai saņemtu personalizētu <span class=\"highlight\">ieteikumi,</span> piedalīties <span class=\"highlight\">grupas,</span> un viegli <span class=\"highlight\">publicēt emuārus</span>"
     register_link: "Sign Up!"
-    related_resources: "Related resources"
+    related_resources: "Saistītie resursi"
     related_resources_title: "Saistītie resursi"
-    relevance: relevance
+    relevance: atbilstības
     results: Rezultāti
     rss: RSS
     search: meklēt
     search_button: Iet
-    search_description: "Atrast mācību resursiem <span class=\"highlight\">meklēšanas</span> un <span class=\"highlight\">pārlūkošanas</span> laikā <span class=\"highlight\">110.000</span> Open Educational Resources"
-    search_link: "Atrast resursus!"
-    tag_line: "pilnvaro uzsākt izglītība"
+    search_description: "Atrast mācību resursiem <span class=\"highlight\">meklēšanas</span> un <span class=\"highlight\">pārlūkošanas</span> vairāk <span class=\"highlight\">110,000</span> atvērtajos mācību resursos"
+    search_link: "Atrast Resursi!"
+    tag_line: "pilnvaro atvērtu izglītības"
     title: folksemantic
-    tour: "Take Tour!"
-    tour_description: "Noskatīties <span class=\"highlight\">video ieviešana</span> Folksemantic"
-    view_account: "View Your Account"
-    welcome: "Welcome to Folksemantic."
-    welcome_message: "Mēs aktīvi strādājam, lai integrētu OCWFinder un OERRecommender vienā vietā, lai palīdzētu jums atrast interesantākajiem un attiecīgo izglītības resursiem."
-    welcome_user: "Welcome {{user}}"
-    widgets_description: "Get widgets, lai palīdzētu lietotājiem <span class=\"highlight\">atrast</span> resursu un <span class=\"highlight\">atrast resursus,</span> kas <span class=\"highlight\">saistīti</span> ar tiem, par Jūsu mājas lapas"
+    tour: "Veikt Tour!"
+    tour_description: "Noskatieties <span class=\"highlight\">video ieviešana</span> Folksemantic"
+    view_account: "Skatīt Konta"
+    welcome: "Laipni lūdzam Folksemantic."
+    welcome_message: "Mēs aktīvi strādājam, lai integrētu OCWFinder un OERRecommender vienā vietā, lai palīdzētu jums atrast interesantāko un attiecīgo izglītības resursiem."
+    welcome_user: "Laipni lūdzam %{user}"
+    widgets_description: "Saņemiet widgets, lai palīdzētu lietotājiem <span class=\"highlight\">atrast</span> resursu un <span class=\"highlight\">atrast resursus,</span> kas <span class=\"highlight\">saistīti</span> ar tiem, uz jūsu mājas lapā"
     widgets_link: "Get Widgets!"
-    widgets_title: "folksemantic logrīki"
+    widgets_title: "folksemantic preces"
     xml: XML
   general: 
-    delete_file: "Izdzēst failu"
+    delete_file: "Dzēst failu"
     send: Sūtīt
-    thank_you_contact: "Paldies par jūsu ziņojumu. Mūsu komandas loceklis atbildēs Jums tuvākajā laikā."
+    thank_you_contact: "Paldies par ziņu. Mūsu komandas dalībnieks atbildēs uz Jums tuvākajā laikā."
   muck: 
     activity_templates: 
-      welcome: "Laipni lūdzam"
+      welcome: Sveikt
     admin: 
       home: Mājas
-      my_dashboard: "Mans iestatījumu panelis"
+      my_dashboard: "Mana Dashboard"
       permissions: Atļaujas
       themes: Tēmas
-      users: Lietotāji
-    contact_request: "Contact Pieprasījums"
-    contact_thanks: "Paldies, ka sazinājāties ar mums. Mēs esam saņēmuši jūsu vēstuli un būs touch soon."
+      users: Lietotājiem
+    contact_request: "Sazināties ar Pieprasījums"
+    contact_thanks: "Paldies, ka sazinājāties ar mums. Mēs esam saņēmuši jūsu vēstuli un būs touch drīz."
     friends: 
       block: Bloks
       start_following: Sekot
       unblock: Atbloķēt
     raker: 
       add_extended_feed_sub_title: ~
-      add_extended_feed_title: "Veicināt OCW / OER Repository"
+      add_extended_feed_title: "Ieguldījumu OCW / AMR informācijas krātuves"
     services: 
-      add_new_feed_title: "Veicināt OCW / AMR datu barību."
-    user_greeting: "Hi {{user}},"
+      add_new_feed_title: "Ieguldījumu OCW / AMR datu barību."
+    user_greeting: "Hi %{user},"
     users: 
-      dev_plans: "Mēs aktīvi attīstās to paplašināt <a href=\"http://ocwfinder.org\">ocwfinder.org</a> un <a href=\"http://oerrecommender.org\">oerrecommender.org</a>"
-      signup: "Sign up!"
+      dev_plans: "Mēs aktīvi attīstīt to, lai paplašinātu <a href=\"http://ocwfinder.org\">ocwfinder.org</a> un <a href=\"http://oerrecommender.org\">oerrecommender.org</a>"
+      signup: Pierakstīties!
       signup_header: "Domāju, ka tu esi gudrs?"
-      signup_pitch: "Folksemantic ļauj viegli atrast, dalīties un izmantot atvērtu izglītības resursu, lai jūs varētu saņemt smart."
-    welcome_activity: "Welcome to {{application_name}}! Šeit jūs varat <a href='/resources'>atrast bezmaksas izglītības resursus no visas pasaules.</a> Interesantas <a href='/resources/search?q=lady+bugs'>lady bugs?</a> <a href='/resources/3909'>Cik par mācību resursiem no NASA?.</a>"
+      signup_pitch: "Folksemantic ļauj viegli atrast, koplietot un izmantot atklātu izglītības resursu, lai jūs varētu saņemt smart."
+    welcome_activity: "Laipni lūdzam %{application_name}! Šeit jūs varat <a href='/resources'>atrast bezmaksas izglītības resursu no visas pasaules</a> . Interesanti <a href='/resources/search?q=lady+bugs'>lady bugs</a> ? <a href='/resources/3909'>Kā par mācību resursiem, no NASA</a> ?."
   oerrecommender: 
     atom: Atoms
     calculated: aprēķina
-    collections: Collections
-    collections_long: "Indeksētā Collections"
+    collections: Kolekcijas
+    collections_long: "Indeksēts kolekcijas"
     demo: Demo
-    details: Details
+    details: "Sīkāka informācija"
     developers: Izstrādātāji
     developers_long: "Informācija izstrādātājiem"
-    direct_link: "[Direct link]"
-    for: dēļ
+    direct_link: "[Tiešu saikni]"
+    for: par
     gm_more_prompt: "Vairāk Saistītie resursi"
     gm_title: "Saistītie resursi"
     integration_page_title: "Integrēt ieteikumi folksemantic savā tīmekļa vietnē."
-    metadata: Metadata
-    next: Nākamais
+    metadata: Metadatu
+    next: Nākamā
     no_hits: "Nē hits. Lūdzu, mēģiniet citu meklēšanu vai izvēlieties citu valodu."
-    of: "no"
-    page_title: "OER Recommender - Get atvērtu izglītības resursu ieteikums logrīki Jūsu mājas lapas"
+    of: gada
+    page_title: "OER Recommender - Get atvērtu izglītības resursu ieteikumu logrīki jūsu mājas lapā"
     powered_by: "powered by"
     previous: Iepriekšējais
     rdf: RDF
-    related_resources: "Related resources"
+    related_resources: "Saistītie resursi"
     related_resources_title: "Saistītie resursi"
-    relevance: relevance
+    relevance: atbilstības
     results: Rezultāti
     rss: RSS
-    search: Meklēt
-    signup: "Pierakstīties Folksemantic saņemt personalizētus ieteikumus un sadarboties ar citiem"
-    tag_line: "Get Folksemantic - AMR Recommender widget <br/> viegli ievietot &quot;saistītu resursu&quot; saistība savā mājas lapā"
+    search: Meklēšana
+    signup: "Parakstieties uz Folksemantic, lai saņemtu personalizētu ieteikumi un sadarboties ar citiem"
+    tag_line: "Saņemiet Folksemantic - AMR Recommender widget <br/> viegli ievietot &quot;saistītu resursu&quot; saites uz jūsu mājas lapā"
     title: "OER Recommender"
-    widgets: Widgets
+    widgets: Logrīki
     xml: XML

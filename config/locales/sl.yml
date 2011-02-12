@@ -1,147 +1,148 @@
 --- 
 sl: 
   contact: 
-    contact_response_subject: "Hvala za vaše povpraševanje iz {{application_name}}!"
-    contact_us: Kontakt
-    email: "Vaš e-mail:"
-    email_help: "Prosimo, da nam pošljete vaš email, tako da bomo lahko v stik z vami, če je potrebno."
+    contact_response_subject: "Hvala za vaše vprašanje iz %{application_name}!"
+    contact_us: "Pišite nam"
+    email: "Vaš e-naslov:"
+    email_help: "Prosimo, da nam pošljete svoje e-pošte, tako da vas lahko kontaktiramo, če je potrebno."
     name: "Vaše ime:"
-    name_help: "Prosimo, da nam s svojim imenom."
-    phone: "Vaš telefon:"
-    phone_help: "Vaša telefonska številka ni obvezna, vendar nam bo pomagalo stik z vami, če je to potrebno."
+    name_help: "Prosimo, da nam pošljete svoje ime."
+    phone: "Vaša telefonska številka:"
+    phone_help: "Vaša telefonska številka ni obvezna, vendar nam bo pomagalo stik z vami, če je potrebno."
     question: "Vaše sporočilo / vprašanje:"
     question_help: "Prosimo, vključite vse pripombe, ki jih želite nas slišati."
     subject: "Zadeva:"
-    subject_help: "Preprosto izjavo o naravi vaše povratne informacije."
+    subject_help: "Preprosto izjavo, ki označuje naravo vaše povratne informacije."
   folksemantic: 
-    about: "Več o projektu Folksemantic"
-    actions: Actions
-    add_edit_feeds: "Dodaj / Uredi feeds"
-    advanced_widget_options: "Advanced Widget Nastavitve"
+    about: "Preberite več o projektu Folksemantic"
+    actions: Dejanja
+    add_edit_feeds: "dodajanje / urejanje feeds"
+    admin_link: Admin
+    advanced_widget_options: "Napredno Widget Nastavitve"
     all_resources: Vse
     atom: Atom
-    browse_resources: "Browse Resources"
-    calculated: izračunana
+    browse_resources: "Viri Prebrskaj"
+    calculated: izračuna
     collections: Zbirke
     collections_long: "Indexed Zbirke"
-    connect_account: "Povežite vaš račun z:"
+    connect_account: "Povežite svoj račun:"
     contribute_repository: "Prispevajte OCW / OER Repository"
-    credits: "Developed by <a href=\"http://www.tatemae.com\">Tatemae</a> za <a href=\"http://cosl.usu.edu\">Center za odprto učenje in trajnostni</a> s financiranjem iz <a href=\"http://nsf.gov/\">National Science Foundation</a> in <a href=\"http://www.mellon.org/\">Andrew W Mellon Foundation</a>"
+    credits: "Developed by <a href=\"http://www.tatemae.com\">Tatemae</a> za <a href=\"http://cosl.usu.edu\">Center za odprto in trajnostni učenje</a> , s financiranjem iz <a href=\"http://nsf.gov/\">National Science Foundation</a> in <a href=\"http://www.mellon.org/\">Andrew W Mellon Foundation</a>"
     demo: Demo
     details: Podrobnosti
-    developers: Developers
+    developers: Razvijalci
     developers_long: "Informacije za razvijalce"
-    direct_link: "[neposredna povezava]"
+    direct_link: "[Neposredna povezava]"
     for: za
     gm_more_prompt: "Več Sorodni viri"
     gm_title: "Sorodni viri"
     home: 
       browse_and_search: "Brskajte in iščite po"
-      collaborate: "Sodelovati z"
-      comments_heading: "RECENT COMMENTS"
-      example_comment: "To legos guide gradnja je awesome! Zanima me, če bi jih uporabljamo s študenti v CS 102."
-      get_widgets: "GET OER RECOMMENDER widget"
-      oers: "<b>OPEN</b> EDUCATION"
-      people: PEOPLE
+      collaborate: "Sodelujte z"
+      comments_heading: "Recent Comments"
+      example_comment: "To Legos gradnjo vodič je super! Zanima me, če bi mi jo uporabite s študenti v CS 102."
+      get_widgets: "Get widget OER RECOMMENDER"
+      oers: "<b>OPEN</b> IZOBRAŽEVANJE"
+      people: LJUDJE
       resources: "SREDSTVA (OERS)"
       search: ISKANJE
-      signup: "Prijavite se danes!"
-      signup_reasons: "Prijavite se za izpolnitev ljudi, s katerimi boste našli, razpravljali, remix, in razvoj učnih sredstev"
+      signup: "Prijavite se še danes!"
+      signup_reasons: "Prijavite se, da izpolnjujejo ljudi, s katerimi lahko najdete, razpravljali, remix, in razvoj učnih virov"
       why: "ZAKAJ FOLKSEMANTIC?"
-      widgets_pitch: "Želite dobiti OER priporočila za vaše spletne strani?"
+      widgets_pitch: "Želite OER priporočila za vaše spletne strani?"
     just_ocws: Tečaji
-    latest_comments: "Zadnji komentarji"
-    metadata: Metadata
-    next: Naslednji
+    latest_comments: "Latest Comments"
+    metadata: Metapodatki
+    next: Naprej
     no_hits: "Ni zadetkov. Poskusite z drugačnim iskanjem ali izberite drug jezik."
-    of: od
+    of: "z dne"
     powered_by: "powered by"
     previous: Prejšnja
     rdf: RDF
-    register_description: "Prijavite se za prejemanje osebno <span class=\"highlight\">priporočil,</span> sodelovanje v <span class=\"highlight\">skupinah,</span> in enostavno <span class=\"highlight\">objavljajo na blogih</span>"
+    register_description: "Prijavite se za prejemanje osebna <span class=\"highlight\">priporočila,</span> sodelovanja v <span class=\"highlight\">skupinah,</span> in enostavno <span class=\"highlight\">objavite na blogih</span>"
     register_link: "Sign Up!"
-    related_resources: "Sorodni viri"
+    related_resources: "Povezanih virov"
     related_resources_title: "Sorodni viri"
-    relevance: relevance
+    relevance: ustreznost
     results: Rezultati
     rss: RSS
-    search: iskati
-    search_button: Iti
-    search_description: "Poišči učnih virov, <span class=\"highlight\">iskanje</span> in <span class=\"highlight\">brskanje</span> po več kot <span class=\"highlight\">110.000</span> odprtih izobraževalnih virov"
-    search_link: "Poišči Resources!"
-    tag_line: "pooblastitvi odprtih izobraževanja"
+    search: Iskanje
+    search_button: Pojdi
+    search_description: "Najdi učnih gradiv z <span class=\"highlight\">iskanjem</span> in <span class=\"highlight\">brskanje</span> več kot <span class=\"highlight\">110.000</span> odprtih izobraževalnih virov"
+    search_link: "Najdi Resources!"
+    tag_line: "pooblastitvi odprto izobraževanje"
     title: folksemantic
-    tour: "Take a Tour!"
-    tour_description: "Oglejte si <span class=\"highlight\">video uvedbe</span> Folksemantic"
-    view_account: "View Vaš Račun"
-    welcome: "Dobrodošli na Folksemantic."
-    welcome_message: "Mi si aktivno prizadevajo za integracijo OCWFinder in OERRecommender v eno stran, ki vam pomaga poiskati najbolj zanimive in ustrezne izobraževalne vire."
-    welcome_user: "Welcome {{user}}"
-    widgets_description: "Get pripomočki za pomoč uporabnikom pri <span class=\"highlight\">iskanju</span> virov in <span class=\"highlight\">odkrijte viri, povezani</span> s tistim na vaši spletni strani"
-    widgets_link: "Get Widgets!"
-    widgets_title: "folksemantic pripomočki"
+    tour: "Bodite Tour!"
+    tour_description: "Oglejte si <span class=\"highlight\">video predstavitev</span> o Folksemantic"
+    view_account: "Prikaži Vaš račun"
+    welcome: "Dobrodošli v Folksemantic."
+    welcome_message: "Mi smo si aktivno prizadeva za vključitev OCWFinder in OERRecommender v eno stran, ki vam pomaga najti najbolj zanimivih in pomembnih virov izobraževanja."
+    welcome_user: "Dobrodošli %{user}"
+    widgets_description: "Get pripomočki za pomoč uporabnikom pri <span class=\"highlight\">iskanju</span> virov in <span class=\"highlight\">odkrijte viri, povezani</span> s tistimi na vaši spletni strani"
+    widgets_link: "Get Gradniki!"
+    widgets_title: "folksemantic widgets"
     xml: XML
   general: 
     delete_file: "Brisanje datotek"
-    send: Poslati
-    thank_you_contact: "Hvala za vaše sporočilo. Član naše ekipe se bodo odzvali na vas v kratkem."
+    send: Pošlji
+    thank_you_contact: "Hvala za vaše sporočilo. Član naše ekipe se bodo odzvali na vas kmalu."
   muck: 
     activity_templates: 
       welcome: Dobrodošli
     admin: 
       home: Domov
-      my_dashboard: "My Dashboard"
+      my_dashboard: "Moje Dashboard"
       permissions: Dovoljenja
       themes: Teme
       users: Uporabniki
-    contact_request: "Contact Request"
-    contact_thanks: "Hvala, ker ste nas kontaktirali. Prejeli smo vašo e-pošto in bo kmalu v stiku."
+    contact_request: "Kontakt Request"
+    contact_thanks: "Hvala, da se obrnete na nas. Prejeli smo vaš e-poštni in bo v stiku kmalu."
     friends: 
       block: Block
-      start_following: Slediti
+      start_following: Sledite
       unblock: Odblokiraj
     raker: 
       add_extended_feed_sub_title: ~
       add_extended_feed_title: "Prispevajte OCW / OER Repository"
     services: 
-      add_new_feed_title: "Prispevajte OCW / OER vira podatkov."
-    user_greeting: "Hi {{user}},"
+      add_new_feed_title: "Prispevati OCW / OER podatkov krme."
+    user_greeting: "Hi %{user},"
     users: 
-      dev_plans: "Mi se aktivno razvija, da bi razširitev <a href=\"http://ocwfinder.org\">ocwfinder.org</a> in <a href=\"http://oerrecommender.org\">oerrecommender.org</a>"
+      dev_plans: "Mi smo aktivno razvija za podaljšanje <a href=\"http://ocwfinder.org\">ocwfinder.org</a> in <a href=\"http://oerrecommender.org\">oerrecommender.org</a>"
       signup: "Prijavite se!"
-      signup_header: "Misliš si pameten?"
-      signup_pitch: "Folksemantic omogoča preprosto iskanje, delež, in uporabo odprtih izobraževalnih virov, da boste lahko dobili pameten."
-    welcome_activity: "Dobrodošli v {{application_name}}! Tukaj lahko <a href='/resources'>odkrijete brezplačno izobraževalnih virov po vsem svetu.</a> Interesting v <a href='/resources/search?q=lady+bugs'>lady bugs?</a> <a href='/resources/3909'>Kaj pravite na učnih sredstev iz NASA?.</a>"
+      signup_header: "Misliš, da si pameten?"
+      signup_pitch: "Folksemantic omogoča enostavno najti, skupno rabo in uporabo odprtih izobraževalnih virov, tako da lahko dobite pametnih."
+    welcome_activity: "Dobrodošli v %{application_name}! Tukaj lahko <a href='/resources'>odkrijete brezplačno izobraževalnih virov iz celega sveta</a> . Zanimiva <a href='/resources/search?q=lady+bugs'>dama bugs</a> ? <a href='/resources/3909'>Kaj pa učenje od NASA</a> ?."
   oerrecommender: 
     atom: Atom
-    calculated: izračunana
+    calculated: izračuna
     collections: Zbirke
     collections_long: "Indexed Zbirke"
     demo: Demo
     details: Podrobnosti
-    developers: Developers
+    developers: Razvijalci
     developers_long: "Informacije za razvijalce"
-    direct_link: "[neposredna povezava]"
+    direct_link: "[Neposredna povezava]"
     for: za
     gm_more_prompt: "Več Sorodni viri"
     gm_title: "Sorodni viri"
-    integration_page_title: "Vključiti priporočila folksemantic na vaši spletni strani."
-    metadata: Metadata
-    next: Naslednji
+    integration_page_title: "Vključiti priporočila folksemantic v vašo spletno stran."
+    metadata: Metapodatki
+    next: Naprej
     no_hits: "Ni zadetkov. Poskusite z drugačnim iskanjem ali izberite drug jezik."
-    of: od
-    page_title: "OER Recommender - Get odprtih izobraževanja widgets vir priporočila za vaše spletne strani"
+    of: "z dne"
+    page_title: "OER Recommender - Get widgets odprtih virov izobraževanja priporočila za vaše spletne strani"
     powered_by: "powered by"
     previous: Prejšnja
     rdf: RDF
-    related_resources: "Sorodni viri"
+    related_resources: "Povezanih virov"
     related_resources_title: "Sorodni viri"
-    relevance: relevance
+    relevance: ustreznost
     results: Rezultati
     rss: RSS
-    search: Iskati
-    signup: "Prijavite se za Folksemantic priti osebno priporočila in sodelovanje z drugimi"
-    tag_line: "Get Folksemantic - OER Recommender widget <br/> enostavno vstaviti &quot;povezane viri&quot; povezavo na svojo spletno stran"
+    search: Iskanje
+    signup: "Prijavite se za Folksemantic, da bi dobili osebna priporočila in sodelovanje z drugimi"
+    tag_line: "Get Folksemantic - OER Recommender widget <br/> enostavno vstavi &quot;virov, povezanih s&quot; povezave na vašo spletno stran"
     title: "OER Recommender"
-    widgets: Widgets
+    widgets: Pripomočki
     xml: XML
