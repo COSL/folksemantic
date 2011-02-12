@@ -182,18 +182,20 @@ some configuration files, and set up a database for Folksemantic to use.
 === Configure Folksemantic
 Folksemantic utilizes a number of configuration files that you need to set up to get going:
 
-  config/global_config.yml
+  config/secrets.yml
   config/database.yml
+  config/newrelic.yml
 
 Example files are included with Folksemantic:
 
-  config/global_config.yml.example
+  config/secrets.yml.example
   config/database.yml.example
+  config/newrelic.yml.example
 
 Copy or rename these files, removing '.example' to get going.
 
 If you are setting up a new Folksemantic instance, you will need to obtain various keys to put in the configuration files.  
-These keys are documented in config/global_config.yml.example.
+These keys are documented in config/secrets.yml.example.
 
 
 === Set up databases for Folksemantic

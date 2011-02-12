@@ -18,23 +18,21 @@ gem "paperclip"
 gem "friendly_id", ">=3.1.7"
 gem "hoptoad_notifier"
 gem 'newrelic_rpm'
-gem "recaptcha", :require => "recaptcha/rails"
+#gem "recaptcha", :require => "recaptcha/rails"
 gem "tiny_mce"
 gem "acts-as-taggable-on"
 gem "omniauth"
 gem "aasm", '2.1.5'
 gem 'tiny_mce'
-gem 'geokit', '1.5.0'
+gem 'geokit'
 gem "feedzirra"
 gem 'httparty'
 
 
-gem 'twitter', '0.9.5'
+gem 'twitter'
 #gem "linkedin", '0.1.8', :git => "git://github.com/jbasdf/linkedin.git" # The released version of the linkedin gem doesn't work with oauth 0.4.0 so fork it.
 #gem "linkedin", '0.1.8', :path => "~/projects/linkedin"
 
-gem 'agree2', '0.2.0'
-gem 'portablecontacts', '0.1.0'
 
 gem 'babelphish'
 gem 'uploader', '3.0.2'
@@ -61,8 +59,6 @@ gem "muck-services", ">=3.2.1"
 #gem "muck-users", :path => "~/projects/muck-users"
 #gem "muck-profiles", :path => "~/projects/muck-profiles"
 #gem "muck-services", :path => "~/projects/muck-services"6'
-
-gem 'recaptcha', :require => 'recaptcha/rails'  # Only needed if using recaptcha
 
 group :development do
   gem 'ruby-debug'

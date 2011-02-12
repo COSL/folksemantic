@@ -28,6 +28,4 @@
 
 class Content < ActiveRecord::Base
   include MuckContents::Models::MuckContent
-  acts_as_muck_post
-
 end

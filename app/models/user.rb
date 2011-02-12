@@ -56,7 +56,6 @@ class User < ActiveRecord::Base
   include MuckInvites::Models::MuckInviter
   include MuckServices::Models::MuckRecommendationOwner
   include MuckServices::Models::MuckRecommendation
-  include MuckOauth::Models::MuckUser
   
   has_many :uploads, :as => :uploadable, :order => 'created_at desc', :dependent => :destroy 
   

@@ -1,7 +1,5 @@
 class ApplicationController < ActionController::Base
   
-  include SslRequirement
-  
   layout :choose_layout
     
   helper :all # include all helpers, all the time

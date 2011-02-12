@@ -1,3 +1,3 @@
 class Invite < ActiveRecord::Base
-  acts_as_muck_invite
+  include MuckInvites::Models::MuckInvite
 end

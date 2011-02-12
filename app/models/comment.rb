@@ -24,5 +24,5 @@
 class Comment < ActiveRecord::Base
   include MuckComments::Models::MuckComment
   include MuckServices::Models::MuckServicesComment
-  acts_as_activity_item
+  include MuckActivities::Models::MuckActivityItem
 end

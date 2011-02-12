@@ -16,6 +16,6 @@
 #
 
 class Friend < ActiveRecord::Base
-  acts_as_muck_friend
-  has_activities
+  include MuckFriends::Models::MuckFriend
+  include MuckActivities::Models::MuckActivityConsumer
 end
